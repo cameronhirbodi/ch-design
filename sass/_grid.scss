@@ -1,0 +1,50 @@
+.grid {
+    margin-left: -$mdspacing;
+    clear: both;
+}
+
+.col {
+    float: left;
+    min-height: 1px;
+    padding-left: $mdspacing;
+    margin-bottom: $mdspacing;
+}
+
+.col span {
+    display: block;
+    padding: $mdspacing;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-66 {
+    width: 66.66%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .col-20, .col-25, .col-25, .col-33, .col-50, .col-66, .col-75, .col-100 {
+        width: 100%;
+    }
+}

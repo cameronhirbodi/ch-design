@@ -1,0 +1,62 @@
+$white: #FFF;
+$greylightest: #F0F6FA;
+$greylight: #D7DDE1;
+$grey: #BDC3C7;
+$greydark: #A4AAAE;
+$greydarkest: #8A9094;
+$black: #000;
+$magenta: #FF0055;
+$darkmagenta: #CA0043;
+$turquoise: #00CDC6;
+$navy: #0F1A50;
+
+.white {
+    background: $white;
+}
+
+.greylightest {
+    background: $greylightest;
+}
+
+.greylight {
+    background: $greylight;
+}
+
+.grey {
+    background: $grey;
+}
+
+.greydark {
+    background: $greydark;
+    color: $white;
+}
+
+.greydarkest {
+    background: $greydarkest;
+    color: $white;
+}
+
+.black {
+    background: $black;
+    color: $white;
+}
+
+.magenta {
+    background: $magenta;
+    color: $white;
+}
+
+.darkmagenta {
+    background: $darkmagenta;
+    color: $white;
+}
+
+.turquoise {
+    background: $turquoise;
+    color: $white;
+}
+
+.navy {
+    background: $navy;
+    color: $white;
+}
