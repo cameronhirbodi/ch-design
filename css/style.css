@@ -350,9 +350,8 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 80px 40px;
-  max-width: 960px;
-  min-height: 400px; }
+  padding: 10px 30px;
+  max-width: 480px; }
   main img {
     width: 100%;
     min-width: 100%;
@@ -699,6 +698,9 @@ a svg {
     padding-bottom: 120px; }
     .home_splash h1 {
       font-size: 1.999em; }
+    .home_splash h2 {
+      font-size: 1em;
+      letter-spacing: 0.4em; }
     .home_splash .splashshapeleft {
       height: 20%; }
     .home_splash .splashshaperight {

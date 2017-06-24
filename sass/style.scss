@@ -22,9 +22,8 @@ header {
 
 main {
     margin: 0 auto;
-    padding: $xxlspacing $xlspacing;
-    max-width: 960px;
-    min-height: 400px;
+    padding: $smspacing $lgspacing;
+    max-width: 480px;
     img {
         width: 100%;
         min-width: 100%;
@@ -404,6 +403,10 @@ a svg {
         padding-bottom: 120px;
         h1 {
             font-size: 1.999em;
+        }
+        h2 {
+            font-size: 1em;
+            letter-spacing: 0.4em;
         }
         .splashshapeleft {
             height: 20%;
