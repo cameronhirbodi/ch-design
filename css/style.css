@@ -136,6 +136,7 @@ textarea:valid ~ label {
   font-size: 0.8535em;
   top: -1rem;
   -webkit-transition: all 0.125s ease;
+  -o-transition: all 0.125s ease;
   transition: all 0.125s ease; }
 
 .styled-input {
@@ -149,6 +150,7 @@ textarea:valid ~ label {
   top: 0;
   left: 0;
   -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
   pointer-events: none; }
 
@@ -166,6 +168,7 @@ textarea ~ span {
   display: block;
   width: 0;
   -webkit-transition: all 0.125s ease;
+  -o-transition: all 0.125s ease;
   transition: all 0.125s ease; }
 
 input:focus,
@@ -177,6 +180,7 @@ input:focus ~ span,
 textarea:focus ~ span {
   width: 100%;
   -webkit-transition: all 0.075s ease;
+  -o-transition: all 0.075s ease;
   transition: all 0.075s ease; }
 
 textarea {
@@ -363,6 +367,8 @@ a svg {
   float: left; }
   a svg :hover {
     opacity: 0.5;
+    -webkit-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
     transition: opacity 0.1s; }
   a svg :active {
     opacity: 1; }
@@ -428,6 +434,8 @@ a svg {
     color: #000;
     font-family: 'Montserrat', sans-serif; }
     .desktop_nav a :hover {
+      -webkit-transition: all 0.1s;
+      -o-transition: all 0.1s;
       transition: all 0.1s; }
     .desktop_nav a :active {
       opacity: 1; }
@@ -481,7 +489,9 @@ a svg {
       -webkit-transform-origin: 0;
       -ms-transform-origin: 0;
       transform-origin: 0;
+      -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
     .mobile_nav #menuToggle .hamburgerspan:first-child {
@@ -515,6 +525,8 @@ a svg {
     .mobile_nav #menuToggle #hamburgerinput:checked ~ .hamburgerbg {
       visibility: visible;
       opacity: 1;
+      -webkit-transition: visibility 0s, opacity 0.5s linear;
+      -o-transition: visibility 0s, opacity 0.5s linear;
       transition: visibility 0s, opacity 0.5s linear;
       z-index: -10; }
     .mobile_nav #menuToggle .hamburgerbg {
@@ -528,6 +540,8 @@ a svg {
       background-color: rgba(255, 255, 255, 0.7);
       visibility: hidden;
       opacity: 0;
+      -webkit-transition: visibility 0s, opacity 0.5s linear;
+      -o-transition: visibility 0s, opacity 0.5s linear;
       transition: visibility 0s, opacity 0.5s linear;
       z-index: -10; }
     .mobile_nav #menuToggle #menu {
@@ -549,7 +563,9 @@ a svg {
       -webkit-transform: translate(-100%, 0);
       -ms-transform: translate(-100%, 0);
       transform: translate(-100%, 0);
+      -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
       .mobile_nav #menuToggle #menu li {
