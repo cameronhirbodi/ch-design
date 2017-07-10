@@ -340,14 +340,14 @@ body {
 
 header {
   margin: 0 auto;
-  padding: 30px 40px;
+  padding: 30px 80px;
   text-transform: uppercase;
   border-bottom: 1px solid #D7DDE1; }
 
 main {
   margin: 0 auto;
-  padding: 10px 30px;
-  max-width: 640px; }
+  padding: 20px 30px;
+  max-width: 768px; }
   main img {
     width: 100%;
     min-width: 100%;
@@ -439,10 +439,9 @@ a svg {
     position: relative;
     top: 28px; }
     .desktop_nav ul li {
-      font-size: 1.207em;
       display: inline;
       list-style-type: none;
-      margin-left: 120px; }
+      margin-left: 60px; }
 
 .mobile_nav {
   display: none;
@@ -546,7 +545,7 @@ a svg {
       width: 70%;
       height: 100%;
       text-align: center;
-      padding: 80px 40px;
+      padding: 60px 40px;
       background-color: #0F1A50;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
@@ -609,7 +608,7 @@ a svg {
   opacity: 0.5; }
 
 .design_element {
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
 
 .design_element:after {
   display: block;
@@ -651,7 +650,7 @@ a svg {
 /* Media Queries */
 @media (max-width: 1600px) {
   header {
-    padding: 20px 30px; }
+    padding: 20px 60px; }
   .home_splash {
     padding-bottom: 160px; }
     .home_splash h1 {
@@ -679,10 +678,11 @@ a svg {
     .desktop_nav ul {
       float: right;
       position: relative;
-      top: 12px; }
-      .desktop_nav ul li {
-        font-size: 1em;
-        margin-left: 80px; } }
+      top: 12px; } }
+
+@media (max-width: 1200px) {
+  header {
+    padding: 20px 30px; } }
 
 @media (max-width: 768px) {
   .desktop_nav {

@@ -15,15 +15,15 @@ body {
 
 header {
     margin: 0 auto;
-    padding: $lgspacing $xlspacing;
+    padding: $lgspacing $xxxlspacing;
     text-transform: uppercase;
     border-bottom: 1px solid $greylight;
 }
 
 main {
     margin: 0 auto;
-    padding: $smspacing $lgspacing;
-    max-width: 640px;
+    padding: $mdspacing $lgspacing;
+    max-width: 768px;
     img {
         width: 100%;
         min-width: 100%;
@@ -131,10 +131,9 @@ a svg {
         position: relative;
         top: 28px;
         li {
-            font-size: 1.207em;
             display: inline;
             list-style-type: none;
-            margin-left: 120px;
+            margin-left: $xxlspacing;
         }
     }
 }
@@ -346,7 +345,7 @@ a svg {
 
 @media (max-width: 1600px) {
     header {
-        padding: $mdspacing $lgspacing;
+        padding: $mdspacing $xxlspacing;
     }
     .home_splash {
         padding-bottom: 160px;
@@ -383,11 +382,13 @@ a svg {
             float: right;
             position: relative;
             top: 12px;
-            li {
-                font-size: 1em;
-                margin-left: 80px;
-            }
         }
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        padding: $mdspacing $lgspacing;
     }
 }
 
