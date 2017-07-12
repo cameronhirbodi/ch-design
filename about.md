@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CH Design | About
+title: About
 permalink: /about/
 ---
 
