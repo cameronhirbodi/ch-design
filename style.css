@@ -375,7 +375,7 @@ a svg {
   margin-bottom: 60px;
   padding-bottom: 300px;
   color: #FFF;
-  background: url("../images/ny_bg.jpg") #0F1A50 no-repeat center 65%;
+  background: url("images/ny_bg.jpg") #0F1A50 no-repeat center 65%;
   background-size: cover;
   text-transform: uppercase;
   border-bottom: none; }
@@ -551,6 +551,7 @@ a svg {
       -webkit-font-smoothing: antialiased;
       /* to stop flickering of text in safari */
       -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
       -webkit-transform-origin: 0;
       -ms-transform-origin: 0;
       transform-origin: 0;
