@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h2>Cameron Hirbodi</h2>
+<h3>Cameron Hirbodi</h3>
 
 I am currently a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, print, & illustration. An alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
 

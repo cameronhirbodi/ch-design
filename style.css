@@ -588,6 +588,14 @@ a svg {
   margin: 0 auto;
   text-align: center; }
 
+.returnlink {
+  font-family: "Montserrat",sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.date {
+  color: #A4AAAE; }
+
 /* Style Guide */
 .styles_splash h1 {
   font-size: 1.999em;
