@@ -1,7 +1,7 @@
 ---
-layout: samplework
+layout: entry
 title: Creative UI Study
-permalink: /samplework/
+permalink: work/sample
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/work/01.jpg)

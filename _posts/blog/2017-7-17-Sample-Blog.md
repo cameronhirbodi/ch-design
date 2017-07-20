@@ -1,7 +1,7 @@
 ---
-layout: sampleblog
+layout: entry
 title: McLaren's Beautifully Illustrated Owner's Manual
-permalink: /sampleblog/
+permalink: blog/sample
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/blog/mclarenf1-manual.jpg)
