@@ -1,6 +1,7 @@
 ---
-layout: entry
+layout: post
 title: Creative UI Study
+category: work
 permalink: work/sample
 ---
 
