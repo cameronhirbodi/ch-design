@@ -4,12 +4,16 @@ title: Blog Test
 permalink: /blogtest/
 ---
 
-<h1>News</h1>
-
-<ul>
-    {% for blog in site.categories.blog limit:1 %}
+<ul class="blog-list">
+    {% for blog in site.categories.blog limit:2 %}
         <li>
-            <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+            <div class="blog-thumb">
+                <a href="{{site.baseurl}}{{blog.url}}"><img src="{{blog.image}}"></a>
+                <a href="{{site.baseurl}}{{blog.url}}"><h3 class="blog-thumb-title">{{blog.title}}</h3></a>
+            </div>
+            <div class="blog-date">
+                {{ blog.date | date: "%B %e, %Y" }}
+            </div>
             <p>{{blog.meta}}</p>
         </li>
     {% endfor %}

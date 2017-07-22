@@ -22,12 +22,11 @@ header {
 
 main {
     margin: 0 auto;
-    padding: $mdspacing $lgspacing;
+    padding: $lgspacing;
     max-width: 768px;
     img {
         width: 100%;
         min-width: 100%;
-        margin: $mdspacing 0;
     }
 }
 
@@ -172,7 +171,7 @@ a svg {
             background: $black;
             z-index: 1;
             transform-origin: 0;
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), 
             background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
             opacity 0.55s ease;
         }
@@ -231,6 +230,7 @@ a svg {
             -webkit-font-smoothing: antialiased;
             /* to stop flickering of text in safari */
             -webkit-backface-visibility: hidden;
+            -webkit-transform-style: preserve-3d;
             backface-visibility: hidden;
             transform-origin: 0;
             transform: translate(-100%, 0);
@@ -275,8 +275,64 @@ a svg {
     margin-bottom: $smspacing;
 }
 
-.date {
+/* Blog */
+
+.blog-list {
+    li {
+        border-bottom: 1px solid $greylight;
+        padding-bottom: $lgspacing;
+        margin-bottom: $xxlspacing;
+    }
+    li:nth-last-child(1) {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.blog-thumb {
+    display: block;
+    position: relative;
+    margin-bottom: $mdspacing;
+}
+
+.blog-thumb-title {
+    color: $white;
+    background-color: rgba(0,0,0,0.7);
+    padding: $smspacing;
+    margin-bottom: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.blog-date {
+    display: block;
+    margin-bottom: $smspacing;
     color: $greydark;
+}
+
+.post h3 {
+    margin-bottom: $smspacing;
+}
+
+@media (max-width: 768px) {
+    .blog-list {
+        li {
+            padding-bottom: $smspacing;
+            margin-bottom: $lgspacing;
+        }
+    }
+    .blog-thumb-title {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        line-height: 1.45em;
+    }
 }
 
 /* Style Guide */
