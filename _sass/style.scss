@@ -119,7 +119,7 @@ a svg {
         color: $black;
         font-family: 'Montserrat', sans-serif;
         :hover {
-            transition: all 0.1s;
+            transition: opacity 0.1s;
         }
         :active {
             opacity: 1;
@@ -141,6 +141,8 @@ a svg {
     display: none;
     margin-bottom: 0;
     z-index: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     #menuToggle {
         float: left;
         position: relative;
@@ -149,6 +151,8 @@ a svg {
         z-index: 2;
         -webkit-user-select: none;
         user-select: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         #hamburgerinput {
             display: block;
             width: 32px;
@@ -203,6 +207,10 @@ a svg {
             transition: visibility 0s, opacity 0.5s linear;
             z-index: -10;
         }
+        #hamburgerinput:checked ~ #menu {
+            transform: translate(140%, 0);
+            transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+        }
         .hamburgerbg {
             display: block;
             cursor: pointer;
@@ -220,7 +228,7 @@ a svg {
         #menu {
             position: fixed;
             top: 0;
-            left: 0;
+            left: -100%;
             width: 70%;
             height: 100%;
             text-align: center;
@@ -230,7 +238,6 @@ a svg {
             -webkit-font-smoothing: antialiased;
             /* to stop flickering of text in safari */
             -webkit-backface-visibility: hidden;
-            -webkit-transform-style: preserve-3d;
             backface-visibility: hidden;
             transform-origin: 0;
             transform: translate(-100%, 0);

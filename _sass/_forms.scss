@@ -10,8 +10,10 @@ textarea:valid ~ label {
   color: $turquoise;
   font-size: 0.8535em;
   top: -1rem;
-  -webkit-transition: all 0.125s ease;
-  transition: all 0.125s ease;
+  transition-property: top;
+  -webkit-transition-property: top;
+  transition-duration: 0.125s ease;
+  -webkit-transition-duration: 0.125s ease;
 }
 
 .styled-input {
@@ -25,8 +27,10 @@ textarea:valid ~ label {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+  transition-property: top, left;
+  -webkit-transition-property: top, left;
+  transition-duration: 0.25s ease;
+  -webkit-transition-duration: 0.25s ease;
   pointer-events: none;
 }
 
@@ -44,8 +48,10 @@ input ~ span,
 textarea ~ span {
   display: block;
   width: 0;
-  -webkit-transition: all 0.125s ease;
-  transition: all 0.125s ease;
+  transition-property: width;
+  -webkit-transition-property: width;
+  transition-duration: 0.125s ease;
+  -webkit-transition-duration: 0.125s ease;
 }
 
 input:focus,
@@ -57,8 +63,10 @@ textarea:focus {
 input:focus ~ span,
 textarea:focus ~ span {
   width: 100%;
-  -webkit-transition: all 0.075s ease;
-  transition: all 0.075s ease;
+  transition-property: width;
+  -webkit-transition-property: width;
+  transition-duration: 0.075s ease;
+  -webkit-transition-duration: 0.075s ease;
 }
 
 textarea {

@@ -135,9 +135,12 @@ textarea:valid ~ label {
   color: #00CDC6;
   font-size: 0.8535em;
   top: -1rem;
-  -webkit-transition: all 0.125s ease;
-  -o-transition: all 0.125s ease;
-  transition: all 0.125s ease; }
+  -o-transition-property: top;
+  transition-property: top;
+  -webkit-transition-property: top;
+  -o-transition-duration: 0.125s ease;
+  transition-duration: 0.125s ease;
+  -webkit-transition-duration: 0.125s ease; }
 
 .styled-input {
   margin: 2rem 0 1rem;
@@ -149,9 +152,12 @@ textarea:valid ~ label {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+  -o-transition-property: top, left;
+  transition-property: top, left;
+  -webkit-transition-property: top, left;
+  -o-transition-duration: 0.25s ease;
+  transition-duration: 0.25s ease;
+  -webkit-transition-duration: 0.25s ease;
   pointer-events: none; }
 
 input,
@@ -167,9 +173,12 @@ input ~ span,
 textarea ~ span {
   display: block;
   width: 0;
-  -webkit-transition: all 0.125s ease;
-  -o-transition: all 0.125s ease;
-  transition: all 0.125s ease; }
+  -o-transition-property: width;
+  transition-property: width;
+  -webkit-transition-property: width;
+  -o-transition-duration: 0.125s ease;
+  transition-duration: 0.125s ease;
+  -webkit-transition-duration: 0.125s ease; }
 
 input:focus,
 textarea:focus {
@@ -179,9 +188,12 @@ textarea:focus {
 input:focus ~ span,
 textarea:focus ~ span {
   width: 100%;
-  -webkit-transition: all 0.075s ease;
-  -o-transition: all 0.075s ease;
-  transition: all 0.075s ease; }
+  -o-transition-property: width;
+  transition-property: width;
+  -webkit-transition-property: width;
+  -o-transition-duration: 0.075s ease;
+  transition-duration: 0.075s ease;
+  -webkit-transition-duration: 0.075s ease; }
 
 textarea {
   width: 100%; }
@@ -428,9 +440,9 @@ a svg {
     color: #000;
     font-family: 'Montserrat', sans-serif; }
     .desktop_nav a :hover {
-      -webkit-transition: all 0.1s;
-      -o-transition: all 0.1s;
-      transition: all 0.1s; }
+      -webkit-transition: opacity 0.1s;
+      -o-transition: opacity 0.1s;
+      transition: opacity 0.1s; }
     .desktop_nav a :active {
       opacity: 1; }
   .desktop_nav ul {
@@ -446,6 +458,8 @@ a svg {
   display: none;
   margin-bottom: 0;
   z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   /* CH Logo */ }
   .mobile_nav #menuToggle {
     float: left;
@@ -456,7 +470,9 @@ a svg {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; }
+    user-select: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
     .mobile_nav #menuToggle #hamburgerinput {
       display: block;
       width: 32px;
@@ -522,6 +538,15 @@ a svg {
       -o-transition: visibility 0s, opacity 0.5s linear;
       transition: visibility 0s, opacity 0.5s linear;
       z-index: -10; }
+    .mobile_nav #menuToggle #hamburgerinput:checked ~ #menu {
+      -webkit-transform: translate(140%, 0);
+      -ms-transform: translate(140%, 0);
+      transform: translate(140%, 0);
+      -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+      transition: -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+      -o-transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+      transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+      transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1); }
     .mobile_nav #menuToggle .hamburgerbg {
       display: block;
       cursor: pointer;
@@ -540,7 +565,7 @@ a svg {
     .mobile_nav #menuToggle #menu {
       position: fixed;
       top: 0;
-      left: 0;
+      left: -100%;
       width: 70%;
       height: 100%;
       text-align: center;
@@ -550,7 +575,6 @@ a svg {
       -webkit-font-smoothing: antialiased;
       /* to stop flickering of text in safari */
       -webkit-backface-visibility: hidden;
-      -webkit-transform-style: preserve-3d;
       backface-visibility: hidden;
       -webkit-transform-origin: 0;
       -ms-transform-origin: 0;
