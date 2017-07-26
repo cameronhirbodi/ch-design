@@ -633,7 +633,7 @@ a svg {
   position: relative;
   margin-bottom: 20px; }
 
-.blog-thumb-title {
+.blog-thumb-caption {
   color: #FFF;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
@@ -646,6 +646,13 @@ a svg {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
+  .blog-thumb-caption h3 {
+    font-size: 1.414em;
+    margin: 0 0 0.2em; }
+  .blog-thumb-caption h5 {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0; }
 
 .blog-date {
   display: block;
@@ -664,6 +671,12 @@ a svg {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.45em; } }
+
+@media (max-width: 480px) {
+  .blog-thumb-caption h3 {
+    font-size: 1em; }
+  .blog-thumb-caption h5 {
+    font-size: 0.707em; } }
 
 /* Style Guide */
 .styles_splash h1 {

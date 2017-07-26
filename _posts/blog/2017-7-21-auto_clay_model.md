@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Auto Clay Model
-meta: This is a reall nice clay model. I am writing about it to fill some space.
+meta: This is a really nice clay model. I am writing about it to fill some space.
 category: blog
 permalink: blog/sample3
 image: /images/blog/auto_clay_model.jpg
