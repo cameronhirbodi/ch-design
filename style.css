@@ -318,7 +318,8 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 0.5em;
   font-weight: inherit;
-  line-height: 1.2; }
+  line-height: 1.2;
+  text-transform: uppercase; }
 
 h1 {
   font-size: 3.998em; }
@@ -358,7 +359,7 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 30px;
+  padding: 40px 30px;
   max-width: 768px; }
   main img {
     width: 100%;
@@ -620,8 +621,8 @@ a svg {
 /* Blog */
 .blog-list li {
   border-bottom: 1px solid #D7DDE1;
-  padding-bottom: 30px;
-  margin-bottom: 60px; }
+  padding-bottom: 10px;
+  margin-bottom: 40px; }
 
 .blog-list li:nth-last-child(1) {
   border-bottom: 0;
@@ -648,7 +649,7 @@ a svg {
   -moz-box-sizing: border-box; }
   .blog-thumb-caption h3 {
     font-size: 1.414em;
-    margin: 0 0 0.2em; }
+    margin: 0; }
   .blog-thumb-caption h5 {
     font-size: 0.9em;
     color: rgba(255, 255, 255, 0.7);
@@ -669,8 +670,7 @@ a svg {
   .blog-thumb-title {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.45em; } }
+    font-weight: 400; } }
 
 @media (max-width: 480px) {
   .blog-thumb-caption h3 {

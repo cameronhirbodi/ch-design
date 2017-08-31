@@ -22,7 +22,7 @@ header {
 
 main {
     margin: 0 auto;
-    padding: $lgspacing;
+    padding: $xlspacing $lgspacing;
     max-width: 768px;
     img {
         width: 100%;
@@ -287,8 +287,8 @@ a svg {
 .blog-list {
     li {
         border-bottom: 1px solid $greylight;
-        padding-bottom: $lgspacing;
-        margin-bottom: $xxlspacing;
+        padding-bottom: $smspacing;
+        margin-bottom: $xlspacing;
     }
     li:nth-last-child(1) {
         border-bottom: 0;
@@ -317,7 +317,7 @@ a svg {
     -moz-box-sizing: border-box;
     h3 {
         font-size: 1.414em;
-        margin: 0 0 0.2em;
+        margin: 0;
     }
     h5 {
         font-size: 0.9em;
@@ -347,7 +347,6 @@ a svg {
         font-size: 1em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        line-height: 1.45em;
     }
 }
 
