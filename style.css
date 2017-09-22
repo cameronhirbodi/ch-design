@@ -596,7 +596,7 @@ a svg {
   .mobile_nav h1 {
     float: left;
     position: relative;
-    top: -9px;
+    top: -10px;
     left: 20px;
     font-size: 1em; }
   .mobile_nav > a {
