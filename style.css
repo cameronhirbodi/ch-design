@@ -600,7 +600,7 @@ a svg {
       width: 70%;
       height: 100%;
       text-align: center;
-      padding: 60px 40px;
+      padding: 60px 0;
       background-color: #0F1A50;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
@@ -621,7 +621,7 @@ a svg {
       .mobile_nav #menuToggle #menu li {
         text-transform: uppercase;
         color: #FFF;
-        padding: 20px 0;
+        padding: 20px;
         font-family: 'Montserrat', sans-serif; }
 
 .introtext {

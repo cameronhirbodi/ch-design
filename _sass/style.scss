@@ -269,7 +269,7 @@ a svg {
             width: 70%;
             height: 100%;
             text-align: center;
-            padding: $xxlspacing $xlspacing;
+            padding: $xxlspacing 0;
             background-color: $navy;
             list-style-type: none;
             -webkit-font-smoothing: antialiased;
@@ -282,7 +282,7 @@ a svg {
             li {
                 text-transform: uppercase;
                 color: $white;
-                padding: $mdspacing 0;
+                padding: $mdspacing;
                 font-family: 'Montserrat', sans-serif;
             }
         }
