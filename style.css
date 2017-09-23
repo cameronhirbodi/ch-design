@@ -351,15 +351,24 @@ body {
   background: #FFF;
   min-width: 320px; }
 
-header {
+nav {
+  display: block;
   margin: 0 auto;
-  padding: 30px 80px;
+  padding: 40px;
   text-transform: uppercase;
   border-bottom: 1px solid #D7DDE1; }
 
+header {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 768px; }
+  header img {
+    width: 100%;
+    min-width: 100%; }
+
 main {
   margin: 0 auto;
-  padding: 40px 30px;
+  padding: 30px 20px;
   max-width: 768px; }
   main img {
     width: 100%;
@@ -382,21 +391,23 @@ a svg {
 
 .home_splash {
   display: block;
+  max-width: none;
   position: relative;
   text-align: center;
-  margin-bottom: 60px;
-  padding-bottom: 300px;
+  margin-bottom: 30px;
+  padding-bottom: 280px;
   color: #FFF;
   background: url("images/ny_bg.jpg") #0F1A50 no-repeat center 65%;
   background-size: cover;
-  text-transform: uppercase;
-  border-bottom: none; }
+  text-transform: uppercase; }
   .home_splash .desktop_nav {
-    margin-bottom: 120px; }
+    border-bottom: none;
+    padding-bottom: 120px; }
     .home_splash .desktop_nav a {
       color: #FFF; }
   .home_splash .mobile_nav {
-    margin-bottom: 60px; }
+    margin-bottom: 30px;
+    border-bottom: none; }
   .home_splash .mobile_nav #menuToggle .hamburgerspan {
     background: #FFF; }
   .home_splash a svg {
@@ -404,14 +415,14 @@ a svg {
   .home_splash h1 {
     position: relative;
     z-index: 1; }
-  .home_splash h1:after {
+  .home_splash h2:before {
     content: "";
     display: block;
     margin: 0 auto;
-    padding: 0 0 20px;
-    width: 120px;
+    width: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     position: relative;
+    bottom: 30px;
     z-index: 1; }
   .home_splash h2 {
     font-size: 1.414em;
@@ -434,26 +445,32 @@ a svg {
     height: 50%; }
 
 .desktop_nav {
-  margin-bottom: 80px;
-  position: relative;
-  z-index: 1; }
-  .desktop_nav a {
-    color: #000;
-    font-family: 'Montserrat', sans-serif; }
-    .desktop_nav a :hover {
-      -webkit-transition: opacity 0.1s;
-      -o-transition: opacity 0.1s;
-      transition: opacity 0.1s; }
-    .desktop_nav a :active {
-      opacity: 1; }
+  margin-bottom: 0;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* CH Logo */ }
+  .desktop_nav > a {
+    float: left;
+    position: relative;
+    top: -23px; }
   .desktop_nav ul {
     float: right;
     position: relative;
-    top: 28px; }
-    .desktop_nav ul li {
-      display: inline;
-      list-style-type: none;
-      margin-left: 60px; }
+    top: -12px; }
+    .desktop_nav ul a {
+      color: #000;
+      font-family: 'Montserrat', sans-serif; }
+      .desktop_nav ul a :hover {
+        -webkit-transition: opacity 0.1s;
+        -o-transition: opacity 0.1s;
+        transition: opacity 0.1s; }
+      .desktop_nav ul a :active {
+        opacity: 1; }
+      .desktop_nav ul a li {
+        display: inline;
+        list-style-type: none;
+        margin-left: 60px; }
 
 .mobile_nav {
   display: none;
@@ -662,21 +679,6 @@ a svg {
 .post h3 {
   margin-bottom: 10px; }
 
-@media (max-width: 768px) {
-  .blog-list li {
-    padding-bottom: 10px;
-    margin-bottom: 30px; }
-  .blog-thumb-title {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400; } }
-
-@media (max-width: 480px) {
-  .blog-thumb-caption h3 {
-    font-size: 1em; }
-  .blog-thumb-caption h5 {
-    font-size: 0.707em; } }
-
 /* Style Guide */
 .styles_splash h1 {
   font-size: 1.999em;
@@ -739,17 +741,15 @@ a svg {
 
 /* Media Queries */
 @media (max-width: 1600px) {
-  header {
-    padding: 20px 60px; }
   .home_splash {
-    padding-bottom: 160px; }
+    padding-bottom: 120px; }
     .home_splash h1 {
       font-size: 2.827em; }
-    .home_splash h1:after {
+    .home_splash h2:before {
       content: "";
       display: block;
       margin: 0 auto;
-      padding: 20px 0 0;
+      padding: 20px 0;
       width: 60px; }
     .home_splash h2 {
       font-size: 1.207em;
@@ -760,19 +760,9 @@ a svg {
     .home_splash .splashshaperight {
       width: 76%;
       height: 50%; }
-  .desktop_nav {
-    margin-bottom: 60px; }
-    .desktop_nav .icon {
-      width: 48px;
-      height: 48px; }
-    .desktop_nav ul {
-      float: right;
-      position: relative;
-      top: 12px; } }
-
-@media (max-width: 1200px) {
-  header {
-    padding: 20px 30px; } }
+  .desktop_nav .icon {
+    width: 48px;
+    height: 48px; } }
 
 @media (max-width: 768px) {
   .desktop_nav {
@@ -780,7 +770,7 @@ a svg {
   .mobile_nav {
     display: block; }
   .home_splash {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 120px; }
     .home_splash h1 {
       font-size: 1.999em; }
@@ -791,10 +781,19 @@ a svg {
       height: 20%; }
     .home_splash .splashshaperight {
       height: 35%; }
-  header, main, section, footer {
+  nav, section, footer {
     padding: 30px 20px; }
+  main {
+    padding: 20px; }
   .col-20.swatchcol {
-    width: 33.33%; } }
+    width: 33.33%; }
+  .blog-list li {
+    padding-bottom: 10px;
+    margin-bottom: 30px; }
+  .blog-thumb-title {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; } }
 
 @media (max-width: 480px) {
   .styles_splash h1 {
@@ -803,4 +802,8 @@ a svg {
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
-    min-height: 40px; } }
+    min-height: 40px; }
+  .blog-thumb-caption h3 {
+    font-size: 1em; }
+  .blog-thumb-caption h5 {
+    font-size: 0.707em; } }

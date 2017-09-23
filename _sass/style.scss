@@ -13,16 +13,27 @@ body {
     min-width: 320px;
 }
 
-header {
+nav {
+    display: block;
     margin: 0 auto;
-    padding: $lgspacing $xxxlspacing;
+    padding: $xlspacing;
     text-transform: uppercase;
     border-bottom: 1px solid $greylight;
 }
 
+header {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 768px;
+    img {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
 main {
     margin: 0 auto;
-    padding: $xlspacing $lgspacing;
+    padding: $lgspacing $mdspacing;
     max-width: 768px;
     img {
         width: 100%;
@@ -49,23 +60,25 @@ a svg {
 
 .home_splash {
     display: block;
+    max-width: none;
     position: relative;
     text-align: center;
-    margin-bottom: 60px;
-    padding-bottom: 300px;
+    margin-bottom: $lgspacing;
+    padding-bottom: 280px;
     color: $white;
     background: url("images/ny_bg.jpg") $navy no-repeat center 65%;
     background-size: cover;
     text-transform: uppercase;
-    border-bottom: none;
     .desktop_nav {
-        margin-bottom: 120px;
+        border-bottom: none;
+        padding-bottom: $xxxxlspacing;
         a {
             color: $white;
         }
     }
     .mobile_nav {
-        margin-bottom: 60px;
+        margin-bottom: $lgspacing;
+        border-bottom: none;
     }
     .mobile_nav #menuToggle .hamburgerspan {
         background: $white;
@@ -77,14 +90,14 @@ a svg {
         position: relative;
         z-index: 1;
     }
-    h1:after {
+    h2:before {
         content: "";
         display: block;
         margin: 0 auto;
-        padding: 0 0 20px;
-        width: 120px;
+        width: $lgspacing;
         border-bottom: 1px solid rgba(255,255,255,0.5);
         position: relative;
+        bottom: $lgspacing;
         z-index: 1;
     }
     h2 {
@@ -112,27 +125,34 @@ a svg {
 }
 
 .desktop_nav {
-    margin-bottom: 80px;
-    position: relative;
+    margin-bottom: 0;
     z-index: 1;
-    a {
-        color: $black;
-        font-family: 'Montserrat', sans-serif;
-        :hover {
-            transition: opacity 0.1s;
-        }
-        :active {
-            opacity: 1;
-        }
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* CH Logo */
+    > a {
+        float: left;
+        position: relative;
+        top: -23px;
     }
     ul {
         float: right;
         position: relative;
-        top: 28px;
-        li {
-            display: inline;
-            list-style-type: none;
-            margin-left: $xxlspacing;
+        top: -12px;
+        a {
+            color: $black;
+            font-family: 'Montserrat', sans-serif;
+            :hover {
+                transition: opacity 0.1s;
+            }
+            :active {
+                opacity: 1;
+            }
+            li {
+                display: inline;
+                list-style-type: none;
+                margin-left: $xxlspacing;
+            }
         }
     }
 }
@@ -143,7 +163,6 @@ a svg {
     z-index: 1;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-
     /* CH Logo */
     > a {
         float: left;
@@ -336,31 +355,6 @@ a svg {
     margin-bottom: $smspacing;
 }
 
-@media (max-width: 768px) {
-    .blog-list {
-        li {
-            padding-bottom: $smspacing;
-            margin-bottom: $lgspacing;
-        }
-    }
-    .blog-thumb-title {
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-    }
-}
-
-@media (max-width: 480px) {
-    .blog-thumb-caption {
-        h3 {
-            font-size: 1em;
-        }
-        h5 {
-            font-size: 0.707em;
-        }
-    }
-}
-
 /* Style Guide */
 
 .styles_splash {
@@ -437,20 +431,17 @@ a svg {
 /* Media Queries */
 
 @media (max-width: 1600px) {
-    header {
-        padding: $mdspacing $xxlspacing;
-    }
     .home_splash {
-        padding-bottom: 160px;
+        padding-bottom: $xxxxlspacing;
         h1 {
             font-size: 2.827em;
         }
-        h1:after {
+        h2:before {
             content: "";
             display: block;
             margin: 0 auto;
-            padding: 20px 0 0;
-            width: 60px;
+            padding: $mdspacing 0;
+            width: $xxlspacing;
         }
         h2 {
             font-size: 1.207em;
@@ -466,22 +457,10 @@ a svg {
         }
     }
     .desktop_nav {
-        margin-bottom: 60px;
         .icon {
             width: 48px;
             height: 48px;
         }
-        ul {
-            float: right;
-            position: relative;
-            top: 12px;
-        }
-    }
-}
-
-@media (max-width: 1200px) {
-    header {
-        padding: $mdspacing $lgspacing;
     }
 }
 
@@ -493,8 +472,8 @@ a svg {
         display: block;
     }
     .home_splash {
-        margin-bottom: 20px;
-        padding-bottom: 120px;
+        margin-bottom: $smspacing;
+        padding-bottom: $xxxxlspacing;
         h1 {
             font-size: 1.999em;
         }
@@ -509,11 +488,25 @@ a svg {
             height: 35%;
         }
     }
-    header, main, section, footer {
+    nav, section, footer {
         padding: $lgspacing $mdspacing;
+    }
+    main {
+        padding: $mdspacing;
     }
     .col-20.swatchcol {
         width: 33.33%;
+    }
+    .blog-list {
+        li {
+            padding-bottom: $smspacing;
+            margin-bottom: $lgspacing;
+        }
+    }
+    .blog-thumb-title {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
     }
 }
 
@@ -529,5 +522,13 @@ a svg {
     }
     .swatch {
         min-height: 40px;
+    }
+    .blog-thumb-caption {
+        h3 {
+            font-size: 1em;
+        }
+        h5 {
+            font-size: 0.707em;
+        }
     }
 }
