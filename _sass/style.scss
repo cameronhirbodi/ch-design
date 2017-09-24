@@ -326,29 +326,6 @@ a svg {
     margin-bottom: $mdspacing;
 }
 
-.blog-thumb-caption {
-    color: $white;
-    background-color: rgba(0,0,0,0.7);
-    padding: $smspacing;
-    margin-bottom: 0;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    h3 {
-        font-size: 1.414em;
-        margin: 0;
-    }
-    h5 {
-        font-size: 0.9em;
-        color: rgba(255,255,255,0.7);
-        margin: 0;
-    }
-}
-
 .blog-date {
     display: block;
     margin-bottom: $smspacing;
@@ -498,11 +475,6 @@ a svg {
             margin-bottom: $lgspacing;
         }
     }
-    .blog-thumb-title {
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-    }
 }
 
 @media (max-width: 480px) {
@@ -518,9 +490,9 @@ a svg {
     .swatch {
         min-height: 40px;
     }
-    .blog-thumb-caption {
+    .blog-list {
         h3 {
-            font-size: 1em;
+            font-size: 1.414em;
         }
         h5 {
             font-size: 0.707em;

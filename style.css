@@ -653,27 +653,6 @@ a svg {
   position: relative;
   margin-bottom: 20px; }
 
-.blog-thumb-caption {
-  color: #FFF;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-  margin-bottom: 0;
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box; }
-  .blog-thumb-caption h3 {
-    font-size: 1.414em;
-    margin: 0; }
-  .blog-thumb-caption h5 {
-    font-size: 0.9em;
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0; }
-
 .blog-date {
   display: block;
   margin-bottom: 10px;
@@ -787,11 +766,7 @@ a svg {
     width: 33.33%; }
   .blog-list li {
     padding-bottom: 10px;
-    margin-bottom: 30px; }
-  .blog-thumb-title {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400; } }
+    margin-bottom: 30px; } }
 
 @media (max-width: 480px) {
   .styles_splash h1 {
@@ -801,7 +776,7 @@ a svg {
     width: 100%; }
   .swatch {
     min-height: 40px; }
-  .blog-thumb-caption h3 {
-    font-size: 1em; }
-  .blog-thumb-caption h5 {
+  .blog-list h3 {
+    font-size: 1.414em; }
+  .blog-list h5 {
     font-size: 0.707em; } }
