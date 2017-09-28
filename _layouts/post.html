@@ -2,15 +2,16 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
+    <header>
+        <img src="{{page.image}}">
+    </header>
     <main>
       <article class="post">
-        <h3>{{ page.title }}</h3>
-        <div class="blog-date">
-          Posted on {{ page.date | date: "%B %e, %Y" }}
-        </div>
-        <div class="entry">
-          {{ content }}
-        </div>
+          <div class="entry">
+            <h3>{{page.title}}</h3>
+            <small>Posted on {{ page.date | date: "%B %e, %Y" }}</small>
+              {{ content }}
+          </div>
       </article>
       <div class="returnlink">
         <a href="{{ site.baseurl }}/blog">Return to Blog</a>

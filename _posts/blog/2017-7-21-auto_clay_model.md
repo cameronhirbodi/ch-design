@@ -7,8 +7,6 @@ permalink: blog/sample3
 image: /images/blog/auto_clay_model.jpg
 ---
 
-![_config.yml]({{ site.baseurl }}/images/blog/auto_clay_model.jpg)
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper, elit at sodales facilisis, lectus mauris tempor orci, et convallis ligula libero tincidunt lectus. 
 
 Aliquam sit amet sem vel sem dapibus laoreet id id elit. Cras condimentum quis est sed sagittis. Maecenas dictum vehicula dignissim. Aenean aliquam blandit ipsum et venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce accumsan faucibus augue, id iaculis justo elementum ac. Suspendisse volutpat velit turpis. 
