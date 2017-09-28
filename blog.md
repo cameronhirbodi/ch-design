@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+category: Blog
 permalink: /blog/
 ---
 

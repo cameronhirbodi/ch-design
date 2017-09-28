@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Test
+category: Blog
 permalink: /blogtest/
 ---
 <main>

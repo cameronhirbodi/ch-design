@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Work
+category: Work
 permalink: /work/
 ---
 
