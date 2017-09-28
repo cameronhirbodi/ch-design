@@ -394,14 +394,14 @@ a svg {
   max-width: none;
   position: relative;
   text-align: center;
-  padding-bottom: 280px;
+  padding-bottom: 320px;
   color: #FFF;
   background: url("images/ny_bg.jpg") #0F1A50 no-repeat center 65%;
   background-size: cover;
   text-transform: uppercase; }
   .home_splash .desktop_nav {
     border-bottom: none;
-    padding-bottom: 120px; }
+    padding-bottom: 80px; }
     .home_splash .desktop_nav a {
       color: #FFF; }
   .home_splash .mobile_nav {
@@ -723,7 +723,7 @@ a svg {
 /* Media Queries */
 @media (max-width: 1600px) {
   .home_splash {
-    padding-bottom: 120px; }
+    padding-bottom: 160px; }
     .home_splash h1 {
       font-size: 2.827em; }
     .home_splash h2:before {
@@ -747,15 +747,17 @@ a svg {
     display: none; }
   .mobile_nav {
     display: block; }
-  .home_splash h1 {
-    font-size: 1.999em; }
-  .home_splash h2 {
-    font-size: 1em;
-    letter-spacing: 0.4em; }
-  .home_splash .splashshapeleft {
-    height: 20%; }
-  .home_splash .splashshaperight {
-    height: 35%; }
+  .home_splash {
+    padding-bottom: 120px; }
+    .home_splash h1 {
+      font-size: 1.999em; }
+    .home_splash h2 {
+      font-size: 1em;
+      letter-spacing: 0.4em; }
+    .home_splash .splashshapeleft {
+      height: 20%; }
+    .home_splash .splashshaperight {
+      height: 35%; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {
