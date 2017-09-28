@@ -4,6 +4,7 @@ title: Blog Test
 category: Blog
 permalink: /blogtest/
 ---
+
 <main>
     <ul class="blog-list">
         {% for blog in site.categories.blog limit:2 %}

@@ -394,7 +394,6 @@ a svg {
   max-width: none;
   position: relative;
   text-align: center;
-  margin-bottom: 30px;
   padding-bottom: 280px;
   color: #FFF;
   background: url("images/ny_bg.jpg") #0F1A50 no-repeat center 65%;
@@ -748,18 +747,15 @@ a svg {
     display: none; }
   .mobile_nav {
     display: block; }
-  .home_splash {
-    margin-bottom: 10px;
-    padding-bottom: 120px; }
-    .home_splash h1 {
-      font-size: 1.999em; }
-    .home_splash h2 {
-      font-size: 1em;
-      letter-spacing: 0.4em; }
-    .home_splash .splashshapeleft {
-      height: 20%; }
-    .home_splash .splashshaperight {
-      height: 35%; }
+  .home_splash h1 {
+    font-size: 1.999em; }
+  .home_splash h2 {
+    font-size: 1em;
+    letter-spacing: 0.4em; }
+  .home_splash .splashshapeleft {
+    height: 20%; }
+  .home_splash .splashshaperight {
+    height: 35%; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {

@@ -63,7 +63,6 @@ a svg {
     max-width: none;
     position: relative;
     text-align: center;
-    margin-bottom: $lgspacing;
     padding-bottom: 280px;
     color: $white;
     background: url("images/ny_bg.jpg") $navy no-repeat center 65%;
@@ -447,8 +446,6 @@ a svg {
         display: block;
     }
     .home_splash {
-        margin-bottom: $smspacing;
-        padding-bottom: $xxxxlspacing;
         h1 {
             font-size: 1.999em;
         }
