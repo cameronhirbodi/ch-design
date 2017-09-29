@@ -414,15 +414,6 @@ a svg {
   .home_splash h1 {
     position: relative;
     z-index: 1; }
-  .home_splash h2:before {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    position: relative;
-    bottom: 30px;
-    z-index: 1; }
   .home_splash h2 {
     font-size: 1.414em;
     letter-spacing: 0.6em;
@@ -726,12 +717,6 @@ a svg {
     padding-bottom: 160px; }
     .home_splash h1 {
       font-size: 2.827em; }
-    .home_splash h2:before {
-      content: "";
-      display: block;
-      margin: 0 auto;
-      padding: 20px 0;
-      width: 60px; }
     .home_splash h2 {
       font-size: 1.207em;
       letter-spacing: 0.4em; }

@@ -89,16 +89,6 @@ a svg {
         position: relative;
         z-index: 1;
     }
-    h2:before {
-        content: "";
-        display: block;
-        margin: 0 auto;
-        width: $lgspacing;
-        border-bottom: 1px solid rgba(255,255,255,0.5);
-        position: relative;
-        bottom: $lgspacing;
-        z-index: 1;
-    }
     h2 {
         font-size: 1.414em;
         letter-spacing: 0.6em;
@@ -415,13 +405,6 @@ a svg {
         padding-bottom: $xxxxxlspacing;
         h1 {
             font-size: 2.827em;
-        }
-        h2:before {
-            content: "";
-            display: block;
-            margin: 0 auto;
-            padding: $mdspacing 0;
-            width: $xxlspacing;
         }
         h2 {
             font-size: 1.207em;
