@@ -294,6 +294,37 @@ a svg {
     margin-bottom: $smspacing;
 }
 
+/* Work */
+
+.work-list {
+    li {
+        border-bottom: 1px solid $greylight;
+        padding-bottom: $smspacing;
+        margin-bottom: $xlspacing;
+    }
+    li:nth-last-child(1) {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.work-thumb {
+    display: block;
+    position: relative;
+    margin-bottom: $mdspacing;
+}
+
+.work-date {
+    display: block;
+    margin-bottom: $smspacing;
+    color: $greydark;
+}
+
+.post h3 {
+    margin-bottom: $smspacing;
+}
+
 /* Blog */
 
 .blog-list {
@@ -324,6 +355,7 @@ a svg {
 .post h3 {
     margin-bottom: $smspacing;
 }
+
 
 /* Style Guide */
 

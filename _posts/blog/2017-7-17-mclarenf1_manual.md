@@ -2,7 +2,7 @@
 layout: post
 title: McLaren's Beautifully Illustrated Owner's Manual
 meta: Roberts came on board as a Technical Illustrator / Graphic Designer.
-category: Blog
+category: blog
 permalink: blog/sample
 image: /images/blog/mclarenf1_manual.jpg
 ---
