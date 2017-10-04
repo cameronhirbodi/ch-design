@@ -633,20 +633,21 @@ a svg {
 
 /* Work */
 .work-list li {
-  margin: 0;
-  padding: 5px;
+  position: relative;
   float: left;
   width: 50%;
   height: 200px;
   overflow: hidden;
-  position: relative; }
+  border: 1px solid white; }
   .work-list li img {
     position: absolute;
-    top: -9999px;
-    left: -9999px;
-    right: -9999px;
-    bottom: -9999px;
-    margin: auto; }
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
 
 /* Blog */
 .blog-list li {
@@ -765,6 +766,8 @@ a svg {
     padding: 30px 20px; }
   .col-20.swatchcol {
     width: 33.33%; }
+  .work-list li {
+    height: 120px; }
   .blog-list li {
     padding-bottom: 10px;
     margin-bottom: 30px; } }
