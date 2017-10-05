@@ -71,6 +71,7 @@ a svg {
     background: url("images/ny_bg.jpg") $navy no-repeat center 65%;
     background-size: cover;
     text-transform: uppercase;
+    height: inherit;
     .desktop_nav {
         border-bottom: none;
         padding-bottom: $xxxlspacing;
