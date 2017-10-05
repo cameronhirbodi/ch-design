@@ -349,7 +349,9 @@ small, .font_small {
 body {
   color: #000;
   background: #FFF;
-  min-width: 320px; }
+  min-width: 320px;
+  margin: 0;
+  padding: 0; }
 
 nav {
   display: block;
@@ -361,10 +363,11 @@ nav {
 header {
   margin: 0 auto;
   padding: 0;
-  max-width: 768px; }
-  header img {
-    width: 100%;
-    min-width: 100%; }
+  background-color: #000;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 main {
   margin: 0 auto;
@@ -744,7 +747,9 @@ a svg {
       height: 30%; }
     .home_splash .splashshaperight {
       width: 76%;
-      height: 50%; } }
+      height: 50%; }
+  header {
+    height: 45%; } }
 
 @media (max-width: 768px) {
   .desktop_nav {
@@ -762,6 +767,8 @@ a svg {
       height: 20%; }
     .home_splash .splashshaperight {
       height: 35%; }
+  header {
+    height: 40%; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {
@@ -776,6 +783,8 @@ a svg {
   .styles_splash h1 {
     bottom: 14px;
     margin-bottom: 20px; }
+  header {
+    height: 30%; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {

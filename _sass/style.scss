@@ -11,6 +11,8 @@ body {
     color: $black;
     background: $white;
     min-width: 320px;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -24,11 +26,11 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    max-width: 768px;
-    img {
-        width: 100%;
-        min-width: 100%;
-    }
+    background-color: $black;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -444,6 +446,9 @@ a svg {
             height: 50%;
         }
     }
+    header {
+        height: 45%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -468,6 +473,9 @@ a svg {
         .splashshaperight {
             height: 35%;
         }
+    }
+    header {
+        height: 40%;
     }
     nav, main, section, footer {
         padding: $lgspacing $mdspacing;
@@ -494,6 +502,9 @@ a svg {
             bottom: 14px;
             margin-bottom: 20px;
         }
+    }
+    header {
+        height: 30%;
     }
     .col-20.swatchcol {
         width: 100%;

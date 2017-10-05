@@ -3,10 +3,10 @@ layout: page
 title: About
 category: About
 permalink: /about/
+image: /images/about_cam.jpg
 ---
 
-<header>
-    <img src="{{ site.baseurl }}/images/about_cam.jpg" alt="Cameron Hirbodi Profile Picture"/>
+<header style="background-image: url('{{page.image}}');">
 </header>
 <main>
     <h3>Cameron Hirbodi</h3>
