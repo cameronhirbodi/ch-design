@@ -27,7 +27,7 @@ header {
     margin: 0 auto;
     padding: 0;
     background-color: $black;
-    height: 75%;
+    height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,6 +314,11 @@ a svg {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        .work-thumb {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
@@ -440,7 +445,7 @@ a svg {
         }
     }
     header {
-        height: 60%;
+        height: 65%;
     }
 }
 
@@ -468,7 +473,7 @@ a svg {
         }
     }
     header {
-        height: 45%;
+        height: 50%;
     }
     nav, main, section, footer {
         padding: $lgspacing $mdspacing;
@@ -497,7 +502,7 @@ a svg {
         }
     }
     header {
-        height: 30%;
+        height: 35%;
     }
     .col-20.swatchcol {
         width: 100%;
