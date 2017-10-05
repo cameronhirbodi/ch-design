@@ -27,7 +27,7 @@ header {
     margin: 0 auto;
     padding: 0;
     background-color: $black;
-    height: 60%;
+    height: 75%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,16 +311,9 @@ a svg {
         height: 200px;
         overflow: hidden;
         border: 1px solid white;
-        img {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            height: 100%;
-            width: auto;
-            -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-                transform: translate(-50%,-50%);
-        }
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -447,7 +440,7 @@ a svg {
         }
     }
     header {
-        height: 45%;
+        height: 60%;
     }
 }
 
@@ -475,7 +468,7 @@ a svg {
         }
     }
     header {
-        height: 40%;
+        height: 45%;
     }
     nav, main, section, footer {
         padding: $lgspacing $mdspacing;

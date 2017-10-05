@@ -364,7 +364,7 @@ header {
   margin: 0 auto;
   padding: 0;
   background-color: #000;
-  height: 60%;
+  height: 75%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -641,16 +641,10 @@ a svg {
   width: 50%;
   height: 200px;
   overflow: hidden;
-  border: 1px solid white; }
-  .work-list li img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 100%;
-    width: auto;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+  border: 1px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /* Blog */
 .blog-list li {
@@ -749,7 +743,7 @@ a svg {
       width: 76%;
       height: 50%; }
   header {
-    height: 45%; } }
+    height: 60%; } }
 
 @media (max-width: 768px) {
   .desktop_nav {
@@ -768,7 +762,7 @@ a svg {
     .home_splash .splashshaperight {
       height: 35%; }
   header {
-    height: 40%; }
+    height: 45%; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {
