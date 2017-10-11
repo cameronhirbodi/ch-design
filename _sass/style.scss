@@ -26,7 +26,7 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    background-color: $black;
+    background-color: $greydarkest;
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,6 +315,7 @@ a svg {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: $greydarkest;
         .work-thumb {
             display: block;
             width: 100%;
@@ -330,6 +331,7 @@ a svg {
         border-bottom: 1px solid $greylight;
         padding-bottom: $smspacing;
         margin-bottom: $xlspacing;
+        background-color: $greydarkest;
     }
     li:nth-last-child(1) {
         border-bottom: 0;
