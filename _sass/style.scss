@@ -26,11 +26,11 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    background-color: $greydarkest;
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: $grey;
 }
 
 main {
@@ -315,7 +315,7 @@ a svg {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: $greydarkest;
+        background-color: $grey;
         .work-thumb {
             display: block;
             width: 100%;
@@ -331,7 +331,7 @@ a svg {
         border-bottom: 1px solid $greylight;
         padding-bottom: $smspacing;
         margin-bottom: $xlspacing;
-        background-color: $greydarkest;
+        background-color: $grey;
     }
     li:nth-last-child(1) {
         border-bottom: 0;
