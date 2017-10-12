@@ -5,6 +5,7 @@ meta: Roberts came on board as a Technical Illustrator / Graphic Designer.
 category: blog
 permalink: blog/sample
 image: /images/blog/mclarenf1_manual.jpg
+thumb: /images/blog/mclarenf1_manual_thumb.jpg
 ---
 
 Most owner’s manuals can be a drag to read, but McLaren’s Design Operations Manager, Mark Roberts changed this notion in the early ’90s. 

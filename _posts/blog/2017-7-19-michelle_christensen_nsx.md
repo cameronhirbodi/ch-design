@@ -5,6 +5,7 @@ meta: The production Acura NSX has finally been revealed at the North American I
 category: blog
 permalink: blog/sample2
 image: /images/blog/michelle_christensen_nsx.jpg
+thumb: /images/blog/michelle_christensen_nsx_thumb.jpg
 ---
 
 After more than a decade and several years of concept renditions, the production Acura NSX has finally been revealed at the North American International Auto Show in Detroit.
