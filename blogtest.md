@@ -12,7 +12,7 @@ permalink: /blogtest/
                 <a class="blog-thumb" href="{{site.baseurl}}{{blog.url}}">
                     <h3>{{blog.title}}</h3>
                     <small>Posted on {{ blog.date | date: "%B %e, %Y" }}</small>
-                    <img src="{{blog.img}}">
+                    <img src="{{blog.thumb}}">
                 </a>
                 <p>{{blog.meta}}</p>
                 <a href="{{site.baseurl}}{{blog.url}}"><h5>Continue Reading</h5></a>
