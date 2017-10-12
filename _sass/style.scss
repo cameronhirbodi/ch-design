@@ -331,7 +331,6 @@ a svg {
         border-bottom: 1px solid $greylight;
         padding-bottom: $smspacing;
         margin-bottom: $xlspacing;
-        background-color: $grey;
     }
     li:nth-last-child(1) {
         border-bottom: 0;
@@ -344,6 +343,9 @@ a svg {
     display: block;
     position: relative;
     margin-bottom: $mdspacing;
+    img {
+        background-color: $grey;
+    }
 }
 
 .blog-date {
