@@ -316,7 +316,7 @@ a:active {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   font-weight: inherit;
   line-height: 1.2;
   text-transform: uppercase; }
@@ -344,11 +344,11 @@ small, .font_small {
 
 @media (max-width: 767px) {
   html {
-    font-size: 14px; } }
+    font-size: 15px; } }
 
 @media (min-width: 1600px) {
   html {
-    font-size: 18px; } }
+    font-size: 17px; } }
 
 body {
   color: #000;
@@ -796,8 +796,4 @@ a svg {
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
-    min-height: 40px; }
-  .blog-list h3 {
-    font-size: F1 0.414em; }
-  .blog-list h5 {
-    font-size: 0.707em; } }
+    min-height: 40px; } }

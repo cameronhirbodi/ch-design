@@ -15,7 +15,9 @@ permalink: /blogtest/
                     <img src="{{blog.thumb}}">
                 </a>
                 <p>{{blog.meta}}</p>
-                <a href="{{site.baseurl}}{{blog.url}}"><h5>Continue Reading</h5></a>
+                <a href="{{site.baseurl}}{{blog.url}}">
+                    <h5>Continue Reading</h5>
+                </a>
             </li>
         {% endfor %}
     </ul>
