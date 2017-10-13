@@ -599,9 +599,6 @@ a svg {
       background-color: #0F1A50;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
-      /* to stop flickering of text in safari */
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
       -webkit-transform-origin: 0;
       -ms-transform-origin: 0;
       transform-origin: 0;
