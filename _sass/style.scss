@@ -334,6 +334,9 @@ a svg {
         padding-bottom: 0;
         margin-bottom: 0;
     }
+    h3 {
+        color: $black;
+    }
 }
 
 .blog-thumb {
@@ -346,8 +349,10 @@ a svg {
 }
 
 .blog-date {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
     display: block;
-    margin-bottom: $smspacing;
+    margin-bottom: $mdspacing;
     color: $greydark;
 }
 

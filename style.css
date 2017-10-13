@@ -288,7 +288,7 @@ input[type=button]:visited, input[type=submit]:visited, .btn:visited {
   height: 128px; }
 
 html {
-  font-size: 1em; }
+  font-size: 16px; }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -316,7 +316,7 @@ a:active {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
-  margin: 0 0 0.5em;
+  margin: 0 0 10px 0;
   font-weight: inherit;
   line-height: 1.2;
   text-transform: uppercase; }
@@ -342,9 +342,13 @@ small, .font_small {
 .removemargin {
   margin: 0; }
 
+@media (max-width: 767px) {
+  html {
+    font-size: 14px; } }
+
 @media (min-width: 1600px) {
   html {
-    font-size: 1.125em; } }
+    font-size: 18px; } }
 
 body {
   color: #000;
@@ -660,6 +664,9 @@ a svg {
   padding-bottom: 0;
   margin-bottom: 0; }
 
+.blog-list h3 {
+  color: #000; }
+
 .blog-thumb {
   display: block;
   position: relative;
@@ -668,8 +675,10 @@ a svg {
     background-color: #BDC3C7; }
 
 .blog-date {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #A4AAAE; }
 
 /* Style Guide */

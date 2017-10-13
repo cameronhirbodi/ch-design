@@ -11,7 +11,7 @@ permalink: /blogtest/
             <li>
                 <a class="blog-thumb" href="{{site.baseurl}}{{blog.url}}">
                     <h3>{{blog.title}}</h3>
-                    <small>Posted on {{ blog.date | date: "%B %e, %Y" }}</small>
+                    <h5 class="blog-date">Posted on {{ blog.date | date: "%B %e, %Y" }}</h5>
                     <img src="{{blog.thumb}}">
                 </a>
                 <p>{{blog.meta}}</p>
