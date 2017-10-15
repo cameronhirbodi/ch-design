@@ -6,7 +6,7 @@ permalink: /about/
 image: /images/about_cam.jpg
 ---
 
-<header style="background-image: url('{{page.image}}');">
+<header class="fade_in" style="background-image: url('{{page.image}}')">
 </header>
 <main>
     <h3>Cameron Hirbodi</h3>

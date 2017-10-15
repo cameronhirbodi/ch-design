@@ -2,13 +2,13 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
-    <header style="background-image: url('{{page.image}}');">
+    <header class="fade_in" style="background-image: url('{{page.image}}')">
     </header>
     <main>
       <article class="post">
           <div class="entry">
             <h3>{{page.title}}</h3>
-            <h5 class="blog-date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
+            <h5 class="blog_date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
               {{ content }}
           </div>
       </article>

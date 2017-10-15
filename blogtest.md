@@ -6,13 +6,13 @@ permalink: /blogtest/
 ---
 
 <main>
-    <ul class="blog-list">
+    <ul class="blog_list">
         {% for blog in site.categories.blog limit:2 %}
             <li>
-                <a class="blog-thumb" href="{{site.baseurl}}{{blog.url}}">
+                <a class="blog_thumb" href="{{site.baseurl}}{{blog.url}}">
                     <h3>{{blog.title}}</h3>
-                    <h5 class="blog-date">Posted on {{ blog.date | date: "%B %e, %Y" }}</h5>
-                    <img src="{{blog.thumb}}">
+                    <h5 class="blog_date">Posted on {{ blog.date | date: "%B %e, %Y" }}</h5>
+                    <img src="{{blog.thumb}}" class="fade_in">
                 </a>
                 <p>{{blog.meta}}</p>
                 <a href="{{site.baseurl}}{{blog.url}}">

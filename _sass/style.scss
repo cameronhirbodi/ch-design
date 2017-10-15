@@ -1,10 +1,11 @@
-@import 'reset' ;
+@import 'animation' ;
 @import 'colors';
 @import 'forms';
-@import 'mixins';
-@import 'spacing';
 @import 'grid';
 @import 'iconography';
+@import 'mixins';
+@import 'reset' ;
+@import 'spacing';
 @import 'typography';
 
 body {
@@ -26,7 +27,7 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    height: 80%;
+    height: 640px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +302,7 @@ a svg {
 
 /* Work */
 
-.work-list {
+.work_list {
     li {
         position: relative;
         float: left;
@@ -313,7 +314,7 @@ a svg {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: $grey;
-        .work-thumb {
+        .work_thumb {
             display: block;
             width: 100%;
             height: 100%;
@@ -323,7 +324,7 @@ a svg {
 
 /* Blog */
 
-.blog-list {
+.blog_list {
     li {
         border-bottom: 1px solid $greylight;
         padding-bottom: $smspacing;
@@ -339,7 +340,7 @@ a svg {
     }
 }
 
-.blog-thumb {
+.blog_thumb {
     display: block;
     position: relative;
     margin-bottom: $mdspacing;
@@ -348,7 +349,7 @@ a svg {
     }
 }
 
-.blog-date {
+.blog_date {
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
     display: block;
@@ -452,7 +453,7 @@ a svg {
         }
     }
     header {
-        height: 65%;
+        height: 480px;
     }
 }
 
@@ -480,7 +481,7 @@ a svg {
         }
     }
     header {
-        height: 50%;
+        height: 320;
     }
     nav, main, section, footer {
         padding: $lgspacing $mdspacing;
@@ -488,7 +489,7 @@ a svg {
     .col-20.swatchcol {
         width: 33.33%;
     }
-    .work-list {
+    .work_list {
         li {
             height: 120px;
         }
@@ -509,7 +510,7 @@ a svg {
         }
     }
     header {
-        height: 35%;
+        height: 280px;
     }
     .col-20.swatchcol {
         width: 100%;
