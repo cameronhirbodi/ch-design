@@ -1,11 +1,11 @@
 ---
-layout: work
+layout: post
 title: Blizzard Support
 meta: Blizzard Support
 category: work
 permalink: work/blizzard_support
-image: /images/work/01.jpg
-thumb: /images/work/01_thumb.jpg
+image: /images/work/blizz_supp.jpg
+thumb: /images/work/blizz_supp_thumb.jpg
 source: http://www.battle.net/support
 ---
 

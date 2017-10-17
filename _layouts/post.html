@@ -12,9 +12,11 @@
               {{ content }}
           </div>
       </article>
-      <div class="returnlink">
+      <p>Source: <a href="{{ page.source }}">Visit</a></p>
+      <br>
+      <p class="returnlink">
         <a href="{{ site.baseurl }}/{{page.category}}">Return to {{page.category}}</a>
-      </div>
+      </p>
     </main>
     {% include footer.html %}
   </body>
