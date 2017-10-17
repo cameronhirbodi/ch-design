@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title: UI Examples
 meta: Some really nice examples of UI Design.
 category: work

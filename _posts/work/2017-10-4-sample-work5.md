@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title: Logo Design
 meta: Some new logo design.
 category: work
