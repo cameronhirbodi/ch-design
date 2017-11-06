@@ -36,7 +36,7 @@ header {
 
 main {
     margin: 0 auto;
-    padding: $xxlspacing $mdspacing;
+    padding: $xlspacing $mdspacing;
     max-width: 768px;
     img {
         width: 100%;
@@ -166,6 +166,9 @@ a svg {
         float: left;
         position: relative;
         top: -14px;
+        svg:hover {
+            opacity: 0.5;
+        }
     }
     h1 {
         float: right;
@@ -335,7 +338,7 @@ a svg {
         padding-bottom: 0;
         margin-bottom: 0;
     }
-    h3 {
+    h4 {
         color: $black;
     }
 }

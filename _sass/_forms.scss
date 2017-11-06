@@ -94,12 +94,6 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   cursor: pointer;
 }
 
-input[type=button]:active, input[type=submit]:active, .btn:active {
-  color: $white;
-  background-color: $darkmagenta;
-}
-
 input[type=button]:visited, input[type=submit]:visited, .btn:visited {
   color: $white;
-  background-color: $magenta;
 }

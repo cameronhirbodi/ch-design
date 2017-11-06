@@ -212,13 +212,8 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   background-color: #CA0043;
   cursor: pointer; }
 
-input[type=button]:active, input[type=submit]:active, .btn:active {
-  color: #FFF;
-  background-color: #CA0043; }
-
 input[type=button]:visited, input[type=submit]:visited, .btn:visited {
-  color: #FFF;
-  background-color: #FF0055; }
+  color: #FFF; }
 
 .grid {
   margin-left: -20px;
@@ -420,7 +415,7 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 40px 20px;
   max-width: 768px; }
   main img {
     width: 100%;
@@ -530,6 +525,8 @@ a svg {
     float: left;
     position: relative;
     top: -14px; }
+    .mobile_nav > a svg:hover {
+      opacity: 0.5; }
   .mobile_nav h1 {
     float: right;
     position: relative;
@@ -709,7 +706,7 @@ a svg {
   padding-bottom: 0;
   margin-bottom: 0; }
 
-.blog_list h3 {
+.blog_list h4 {
   color: #000; }
 
 .blog_thumb {

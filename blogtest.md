@@ -10,7 +10,7 @@ permalink: /blogtest/
         {% for blog in site.categories.blog limit:2 %}
             <li>
                 <a class="blog_thumb" href="{{site.baseurl}}{{blog.url}}">
-                    <h3>{{blog.title}}</h3>
+                    <h4>{{blog.title}}</h4>
                     <h5 class="blog_date">Posted on {{ blog.date | date: "%B %e, %Y" }}</h5>
                     <img src="{{blog.thumb}}" class="fade_in">
                 </a>
