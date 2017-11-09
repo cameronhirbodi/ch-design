@@ -411,6 +411,9 @@ header {
   background-position: center -320px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-color: #BDC3C7; }
 
