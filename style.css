@@ -408,8 +408,9 @@ header {
   margin: 0 auto;
   padding: 0;
   height: 640px;
-  background-position: center;
+  background-position: center -320px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-color: #BDC3C7; }
 
@@ -799,7 +800,8 @@ a svg {
       width: 76%;
       height: 50%; }
   header {
-    height: 480px; } }
+    height: 480px;
+    background-position: center -140px; } }
 
 @media (max-width: 768px) {
   .desktop_nav {
@@ -818,7 +820,8 @@ a svg {
     .home_splash .splashshaperight {
       height: 35%; }
   header {
-    height: 320; }
+    height: 320;
+    background-position: center -160px; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {
@@ -834,7 +837,8 @@ a svg {
     bottom: 14px;
     margin-bottom: 20px; }
   header {
-    height: 280px; }
+    height: 280px;
+    background-position: center -140px; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
