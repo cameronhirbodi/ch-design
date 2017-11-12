@@ -5,8 +5,9 @@ $grey: #BDC3C7;
 $greydark: #A4AAAE;
 $greydarkest: #8A9094;
 $black: #000;
-$magenta: #FF0055;
-$darkmagenta: #CA0043;
+$magentalight: #fc7095;
+$magenta: #fc3468;
+$magentadark: #b02448;
 $turquoise: #00CDC6;
 $navy: #0F1A50;
 
@@ -41,13 +42,18 @@ $navy: #0F1A50;
     color: $white;
 }
 
+.magentalight {
+    background: $magentalight;
+    color: $white;
+}
+
 .magenta {
     background: $magenta;
     color: $white;
 }
 
-.darkmagenta {
-    background: $darkmagenta;
+.magentadark {
+    background: $magentadark;
     color: $white;
 }
 

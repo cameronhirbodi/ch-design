@@ -90,7 +90,8 @@ input[type=button], input[type=submit], .btn {
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   color: $white;
-  background-color: $darkmagenta;
+  background-color: $magentalight;
+  transition: background-color 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   cursor: pointer;
 }
 

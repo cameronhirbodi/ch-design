@@ -67,12 +67,16 @@
   background: #000;
   color: #FFF; }
 
-.magenta {
-  background: #FF0055;
+.magentalight {
+  background: #fc7095;
   color: #FFF; }
 
-.darkmagenta {
-  background: #CA0043;
+.magenta {
+  background: #fc3468;
+  color: #FFF; }
+
+.magentadark {
+  background: #b02448;
   color: #FFF; }
 
 .turquoise {
@@ -107,12 +111,16 @@
   background: #000;
   color: #FFF; }
 
-.magenta {
-  background: #FF0055;
+.magentalight {
+  background: #fc7095;
   color: #FFF; }
 
-.darkmagenta {
-  background: #CA0043;
+.magenta {
+  background: #fc3468;
+  color: #FFF; }
+
+.magentadark {
+  background: #b02448;
   color: #FFF; }
 
 .turquoise {
@@ -199,7 +207,7 @@ input[type=button], input[type=submit], .btn {
   display: inline;
   color: #FFF;
   border: none;
-  background-color: #FF0055;
+  background-color: #fc3468;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   min-width: 140px;
@@ -209,7 +217,8 @@ input[type=button], input[type=submit], .btn {
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   color: #FFF;
-  background-color: #CA0043;
+  background-color: #fc7095;
+  transition: background-color 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   cursor: pointer; }
 
 input[type=button]:visited, input[type=submit]:visited, .btn:visited {
@@ -339,19 +348,20 @@ p {
   margin-bottom: 1.3em; }
 
 a {
-  color: #FF0055;
+  color: #fc3468;
   text-decoration: none; }
 
 a:visited {
-  color: #FF0055;
+  color: #fc3468;
   text-decoration: none; }
 
 a:hover {
-  color: #FF0055;
-  text-decoration: none; }
+  color: #fc7095;
+  text-decoration: none;
+  transition: color 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
 a:active {
-  color: #FF0055;
+  color: #fc3468;
   text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
@@ -427,16 +437,19 @@ footer {
   padding: 40px;
   clear: both; }
 
-a svg {
+a > svg {
   fill: #000;
-  float: left; }
-  a svg :hover {
-    opacity: 0.5;
-    -webkit-transition: opacity 0.1s;
-    -o-transition: opacity 0.1s;
-    transition: opacity 0.1s; }
-  a svg :active {
-    opacity: 1; }
+  float: left;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+
+a > svg:hover {
+  opacity: 0.5; }
+
+a > svg:active {
+  opacity: 1; }
 
 .home_splash {
   display: block;
@@ -529,8 +542,6 @@ a svg {
     float: left;
     position: relative;
     top: -14px; }
-    .mobile_nav > a svg:hover {
-      opacity: 0.5; }
   .mobile_nav h1 {
     float: right;
     position: relative;
@@ -623,6 +634,10 @@ a svg {
       -o-transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
       transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1); }
+    .mobile_nav #menuToggle #hamburgerinput:hover ~ .hamburgerspan, .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan {
+      opacity: 0.5; }
+    .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3) {
+      opacity: 0; }
     .mobile_nav #menuToggle .hamburgerbg {
       display: block;
       cursor: pointer;
