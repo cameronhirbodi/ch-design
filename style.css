@@ -460,6 +460,9 @@ a + svg:hover {
 a + svg:active {
   opacity: 1; }
 
+a + svg:focus {
+  opacity: 1; }
+
 .home_splash {
   display: block;
   max-width: none;
@@ -639,6 +642,8 @@ a + svg:active {
       transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1); }
     .mobile_nav #menuToggle #hamburgerinput:hover ~ .hamburgerspan, .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan {
       opacity: 0.5; }
+    .mobile_nav #menuToggle #hamburgerinput:focus ~ .hamburgerspan, .mobile_nav #menuToggle #hamburgerinput:checked:focus ~ .hamburgerspan {
+      opacity: 1; }
     .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3) {
       opacity: 0; }
     .mobile_nav #menuToggle .hamburgerbg {

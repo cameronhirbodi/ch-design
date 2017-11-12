@@ -67,6 +67,10 @@ a + svg:active {
     opacity: 1;
 }
 
+a + svg:focus {
+    opacity: 1;
+}
+
 .home_splash {
     display: block;
     max-width: none;
@@ -244,6 +248,9 @@ a + svg:active {
         }
         #hamburgerinput:hover ~ .hamburgerspan, #hamburgerinput:checked:hover ~ .hamburgerspan {
             opacity: 0.5;
+        }
+        #hamburgerinput:focus ~ .hamburgerspan, #hamburgerinput:checked:focus ~ .hamburgerspan {
+            opacity: 1;
         }
         #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3) {
             opacity: 0;
