@@ -51,18 +51,18 @@ footer {
     clear: both;
 }
 
-a > svg {
+a + svg {
     fill: $black;
     float: left;
     transform-origin: 0;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-a > svg:hover {
+a + svg:hover {
     opacity: 0.5;
 }
 
-a > svg:active {
+a + svg:active {
     opacity: 1;
 }
 
@@ -147,12 +147,6 @@ a > svg:active {
         a {
             color: $black;
             font-family: 'Montserrat', sans-serif;
-            :hover {
-                transition: opacity 0.1s;
-            }
-            :active {
-                opacity: 1;
-            }
             li {
                 display: inline;
                 list-style-type: none;
@@ -213,9 +207,7 @@ a > svg:active {
             background: $black;
             z-index: 1;
             transform-origin: 0;
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), 
-            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-            opacity 0.55s ease;
+            transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.2s ease;
         }
         .hamburgerspan:first-child {
             transform-origin: 0% 0%;
@@ -288,6 +280,11 @@ a > svg:active {
                 color: $white;
                 padding: $mdspacing;
                 font-family: 'Montserrat', sans-serif;
+                transform-origin: 0;
+                transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
+            }
+            li:hover {
+                opacity: 0.5;
             }
         }
     }
@@ -329,11 +326,16 @@ a > svg:active {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: $grey;
-        .work_thumb {
+        transform-origin: 0;
+        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);       
+        a {
             display: block;
             width: 100%;
             height: 100%;
         }
+    }
+    li:hover {
+        opacity: 0.5;
     }
 }
 

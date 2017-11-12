@@ -86,13 +86,15 @@ input[type=button], input[type=submit], .btn {
   max-width: 320px;
   padding: 12px 20px;
   margin: 0 auto;
+  transform-origin: 0;
+  transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   color: $white;
   background-color: $magentalight;
-  transition: background-color 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   cursor: pointer;
+  opacity: 1;
 }
 
 input[type=button]:visited, input[type=submit]:visited, .btn:visited {
