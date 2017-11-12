@@ -442,7 +442,7 @@ a svg {
   display: block;
   max-width: none;
   min-height: 640px;
-  height: 40%;
+  height: 50%;
   position: relative;
   text-align: center;
   padding-bottom: 320px;
@@ -464,13 +464,13 @@ a svg {
     fill: #FFF; }
   .home_splash h1 {
     position: relative;
-    top: 15%;
+    top: 20%;
     z-index: 1; }
   .home_splash h2 {
     font-size: 1.414em;
     letter-spacing: 0.6em;
     position: relative;
-    top: 15%;
+    top: 20%;
     z-index: 1; }
   .home_splash .splashshapeleft {
     fill: #FFF;
