@@ -464,13 +464,13 @@ a svg {
     fill: #FFF; }
   .home_splash h1 {
     position: relative;
-    top: 20%;
+    top: 15%;
     z-index: 1; }
   .home_splash h2 {
     font-size: 1.414em;
     letter-spacing: 0.6em;
     position: relative;
-    top: 20%;
+    top: 15%;
     z-index: 1; }
   .home_splash .splashshapeleft {
     fill: #FFF;
