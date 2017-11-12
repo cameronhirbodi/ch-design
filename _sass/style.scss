@@ -537,6 +537,12 @@ a svg {
 @media (max-width: 480px) {
     .home_splash {
         min-height: 280px;
+        h1 {
+            top: 10%;
+        }
+        h2 {
+            top: 10%;
+        }
     }
     header {
         height: 280px;
@@ -552,11 +558,9 @@ a svg {
 @media (max-width: 320px) {
     .home_splash {
         h1 {
-            top: 10%;
             font-size: 1.414em;
         }
         h2 {
-            top: 10%;
             font-size: 0.707em;
             letter-spacing: 0.5em;
         }

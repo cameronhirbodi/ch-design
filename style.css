@@ -846,6 +846,10 @@ a svg {
 @media (max-width: 480px) {
   .home_splash {
     min-height: 280px; }
+    .home_splash h1 {
+      top: 10%; }
+    .home_splash h2 {
+      top: 10%; }
   header {
     height: 280px; }
   .col-20.swatchcol {
@@ -855,9 +859,7 @@ a svg {
 
 @media (max-width: 320px) {
   .home_splash h1 {
-    top: 10%;
     font-size: 1.414em; }
   .home_splash h2 {
-    top: 10%;
     font-size: 0.707em;
     letter-spacing: 0.5em; } }
