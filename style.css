@@ -727,7 +727,8 @@ a svg {
   text-transform: none;
   display: block;
   margin-bottom: 20px;
-  color: #A4AAAE; }
+  color: #A4AAAE;
+  font-weight: 400; }
 
 /* Style Guide */
 .styles_splash h1 {
