@@ -153,7 +153,7 @@ a svg {
             li {
                 display: inline;
                 list-style-type: none;
-                margin-left: $xxlspacing;
+                margin-left: $xxxxlspacing;
             }
         }
     }
@@ -443,6 +443,15 @@ a svg {
 /* Media Queries */
 
 @media (max-width: 1600px) {
+    .desktop_nav {
+        ul {
+            a {
+                li {
+                    margin-left: $xxxlspacing;
+                }
+            }
+        }
+    }
     .home_splash {
         padding-bottom: $xxxxxlspacing;
         min-height: 480px;
@@ -468,6 +477,18 @@ a svg {
 }
 
 @media (max-width: 768px) {
+    .desktop_nav {
+        ul {
+            a {
+                li {
+                    margin-left: $xxlspacing;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
     .desktop_nav {
         display: none;
     }
@@ -514,12 +535,8 @@ a svg {
 }
 
 @media (max-width: 480px) {
-    .styles_splash {
+    .home_splash {
         min-height: 280px;
-        h1 {
-            bottom: 14px;
-            margin-bottom: 20px;
-        }
     }
     header {
         height: 280px;
@@ -529,5 +546,19 @@ a svg {
     }
     .swatch {
         min-height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home_splash {
+        h1 {
+            top: 15%;
+            font-size: 1.414em;
+        }
+        h2 {
+            top: 15%;
+            font-size: 0.707em;
+            letter-spacing: 0.5em;
+        }
     }
 }
