@@ -28,7 +28,8 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    height: 640px;
+    height: 75%;
+    max-height: 640px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -481,7 +482,7 @@ a + svg:active {
         }
     }
     header {
-        height: 480px;
+        max-height: 480px;
     }
 }
 
@@ -522,7 +523,7 @@ a + svg:active {
         }
     }
     header {
-        height: 320px;
+        max-height: 320px;
     }
     nav, main, section, footer {
         padding: $lgspacing $mdspacing;
@@ -554,7 +555,7 @@ a + svg:active {
         }
     }
     header {
-        height: 280px;
+        max-height: 280px;
     }
     .col-20.swatchcol {
         width: 100%;

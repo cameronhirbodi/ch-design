@@ -426,7 +426,8 @@ nav {
 header {
   margin: 0 auto;
   padding: 0;
-  height: 640px;
+  height: 75%;
+  max-height: 640px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -839,7 +840,7 @@ a + svg:active {
       width: 76%;
       height: 50%; }
   header {
-    height: 480px; } }
+    max-height: 480px; } }
 
 @media (max-width: 768px) {
   .desktop_nav ul a li {
@@ -863,7 +864,7 @@ a + svg:active {
     .home_splash .splashshaperight {
       height: 35%; }
   header {
-    height: 320px; }
+    max-height: 320px; }
   nav, main, section, footer {
     padding: 30px 20px; }
   .col-20.swatchcol {
@@ -882,7 +883,7 @@ a + svg:active {
     .home_splash h2 {
       top: 10%; }
   header {
-    height: 280px; }
+    max-height: 280px; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
