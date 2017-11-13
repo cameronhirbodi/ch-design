@@ -371,6 +371,7 @@ a + svg:focus {
 }
 
 .blog_thumb {
+    display: block;
     img {
         background-color: $grey;
     }

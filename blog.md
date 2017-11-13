@@ -16,6 +16,7 @@ permalink: /blog/
                 <a class="blog_thumb" href="{{site.baseurl}}{{blog.url}}">
                     <img src="{{blog.thumb}}" class="fade_in">
                 </a>
+                <br>
                 <p>{{blog.meta}}</p>
                 <a href="{{site.baseurl}}{{blog.url}}">More</a>
                 <br>
