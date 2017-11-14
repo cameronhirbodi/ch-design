@@ -435,7 +435,7 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 80px 30px;
   max-width: 768px; }
   main img {
     width: 100%;
@@ -833,6 +833,8 @@ a + svg:focus {
 
 /* Media Queries */
 @media (max-width: 1600px) {
+  main {
+    padding: 60px 30px; }
   .desktop_nav ul a li {
     margin-left: 80px; }
   .home_splash {
@@ -853,6 +855,8 @@ a + svg:focus {
     max-height: 480px; } }
 
 @media (max-width: 768px) {
+  nav, main, section, footer {
+    padding: 30px 20px; }
   .desktop_nav ul a li {
     margin-left: 60px; } }
 
@@ -875,8 +879,6 @@ a + svg:focus {
       height: 35%; }
   header {
     max-height: 320px; }
-  nav, main, section, footer {
-    padding: 30px 20px; }
   .col-20.swatchcol {
     width: 33.33%; }
   .work_list li {
@@ -889,8 +891,11 @@ a + svg:focus {
   .home_splash {
     min-height: 280px; }
     .home_splash h1 {
+      font-size: 1.414em;
       top: 10%; }
     .home_splash h2 {
+      font-size: 0.707em;
+      letter-spacing: 0.5em;
       top: 10%; }
   header {
     max-height: 280px; }
@@ -898,10 +903,3 @@ a + svg:focus {
     width: 100%; }
   .swatch {
     min-height: 40px; } }
-
-@media (max-width: 320px) {
-  .home_splash h1 {
-    font-size: 1.414em; }
-  .home_splash h2 {
-    font-size: 0.707em;
-    letter-spacing: 0.5em; } }

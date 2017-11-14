@@ -38,7 +38,7 @@ header {
 
 main {
     margin: 0 auto;
-    padding: $xlspacing $mdspacing;
+    padding: $xxxlspacing $lgspacing;
     max-width: 768px;
     img {
         width: 100%;
@@ -463,6 +463,9 @@ a + svg:focus {
 /* Media Queries */
 
 @media (max-width: 1600px) {
+    main {
+        padding: $xxlspacing $lgspacing;
+    }
     .desktop_nav {
         ul {
             a {
@@ -497,6 +500,9 @@ a + svg:focus {
 }
 
 @media (max-width: 768px) {
+    nav, main, section, footer {
+        padding: $lgspacing $mdspacing;
+    }
     .desktop_nav {
         ul {
             a {
@@ -535,9 +541,6 @@ a + svg:focus {
     header {
         max-height: 320px;
     }
-    nav, main, section, footer {
-        padding: $lgspacing $mdspacing;
-    }
     .col-20.swatchcol {
         width: 33.33%;
     }
@@ -558,9 +561,12 @@ a + svg:focus {
     .home_splash {
         min-height: 280px;
         h1 {
+            font-size: 1.414em;
             top: 10%;
         }
         h2 {
+            font-size: 0.707em;
+            letter-spacing: 0.5em;
             top: 10%;
         }
     }
@@ -572,17 +578,5 @@ a + svg:focus {
     }
     .swatch {
         min-height: 40px;
-    }
-}
-
-@media (max-width: 320px) {
-    .home_splash {
-        h1 {
-            font-size: 1.414em;
-        }
-        h2 {
-            font-size: 0.707em;
-            letter-spacing: 0.5em;
-        }
     }
 }
