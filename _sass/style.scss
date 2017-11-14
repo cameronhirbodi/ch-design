@@ -29,10 +29,11 @@ header {
     margin: 0 auto;
     padding: 0;
     height: 75%;
-    max-height: 640px;
+    max-height: 768px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: $grey;
 }
 
@@ -80,7 +81,7 @@ a + svg:focus {
     text-align: center;
     padding-bottom: 320px;
     color: $white;
-    background: url("images/ny_bg.jpg") $navy no-repeat center 65%;
+    background: url("images/ny_bg.jpg") $navy no-repeat center fixed;
     background-size: cover;
     text-transform: uppercase;
     .desktop_nav {
@@ -523,7 +524,7 @@ a + svg:focus {
     }
     .home_splash {
         padding-bottom: $xxxxlspacing;
-        min-height: 320px;
+        min-height: 480px;
         h1 {
             font-size: 1.999em;
         }
@@ -539,7 +540,7 @@ a + svg:focus {
         }
     }
     header {
-        max-height: 320px;
+        max-height: 480px;
     }
     .col-20.swatchcol {
         width: 33.33%;
@@ -559,7 +560,7 @@ a + svg:focus {
 
 @media (max-width: 480px) {
     .home_splash {
-        min-height: 280px;
+        min-height: 320px;
         h1 {
             font-size: 1.414em;
             top: 10%;
@@ -571,7 +572,7 @@ a + svg:focus {
         }
     }
     header {
-        max-height: 280px;
+        max-height: 320px;
     }
     .col-20.swatchcol {
         width: 100%;
