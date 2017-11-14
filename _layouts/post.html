@@ -1,8 +1,9 @@
 <html>
   {% include head.html %}
   <body>
+    <div id="content-bg" class="fade_in" style="background-image: url('{{page.image}}')"></div>
     {% include nav.html %}
-    <header class="fade_in" style="background-image: url('{{page.image}}')">
+    <header>
     </header>
     <main>
       <article class="post">
@@ -10,15 +11,9 @@
             <h3>{{page.title}}</h3>
             <h5 class="blog_date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
               {{ content }}
+              <p>Source: <a href="{{ page.source }}">Visit</a></p>
           </div>
       </article>
-      <p>Source: <a href="{{ page.source }}">Visit</a></p>
-      <br>
-      <!--
-      <p class="returnlink">
-        <a href="{{ site.baseurl }}/{{page.category}}">Return to {{page.category}}</a>
-      </p>
-      -->
     </main>
     {% include footer.html %}
   </body>

@@ -14,10 +14,20 @@ body {
     min-width: 320px;
     margin: 0;
     padding: 0;
+    #content-bg {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $grey;
+        position: fixed;
+        z-index: -1;
+    }
 }
 
 nav {
-    display: block;
+    background: $white;
     margin: 0 auto;
     font-weight: 700;
     padding: $xlspacing;
@@ -30,27 +40,31 @@ header {
     padding: 0;
     height: 75%;
     max-height: 768px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: $grey;
 }
 
 main {
-    margin: 0 auto;
-    padding: $xxxlspacing $lgspacing;
-    max-width: 768px;
-    img {
-        width: 100%;
-        min-width: 100%;
+    width: 100%;
+    background-color: $white;
+    article, summary {
+        margin: 0 auto;
+        padding: $xxxlspacing $lgspacing;
+        max-width: 768px;
+        img {
+            width: 100%;
+            min-width: 100%;
+        }
     }
 }
 
 footer {
+    width: 100%;
     margin: 0 auto;
-    padding: $xlspacing;
-    clear: both;
+    background-color: $white;
+    text-align: center;
+    small {
+        display: block;
+        padding: $xlspacing;
+    }
 }
 
 a + svg {
@@ -85,6 +99,7 @@ a + svg:focus {
     background-size: cover;
     text-transform: uppercase;
     .desktop_nav {
+        background-color: transparent;
         border-bottom: none;
         padding-bottom: $xxxlspacing;
         a {
@@ -92,6 +107,7 @@ a + svg:focus {
         }
     }
     .mobile_nav {
+        background-color: transparent;
         margin-bottom: $lgspacing;
         border-bottom: none;
     }
@@ -351,6 +367,12 @@ a + svg:focus {
 /* Blog */
 
 .blog_list {
+    margin: 0 auto;
+    max-width: 768px;
+    img {
+        width: 100%;
+        min-width: 100%;
+    }
     li {
         border-bottom: 1px solid $greylight;
         padding-bottom: $smspacing;
@@ -465,7 +487,9 @@ a + svg:focus {
 
 @media (max-width: 1600px) {
     main {
-        padding: $xxlspacing $lgspacing;
+        article, summary {
+            padding: $xxlspacing $lgspacing;
+        }
     }
     .desktop_nav {
         ul {
@@ -501,8 +525,13 @@ a + svg:focus {
 }
 
 @media (max-width: 768px) {
-    nav, main, section, footer {
+    nav, section, footer {
         padding: $lgspacing $mdspacing;
+    }
+    main {
+        article, summary {
+            padding: $lgspacing $mdspacing;
+        }
     }
     .desktop_nav {
         ul {
