@@ -754,7 +754,8 @@ a + svg:focus {
 /* Blog */
 .blog_list {
   margin: 0 auto;
-  max-width: 768px; }
+  max-width: 768px;
+  padding: 80px 30px; }
   .blog_list img {
     width: 100%;
     min-width: 100%; }
@@ -850,7 +851,7 @@ a + svg:focus {
 
 /* Media Queries */
 @media (max-width: 1600px) {
-  main article, main summary {
+  main article, main summary, main .blog_list {
     padding: 60px 30px; }
   .desktop_nav ul a li {
     margin-left: 80px; }
@@ -874,7 +875,7 @@ a + svg:focus {
 @media (max-width: 768px) {
   nav, section, footer {
     padding: 30px 20px; }
-  main article, main summary {
+  main article, main summary, main .blog_list {
     padding: 30px 20px; }
   .desktop_nav ul a li {
     margin-left: 60px; } }
@@ -902,23 +903,25 @@ a + svg:focus {
     width: 33.33%; }
   .work_list li {
     height: 120px; }
-  .blog-list li {
+  .blog_list li {
     padding-bottom: 10px;
     margin-bottom: 30px; } }
 
 @media (max-width: 480px) {
   .home_splash {
     min-height: 320px; }
-    .home_splash h1 {
-      font-size: 1.414em;
-      top: 10%; }
-    .home_splash h2 {
-      font-size: 0.707em;
-      letter-spacing: 0.5em;
-      top: 10%; }
   header {
     max-height: 320px; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
     min-height: 40px; } }
+
+@media (max-width: 320px) {
+  .home_splash h1 {
+    font-size: 1.414em;
+    top: 10%; }
+  .home_splash h2 {
+    font-size: 0.707em;
+    letter-spacing: 0.5em;
+    top: 10%; } }

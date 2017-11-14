@@ -369,6 +369,7 @@ a + svg:focus {
 .blog_list {
     margin: 0 auto;
     max-width: 768px;
+    padding: $xxxlspacing $lgspacing;
     img {
         width: 100%;
         min-width: 100%;
@@ -487,7 +488,7 @@ a + svg:focus {
 
 @media (max-width: 1600px) {
     main {
-        article, summary {
+        article, summary, .blog_list {
             padding: $xxlspacing $lgspacing;
         }
     }
@@ -529,7 +530,7 @@ a + svg:focus {
         padding: $lgspacing $mdspacing;
     }
     main {
-        article, summary {
+        article, summary, .blog_list {
             padding: $lgspacing $mdspacing;
         }
     }
@@ -579,7 +580,7 @@ a + svg:focus {
             height: 120px;
         }
     }
-    .blog-list {
+    .blog_list {
         li {
             padding-bottom: $smspacing;
             margin-bottom: $lgspacing;
@@ -590,15 +591,6 @@ a + svg:focus {
 @media (max-width: 480px) {
     .home_splash {
         min-height: 320px;
-        h1 {
-            font-size: 1.414em;
-            top: 10%;
-        }
-        h2 {
-            font-size: 0.707em;
-            letter-spacing: 0.5em;
-            top: 10%;
-        }
     }
     header {
         max-height: 320px;
@@ -608,5 +600,19 @@ a + svg:focus {
     }
     .swatch {
         min-height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home_splash {
+        h1 {
+            font-size: 1.414em;
+            top: 10%;
+        }
+        h2 {
+            font-size: 0.707em;
+            letter-spacing: 0.5em;
+            top: 10%;
+        }
     }
 }

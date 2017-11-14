@@ -6,6 +6,7 @@ permalink: /about/
 image: /images/about_cam.jpg
 ---
 
+<header></header>
 <main>
     <article>
         <h3>Cameron Hirbodi</h3>
