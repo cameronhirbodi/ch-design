@@ -20,7 +20,6 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: $grey;
         position: fixed;
         z-index: -1;
     }
@@ -61,6 +60,7 @@ footer {
     margin: 0 auto;
     background-color: $white;
     text-align: center;
+    clear: both;
     small {
         display: block;
         padding: $xlspacing;
