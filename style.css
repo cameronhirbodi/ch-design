@@ -420,7 +420,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    position: fixed;
     z-index: -10; }
 
 nav {
@@ -668,62 +668,64 @@ a + svg:focus {
 /* Home Splash Page */
 .home_splash_bg {
   width: 100%;
-  background: url("images/ny_bg.jpg");
+  height: 100%;
+  background: url("images/splash_bg.jpg");
   background-color: #0F1A50;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  position: fixed;
   z-index: -10; }
-  .home_splash_bg .home_splash {
-    display: block;
-    max-width: none;
-    min-height: 640px;
-    height: 50%;
+
+.home_splash {
+  display: block;
+  max-width: none;
+  min-height: 640px;
+  height: 50%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 320px;
+  color: #FFF;
+  background-size: cover;
+  text-transform: uppercase; }
+  .home_splash .desktop_nav {
+    background-color: transparent;
+    border-bottom: none;
+    padding-bottom: 80px; }
+    .home_splash .desktop_nav a {
+      color: #FFF; }
+  .home_splash .mobile_nav {
+    background-color: transparent;
+    margin-bottom: 30px;
+    border-bottom: none; }
+  .home_splash .mobile_nav #menuToggle .hamburgerspan {
+    background: #FFF; }
+  .home_splash a svg {
+    fill: #FFF; }
+  .home_splash h1 {
     position: relative;
-    text-align: center;
-    padding-bottom: 320px;
-    color: #FFF;
-    background-size: cover;
-    text-transform: uppercase; }
-    .home_splash_bg .home_splash .desktop_nav {
-      background-color: transparent;
-      border-bottom: none;
-      padding-bottom: 80px; }
-      .home_splash_bg .home_splash .desktop_nav a {
-        color: #FFF; }
-    .home_splash_bg .home_splash .mobile_nav {
-      background-color: transparent;
-      margin-bottom: 30px;
-      border-bottom: none; }
-    .home_splash_bg .home_splash .mobile_nav #menuToggle .hamburgerspan {
-      background: #FFF; }
-    .home_splash_bg .home_splash a svg {
-      fill: #FFF; }
-    .home_splash_bg .home_splash h1 {
-      position: relative;
-      top: 15%;
-      z-index: 1; }
-    .home_splash_bg .home_splash h2 {
-      font-size: 1.414em;
-      letter-spacing: 0.6em;
-      position: relative;
-      top: 15%;
-      z-index: 1; }
-    .home_splash_bg .home_splash .splashshapeleft {
-      fill: #FFF;
-      position: absolute;
-      left: 0;
-      bottom: -1px;
-      width: 26%;
-      height: 30%; }
-    .home_splash_bg .home_splash .splashshaperight {
-      fill: #FFF;
-      position: absolute;
-      right: 0;
-      bottom: -1px;
-      width: 76%;
-      height: 50%; }
+    top: 15%;
+    z-index: 1; }
+  .home_splash h2 {
+    font-size: 1.414em;
+    letter-spacing: 0.6em;
+    position: relative;
+    top: 15%;
+    z-index: 1; }
+  .home_splash .splashshapeleft {
+    fill: #FFF;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 26%;
+    height: 30%; }
+  .home_splash .splashshaperight {
+    fill: #FFF;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: 76%;
+    height: 50%; }
 
 /* Work */
 .work_list li {
@@ -849,18 +851,18 @@ a + svg:focus {
 
 /* Media Queries */
 @media (max-width: 1600px) {
-  .home_splash_bg .home_splash {
+  .home_splash {
     padding-bottom: 160px;
     min-height: 480px; }
-    .home_splash_bg .home_splash h1 {
+    .home_splash h1 {
       font-size: 2.827em; }
-    .home_splash_bg .home_splash h2 {
+    .home_splash h2 {
       font-size: 1.207em;
       letter-spacing: 0.4em; }
-    .home_splash_bg .home_splash .splashshapeleft {
+    .home_splash .splashshapeleft {
       width: 26%;
       height: 30%; }
-    .home_splash_bg .home_splash .splashshaperight {
+    .home_splash .splashshaperight {
       width: 76%;
       height: 50%; }
   main article, main summary, main .blog_list {
@@ -879,17 +881,17 @@ a + svg:focus {
     margin-left: 60px; } }
 
 @media (max-width: 640px) {
-  .home_splash_bg .home_splash {
+  .home_splash {
     padding-bottom: 120px;
     min-height: 480px; }
-    .home_splash_bg .home_splash h1 {
+    .home_splash h1 {
       font-size: 1.999em; }
-    .home_splash_bg .home_splash h2 {
+    .home_splash h2 {
       font-size: 1em;
       letter-spacing: 0.4em; }
-    .home_splash_bg .home_splash .splashshapeleft {
+    .home_splash .splashshapeleft {
       height: 20%; }
-    .home_splash_bg .home_splash .splashshaperight {
+    .home_splash .splashshaperight {
       height: 35%; }
   .desktop_nav {
     display: none; }
@@ -906,7 +908,11 @@ a + svg:focus {
     margin-bottom: 30px; } }
 
 @media (max-width: 480px) {
-  .home_splash_bg .home_splash {
+  .content_bg {
+    background-position: bottom; }
+  .home_splash_bg {
+    background-position: bottom; }
+  .home_splash {
     min-height: 320px; }
   header {
     max-height: 320px; }
@@ -916,10 +922,10 @@ a + svg:focus {
     min-height: 40px; } }
 
 @media (max-width: 320px) {
-  .home_splash_bg .home_splash h1 {
+  .home_splash h1 {
     font-size: 1.414em;
     top: 10%; }
-  .home_splash_bg .home_splash h2 {
+  .home_splash h2 {
     font-size: 0.707em;
     letter-spacing: 0.5em;
     top: 10%; } }
