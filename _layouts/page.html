@@ -1,9 +1,10 @@
 <html>
   {% include head.html %}
   <body>
-    <div id="content-bg" class="fade_in" style="background-image: url('{{page.image}}')"></div>
-    {% include nav.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div class="content_bg fade_in" style="background-image: url('{{page.image}}')">
+      {% include nav.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
   </body>
 </html>

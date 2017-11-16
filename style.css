@@ -414,14 +414,14 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0; }
-  body #content-bg {
+  body .content_bg {
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    z-index: -1; }
+    background-attachment: fixed;
+    z-index: -10; }
 
 nav {
   background: #FFF;
@@ -458,6 +458,7 @@ footer {
     display: block;
     padding: 40px; }
 
+/* CH Logo */
 a + svg {
   fill: #000;
   float: left;
@@ -474,57 +475,6 @@ a + svg:active {
 
 a + svg:focus {
   opacity: 1; }
-
-.home_splash {
-  display: block;
-  max-width: none;
-  min-height: 640px;
-  height: 50%;
-  position: relative;
-  text-align: center;
-  padding-bottom: 320px;
-  color: #FFF;
-  background: url("images/ny_bg.jpg") #0F1A50 no-repeat center fixed;
-  background-size: cover;
-  text-transform: uppercase; }
-  .home_splash .desktop_nav {
-    background-color: transparent;
-    border-bottom: none;
-    padding-bottom: 80px; }
-    .home_splash .desktop_nav a {
-      color: #FFF; }
-  .home_splash .mobile_nav {
-    background-color: transparent;
-    margin-bottom: 30px;
-    border-bottom: none; }
-  .home_splash .mobile_nav #menuToggle .hamburgerspan {
-    background: #FFF; }
-  .home_splash a svg {
-    fill: #FFF; }
-  .home_splash h1 {
-    position: relative;
-    top: 15%;
-    z-index: 1; }
-  .home_splash h2 {
-    font-size: 1.414em;
-    letter-spacing: 0.6em;
-    position: relative;
-    top: 15%;
-    z-index: 1; }
-  .home_splash .splashshapeleft {
-    fill: #FFF;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 26%;
-    height: 30%; }
-  .home_splash .splashshaperight {
-    fill: #FFF;
-    position: absolute;
-    right: 0;
-    bottom: -1px;
-    width: 76%;
-    height: 50%; }
 
 .desktop_nav {
   margin-bottom: 0;
@@ -658,7 +608,7 @@ a + svg:focus {
       opacity: 0.5; }
     .mobile_nav #menuToggle #hamburgerinput:focus ~ .hamburgerspan, .mobile_nav #menuToggle #hamburgerinput:checked:focus ~ .hamburgerspan {
       opacity: 1; }
-    .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3) {
+    .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3), .mobile_nav #menuToggle #hamburgerinput:checked:focus ~ .hamburgerspan:nth-last-child(3) {
       opacity: 0; }
     .mobile_nav #menuToggle .hamburgerbg {
       display: block;
@@ -709,23 +659,71 @@ a + svg:focus {
       .mobile_nav #menuToggle #menu li:hover {
         opacity: 0.5; }
 
-.introtext {
-  font-size: 1.207em;
-  line-height: 1.45em; }
-
 .center {
   margin: 0 auto;
   text-align: center;
   max-width: 768px;
   width: 80%; }
 
-.returnlink {
-  font-family: "Montserrat",sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 10px; }
-
-.post h3 {
-  margin-bottom: 10px; }
+/* Home Splash Page */
+.home_splash_bg {
+  width: 100%;
+  background: url("images/ny_bg.jpg");
+  background-color: #0F1A50;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -10; }
+  .home_splash_bg .home_splash {
+    display: block;
+    max-width: none;
+    min-height: 640px;
+    height: 50%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 320px;
+    color: #FFF;
+    background-size: cover;
+    text-transform: uppercase; }
+    .home_splash_bg .home_splash .desktop_nav {
+      background-color: transparent;
+      border-bottom: none;
+      padding-bottom: 80px; }
+      .home_splash_bg .home_splash .desktop_nav a {
+        color: #FFF; }
+    .home_splash_bg .home_splash .mobile_nav {
+      background-color: transparent;
+      margin-bottom: 30px;
+      border-bottom: none; }
+    .home_splash_bg .home_splash .mobile_nav #menuToggle .hamburgerspan {
+      background: #FFF; }
+    .home_splash_bg .home_splash a svg {
+      fill: #FFF; }
+    .home_splash_bg .home_splash h1 {
+      position: relative;
+      top: 15%;
+      z-index: 1; }
+    .home_splash_bg .home_splash h2 {
+      font-size: 1.414em;
+      letter-spacing: 0.6em;
+      position: relative;
+      top: 15%;
+      z-index: 1; }
+    .home_splash_bg .home_splash .splashshapeleft {
+      fill: #FFF;
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 26%;
+      height: 30%; }
+    .home_splash_bg .home_splash .splashshaperight {
+      fill: #FFF;
+      position: absolute;
+      right: 0;
+      bottom: -1px;
+      width: 76%;
+      height: 50%; }
 
 /* Work */
 .work_list li {
@@ -851,24 +849,24 @@ a + svg:focus {
 
 /* Media Queries */
 @media (max-width: 1600px) {
+  .home_splash_bg .home_splash {
+    padding-bottom: 160px;
+    min-height: 480px; }
+    .home_splash_bg .home_splash h1 {
+      font-size: 2.827em; }
+    .home_splash_bg .home_splash h2 {
+      font-size: 1.207em;
+      letter-spacing: 0.4em; }
+    .home_splash_bg .home_splash .splashshapeleft {
+      width: 26%;
+      height: 30%; }
+    .home_splash_bg .home_splash .splashshaperight {
+      width: 76%;
+      height: 50%; }
   main article, main summary, main .blog_list {
     padding: 60px 30px; }
   .desktop_nav ul a li {
     margin-left: 80px; }
-  .home_splash {
-    padding-bottom: 160px;
-    min-height: 480px; }
-    .home_splash h1 {
-      font-size: 2.827em; }
-    .home_splash h2 {
-      font-size: 1.207em;
-      letter-spacing: 0.4em; }
-    .home_splash .splashshapeleft {
-      width: 26%;
-      height: 30%; }
-    .home_splash .splashshaperight {
-      width: 76%;
-      height: 50%; }
   header {
     max-height: 480px; } }
 
@@ -881,22 +879,22 @@ a + svg:focus {
     margin-left: 60px; } }
 
 @media (max-width: 640px) {
+  .home_splash_bg .home_splash {
+    padding-bottom: 120px;
+    min-height: 480px; }
+    .home_splash_bg .home_splash h1 {
+      font-size: 1.999em; }
+    .home_splash_bg .home_splash h2 {
+      font-size: 1em;
+      letter-spacing: 0.4em; }
+    .home_splash_bg .home_splash .splashshapeleft {
+      height: 20%; }
+    .home_splash_bg .home_splash .splashshaperight {
+      height: 35%; }
   .desktop_nav {
     display: none; }
   .mobile_nav {
     display: block; }
-  .home_splash {
-    padding-bottom: 120px;
-    min-height: 480px; }
-    .home_splash h1 {
-      font-size: 1.999em; }
-    .home_splash h2 {
-      font-size: 1em;
-      letter-spacing: 0.4em; }
-    .home_splash .splashshapeleft {
-      height: 20%; }
-    .home_splash .splashshaperight {
-      height: 35%; }
   header {
     max-height: 480px; }
   .col-20.swatchcol {
@@ -908,7 +906,7 @@ a + svg:focus {
     margin-bottom: 30px; } }
 
 @media (max-width: 480px) {
-  .home_splash {
+  .home_splash_bg .home_splash {
     min-height: 320px; }
   header {
     max-height: 320px; }
@@ -918,10 +916,10 @@ a + svg:focus {
     min-height: 40px; } }
 
 @media (max-width: 320px) {
-  .home_splash h1 {
+  .home_splash_bg .home_splash h1 {
     font-size: 1.414em;
     top: 10%; }
-  .home_splash h2 {
+  .home_splash_bg .home_splash h2 {
     font-size: 0.707em;
     letter-spacing: 0.5em;
     top: 10%; } }

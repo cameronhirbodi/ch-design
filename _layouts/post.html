@@ -1,21 +1,21 @@
 <html>
   {% include head.html %}
   <body>
-    <div id="content-bg" class="fade_in" style="background-image: url('{{page.image}}'); background-color:#BDC3C7">
-    </div>
-    {% include nav.html %}
-    <header>
-    </header>
-    <main>
-      <article class="post">
-          <div class="entry">
-            <h3>{{page.title}}</h3>
-            <h5 class="blog_date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
+    <div class="content_bg fade_in" style="background-image: url('{{page.image}}'); background-color:#BDC3C7">
+        {% include nav.html %}
+        <header>
+        </header>
+        <main>
+          <article class="post">
+            <div class="entry">
+              <h3>{{page.title}}</h3>
+              <h5 class="blog_date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
               {{ content }}
               <p>Source: <a href="{{ page.source }}">Visit</a></p>
-          </div>
-      </article>
-    </main>
-    {% include footer.html %}
+            </div>
+          </article>
+        </main>
+        {% include footer.html %}
+    </div>
   </body>
 </html>
