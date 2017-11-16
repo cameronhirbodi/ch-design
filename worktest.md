@@ -4,7 +4,6 @@ title: Work Test
 category: Work
 permalink: /worktest/
 ---
-
 <main>
     <article>
         <p>Below you will find my most recent work:</p>
@@ -18,4 +17,5 @@ permalink: /worktest/
             {% endfor %}
         </ul>
     </article>
+    {% include footer.html %}
 </main>

@@ -439,7 +439,7 @@ header {
 
 main {
   width: 100%;
-  background-color: #FFF; }
+  background: #FFF; }
   main article, main summary {
     margin: 0 auto;
     padding: 80px 30px;
@@ -451,7 +451,6 @@ main {
 footer {
   width: 100%;
   margin: 0 auto;
-  background-color: #FFF;
   text-align: center;
   clear: both; }
   footer small {

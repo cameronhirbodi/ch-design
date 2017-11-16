@@ -1,8 +1,8 @@
 <html>
     {% include head.html %}
     <body>
-    <div class="home_splash_bg">
-    </div>
+        <div class="home_splash_bg">
+        </div>
         <header class="home_splash">
             {% include nav.html %}
             <h1>Cameron Hirbodi</h1>
@@ -14,7 +14,9 @@
                 <polygon points="0,100 100,0 100,100"/>
             </svg>
         </header>
-    {{ content }}
-    {% include footer.html %}
+        <main>
+            {{ content }}
+            {% include footer.html %}
+        </main>
     </body>
 </html>

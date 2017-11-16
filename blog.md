@@ -18,9 +18,10 @@ permalink: /blog/
                 </a>
                 <br>
                 <p>{{blog.meta}}</p>
-                <a href="{{site.baseurl}}{{blog.url}}">More</a>
+                <a href="{{site.baseurl}}{{blog.url}}">Read More</a>
                 <br>
             </li>
         {% endfor %}
     </ul>
+    {% include footer.html %}
 </main>

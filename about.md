@@ -5,7 +5,6 @@ category: About
 permalink: /about/
 image: /images/about_cam.jpg
 ---
-
 <header></header>
 <main>
     <article>
@@ -17,4 +16,5 @@ image: /images/about_cam.jpg
         I enjoy collaborating with others on improving user experience and enjoyment with products. My goals are to develop personal skill sets and extend my reach towards new areas of design and programming. Other passions of mine include motorsports, music, and technology.
         </p>
     </article>
+    {% include footer.html %}
 </main>
