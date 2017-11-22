@@ -44,7 +44,7 @@ header {
 main {
     width: 100%;
     background: $white;
-    article, summary {
+    article, section {
         margin: 0 auto;
         padding: $xxxlspacing $lgspacing;
         max-width: 768px;
@@ -505,7 +505,7 @@ a + svg:focus {
         }
     }
     main {
-        article, summary, .blog_list {
+        article, section, .blog_list {
             padding: $xxlspacing $lgspacing;
         }
     }
@@ -528,7 +528,7 @@ a + svg:focus {
         padding: $lgspacing $mdspacing;
     }
     main {
-        article, summary, .blog_list {
+        article, section, .blog_list {
             padding: $lgspacing $mdspacing;
         }
     }

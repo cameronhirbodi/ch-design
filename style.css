@@ -440,11 +440,11 @@ header {
 main {
   width: 100%;
   background: #FFF; }
-  main article, main summary {
+  main article, main section {
     margin: 0 auto;
     padding: 80px 30px;
     max-width: 768px; }
-    main article img, main summary img {
+    main article img, main section img {
       width: 100%;
       min-width: 100%; }
 
@@ -864,7 +864,7 @@ a + svg:focus {
     .home_splash .splashshaperight {
       width: 76%;
       height: 50%; }
-  main article, main summary, main .blog_list {
+  main article, main section, main .blog_list {
     padding: 60px 30px; }
   .desktop_nav ul a li {
     margin-left: 80px; }
@@ -874,7 +874,7 @@ a + svg:focus {
 @media (max-width: 768px) {
   nav, section, footer {
     padding: 30px 20px; }
-  main article, main summary, main .blog_list {
+  main article, main section, main .blog_list {
     padding: 30px 20px; }
   .desktop_nav ul a li {
     margin-left: 60px; } }
