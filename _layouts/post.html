@@ -4,12 +4,12 @@
     <div class="content_bg fade_in" style="background-image: url('{{page.image}}'); background-color:#BDC3C7">
     </div>      
         {% include nav.html %}
-        <header>
+        <header class="embed_title">
+            <h2 class="blog_title">{{page.title}}</h2>
         </header>
         <main>
           <article class="post">
             <div class="entry">
-              <h3>{{page.title}}</h3>
               <h5 class="blog_date">Posted on {{ page.date | date: "%B %e, %Y" }}</h5>
               {{ content }}
               <p>Source: <a href="{{ page.source }}">Visit</a></p>
