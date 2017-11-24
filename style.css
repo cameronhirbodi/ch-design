@@ -854,12 +854,14 @@ a + svg:focus {
 .header_title {
   color: #FFF;
   padding: 40px 40px 10px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   margin: 0; }
 
 .header_date, .header_subtitle {
   color: #D7DDE1;
   padding: 0 40px 40px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -993,7 +995,7 @@ a + svg:focus {
 @media (max-width: 480px) {
   .header_title {
     font-size: 1.999em;
-    padding: 30px 20px 0; }
+    padding: 30px 20px 10px; }
   .header_date, .header_subtitle {
     padding: 0 20px 20px;
     font-size: 1em; }
