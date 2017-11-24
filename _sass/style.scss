@@ -623,8 +623,12 @@ a + svg:focus {
         font-size: 1.999em;
         padding: $lgspacing $mdspacing 0;
     }
-    .header_date, .header_subtitle {
+    .header_date {
         padding: 0 $mdspacing $mdspacing;
+    }
+    .header_subtitle {
+        padding: 0 $mdspacing $mdspacing;
+        font-size: 1em;
     }
     .content_bg {
         background-position: bottom;
