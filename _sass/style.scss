@@ -410,6 +410,7 @@ a + svg:focus {
     bottom: 0;
     margin: 0;
     width: 100%;
+    padding: $xlspacing 0 0;
     background: $black; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(top, $black , transparent); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, $black, transparent); /* For Opera 11.1 to 12.0 */
@@ -635,9 +636,6 @@ a + svg:focus {
     }
     .home_splash {
         min-height: 320px;
-    }
-    header {
-        max-height: 320px;
     }
     .col-20.swatchcol {
         width: 100%;

@@ -836,6 +836,7 @@ a + svg:focus {
   bottom: 0;
   margin: 0;
   width: 100%;
+  padding: 40px 0 0;
   background: #000;
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(top, #000, transparent);
@@ -1002,8 +1003,6 @@ a + svg:focus {
     background-position: bottom; }
   .home_splash {
     min-height: 320px; }
-  header {
-    max-height: 320px; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
