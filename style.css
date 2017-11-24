@@ -836,7 +836,7 @@ a + svg:focus {
   bottom: 0;
   margin: 0;
   width: 100%;
-  padding: 40px 0 0;
+  padding: 60px 0 0;
   background: #000;
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(top, #000, transparent);
@@ -997,8 +997,8 @@ a + svg:focus {
     font-size: 1.999em;
     padding: 30px 20px 10px; }
   .header_date, .header_subtitle {
-    padding: 0 20px 20px;
-    font-size: 1em; }
+    font-size: 1em;
+    padding: 0 20px 30px; }
   .content_bg {
     background-position: bottom; }
   .home_splash_bg {
