@@ -992,7 +992,7 @@ a + svg:focus {
 @media (max-width: 480px) {
   .header_title {
     font-size: 1.999em;
-    padding: 30px 20px 10px; }
+    padding: 30px 20px 0; }
   .header_date, .header_subtitle {
     padding: 0 20px 20px; }
   .content_bg {
