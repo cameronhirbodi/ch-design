@@ -993,9 +993,7 @@ a + svg:focus {
   .header_title {
     font-size: 1.999em;
     padding: 30px 20px 0; }
-  .header_date {
-    padding: 0 20px 20px; }
-  .header_subtitle {
+  .header_date, .header_subtitle {
     padding: 0 20px 20px;
     font-size: 1em; }
   .content_bg {
