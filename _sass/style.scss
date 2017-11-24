@@ -392,15 +392,22 @@ a + svg:focus {
     }
 }
 
+
+.blog_thumb {
+    display: block;
+    img {
+        background-color: $grey;
+    }
+}
+
 .embed_title {
     position: relative;
 }
 
-.blog_title {
-    color: $white;
+.header_content {
+    display: block;
     position: absolute;
     bottom: 0;
-    padding: $lgspacing;
     margin: 0;
     width: 100%;
     background: $black; /* For browsers that do not support gradients */
@@ -410,22 +417,29 @@ a + svg:focus {
     background: linear-gradient(to top, $black , transparent); /* Standard syntax */
 }
 
-.blog_thumb {
-    display: block;
-    img {
-        background-color: $grey;
-    }
+.header_title {
+    color: $white;
+    padding: $xlspacing $xlspacing $smspacing;
+    font-weight: 300;
+    margin: 0;
+}
+
+.header_date, .header_subtitle {
+    color: $grey;
+    padding: 0 $xlspacing $xlspacing;
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
 }
 
 .blog_date {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: none;
-    display: block;
-    margin-bottom: $mdspacing;
     color: $greydark;
     font-weight: 400;
+    margin-bottom: $mdspacing;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
 }
-
 
 /* Style Guide */
 
@@ -605,9 +619,12 @@ a + svg:focus {
 }
 
 @media (max-width: 480px) {
-    .blog_title {
+    .header_title {
         font-size: 1.999em;
-        padding: $lgspacing $mdspacing;
+        padding: $lgspacing $mdspacing $smspacing;
+    }
+    .header_date, .header_subtitle {
+        padding: 0 $mdspacing $mdspacing;
     }
     .content_bg {
         background-position: bottom;
