@@ -5,7 +5,7 @@ meta: The long awaited Gran Turismo Sport has been released today for the Playst
 category: blog
 permalink: blog/gran_turismo_sport_released
 image: /images/blog/gts_rel.jpg
-thumb: /images/blog/gts_rel_thumb.jpg
+image_sm: /images/blog/gts_rel_thumb.jpg
 source: http://www.gran-turismo.com/us/products/gtsport/
 ---
 

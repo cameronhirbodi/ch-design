@@ -832,9 +832,9 @@ a + svg:focus {
     transform-origin: 0;
     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
-.blog_thumb {
+.blog_image_sm {
   display: block; }
-  .blog_thumb img {
+  .blog_image_sm img {
     background-color: #BDC3C7; }
 
 .embed_title {
@@ -846,7 +846,7 @@ a + svg:focus {
   bottom: 0;
   margin: 0;
   width: 100%;
-  padding: 60px 0 0;
+  padding: 40px 0 0;
   background: #0c0f89;
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(top, #0c0f89, transparent);

@@ -13,8 +13,8 @@ permalink: /blog/
                     <h4>{{blog.title}}</h4>
                 </a>
                 <h5 class="blog_date">Posted on {{ blog.date | date: "%B %e, %Y" }}</h5>
-                <a class="blog_thumb" href="{{site.baseurl}}{{blog.url}}">
-                    <img src="{{blog.thumb}}" class="fade_in">
+                <a class="blog_image_sm" href="{{site.baseurl}}{{blog.url}}">
+                    <img src="{{blog.image_sm}}" class="fade_in">
                 </a>
                 <br>
                 <p>{{blog.meta}}</p>

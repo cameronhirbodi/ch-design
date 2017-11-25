@@ -395,7 +395,7 @@ a + svg:focus {
 }
 
 
-.blog_thumb {
+.blog_image_sm {
     display: block;
     img {
         background-color: $grey;
@@ -412,7 +412,7 @@ a + svg:focus {
     bottom: 0;
     margin: 0;
     width: 100%;
-    padding: $xxlspacing 0 0;
+    padding: $xlspacing 0 0;
     background: $violet; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(top, $violet, transparent); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, $violet, transparent); /* For Opera 11.1 to 12.0 */

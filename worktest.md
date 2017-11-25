@@ -10,8 +10,8 @@ permalink: /worktest/
         <!-- <h5>Filter</h5> -->
         <ul class="work_list">
             {% for work in site.categories.work %}
-                <li class="fade_in" style="background-image: url('{{work.thumb}}')">
-                    <a class="work_thumb" href="{{site.baseurl}}{{work.url}}">
+                <li class="fade_in" style="background-image: url('{{work.image_sm}}')">
+                    <a class="work_image_sm" href="{{site.baseurl}}{{work.url}}">
                     </a>
                 </li>
             {% endfor %}
