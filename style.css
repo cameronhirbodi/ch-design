@@ -847,18 +847,18 @@ a + svg:focus {
   margin: 0;
   width: 100%;
   padding: 60px 0 0;
-  background: #000;
+  background: #0c0f89;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(top, #000, transparent);
+  background: -webkit-linear-gradient(top, #0c0f89, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top, #000, transparent);
+  background: -o-linear-gradient(top, #0c0f89, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(top, #000, transparent);
+  background: -moz-linear-gradient(top, #0c0f89, transparent);
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
-  background: -webkit-linear-gradient(bottom, #000, transparent);
-  background: -o-linear-gradient(bottom, #000, transparent);
-  background: linear-gradient(to top, #000, transparent);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0c0f89), to(transparent));
+  background: -webkit-linear-gradient(bottom, #0c0f89, transparent);
+  background: -o-linear-gradient(bottom, #0c0f89, transparent);
+  background: linear-gradient(to top, #0c0f89, transparent);
   /* Standard syntax */ }
 
 .header_title {
