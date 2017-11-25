@@ -855,7 +855,7 @@ a + svg:focus {
 
 .header_title {
   color: #FFF;
-  padding: 40px 40px 10px;
+  padding: 40px 40px 0;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   margin: 0; }
@@ -940,7 +940,8 @@ a + svg:focus {
 @media (max-width: 1600px) {
   .home_splash {
     padding-bottom: 160px;
-    min-height: 480px; }
+    min-height: 480px;
+    max-height: 480px; }
     .home_splash h1 {
       font-size: 2.827em; }
     .home_splash h2 {
@@ -972,7 +973,8 @@ a + svg:focus {
     max-height: 480px; }
   .home_splash {
     padding-bottom: 120px;
-    min-height: 480px; }
+    min-height: 320px;
+    max-height: 320px; }
     .home_splash h1 {
       font-size: 1.999em; }
     .home_splash h2 {
@@ -1009,14 +1011,12 @@ a + svg:focus {
     background-position: bottom; }
   .home_splash_bg {
     background-position: bottom; }
-  .home_splash {
-    min-height: 320px; }
   .col-20.swatchcol {
     width: 100%; }
   .swatch {
     min-height: 40px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .home_splash h1 {
     font-size: 1.414em;
     top: 10%; }

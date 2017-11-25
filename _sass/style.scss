@@ -422,7 +422,7 @@ a + svg:focus {
 
 .header_title {
     color: $white;
-    padding: $xlspacing $xlspacing $smspacing;
+    padding: $xlspacing $xlspacing 0;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
     font-weight: 300;
     margin: 0;
@@ -525,6 +525,7 @@ a + svg:focus {
     .home_splash {
         padding-bottom: $xxxxxlspacing;
         min-height: 480px;
+        max-height: 480px;
         h1 {
             font-size: 2.827em;
         }
@@ -588,7 +589,8 @@ a + svg:focus {
     }
     .home_splash {
         padding-bottom: $xxxxlspacing;
-        min-height: 480px;
+        min-height: 320px;
+        max-height: 320px;
         h1 {
             font-size: 1.999em;
         }
@@ -648,9 +650,6 @@ a + svg:focus {
     .home_splash_bg {
         background-position: bottom;
     }
-    .home_splash {
-        min-height: 320px;
-    }
     .col-20.swatchcol {
         width: 100%;
     }
@@ -659,7 +658,7 @@ a + svg:focus {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .home_splash {
         h1 {
             font-size: 1.414em;
