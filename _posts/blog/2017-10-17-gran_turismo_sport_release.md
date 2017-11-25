@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gran Turismo Sport Released
-meta: Gran Turismo Sport has been released today for the Playstation 4 console.
+meta: The long awaited Gran Turismo Sport has been released today for the Playstation 4 after several set backs. Fortunately, it was worth the wait and car enthusiasts will love what it offers.
 category: blog
 permalink: blog/gran_turismo_sport_released
 image: /images/blog/gts_rel.jpg
