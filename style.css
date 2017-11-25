@@ -134,6 +134,10 @@
   background: #0F1A50;
   color: #FFF; }
 
+.violet {
+  background: #0c0f89;
+  color: #FFF; }
+
 .white {
   background: #FFF; }
 
@@ -176,6 +180,10 @@
 
 .navy {
   background: #0F1A50;
+  color: #FFF; }
+
+.violet {
+  background: #0c0f89;
   color: #FFF; }
 
 /* Floating Labels  */
@@ -680,7 +688,7 @@ a + svg:focus {
       height: 100%;
       text-align: center;
       padding: 60px 0;
-      background-color: #0F1A50;
+      background-color: #0c0f89;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
       -webkit-transform-origin: 0;
@@ -717,8 +725,8 @@ a + svg:focus {
   width: 100%;
   height: 100%;
   max-height: 740px;
-  background: url("images/splash_bg.jpg");
-  background-color: #0F1A50;
+  background-image: url("images/splash_bg.jpg");
+  background-color: #0c0f89;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -855,7 +863,7 @@ a + svg:focus {
 
 .header_title {
   color: #FFF;
-  padding: 40px 40px 0;
+  padding: 40px 40px 10px;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   margin: 0; }
@@ -963,6 +971,9 @@ a + svg:focus {
     padding: 30px 20px; }
   main article, main section, main .blog_list {
     padding: 30px 20px; }
+  .home_splash_bg {
+    max-height: 420px;
+    background-image: url("images/splash_bg_sm.jpg"); }
   .home_splash {
     padding-bottom: 120px;
     min-height: 320px;
@@ -1008,8 +1019,6 @@ a + svg:focus {
     font-size: 1em;
     padding: 0 20px 30px; }
   .content_bg {
-    background-position: bottom; }
-  .home_splash_bg {
     background-position: bottom; }
   .col-20.swatchcol {
     width: 100%; }
