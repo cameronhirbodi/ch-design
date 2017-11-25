@@ -963,14 +963,6 @@ a + svg:focus {
     padding: 30px 20px; }
   main article, main section, main .blog_list {
     padding: 30px 20px; }
-  .desktop_nav ul a li {
-    margin-left: 60px; } }
-
-@media (max-width: 640px) {
-  body .content_bg {
-    max-height: 580px; }
-  header {
-    max-height: 480px; }
   .home_splash {
     padding-bottom: 120px;
     min-height: 320px;
@@ -984,6 +976,14 @@ a + svg:focus {
       height: 20%; }
     .home_splash .splashshaperight {
       height: 35%; }
+  .desktop_nav ul a li {
+    margin-left: 60px; } }
+
+@media (max-width: 640px) {
+  body .content_bg {
+    max-height: 580px; }
+  header {
+    max-height: 480px; }
   .desktop_nav {
     display: none; }
   .mobile_nav {
