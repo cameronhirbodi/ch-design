@@ -5,7 +5,7 @@ meta: This is a really nice clay model. I am writing about it to fill some space
 category: blog
 permalink: blog/sample3
 image: /images/blog/auto_clay_model.jpg
-image_sm: /images/blog/auto_clay_model_thumb.jpg
+image_sm: /images/blog/auto_clay_model_sm.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper, elit at sodales facilisis, lectus mauris tempor orci, et convallis ligula libero tincidunt lectus. 
