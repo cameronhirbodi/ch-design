@@ -6,9 +6,9 @@ permalink: /work/
 ---
 <main>
     <article>
-        <h3 class="center">Coming Soon</h3>
+        <h3 class="blurb">Coming Soon</h3>
         <br>
-        <p class="center">Please check back soon to view my work.</p>
+        <p class="blurb">Please check back soon to view my work.</p>
     </article>
     {% include footer.html %}
 </main>

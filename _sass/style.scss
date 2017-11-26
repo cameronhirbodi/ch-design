@@ -255,7 +255,7 @@ a + svg:focus {
     }
 }
 
-.center {
+.blurb {
     margin: 0 auto;
     text-align: center;
     max-width: 768px;
@@ -567,6 +567,9 @@ a + svg:focus {
             padding: $lgspacing $mdspacing;
         }
     }
+    .blurb {
+        text-align: left;
+    }
     .home_splash_bg {
         max-height: 420px;
         background-image: url("images/splash_bg_sm.jpg");
@@ -639,6 +642,9 @@ a + svg:focus {
     }
     header {
         max-height: 320px;
+    }
+    .blurb {
+        width: 100%;
     }
     .header_title {
         font-size: 1.999em;
