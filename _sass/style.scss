@@ -592,6 +592,9 @@ a + svg:focus {
             height: 35%;
         }
     }
+    h3.scale_text {
+        font-size: 1.414em;
+    }
     .desktop_nav {
         ul {
             a {
@@ -644,7 +647,7 @@ a + svg:focus {
         max-height: 320px;
     }
     .blurb {
-        width: 100%;
+        width: 90%;
     }
     .header_title {
         font-size: 1.999em;
