@@ -336,6 +336,9 @@ a + svg:focus {
         height: 50%;
     }
 }
+h3.scale_text {
+    margin: 0 0 $lgspacing;
+}
 
 /* Work */
 
@@ -594,6 +597,7 @@ a + svg:focus {
     }
     h3.scale_text {
         font-size: 1.414em;
+        margin: $smspacing 0 $mdspacing;
     }
     .desktop_nav {
         ul {

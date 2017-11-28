@@ -794,6 +794,9 @@ a + svg:focus {
     width: 76%;
     height: 50%; }
 
+h3.scale_text {
+  margin: 0 0 30px; }
+
 /* Work */
 .work_list li {
   position: relative;
@@ -1001,7 +1004,8 @@ a + svg:focus {
     .home_splash .splashshaperight {
       height: 35%; }
   h3.scale_text {
-    font-size: 1.414em; }
+    font-size: 1.414em;
+    margin: 10px 0 20px; }
   .desktop_nav ul a li {
     margin-left: 60px; } }
 
