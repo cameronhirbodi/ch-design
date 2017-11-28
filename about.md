@@ -4,6 +4,7 @@ title: About
 category: About
 permalink: /about/
 image: /images/about_cam.jpg
+image_sm: /images/about_cam_sm.jpg
 ---
 <header class="embed_title">
     <div class="header_content">
