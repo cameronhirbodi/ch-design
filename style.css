@@ -784,15 +784,15 @@ a + svg:focus {
     position: absolute;
     left: 0;
     bottom: -1px;
-    width: 26%;
-    height: 30%; }
+    width: 51%;
+    height: 40%; }
   .home_splash .splashshaperight {
     fill: #FFF;
     position: absolute;
     right: 0;
     bottom: -1px;
-    width: 76%;
-    height: 50%; }
+    width: 51%;
+    height: 40%; }
 
 h3.scale_text {
   margin: 0 0 30px; }
@@ -969,12 +969,6 @@ h3.scale_text {
     .home_splash h2 {
       font-size: 1.207em;
       letter-spacing: 0.4em; }
-    .home_splash .splashshapeleft {
-      width: 26%;
-      height: 30%; }
-    .home_splash .splashshaperight {
-      width: 76%;
-      height: 50%; }
   main article, main section, main .blog_list {
     padding: 60px 30px; }
   .desktop_nav ul a li {
@@ -1000,8 +994,10 @@ h3.scale_text {
       font-size: 1em;
       letter-spacing: 0.4em; }
     .home_splash .splashshapeleft {
+      width: 26%;
       height: 20%; }
     .home_splash .splashshaperight {
+      width: 76%;
       height: 35%; }
   h3.scale_text {
     font-size: 1.414em;
