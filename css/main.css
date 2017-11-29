@@ -869,17 +869,17 @@ h3.scale_text {
 
 .header_title {
   color: #FFF;
+  margin: 0;
   padding: 40px 40px 10px;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
-  font-weight: 300;
-  margin: 0; }
+  font-weight: 300; }
 
 .header_date, .header_subtitle {
   color: #D7DDE1;
+  margin: 0;
   padding: 0 40px 40px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-weight: 300;
-  margin: 0;
   font-family: 'Open Sans', sans-serif;
   text-transform: none; }
 

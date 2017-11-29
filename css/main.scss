@@ -419,18 +419,18 @@ h3.scale_text {
 
 .header_title {
     color: $white;
+    margin: 0;
     padding: $xlspacing $xlspacing $smspacing;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
     font-weight: 300;
-    margin: 0;
 }
 
 .header_date, .header_subtitle {
     color: $greylight;
+    margin: 0;
     padding: 0 $xlspacing $xlspacing;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     font-weight: 300;
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
 }
