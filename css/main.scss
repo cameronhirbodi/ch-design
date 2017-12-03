@@ -16,10 +16,22 @@ body {
     min-width: 320px;
     margin: 0;
     padding: 0;
-    .content_bg {
+    .desk_bg {
+        display: block;
         width: 100%;
         height: 100%;
         max-height: 868px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        z-index: -10;
+    }
+    .mob_bg {
+        display: none;
+        width: 100%;
+        height: 100%;
+        max-height: 480px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -410,11 +422,11 @@ h3.scale_text {
     margin: 0;
     width: 100%;
     padding: $xlspacing 0 0;
-    background: $violet; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(top, $violet, transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, $violet, transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, $violet, transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top, $violet, transparent); /* Standard syntax */
+    background: $black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, $black, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, $black, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, $black, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, $black, transparent); /* Standard syntax */
 }
 
 .header_title {
@@ -441,6 +453,10 @@ h3.scale_text {
     margin-bottom: $mdspacing;
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
+}
+
+.about_bg {
+    background-image: url"{{blog.image_sm}}";
 }
 
 /* Style Guide */
@@ -547,14 +563,39 @@ h3.scale_text {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    body {
+        .desk_bg {
+            display: none;
+        }
+        .mob_bg {
+            display: block;
+            max-height: 480px;
+        }
+    }
+    header {
+        max-height: 420px;
+    }
     nav, section, footer {
         padding: $lgspacing $mdspacing;
     }
     main {
         article, section, .blog_list {
-            padding: $lgspacing $mdspacing;
+            padding: $lgspacing $lgspacing;
         }
+    }
+    .desktop_nav {
+        display: none;
+        ul {
+            a {
+                li {
+                    margin-left: $xxlspacing;
+                }
+            }
+        }
+    }
+    .mobile_nav {
+        display: block;
     }
     .blurb {
         text-align: left;
@@ -583,35 +624,15 @@ h3.scale_text {
             height: 35%;
         }
     }
+    .header_title {
+        padding: $lgspacing $lgspacing $smspacing;
+    }
+    .header_date, .header_subtitle {
+        padding: 0 $lgspacing $lgspacing;
+    }
     h3.scale_text {
         font-size: 1.414em;
         margin: $smspacing 0 $mdspacing;
-    }
-    .desktop_nav {
-        ul {
-            a {
-                li {
-                    margin-left: $xxlspacing;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 640px) {
-    body {
-        .content_bg {
-            max-height: 580px;
-        }
-    }
-    header {
-        max-height: 480px;
-    }
-    .desktop_nav {
-        display: none;
-    }
-    .mobile_nav {
-        display: block;
     }
     .col-20.swatchcol {
         width: 33.33%;
@@ -629,10 +650,18 @@ h3.scale_text {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     body {
-        .content_bg {
+        .desk_bg {
             max-height: 420px;
+        }
+    }
+    nav, section, footer {
+        padding: $lgspacing $mdspacing;
+    }
+    main {
+        article, section, .blog_list {
+            padding: $lgspacing $mdspacing;
         }
     }
     header {
@@ -649,7 +678,7 @@ h3.scale_text {
         font-size: 1em;
         padding: 0 $mdspacing $lgspacing;
     }
-    .content_bg {
+    .desk_bg {
         background-position: bottom;
     }
     .col-20.swatchcol {
@@ -660,7 +689,7 @@ h3.scale_text {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
     .home_splash {
         h1 {
             font-size: 1.414em;
