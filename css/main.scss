@@ -121,13 +121,15 @@ a + svg:focus {
         float: right;
         position: relative;
         top: -12px;
-        a {
-            color: $black;
-            font-family: 'Montserrat', sans-serif;
-            li {
-                display: inline;
-                list-style-type: none;
-                margin-left: $xxxxlspacing;
+        li {
+            display: inline;
+            list-style-type: none;
+            margin-left: $xxxxlspacing;
+            span {
+                a {
+                    color: $black;
+                    font-family: 'Montserrat', sans-serif;
+                }
             }
         }
     }
@@ -255,15 +257,24 @@ a + svg:focus {
             transform: translate(100%, 0);
             transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
             li {
-                text-transform: uppercase;
-                color: $white;
-                padding: $mdspacing;
-                font-family: 'Montserrat', sans-serif;
-                transform-origin: 0;
-                transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
+                padding: $mdspacing 0;
+                span {
+                    a {
+                        display: inline;
+                        text-transform: uppercase;
+                        color: $white;
+                        font-family: 'Montserrat', sans-serif;
+                        transform-origin: 0;
+                        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
+                    }
+                }
             }
-            li:hover {
-                opacity: 0.5;
+            li {
+                span:hover {
+                    a {
+                        opacity: 0.5;
+                    }
+                }
             }
         }
     }
@@ -274,6 +285,10 @@ a + svg:focus {
     text-align: center;
     max-width: 768px;
     width: 80%;
+}
+
+.active {
+    border-bottom: 1px solid $magentalight;
 }
 
 /* Home Splash Page */
@@ -321,8 +336,14 @@ a + svg:focus {
         background-color: transparent;
         border-bottom: none;
         padding-bottom: $xxxlspacing;
-        a {
-            color: $white;
+        ul {
+            li {
+                span {
+                    a {
+                        color: $white;
+                    }
+                }
+            }
         }
     }
     .mobile_nav {
@@ -569,10 +590,8 @@ h3.scale_text {
     }
     .desktop_nav {
         ul {
-            a {
-                li {
-                    margin-left: $xxxlspacing;
-                }
+            li {
+                margin-left: $xxxlspacing;
             }
         }
     }
