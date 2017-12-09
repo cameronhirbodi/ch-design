@@ -653,7 +653,9 @@ a + svg:focus {
   margin-left: 120px;
 }
 
-.desktop_nav ul li span a {
+.desktop_nav ul li a {
+  position: relative;
+  padding-bottom: 5px;
   color: #000;
   font-family: 'Montserrat', sans-serif;
 }
@@ -825,14 +827,13 @@ a + svg:focus {
   transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  overflow-y: auto;
 }
 
-.mobile_nav #menuToggle #menu li {
-  padding: 20px 0;
-}
-
-.mobile_nav #menuToggle #menu li span a {
-  display: inline;
+.mobile_nav #menuToggle #menu li a {
+  display: block;
+  padding: 30px 0;
+  margin: 10px 0;
   text-transform: uppercase;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
@@ -841,8 +842,27 @@ a + svg:focus {
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
+.mobile_nav #menuToggle #menu li a span {
+  position: relative;
+  padding-bottom: 5px;
+}
+
 .mobile_nav #menuToggle #menu li span:hover a {
   opacity: 0.5;
+}
+
+.mobile_nav #menuToggle #menu::-webkit-scrollbar {
+  display: none;
+}
+
+.active span::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border-bottom: 2px solid #fc7095;
+  content: "";
 }
 
 .blurb {
@@ -850,10 +870,6 @@ a + svg:focus {
   text-align: center;
   max-width: 768px;
   width: 80%;
-}
-
-.active {
-  border-bottom: 1px solid #fc7095;
 }
 
 /* Home Splash Page */
@@ -904,7 +920,7 @@ a + svg:focus {
   padding-bottom: 80px;
 }
 
-.splash_content .desktop_nav ul li span a {
+.splash_content .desktop_nav ul li a {
   color: #FFF;
 }
 
