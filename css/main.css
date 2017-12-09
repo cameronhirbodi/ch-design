@@ -877,7 +877,7 @@ a + svg:focus {
   display: block;
   width: 100%;
   height: 100%;
-  max-height: 740px;
+  max-height: 768px;
   background-image: url("../images/splash_bg.jpg");
   background-color: #0c0f89;
   background-position: center;
@@ -904,11 +904,11 @@ a + svg:focus {
 .splash_content {
   display: block;
   max-width: none;
-  min-height: 640px;
-  height: 50%;
+  padding-bottom: 160px;
+  height: 65%;
+  max-height: 768px;
   position: relative;
   text-align: center;
-  padding-bottom: 320px;
   color: #FFF;
   background-size: cover;
   text-transform: uppercase;
@@ -940,7 +940,7 @@ a + svg:focus {
 
 .splash_content h1 {
   position: relative;
-  top: 15%;
+  top: 25%;
   z-index: 1;
 }
 
@@ -948,7 +948,7 @@ a + svg:focus {
   font-size: 1.414em;
   letter-spacing: 0.6em;
   position: relative;
-  top: 15%;
+  top: 25%;
   z-index: 1;
 }
 
@@ -959,6 +959,7 @@ a + svg:focus {
   bottom: -1px;
   width: 51%;
   height: 40%;
+  max-height: 200px;
 }
 
 .splash_content .splashshaperight {
@@ -968,6 +969,7 @@ a + svg:focus {
   bottom: -1px;
   width: 51%;
   height: 40%;
+  max-height: 200px;
 }
 
 h3.scale_text {
@@ -1158,11 +1160,6 @@ h3.scale_text {
 
 /* Media Queries */
 @media (max-width: 1600px) {
-  .splash_content {
-    padding-bottom: 160px;
-    min-height: 480px;
-    max-height: 480px;
-  }
   .splash_content h1 {
     font-size: 2.827em;
   }
@@ -1214,14 +1211,15 @@ h3.scale_text {
     display: block;
   }
   .splash_content {
-    padding-bottom: 120px;
-    min-height: 320px;
-    max-height: 320px;
+    height: 100%;
+    max-height: 420px;
   }
   .splash_content h1 {
+    top: 15%;
     font-size: 1.999em;
   }
   .splash_content h2 {
+    top: 15%;
     font-size: 1em;
     letter-spacing: 0.4em;
   }
@@ -1265,9 +1263,6 @@ h3.scale_text {
   main article, main section, main .blog_list {
     padding: 30px 20px;
   }
-  header {
-    max-height: 320px;
-  }
   .blurb {
     width: 90%;
   }
@@ -1287,17 +1282,5 @@ h3.scale_text {
   }
   .swatch {
     min-height: 40px;
-  }
-}
-
-@media (max-width: 359px) {
-  .splash_content h1 {
-    font-size: 1.414em;
-    top: 10%;
-  }
-  .splash_content h2 {
-    font-size: 0.707em;
-    letter-spacing: 0.5em;
-    top: 10%;
   }
 }

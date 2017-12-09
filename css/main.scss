@@ -310,7 +310,7 @@ a + svg:focus {
     display: block;
     width: 100%;
     height: 100%;
-    max-height: 740px;
+    max-height: 768px;
     background-image: url("../images/splash_bg.jpg");
     background-color: $violet;
     background-position: center;
@@ -337,11 +337,11 @@ a + svg:focus {
 .splash_content {
     display: block;
     max-width: none;
-    min-height: 640px;
-    height: 50%;
+    padding-bottom: $xxxxxlspacing;
+    height: 65%;
+    max-height: 768px;
     position: relative;
     text-align: center;
-    padding-bottom: 320px;
     color: $white;
     background-size: cover;
     text-transform: uppercase;
@@ -370,14 +370,14 @@ a + svg:focus {
     }
     h1 {
         position: relative;
-        top: 15%;
+        top: 25%;
         z-index: 1;
     }
     h2 {
         font-size: 1.414em;
         letter-spacing: 0.6em;
         position: relative;
-        top: 15%;
+        top: 25%;
         z-index: 1;
     }
     .splashshapeleft {
@@ -387,6 +387,7 @@ a + svg:focus {
         bottom: -1px;
         width: 51%;
         height: 40%;
+        max-height: 200px;
     }
     .splashshaperight {
         fill: $white;
@@ -395,6 +396,7 @@ a + svg:focus {
         bottom: -1px;
         width: 51%;
         height: 40%;
+        max-height: 200px;
     }
 }
 h3.scale_text {
@@ -583,9 +585,6 @@ h3.scale_text {
 
 @media (max-width: 1600px) {
     .splash_content {
-        padding-bottom: $xxxxxlspacing;
-        min-height: 480px;
-        max-height: 480px;
         h1 {
             font-size: 2.827em;
         }
@@ -652,13 +651,14 @@ h3.scale_text {
         display: block;
     }
     .splash_content {
-        padding-bottom: $xxxxlspacing;
-        min-height: 320px;
-        max-height: 320px;
+        height: 100%;
+        max-height: 420px;
         h1 {
+            top: 15%;
             font-size: 1.999em;
         }
         h2 {
+            top: 15%;
             font-size: 1em;
             letter-spacing: 0.4em;
         }
@@ -711,9 +711,6 @@ h3.scale_text {
             padding: $lgspacing $mdspacing;
         }
     }
-    header {
-        max-height: 320px;
-    }
     .blurb {
         width: 90%;
     }
@@ -733,19 +730,5 @@ h3.scale_text {
     }
     .swatch {
         min-height: 40px;
-    }
-}
-
-@media (max-width: 359px) {
-    .splash_content {
-        h1 {
-            font-size: 1.414em;
-            top: 10%;
-        }
-        h2 {
-            font-size: 0.707em;
-            letter-spacing: 0.5em;
-            top: 10%;
-        }
     }
 }
