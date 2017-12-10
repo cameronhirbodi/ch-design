@@ -7,9 +7,11 @@ image: /images/about_cam.jpg
 image_sm: /images/about_cam_sm.jpg
 ---
 <header class="embed_title">
-    <div class="header_content">
-        <h2 class="header_title">Cameron Hirbodi</h2>
-        <h4 class="header_subtitle">Visual Designer</h4>
+    <div class="header_content_wrapper">
+        <div class="header_content">
+            <h2 class="header_title">Cameron Hirbodi</h2>
+            <h4 class="header_subtitle">Visual Designer</h4>
+        </div>
     </div>
 </header>
 <main>

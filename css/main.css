@@ -442,7 +442,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  line-height: 1.45em;
+  line-height: 1.7em;
 }
 
 p {
@@ -603,7 +603,7 @@ footer small {
 
 /* CH Logo */
 a + svg {
-  fill: #000;
+  fill: #0c0f89;
   float: left;
   -webkit-transform-origin: 0;
           transform-origin: 0;
@@ -1039,13 +1039,13 @@ h3.scale_text {
   position: relative;
 }
 
-.header_content {
+.header_content_wrapper {
   display: block;
   position: absolute;
   bottom: 0;
   margin: 0;
   width: 100%;
-  padding: 40px 0 0;
+  padding: 40px;
   background: #000;
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
@@ -1056,10 +1056,15 @@ h3.scale_text {
   /* Standard syntax */
 }
 
+.header_content {
+  padding-left: 10px;
+  border-left: 2px solid #fc3468;
+}
+
 .header_title {
   color: #FFF;
   margin: 0;
-  padding: 40px 40px 10px;
+  padding: 0;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   font-weight: 300;
 }
@@ -1067,7 +1072,7 @@ h3.scale_text {
 .header_date, .header_subtitle {
   color: #D7DDE1;
   margin: 0;
-  padding: 0 40px 40px;
+  padding: 10px 0;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
@@ -1181,10 +1186,10 @@ h3.scale_text {
   }
   body .mob_bg {
     display: block;
-    max-height: 480px;
+    max-height: 420px;
   }
   header {
-    max-height: 420px;
+    max-height: 360px;
   }
   nav, section, footer {
     padding: 30px 20px;
@@ -1203,6 +1208,9 @@ h3.scale_text {
   }
   .blurb {
     text-align: left;
+  }
+  .header_content_wrapper {
+    padding: 20px;
   }
   .desk_splash_bg {
     display: none;
@@ -1230,12 +1238,6 @@ h3.scale_text {
   .splash_content .splashshaperight {
     width: 76%;
     height: 35%;
-  }
-  .header_title {
-    padding: 30px 30px 10px;
-  }
-  .header_date, .header_subtitle {
-    padding: 0 30px 30px;
   }
   h3.scale_text {
     font-size: 1.414em;
@@ -1266,13 +1268,14 @@ h3.scale_text {
   .blurb {
     width: 90%;
   }
+  .header_content_wrapper {
+    padding: 20px;
+  }
   .header_title {
     font-size: 1.999em;
-    padding: 30px 20px 10px;
   }
   .header_date, .header_subtitle {
     font-size: 1em;
-    padding: 0 20px 30px;
   }
   .desk_bg {
     background-position: bottom;

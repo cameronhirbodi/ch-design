@@ -84,7 +84,7 @@ footer {
 /* CH Logo */
 
 a + svg {
-    fill: $black;
+    fill: $violet;
     float: left;
     transform-origin: 0;
     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -464,13 +464,13 @@ h3.scale_text {
     position: relative;
 }
 
-.header_content {
+.header_content_wrapper {
     display: block;
     position: absolute;
     bottom: 0;
     margin: 0;
     width: 100%;
-    padding: $xlspacing 0 0;
+    padding: $xlspacing;
     background: $black; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(top, $black, transparent); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, $black, transparent); /* For Opera 11.1 to 12.0 */
@@ -478,10 +478,15 @@ h3.scale_text {
     background: linear-gradient(to top, $black, transparent); /* Standard syntax */
 }
 
+.header_content {
+    padding-left: $smspacing;
+    border-left: 2px solid $magenta;
+}
+
 .header_title {
     color: $white;
     margin: 0;
-    padding: $xlspacing $xlspacing $smspacing;
+    padding: 0;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
     font-weight: 300;
 }
@@ -489,7 +494,7 @@ h3.scale_text {
 .header_date, .header_subtitle {
     color: $greylight;
     margin: 0;
-    padding: 0 $xlspacing $xlspacing;
+    padding: $xsspacing 0;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
@@ -614,11 +619,11 @@ h3.scale_text {
         }
         .mob_bg {
             display: block;
-            max-height: 480px;
+            max-height: 420px;
         }
     }
     header {
-        max-height: 420px;
+        max-height: 360px;
     }
     nav, section, footer {
         padding: $lgspacing $mdspacing;
@@ -643,6 +648,12 @@ h3.scale_text {
     }
     .blurb {
         text-align: left;
+    }
+    .header_content_wrapper {
+        padding: $mdspacing;
+    }
+    .header_date, .header_subtitle {
+        padding: 0;
     }
     .desk_splash_bg {
         display: none;
@@ -670,12 +681,6 @@ h3.scale_text {
             width: 76%;
             height: 35%;
         }
-    }
-    .header_title {
-        padding: $lgspacing $lgspacing $smspacing;
-    }
-    .header_date, .header_subtitle {
-        padding: 0 $lgspacing $lgspacing;
     }
     h3.scale_text {
         font-size: 1.414em;
@@ -714,13 +719,14 @@ h3.scale_text {
     .blurb {
         width: 90%;
     }
+    .header_content_wrapper {
+        padding: $mdspacing;
+    }
     .header_title {
         font-size: 1.999em;
-        padding: $lgspacing $mdspacing $smspacing;
     }
     .header_date, .header_subtitle {
         font-size: 1em;
-        padding: 0 $mdspacing $lgspacing;
     }
     .desk_bg {
         background-position: bottom;
