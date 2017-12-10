@@ -1072,7 +1072,7 @@ h3.scale_text {
 .header_date, .header_subtitle {
   color: #D7DDE1;
   margin: 0;
-  padding: 10px 0;
+  padding: 5px 0;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;

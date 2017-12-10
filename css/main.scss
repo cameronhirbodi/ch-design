@@ -494,7 +494,7 @@ h3.scale_text {
 .header_date, .header_subtitle {
     color: $greylight;
     margin: 0;
-    padding: $xsspacing 0;
+    padding: $xsmspacing 0;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
@@ -651,9 +651,6 @@ h3.scale_text {
     }
     .header_content_wrapper {
         padding: $mdspacing;
-    }
-    .header_date, .header_subtitle {
-        padding: 0;
     }
     .desk_splash_bg {
         display: none;
