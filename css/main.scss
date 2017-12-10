@@ -177,7 +177,7 @@ a + svg:focus {
         }
         .hamburgerspan {
             display: block;
-            width: 20px;
+            width: $mdspacing;
             height: 2px;
             margin-bottom: 4px;
             position: relative;
@@ -260,7 +260,7 @@ a + svg:focus {
             li {
                 a {
                     display: block;
-                    padding: $lgspacing 0;
+                    padding: $mdspacing 0;
                     margin: $smspacing 0;
                     text-transform: uppercase;
                     color: $white;
