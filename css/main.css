@@ -618,6 +618,7 @@ header {
   margin: 0 auto;
   padding: 0;
   height: 75%;
+  min-height: 420px;
   max-height: 768px;
 }
 
@@ -954,6 +955,7 @@ a + svg:focus {
   max-width: none;
   padding-bottom: 160px;
   height: 65%;
+  min-height: 420px;
   max-height: 768px;
   position: relative;
   text-align: center;
@@ -1237,6 +1239,7 @@ h3.scale_text {
     max-height: 420px;
   }
   header {
+    min-height: 200px;
     max-height: 360px;
   }
   nav, section, footer {
@@ -1268,6 +1271,7 @@ h3.scale_text {
   }
   .splash_content {
     height: 100%;
+    min-height: 320px;
     max-height: 360px;
   }
   .splash_content h1 {
