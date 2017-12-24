@@ -625,7 +625,7 @@ h3.scale_text {
         }
     }
     header {
-        min-height: 200px;
+        min-height: 320px;
         max-height: 360px;
     }
     nav, section, footer {
@@ -719,6 +719,9 @@ h3.scale_text {
     }
     .blurb {
         width: 90%;
+    }
+    header {
+        min-height: 200px;
     }
     .header_content_wrapper {
         padding: $mdspacing;
