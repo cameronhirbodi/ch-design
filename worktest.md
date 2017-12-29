@@ -11,8 +11,7 @@ permalink: /worktest/
         <ul class="work_list">
             {% for work in site.categories.work %}
                 <li class="fade_in" style="background-image: url('{{work.image_sm}}')">
-                    <a class="work_image_sm" href="{{site.baseurl}}{{work.url}}">
-                    </a>
+                    <a href="{{site.baseurl}}{{work.url}}"></a>
                 </li>
             {% endfor %}
         </ul>

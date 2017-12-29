@@ -10,12 +10,10 @@ permalink: /blog/
         {% for blog in site.categories.blog limit:2 %}
             <li>
                 <a href="{{site.baseurl}}{{blog.url}}">
-                    <h3 class="violet_text">{{blog.title}}</h3>
+                    <h4 class="violet_text">{{blog.title}}</h4>
                 </a>
                 <h5 class="blog_date">{{ blog.date | date: "%B %e, %Y" }}</h5>
-                <a class="blog_image_sm" href="{{site.baseurl}}{{blog.url}}">
-                    <img src="{{blog.image_sm}}" class="fade_in">
-                </a>
+                <a class="fade_in blog_image_thumb" style="background-image: url('{{blog.image_sm}}')" href="{{site.baseurl}}{{blog.url}}"></a>
                 <br>
                 <p>{{blog.meta}}</p>
                 <a href="{{site.baseurl}}{{blog.url}}">Read More</a>

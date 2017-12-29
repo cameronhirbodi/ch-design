@@ -1077,12 +1077,14 @@ h3.scale_text {
   margin-bottom: 0;
 }
 
-.blog_image_sm {
+.blog_image_thumb {
   display: block;
-}
-
-.blog_image_sm img {
+  width: 100%;
+  height: 420px;
   background-color: #BDC3C7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .embed_title {
@@ -1305,6 +1307,9 @@ h3.scale_text {
     padding-bottom: 10px;
     margin-bottom: 30px;
   }
+  .blog_list .blog_image_thumb {
+    height: 320px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1340,5 +1345,8 @@ h3.scale_text {
   }
   .swatch {
     min-height: 40px;
+  }
+  .blog_list .blog_image_thumb {
+    height: 240px;
   }
 }
