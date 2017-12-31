@@ -405,47 +405,28 @@ h3.scale_text {
     margin: 0 0 $lgspacing;
 }
 
-/* Work */
+/* About */
 
-.work_list {
-    li {
-        position: relative;
-        float: left;
-        width: 50%;
-        height: 200px;
-        overflow: hidden;
-        border: 1px solid white;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: $grey;
-        transform-origin: 0;
-        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);       
-        a {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-    }
-    li:hover {
-        opacity: 0.5;
-    }
+.embed_title {
+    position: relative;
+}
+
+.about_bg {
+    background-image: url"{{blog.image_sm}}";
 }
 
 /* Blog */
 
 .blog_list {
+    display: block;
     margin: 0 auto;
     max-width: 768px;
     padding: $xxxlspacing $lgspacing;
-    img {
-        width: 100%;
-        min-width: 100%;
-    }
     li {
+        display: block;
         border-bottom: 1px solid $greylight;
-        padding-bottom: $smspacing;
-        margin-bottom: $xlspacing;
+        padding-bottom: $lgspacing;
+        margin-bottom: $lgspacing;
     }
     li:nth-last-child(1) {
         border-bottom: 0;
@@ -454,19 +435,34 @@ h3.scale_text {
     }
 }
 
-
 .blog_image_thumb {
     display: block;
-    width: 100%;
-    height: 420px;
+    float: left;
+    margin-right: $mdspacing;
+    width: 40%;
+    height: 200px;
     background-color: $grey;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.embed_title {
-    position: relative;
+.blog_right_column {
+    float: right;
+    width: 60%;
+}
+
+.blog_date {
+    color: $greydark;
+    font-weight: 400;
+    margin-bottom: $mdspacing;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
+}
+
+.blog_description {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .header_content_wrapper {
@@ -506,16 +502,31 @@ h3.scale_text {
     text-transform: none;
 }
 
-.blog_date {
-    color: $greydark;
-    font-weight: 400;
-    margin-bottom: $mdspacing;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: none;
-}
+/* Work */
 
-.about_bg {
-    background-image: url"{{blog.image_sm}}";
+.work_list {
+    li {
+        position: relative;
+        float: left;
+        width: 50%;
+        height: 200px;
+        overflow: hidden;
+        border: 1px solid white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $grey;
+        transform-origin: 0;
+        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);       
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    li:hover {
+        opacity: 0.5;
+    }
 }
 
 /* Style Guide */
@@ -700,11 +711,13 @@ h3.scale_text {
     }
     .blog_list {
         li {
-            padding-bottom: $smspacing;
+            padding-bottom: $mdspacing;
             margin-bottom: $lgspacing;
         }
         .blog_image_thumb {
+            width: 100%;
             height: 320px;
+            margin-bottom: $mdspacing;
         }
     }
 }
