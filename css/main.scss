@@ -448,8 +448,7 @@ h3.scale_text {
 }
 
 .blog_right_column {
-    float: right;
-    width: 60%;
+    min-height: 200px;
 }
 
 .blog_date {
@@ -463,6 +462,7 @@ h3.scale_text {
 .blog_description {
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-bottom: 0;
 }
 
 .header_content_wrapper {

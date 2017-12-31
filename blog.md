@@ -10,7 +10,7 @@ permalink: /blog/
         {% for blog in site.categories.blog limit:2 %}
             <li>
                 <a class="fade_in blog_image_thumb" style="background-image: url('{{blog.image_sm}}')" href="{{site.baseurl}}{{blog.url}}"></a>
-                <div class="blog_right_colmun">
+                <div class="blog_right_column">
                     <a href="{{site.baseurl}}{{blog.url}}">
                         <h4 class="violet_text">{{blog.title}}</h4>
                     </a>
