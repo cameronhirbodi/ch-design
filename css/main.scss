@@ -52,7 +52,7 @@ nav {
 header {
     margin: 0 auto;
     padding: 0;
-    height: 75%;
+    height: 70%;
     min-height: 420px;
     max-height: 768px;
 }
@@ -407,10 +407,6 @@ h3.scale_text {
 
 /* About */
 
-.embed_title {
-    position: relative;
-}
-
 .about_bg {
     background-image: url"{{blog.image_sm}}";
 }
@@ -465,38 +461,20 @@ h3.scale_text {
     margin-bottom: 0;
 }
 
-.header_content_wrapper {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    padding: $xlspacing;
-    background: $black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(top, $black, transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, $black, transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, $black, transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top, $black, transparent); /* Standard syntax */
-}
-
 .header_content {
     padding-left: $smspacing;
     border-left: 2px solid $magenta;
 }
 
 .header_title {
-    color: $white;
     margin: 0;
     padding: 0;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
     font-weight: 300;
 }
 
 .header_date, .header_subtitle {
-    color: $greylight;
-    margin: 0;
-    padding: $xsmspacing 0;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    color: $greydark;
+    margin: $mdspacing 0;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
@@ -639,8 +617,8 @@ h3.scale_text {
         }
     }
     header {
-        min-height: 320px;
-        max-height: 360px;
+        min-height: 280px;
+        max-height: 320px;
     }
     nav, section, footer {
         padding: $lgspacing $mdspacing;

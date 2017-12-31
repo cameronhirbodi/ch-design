@@ -6,17 +6,14 @@
     <div class="mob_bg fade_in" style="background-image: url('{{page.image_sm}}'); background-color:#BDC3C7">
     </div>    
         {% include nav.html %}
-        <header class="embed_title">
-            <div class="header_content_wrapper">
-              <div class="header_content">       
-                <h2 class="header_title">{{page.title}}</h2>
-                <h4 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h4>
-              </div>
-            </div>
-        </header>
+        <header></header>
         <main>
           <article class="post">
+            <div class="header_content">       
+                <h2 class="header_title">{{page.title}}</h2>
+            </div>
             <div class="entry">
+              <h4 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h4>
               {{ content }}
               <p>Source: <a target="_blank" href="{{ page.source }}">Visit</a></p>
             </div>
