@@ -15,8 +15,7 @@ permalink: /blog/
                         <h4>{{blog.title}}</h4>
                     </a>
                     <h5 class="blog_date">{{ blog.date | date: "%B %e, %Y" }}</h5>
-                    <p class="blog_description">{{blog.meta}}
-                    </p>
+                    <p class="blog_description">{{blog.meta}} <a href="{{site.baseurl}}{{blog.url}}">Read More</a></p>
                 </div>
             </li>
         {% endfor %}
