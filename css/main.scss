@@ -474,6 +474,7 @@ h3.scale_text {
 .header_date, .header_subtitle {
     color: $greydarkest;
     margin: 1em 0;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
 }
@@ -653,8 +654,8 @@ h3.scale_text {
     }
     .splash_content {
         height: 100%;
-        min-height: 320px;
-        max-height: 360px;
+        min-height: 280px;
+        max-height: 320px;
         h1 {
             top: 15%;
             font-size: 1.999em;
@@ -716,7 +717,7 @@ h3.scale_text {
         width: 90%;
     }
     header {
-        min-height: 200px;
+        max-height: 200px;
     }
     .header_content_wrapper {
         padding: $mdspacing;
