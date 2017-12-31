@@ -10,7 +10,7 @@ image_sm: /images/about_cam_sm.jpg
 <main>
     <article>
         <div class="header_content">
-            <h2 class="header_title">Cameron Hirbodi</h2>
+            <h2 class="header_title violet_text">Cameron Hirbodi</h2>
         </div>
         <h4 class="header_subtitle">Visual Designer</h4>
         <p>

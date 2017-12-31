@@ -516,7 +516,7 @@ a:active {
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 10px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -551,6 +551,10 @@ bold {
 
 .removemargin {
   margin: 0;
+}
+
+.violet_text {
+  color: #0c0f89;
 }
 
 @media (max-width: 767px) {
@@ -1075,20 +1079,18 @@ h3.scale_text {
 }
 
 .header_content {
-  padding-left: 10px;
+  padding-left: 1em;
   border-left: 2px solid #fc3468;
 }
 
 .header_title {
   margin: 0;
   padding: 0;
-  font-weight: 300;
 }
 
 .header_date, .header_subtitle {
-  color: #A4AAAE;
-  margin: 20px 0;
-  font-weight: 300;
+  color: #8A9094;
+  margin: 1em 0;
   font-family: 'Open Sans', sans-serif;
   text-transform: none;
 }
