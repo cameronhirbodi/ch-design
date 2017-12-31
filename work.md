@@ -1,14 +1,20 @@
 ---
-layout: simple
+layout: page
 title: Work
 category: Work
 permalink: /work/
 ---
 <main>
     <article>
-        <h3 class="blurb">Coming Soon</h3>
-        <br>
-        <p class="blurb">Please check back soon to view my work.</p>
+        <p>Below you will find my most recent work:</p>
+        <!-- <h5>Filter</h5> -->
+        <ul class="work_list">
+            {% for work in site.categories.work %}
+                <li class="fade_in" style="background-image: url('{{work.image_sm}}')">
+                    <a href="{{site.baseurl}}{{work.url}}"></a>
+                </li>
+            {% endfor %}
+        </ul>
     </article>
     {% include footer.html %}
 </main>
