@@ -79,12 +79,6 @@ bold {
     color: $violet;
 }
 
-@media (max-width: 767px) {
-    html {
-        font-size: 14px;
-    }
-}
-
 @media (min-width: 1600px) {
     html {
         font-size: 18px;

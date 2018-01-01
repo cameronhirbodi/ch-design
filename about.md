@@ -12,7 +12,7 @@ image_sm: /images/about_cam_sm.jpg
         <div class="header_content">
             <h2 class="header_title violet_text">Cameron Hirbodi</h2>
         </div>
-        <h4 class="header_subtitle">Visual Designer</h4>
+        <br>
         <p>
         I am currently a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, print, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
         </p>

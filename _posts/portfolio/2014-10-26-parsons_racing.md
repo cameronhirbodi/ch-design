@@ -2,10 +2,10 @@
 layout: post
 title: Parsons Racing
 meta: Logo created for Parsons Racing.
-category: work
-permalink: work/parsons_racing
-image: /images/work/parsons_racing.jpg
-image_sm: /images/work/parsons_racing_sm.jpg
+category: portfolio
+permalink: portfolio/parsons_racing
+image: /images/portfolio/parsons_racing.jpg
+image_sm: /images/portfolio/parsons_racing_sm.jpg
 source: http://parsonsracing.com/
 ---
 
