@@ -381,7 +381,7 @@ a + svg:focus {
         top: 25%;
         z-index: 1;
     }
-    .splashshapeleft {
+    .splash_mask_left {
         fill: $white;
         position: absolute;
         left: 0;
@@ -390,7 +390,7 @@ a + svg:focus {
         height: 40%;
         max-height: 200px;
     }
-    .splashshaperight {
+    .splash_mask_right {
         fill: $white;
         position: absolute;
         right: 0;
@@ -399,9 +399,6 @@ a + svg:focus {
         height: 40%;
         max-height: 200px;
     }
-}
-h3.scale_text {
-    margin: 0 0 $lgspacing;
 }
 
 /* About */
@@ -581,15 +578,6 @@ h3.scale_text {
 /* Media Queries */
 
 @media (max-width: 1600px) {
-    .splash_content {
-        h1 {
-            font-size: 2.827em;
-        }
-        h2 {
-            font-size: 1.207em;
-            letter-spacing: 0.4em;
-        }
-    }
     main {
         article, section, .blog_list {
             padding: $xxlspacing $lgspacing;
@@ -656,22 +644,25 @@ h3.scale_text {
         min-height: 280px;
         max-height: 320px;
         h1 {
-            top: 15%;
             font-size: 1.999em;
+            top: 15%;
         }
         h2 {
             top: 15%;
             font-size: 1em;
             letter-spacing: 0.4em;
         }
-        .splashshapeleft {
+        .splash_mask_left {
             width: 26%;
             height: 20%;
         }
-        .splashshaperight {
+        .splash_mask_right {
             width: 76%;
             height: 35%;
         }
+    }
+    h3.splash_h3 {
+        font-size: 1.414em;
     }
     .col-20.swatchcol {
         width: 33.33%;
