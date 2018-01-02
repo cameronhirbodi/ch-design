@@ -152,6 +152,7 @@ a + svg:focus {
         position: relative;
         top: -8px;
         right: $smspacing;
+        font-weight: 700;
         font-size: 1em;
     }
     #menuToggle {
@@ -370,6 +371,7 @@ a + svg:focus {
         fill: $white;
     }
     h1 {
+        font-weight: 700;
         position: relative;
         top: 25%;
         z-index: 1;
@@ -458,7 +460,7 @@ a + svg:focus {
 }
 
 .header_content {
-    padding-left: 1em;
+    padding-left: 0.7em;
     border-left: 2px solid $magenta;
 }
 
