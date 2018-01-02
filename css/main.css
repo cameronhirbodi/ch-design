@@ -311,17 +311,16 @@ textarea {
 /* Buttons  */
 input[type=button], input[type=submit], .btn {
   display: inline;
-  color: #fc3468;
-  background-color: transparent;
-  border: 2px solid #fc3468;
+  color: #FFF;
+  background-color: #fc3468;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.707em;
-  letter-spacing: 0.2em;
   font-weight: 700;
+  letter-spacing: 0.2em;
   min-width: 140px;
   max-width: 320px;
-  padding: 10px 20px;
+  padding: 1em 2em;
   margin: 0 auto;
   -webkit-transform-origin: 0;
           transform-origin: 0;
@@ -329,17 +328,15 @@ input[type=button], input[type=submit], .btn {
 }
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
-  color: #fc7095;
-  background-color: transparent;
-  border: 2px solid #fc7095;
+  color: #FFF;
+  background-color: #fc7095;
   cursor: pointer;
   opacity: 1;
 }
 
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: #FFF;
-  background-color: #fc3468;
-  border: 2px solid #fc3468;
+  background-color: #b02448;
 }
 
 .grid {
@@ -985,7 +982,7 @@ a + svg:focus {
 .splash_content h1 {
   font-weight: 700;
   position: relative;
-  top: 25%;
+  top: 20%;
   z-index: 1;
 }
 
@@ -993,7 +990,7 @@ a + svg:focus {
   font-size: 1.414em;
   letter-spacing: 0.6em;
   position: relative;
-  top: 25%;
+  top: 20%;
   z-index: 1;
 }
 
@@ -1122,6 +1119,10 @@ a + svg:focus {
   opacity: 0.5;
 }
 
+.wide_layout {
+  max-width: 1028px;
+}
+
 /* Style Guide */
 .styles_splash h1 {
   font-size: 1.999em;
@@ -1231,9 +1232,6 @@ a + svg:focus {
   .mobile_nav {
     display: block;
   }
-  .blurb {
-    text-align: left;
-  }
   .header_content_wrapper {
     padding: 20px;
   }
@@ -1250,24 +1248,12 @@ a + svg:focus {
   }
   .splash_content h1 {
     font-size: 1.999em;
-    top: 20%;
+    top: 15%;
   }
   .splash_content h2 {
-    top: 20%;
+    top: 15%;
     font-size: 1em;
     letter-spacing: 0.4em;
-  }
-  .splash_content .splash_mask_left {
-    width: 26%;
-    height: 20%;
-  }
-  .splash_content .splash_mask_right {
-    width: 76%;
-    height: 35%;
-  }
-  h3.splash_h3 {
-    font-weight: 700;
-    font-size: 1.414em;
   }
   .col-20.swatchcol {
     width: 33.33%;
@@ -1310,6 +1296,14 @@ a + svg:focus {
   }
   .desk_bg {
     background-position: bottom;
+  }
+  .splash_content h1 {
+    margin: 0 auto;
+    max-width: 240px;
+    top: 0;
+  }
+  .splash_content h2 {
+    top: 10%;
   }
   .col-20.swatchcol {
     width: 100%;

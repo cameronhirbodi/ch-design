@@ -77,32 +77,29 @@ textarea {
 
 input[type=button], input[type=submit], .btn {
   display: inline;
-  color: $magenta;
-  background-color: transparent;
-  border: 2px solid $magenta;
+  color: $white;
+  background-color: $magenta;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.707em;
-  letter-spacing: 0.2em;
   font-weight: 700;
+  letter-spacing: 0.2em;
   min-width: 140px;
   max-width: 320px;
-  padding: $smspacing $mdspacing;
+  padding: 1em 2em;
   margin: 0 auto;
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
-  color: $magentalight;
-  background-color: transparent;
-  border: 2px solid $magentalight;
+  color: $white;
+  background-color: $magentalight;
   cursor: pointer;
   opacity: 1;
 }
 
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: $white;
-  background-color: $magenta;
-  border: 2px solid $magenta;
+  background-color: $magentadark;
 }

@@ -5,7 +5,7 @@ category: Portfolio
 permalink: /portfolio/
 ---
 <main>
-    <article>
+    <article class="wide_layout">
         <p>Below you will find my most recent work:</p>
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">

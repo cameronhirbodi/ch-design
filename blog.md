@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Blog Test
+title: Blog
 category: Blog
 permalink: /blog/
 ---
