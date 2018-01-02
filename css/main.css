@@ -314,11 +314,11 @@ input[type=button], input[type=submit], .btn {
   color: #FFF;
   background-color: #fc3468;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
   min-width: 140px;
   max-width: 320px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin: 0 auto;
   -webkit-transform-origin: 0;
           transform-origin: 0;
@@ -1300,13 +1300,12 @@ a + svg:focus {
     background-position: bottom;
   }
   .splash_content h1 {
-    top: 0;
+    top: 10%;
     font-size: 1.999em;
     margin: 0 auto;
-    max-width: 240px;
   }
   .splash_content h2 {
-    top: 5%;
+    top: 15%;
   }
   .col-20.swatchcol {
     width: 100%;
@@ -1316,5 +1315,15 @@ a + svg:focus {
   }
   .blog_list .blog_image_thumb {
     height: 240px;
+  }
+}
+
+@media (max-width: 379px) {
+  .splash_content h1 {
+    top: 0;
+    max-width: 240px;
+  }
+  .splash_content h2 {
+    top: 5%;
   }
 }

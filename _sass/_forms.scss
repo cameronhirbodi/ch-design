@@ -80,11 +80,11 @@ input[type=button], input[type=submit], .btn {
   color: $white;
   background-color: $magenta;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
   min-width: 140px;
   max-width: 320px;
-  padding: $smspacing $lgspacing;
+  padding: $smspacing $mdspacing;
   margin: 0 auto;
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
