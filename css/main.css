@@ -310,17 +310,15 @@ textarea {
 
 /* Buttons  */
 input[type=button], input[type=submit], .btn {
-  display: inline;
+  display: inline-block;
   color: #FFF;
   background-color: #fc3468;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.707em;
   font-weight: 700;
-  letter-spacing: 0.2em;
   min-width: 140px;
   max-width: 320px;
-  padding: 1em 2em;
+  padding: 10px 30px;
   margin: 0 auto;
   -webkit-transform-origin: 0;
           transform-origin: 0;
@@ -337,6 +335,10 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: #FFF;
   background-color: #b02448;
+}
+
+input[type=button]:visited, input[type=submit]:visited, .btn:visited {
+  color: #FFF;
 }
 
 .grid {
@@ -1247,11 +1249,11 @@ a + svg:focus {
     max-height: 320px;
   }
   .splash_content h1 {
-    font-size: 1.999em;
-    top: 15%;
+    top: 10%;
+    font-size: 2.827em;
   }
   .splash_content h2 {
-    top: 15%;
+    top: 10%;
     font-size: 1em;
     letter-spacing: 0.4em;
   }
@@ -1298,12 +1300,13 @@ a + svg:focus {
     background-position: bottom;
   }
   .splash_content h1 {
+    top: 0;
+    font-size: 1.999em;
     margin: 0 auto;
     max-width: 240px;
-    top: 0;
   }
   .splash_content h2 {
-    top: 10%;
+    top: 5%;
   }
   .col-20.swatchcol {
     width: 100%;

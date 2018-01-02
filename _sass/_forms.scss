@@ -76,17 +76,15 @@ textarea {
 /* Buttons  */
 
 input[type=button], input[type=submit], .btn {
-  display: inline;
+  display: inline-block;
   color: $white;
   background-color: $magenta;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.707em;
   font-weight: 700;
-  letter-spacing: 0.2em;
   min-width: 140px;
   max-width: 320px;
-  padding: 1em 2em;
+  padding: $smspacing $lgspacing;
   margin: 0 auto;
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -102,4 +100,8 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: $white;
   background-color: $magentadark;
+}
+
+input[type=button]:visited, input[type=submit]:visited, .btn:visited {
+  color: $white;
 }
