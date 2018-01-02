@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio_post
 title: Parsons Racing
 meta: Logo created for Parsons Racing.
 category: portfolio

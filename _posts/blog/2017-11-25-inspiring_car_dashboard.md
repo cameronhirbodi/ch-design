@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title: Inspiring Car Dashboard UI/UX Concepts
 meta: This is a nice collection of well designed car dashboard UI/UX concepts.
 category: blog

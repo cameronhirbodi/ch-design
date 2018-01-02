@@ -1,0 +1,25 @@
+<html>
+  {% include head.html %}
+  <body>
+    <div class="desk_bg fade_in" style="background-image: url('{{page.image}}'); background-color:#BDC3C7">
+    </div>
+    <div class="mob_bg fade_in" style="background-image: url('{{page.image_sm}}'); background-color:#BDC3C7">
+    </div>    
+        {% include nav.html %}
+        <header></header>
+        <main>
+          <article class="post">
+            <div class="header_content">       
+                <h3 class="header_title violet_text">{{page.title}}</h3>
+            </div>
+            <div class="entry">
+              <h4 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h4>
+              {{ content }}
+              <br>
+              <p><a class="btn" target="_blank" href="{{page.source}}">Visit Source</a></p>
+            </div>
+          </article>
+          {% include footer.html %}
+        </main>
+  </body>
+</html>

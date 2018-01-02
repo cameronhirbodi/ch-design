@@ -15,7 +15,8 @@
             <div class="entry">
               <h4 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h4>
               {{ content }}
-              <p>Source: <a target="_blank" href="{{page.source}}">Visit</a></p>
+              <br>
+              <a class="btn" target="_blank" href="{{page.source}}">Visit Project</a>
             </div>
           </article>
           {% include footer.html %}
