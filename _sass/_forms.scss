@@ -77,6 +77,7 @@ textarea {
 
 input[type=button], input[type=submit], .btn {
   display: inline-block;
+  text-align: center;
   color: $white;
   background-color: $magenta;
   text-transform: uppercase;

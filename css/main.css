@@ -311,6 +311,7 @@ textarea {
 /* Buttons  */
 input[type=button], input[type=submit], .btn {
   display: inline-block;
+  text-align: center;
   color: #FFF;
   background-color: #fc3468;
   text-transform: uppercase;
