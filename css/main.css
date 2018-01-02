@@ -717,7 +717,7 @@ a + svg:focus {
   top: -14px;
 }
 
-.mobile_nav h1 {
+.mobile_nav .nav_current {
   float: right;
   position: relative;
   top: -8px;
