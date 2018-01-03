@@ -1276,7 +1276,7 @@ a + svg:focus {
     width: 33.33%;
   }
   .portfolio_list li {
-    height: 120px;
+    height: 200px;
   }
   .blog_list li {
     padding-bottom: 20px;
@@ -1319,6 +1319,9 @@ a + svg:focus {
   }
   .swatch {
     min-height: 40px;
+  }
+  .portfolio_list li {
+    height: 120px;
   }
   .blog_list .blog_image_thumb {
     height: 240px;
