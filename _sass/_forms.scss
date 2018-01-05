@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'spacing';
+@import 'typography';
 
 /* Floating Labels  */
 
@@ -36,7 +37,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-body;
   padding: $xsmspacing;
   border: 0;
   width: 100%;
@@ -81,11 +82,12 @@ input[type=button], input[type=submit], .btn {
   color: $white;
   background-color: $magenta;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8335em;
+  font-family: $font-body;
   letter-spacing: 0.1em;
   min-width: 140px;
   max-width: 320px;
-  padding: $smspacing $mdspacing;
+  padding: $smspacing $lgspacing;
   margin: 0 auto;
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);

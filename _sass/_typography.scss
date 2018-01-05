@@ -1,12 +1,44 @@
-html {
-    font-size: 16px;
-}
+$font-body: 'Encode Sans Expanded', sans-serif;
+$font-header: 'Oswald', sans-serif;
+
+html {font-size: 1.125em;}
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.7em;
+  background-color: white;
+  font-family: $font-body;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
 }
+
+p {
+    margin-bottom: 1.3em;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  font-family: $font-header;
+  text-transform: uppercase;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {font-size: 3.375em;}
+
+h3 {font-size: 2.25em;}
+
+h4 {font-size: 1.5em;}
+
+h5 {font-size: 1em;}
+
+small, .font_small {font-size: 0.667em;}
 
 p {
     margin-bottom: 1.3em;
@@ -35,38 +67,6 @@ a:active {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 0 $smspacing;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
-
-h1 {
-    font-size: 3.998em;
-}
-
-h2 {
-    font-size: 2.827em;
-}
-
-h3 {
-    font-size: 1.999em;
-}
-
-h4 {
-    font-size: 1.414em;
-}
-
-h5 {
-    font-size: 1em;
-}
-
-small, .font_small {
-    font-size: 0.707em;
-}
-
 bold {
     font-weight: 700;
 }
@@ -79,8 +79,14 @@ bold {
     color: $violet;
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1023px) {
     html {
-        font-size: 18px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: px) {
+    html {
+        font-size: 0.875em;
     }
 }

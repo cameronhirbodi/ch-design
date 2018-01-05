@@ -43,7 +43,6 @@ body {
 nav {
     background: $white;
     margin: 0 auto;
-    font-weight: 700;
     padding: $xlspacing;
     text-transform: uppercase;
     border-bottom: 1px solid $greylight;
@@ -62,7 +61,7 @@ main {
     background: $white;
     article, section {
         margin: 0 auto;
-        padding: $xxxlspacing $lgspacing;
+        padding: $lgspacing $lgspacing;
         max-width: 800px;
         img {
             width: 100%;
@@ -130,7 +129,6 @@ a + svg:focus {
                 position: relative;
                 padding-bottom: $xsmspacing;
                 color: $black;
-                font-family: 'Montserrat', sans-serif;
             }
         }
     }
@@ -150,10 +148,10 @@ a + svg:focus {
     .nav_current {
         float: right;
         position: relative;
-        top: -8px;
+        top: -0.5em;
         right: $smspacing;
-        font-weight: 700;
         font-size: 1em;
+        font-family: $font-body;
     }
     #menuToggle {
         float: right;
@@ -340,8 +338,8 @@ a + svg:focus {
     max-width: none;
     padding-bottom: $xxxxxlspacing;
     height: 65%;
-    min-height: 420px;
-    max-height: 768px;
+    min-height: 480px;
+    max-height: 600px;
     position: relative;
     text-align: center;
     color: $white;
@@ -371,16 +369,14 @@ a + svg:focus {
         fill: $white;
     }
     h1 {
-        font-weight: 700;
         position: relative;
-        top: 20%;
+        top: 15%;
         z-index: 1;
     }
-    h2 {
-        font-size: 1.414em;
+    h4 {
         letter-spacing: 0.6em;
         position: relative;
-        top: 20%;
+        top: 25%;
         z-index: 1;
     }
     .splash_mask_left {
@@ -445,14 +441,6 @@ a + svg:focus {
     min-height: 200px;
 }
 
-.blog_date {
-    color: $greydark;
-    font-weight: 400;
-    margin-bottom: $mdspacing;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: none;
-}
-
 .blog_description {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -471,10 +459,8 @@ a + svg:focus {
 
 .header_date, .header_subtitle {
     color: $greydark;
-    margin: 1em 0;
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: none;
+    margin: $mdspacing 0;
+    font-family: $font-body;
 }
 
 /* Portfolio */
@@ -486,7 +472,7 @@ a + svg:focus {
         width: 48%;
         height: 300px;
         overflow: hidden;
-        margin: 0 2% 2% 0;
+        margin: 0 4% 4% 0;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -586,34 +572,12 @@ a + svg:focus {
 
 /* Media Queries */
 
-@media (max-width: 1600px) {
-    main {
-        article, section, .blog_list {
-            padding: $xxlspacing $lgspacing;
-        }
-    }
+@media (max-width: 1599px) {
     .desktop_nav {
         ul {
             li {
                 margin-left: $xxxlspacing;
             }
-        }
-    }
-}
-
-@media (max-width: 1023px) {
-    .splash_content {
-        height: 100%;
-        min-height: 280px;
-        max-height: 420px;
-        h1 {
-            top: 20%;
-            font-size: 2.827em;
-        }
-        h2 {
-            top: 20%;
-            font-size: 1em;
-            letter-spacing: 0.4em;
         }
     }
 }
@@ -637,7 +601,7 @@ a + svg:focus {
     }
     main {
         article, section, .blog_list {
-            padding: $lgspacing $lgspacing;
+            padding: $lgspacing $mdspacing;
         }
     }
     .desktop_nav {
@@ -663,14 +627,17 @@ a + svg:focus {
         display: block;
     }
     .splash_content {
-        max-height: 320px;
+        min-height: 420px;
+        max-height: 420px;
         h1 {
-            top: 15%;
-            font-size: 1.999em;
-            margin: 0 auto;
-        }
-        h2 {
             top: 20%;
+            font-size: 3.375em;
+            line-height: 1;
+        }
+        h4 {
+            top: 30%;
+            font-size: 1em;
+            letter-spacing: 0.4em;
         }
     }
     .col-20.swatchcol {
@@ -700,12 +667,9 @@ a + svg:focus {
             max-height: 420px;
         }
     }
-    nav, section, footer {
-        padding: $lgspacing $mdspacing;
-    }
     main {
         article, section, .blog_list {
-            padding: $lgspacing $mdspacing;
+            padding: $mdspacing;
         }
     }
     header {
@@ -714,14 +678,21 @@ a + svg:focus {
     .header_content_wrapper {
         padding: $mdspacing;
     }
-    .header_title {
-        font-size: 1.999em;
-    }
     .header_date, .header_subtitle {
         font-size: 1em;
     }
     .desk_bg {
         background-position: bottom;
+    }
+    .splash_content {
+        h1 {
+            margin: 0 auto;
+            max-width: 200px;
+            top: 10%;
+        }
+        h4 {
+            top: 20%;
+        }
     }
     .col-20.swatchcol {
         width: 100%;
@@ -739,17 +710,4 @@ a + svg:focus {
             height: 240px;
         }
     }
-}
-
-@media (max-width: 379px) {
-    .splash_content {
-        h1 {
-            top: 0;
-            max-width: 240px;
-        }
-        h2 {
-            top: 5%;
-        }
-    }
-
 }
