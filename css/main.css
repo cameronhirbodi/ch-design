@@ -1108,7 +1108,7 @@ a + svg:focus {
 .splash_content h4 {
   letter-spacing: 0.6em;
   position: relative;
-  top: 25%;
+  top: 20%;
   z-index: 1;
 }
 
@@ -1356,7 +1356,7 @@ a + svg:focus {
     line-height: 1;
   }
   .splash_content h4 {
-    top: 30%;
+    top: 25%;
     font-size: 1em;
     letter-spacing: 0.4em;
   }
@@ -1402,7 +1402,7 @@ a + svg:focus {
     top: 10%;
   }
   .splash_content h4 {
-    top: 20%;
+    top: 15%;
   }
   .col-20.swatchcol {
     width: 100%;
