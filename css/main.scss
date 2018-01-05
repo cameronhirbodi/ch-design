@@ -453,7 +453,7 @@ a + svg:focus {
 }
 
 .header_title {
-    margin: 0;
+    margin: 0 0 $smspacing;
     padding: 0;
 }
 
@@ -461,6 +461,9 @@ a + svg:focus {
     color: $greydark;
     margin: $mdspacing 0;
     font-family: $font-body;
+    &.font_small {
+        margin: 0 0 $smspacing;
+    }
 }
 
 /* Portfolio */
@@ -677,9 +680,6 @@ a + svg:focus {
     }
     .header_content_wrapper {
         padding: $mdspacing;
-    }
-    .header_date, .header_subtitle {
-        font-size: 1em;
     }
     .desk_bg {
         background-position: bottom;
