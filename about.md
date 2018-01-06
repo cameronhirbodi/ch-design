@@ -3,8 +3,8 @@ layout: page
 title: About
 category: About
 permalink: /about/
-image: /images/about_cam.jpg
-image_sm: /images/about_cam_sm.jpg
+image: /images/about/about_cam.jpg
+image_sm: /images/about/about_cam_sm.jpg
 ---
 <header></header>
 <main>
