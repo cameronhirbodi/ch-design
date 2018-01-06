@@ -459,7 +459,7 @@ a + svg:focus {
 
 .header_date, .header_subtitle {
     color: $greydark;
-    margin: $mdspacing 0;
+    margin: $mdspacing 0 $lgspacing;
     font-family: $font-body;
     &.font_small {
         margin: 0 0 $smspacing;

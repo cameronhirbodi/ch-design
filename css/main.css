@@ -1192,7 +1192,7 @@ a + svg:focus {
 
 .header_date, .header_subtitle {
   color: #A4AAAE;
-  margin: 20px 0;
+  margin: 20px 0 30px;
   font-family: "Encode Sans Expanded", sans-serif;
 }
 

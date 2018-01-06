@@ -6,7 +6,6 @@ permalink: /portfolio/
 ---
 <main>
     <article class="wide_layout">
-        <p>Below you will find my most recent work:</p>
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">
             {% for portfolio in site.categories.portfolio %}

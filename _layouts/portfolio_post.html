@@ -16,7 +16,7 @@
               <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
               {{ content }}
               <br>
-              <p><a class="btn" target="_blank" href="{{page.source}}">Visit Project</a></p>
+              {% if page.source %}<p><a class="btn" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
             </div>
           </article>
           {% include footer.html %}
