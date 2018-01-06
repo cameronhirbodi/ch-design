@@ -430,6 +430,20 @@ input[type=button], input[type=submit], .btn {
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
+input[type=button].hollow, input[type=submit].hollow, .btn.hollow {
+  border: 2px solid #fc3468;
+  color: #fc3468;
+  background-color: transparent;
+}
+
+input[type=button]:visited, input[type=submit]:visited, .btn:visited {
+  color: #FFF;
+}
+
+input[type=button]:visited.hollow, input[type=submit]:visited.hollow, .btn:visited.hollow {
+  color: #fc3468;
+}
+
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   color: #FFF;
   background-color: #fc7095;
@@ -437,13 +451,21 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   opacity: 1;
 }
 
+input[type=button]:hover.hollow, input[type=submit]:hover.hollow, .btn:hover.hollow {
+  border: 2px solid #fc7095;
+  color: #fc7095;
+  background-color: transparent;
+}
+
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: #FFF;
   background-color: #b02448;
 }
 
-input[type=button]:visited, input[type=submit]:visited, .btn:visited {
-  color: #FFF;
+input[type=button]:active.hollow:active, input[type=submit]:active.hollow:active, .btn:active.hollow:active {
+  border: 2px solid #b02448;
+  color: #b02448;
+  background-color: transparent;
 }
 
 .grid {
@@ -1351,8 +1373,8 @@ a + svg:focus {
     display: block;
   }
   .splash_content {
-    min-height: 420px;
-    max-height: 420px;
+    min-height: 360px;
+    max-height: 360px;
   }
   .splash_content h1 {
     top: 20%;

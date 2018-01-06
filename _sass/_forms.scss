@@ -91,6 +91,18 @@ input[type=button], input[type=submit], .btn {
   margin: 0 auto;
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  &.hollow {
+    border: 2px solid $magenta;
+    color: $magenta;
+    background-color: transparent;
+  }
+}
+
+input[type=button]:visited, input[type=submit]:visited, .btn:visited {
+  color: $white;
+  &.hollow {
+    color: $magenta;
+  }
 }
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
@@ -98,13 +110,19 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   background-color: $magentalight;
   cursor: pointer;
   opacity: 1;
+  &.hollow {
+    border: 2px solid $magentalight;
+    color: $magentalight;
+    background-color: transparent;
+  }
 }
 
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: $white;
   background-color: $magentadark;
-}
-
-input[type=button]:visited, input[type=submit]:visited, .btn:visited {
-  color: $white;
+  &.hollow:active {
+    border: 2px solid $magentadark;
+    color: $magentadark;
+    background-color: transparent;
+  }
 }
