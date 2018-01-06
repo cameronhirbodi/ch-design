@@ -1019,7 +1019,7 @@ a + svg:focus {
   margin: 10px 0;
   text-transform: uppercase;
   color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Encode Sans Expanded", sans-serif;
   -webkit-transform-origin: 0;
           transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
