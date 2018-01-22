@@ -1,25 +1,20 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="desk_bg fade_in" style="background-image: url('{{page.image}}'); background-color:#BDC3C7">
-    </div>
-    <div class="mob_bg fade_in" style="background-image: url('{{page.image_sm}}'); background-color:#BDC3C7">
-    </div>    
-        {% include nav.html %}
-        <header></header>
-        <main>
-          <article class="post">
-            <div class="header_content">       
-                <h2 class="header_title violet_text">{{page.title}}</h2>
-            </div>
-            <div class="entry">
-              <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
-              {{ content }}
-              <br>
-              {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
-            </div>
-          </article>
-          {% include footer.html %}
-        </main>
+      {% include nav.html %}
+      <main>
+        <article class="post">
+          <img class="fade_in" src="{{page.image}}">
+          <br/><br/>
+          <h3>{{page.title}}</h3>
+          <div class="entry">
+            <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
+            {{ content }}
+            <br>
+            {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
+          </div>
+        </article>
+        {% include footer.html %}
+      </main>
   </body>
 </html>

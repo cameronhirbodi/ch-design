@@ -13,7 +13,7 @@ permalink: /blog/
                 <div class="blog_right_column">
                 <h5 class="header_date font_small">{{ blog.date | date: "%B %e, %Y" }}</h5>
                     <a href="{{site.baseurl}}{{blog.url}}">
-                        <h4 class="header_title">{{blog.title}}</h4>
+                        <h4 class="blog_title">{{blog.title}}</h4>
                     </a>
                     <p class="blog_description">{{blog.meta}} <a href="{{site.baseurl}}{{blog.url}}">Read More</a></p>
                 </div>

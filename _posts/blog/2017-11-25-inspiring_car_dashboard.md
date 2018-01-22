@@ -11,4 +11,6 @@ source: https://medium.com/inspiration-supply/car-dashboard-ui-ux-concepts-d1359
 
 These days, well thought out car dashboards are becoming more important. With electric and autonomous cars growing more common, good usability and design principles are more important than ever with these displays.
 
+![Inspiring Car Dashboard]({{ "/images/blog/car_int_conc.jpg" }})
+
 Here is a nice collection of well designed car dashboard UI/UX concepts.
