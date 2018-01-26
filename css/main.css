@@ -396,7 +396,7 @@ input[type=button], input[type=submit], .btn {
   color: #FFF;
   background-color: #fc3468;
   text-transform: uppercase;
-  font-size: 0.8335em;
+  font-size: 1em;
   font-family: "Encode Sans Expanded", sans-serif;
   letter-spacing: 0.1em;
   min-width: 140px;
@@ -1346,7 +1346,7 @@ a + svg:focus {
   }
   .splash_content h4 {
     top: 25%;
-    font-size: 1em;
+    font-size: 1.25em;
     letter-spacing: 0.4em;
   }
 }
