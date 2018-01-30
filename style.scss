@@ -1,13 +1,13 @@
 // Imports
-@import '../_sass/_animation';
-@import '../_sass/_colors';
-@import '../_sass/_forms';
-@import '../_sass/_grid';
-@import '../_sass/_iconography';
-@import '../_sass/_mixins';
-@import '../_sass/_reset' ;
-@import '../_sass/_spacing';
-@import '../_sass/_typography';
+@import 'sass/animation';
+@import 'sass/colors';
+@import 'sass/forms';
+@import 'sass/grid';
+@import 'sass/iconography';
+@import 'sass/mixins';
+@import 'sass/reset' ;
+@import 'sass/spacing';
+@import 'sass/typography';
 
 // Styles
 body {
@@ -390,7 +390,7 @@ a + svg:focus {
     h4 {
         letter-spacing: 0.6em;
         position: relative;
-        top: 20%;
+        bottom: -20%;
         z-index: 1;
     }
     .splash_mask_left {
@@ -616,7 +616,7 @@ a + svg:focus {
             letter-spacing: -0.05em;
         }
         h4 {
-            top: 25%;
+            bottom: -25%;
             font-size: 1.25em;
             letter-spacing: 0.4em;
         }
@@ -716,7 +716,7 @@ a + svg:focus {
             top: 0;
         }
         h4 {
-            top: 10%;
+            bottom: -10%;
         }
     }
     .col-20.swatchcol {
