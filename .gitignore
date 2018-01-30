@@ -4,3 +4,5 @@ _site
 Gemfile.lock
 .vscode/settings.json
 Gemfile.lock
+node_modules
+gulpfile.js
