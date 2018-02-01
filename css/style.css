@@ -8,12 +8,36 @@
   position: absolute;
 }
 
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari and Chrome */
+    -o-transform: scale(1);
+    /* Opera */
+    -moz-transform: scale(1);
+    /* Firefox */
+  }
+  100% {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari and Chrome */
+    -o-transform: scale(1.2);
+    /* Opera */
+    -moz-transform: scale(1.2);
+    /* Firefox */
+  }
+}
+
 @keyframes move {
   0% {
     -webkit-transform-origin: bottom left;
-    -moz-transform-origin: bottom left;
-    -ms-transform-origin: bottom left;
-    -o-transform-origin: bottom left;
     transform-origin: bottom left;
     transform: scale(1);
     -ms-transform: scale(1);
@@ -41,11 +65,8 @@
 .fade_in {
   -webkit-animation: fadein 1s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1s;
   /* Firefox < 16 */
-  -ms-animation: fadein 1s;
   /* Internet Explorer */
-  -o-animation: fadein 1s;
   /* Opera < 12.1 */
   animation: fadein 1s;
   /* Firefox < 16 */
@@ -63,15 +84,6 @@
   }
 }
 
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -81,27 +93,22 @@
   }
 }
 
-@-ms-keyframes fadein {
-  .fade_in from {
-    opacity: 0;
-  }
-  .fade_in to {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .topFadeIn {
-  animation-name: topFadeIn;
-  animation-duration: 1s;
+  -webkit-animation-name: topFadeIn;
+          animation-name: topFadeIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes topFadeIn {
+  0% {
+    position: relative;
+    top: 25%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes topFadeIn {
@@ -116,8 +123,26 @@
 }
 
 .bottomFadeIn {
-  animation-name: bottomFadeIn;
-  animation-duration: 1.5s;
+  -webkit-animation-name: bottomFadeIn;
+          animation-name: bottomFadeIn;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes bottomFadeIn {
+  0% {
+    position: relative;
+    bottom: 32%;
+    opacity: 0;
+  }
+  50% {
+    position: relative;
+    bottom: -30%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes bottomFadeIn {
@@ -138,10 +163,35 @@
 
 /* Media Queries */
 @media (max-width: 1027px) {
+  @-webkit-keyframes topFadeIn {
+    0% {
+      position: relative;
+      top: 10%;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   @keyframes topFadeIn {
     0% {
       position: relative;
       top: 10%;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes bottomFadeIn {
+    0% {
+      position: relative;
+      bottom: -30%;
+      opacity: 0;
+    }
+    50% {
+      position: relative;
+      bottom: -30%;
       opacity: 0;
     }
     100% {
@@ -166,10 +216,35 @@
 }
 
 @media (max-width: 479px) {
+  @-webkit-keyframes topFadeIn {
+    0% {
+      position: relative;
+      top: 10%;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   @keyframes topFadeIn {
     0% {
       position: relative;
       top: 10%;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes bottomFadeIn {
+    0% {
+      position: relative;
+      bottom: -20%;
+      opacity: 0;
+    }
+    50% {
+      position: relative;
+      bottom: -20%;
       opacity: 0;
     }
     100% {
@@ -337,7 +412,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
 }
 
@@ -384,7 +459,8 @@ a:hover {
   color: #fc7095;
   text-decoration: none;
   opacity: 0.5;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -502,7 +578,8 @@ input[type=button], input[type=submit], .btn {
   max-width: 320px;
   padding: 10px 30px;
   margin: 0 auto;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -678,7 +755,6 @@ table {
 /* Apply Border Box Sizing Globally */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -704,7 +780,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
 }
 
@@ -751,7 +827,8 @@ a:hover {
   color: #fc7095;
   text-decoration: none;
   opacity: 0.5;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -842,6 +919,7 @@ header.tint:before {
   left: 0;
   right: 0;
   background: rgba(0, 50, 175, 0.75);
+  -webkit-transition: all .3s linear;
   transition: all .3s linear;
 }
 
@@ -877,7 +955,8 @@ footer small {
 a + svg {
   fill: #0c0f89;
   float: left;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -961,7 +1040,9 @@ a + svg:focus {
   left: 10px;
   z-index: 2;
   -webkit-user-select: none;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -990,48 +1071,63 @@ a + svg:focus {
   right: 8px;
   background: #000;
   z-index: 1;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transition: background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 .mobile_nav #menuToggle .hamburgerspan:first-child {
-  transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
 }
 
 .mobile_nav #menuToggle .hamburgerspan:nth-last-child(2) {
-  transform-origin: 0% 100%;
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ .hamburgerspan {
-  transform: rotate(45deg) translate(0, -1px);
+  -webkit-transform: rotate(45deg) translate(0, -1px);
+          transform: rotate(45deg) translate(0, -1px);
   background: #FFF;
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ .hamburgerspan:nth-last-child(3) {
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+          transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ .hamburgerspan:nth-last-child(2) {
   opacity: 1;
-  transform: rotate(-45deg) translate(0, 1px);
+  -webkit-transform: rotate(-45deg) translate(0, 1px);
+          transform: rotate(-45deg) translate(0, 1px);
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ ul {
-  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
   opacity: 1;
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ .hamburgerbg {
   visibility: visible;
   opacity: 1;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
   transition: visibility 0s, opacity 0.5s linear;
   z-index: -10;
 }
 
 .mobile_nav #menuToggle #hamburgerinput:checked ~ #menu {
-  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 .mobile_nav #menuToggle #hamburgerinput:hover ~ .hamburgerspan, .mobile_nav #menuToggle #hamburgerinput:checked:hover ~ .hamburgerspan {
@@ -1057,6 +1153,7 @@ a + svg:focus {
   background-color: rgba(255, 255, 255, 0.7);
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
   transition: visibility 0s, opacity 0.5s linear;
   z-index: -10;
 }
@@ -1072,9 +1169,14 @@ a + svg:focus {
   background-color: #0c0f89;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  transform-origin: 0;
-  transform: translate(100%, 0);
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   overflow-y: auto;
 }
 
@@ -1085,7 +1187,8 @@ a + svg:focus {
   text-transform: uppercase;
   color: #FFF;
   font-family: "Encode Sans Expanded", sans-serif;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -1307,7 +1410,8 @@ a + svg:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #BDC3C7;
-  transform-origin: 0;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
