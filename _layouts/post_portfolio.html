@@ -3,8 +3,10 @@
   <body>
       {% include nav.html %}
       <main>
+        <figure>
+            <img class="fade_in" src="{{page.image}}">
+        </figure>
         <article class="post">
-          <img class="fade_in" src="{{page.image}}">
           <br/><br/>
           <h3>{{page.title}}</h3>
           <div class="entry">

@@ -1,15 +1,16 @@
 // Imports
-@import '../_sass/animation';
-@import '../_sass/colors';
-@import '../_sass/forms';
-@import '../_sass/grid';
-@import '../_sass/iconography';
-@import '../_sass/mixins';
-@import '../_sass/reset' ;
-@import '../_sass/spacing';
-@import '../_sass/typography';
+@import 'animation';
+@import 'colors';
+@import 'forms';
+@import 'grid';
+@import 'iconography';
+@import 'mixins';
+@import 'reset' ;
+@import 'spacing';
+@import 'typography';
 
-// Styles
+// General
+
 body {
     color: $black;
     background: $white;
@@ -81,6 +82,14 @@ main {
             min-width: 100%;
         }
     }
+    figure {
+        margin: 0 auto;
+        padding: 0 $lgspacing;
+        max-width: 800px;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 footer {
@@ -93,8 +102,6 @@ footer {
         padding: $xlspacing;
     }
 }
-
-/* CH Logo */
 
 a + svg {
     fill: $violet;
@@ -316,7 +323,7 @@ a + svg:focus {
     max-width: 768px;
 }
 
-/* Home Splash Page */
+// Splash
 
 .desk_splash_bg {
     display: block;
@@ -413,13 +420,13 @@ a + svg:focus {
     }
 }
 
-/* About */
+// About
 
 .about_bg {
     background-image: url"{{blog.image_sm}}";
 }
 
-/* Blog */
+// Blog
 
 .blog_list {
     display: block;
@@ -488,7 +495,7 @@ a + svg:focus {
     }
 }
 
-/* Portfolio */
+// Portfolio
 
 .portfolio_list {
     li {
@@ -522,7 +529,11 @@ a + svg:focus {
     max-width: 1028px;
 }
 
-/* Style Guide */
+.post {
+    padding: 0 $lgspacing $lgspacing;
+}
+
+// Style Guide
 
 .styles_splash {
     h1 {
@@ -595,7 +606,7 @@ a + svg:focus {
     background: $greylightest;
 }
 
-/* Media Queries */
+// Media Queries
 
 @media (max-width: 1599px) {
     .desktop_nav {
@@ -643,6 +654,14 @@ a + svg:focus {
     main {
         article, section, .blog_list {
             padding: $lgspacing $mdspacing;
+        }
+        figure {
+            padding: 0;
+            max-width: 100%;
+            width: 100%;
+            img {
+                width: 100%;
+            }
         }
     }
     .desktop_nav {

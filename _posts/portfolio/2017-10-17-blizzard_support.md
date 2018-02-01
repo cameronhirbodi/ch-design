@@ -1,5 +1,5 @@
 ---
-layout: portfolio_post
+layout: post_portfolio
 title: Blizzard Support
 meta: Blizzard Support
 category: portfolio

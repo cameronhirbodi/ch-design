@@ -1,5 +1,5 @@
 ---
-layout: portfolio_post
+layout: post_portfolio
 title: Hop Forged Brewing Company
 meta: Identity created for Hop Forged Brewing Company.
 category: portfolio

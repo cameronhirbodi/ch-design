@@ -939,6 +939,16 @@ main article img, main section img {
   min-width: 100%;
 }
 
+main figure {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 800px;
+}
+
+main figure img {
+  width: 100%;
+}
+
 footer {
   width: 100%;
   margin: 0 auto;
@@ -951,7 +961,6 @@ footer small {
   padding: 40px;
 }
 
-/* CH Logo */
 a + svg {
   fill: #0c0f89;
   float: left;
@@ -1221,7 +1230,6 @@ a + svg:focus {
   max-width: 768px;
 }
 
-/* Home Splash Page */
 .desk_splash_bg {
   display: block;
   width: 100%;
@@ -1322,12 +1330,10 @@ a + svg:focus {
   max-height: 200px;
 }
 
-/* About */
 .about_bg {
   background-image: url "{{blog.image_sm}}";
 }
 
-/* Blog */
 .blog_list {
   display: block;
   margin: 0 auto;
@@ -1398,7 +1404,6 @@ a + svg:focus {
   margin: 0 0 10px;
 }
 
-/* Portfolio */
 .portfolio_list li {
   position: relative;
   float: left;
@@ -1433,7 +1438,10 @@ a + svg:focus {
   max-width: 1028px;
 }
 
-/* Style Guide */
+.post {
+  padding: 0 30px 30px;
+}
+
 .styles_splash h1 {
   font-size: 1.999em;
   display: inline;
@@ -1505,7 +1513,6 @@ a + svg:focus {
   background: #F0F6FA;
 }
 
-/* Media Queries */
 @media (max-width: 1599px) {
   .desktop_nav ul li {
     margin-left: 80px;
@@ -1543,6 +1550,14 @@ a + svg:focus {
   }
   main article, main section, main .blog_list {
     padding: 30px 20px;
+  }
+  main figure {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  main figure img {
+    width: 100%;
   }
   .desktop_nav {
     display: none;
