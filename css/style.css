@@ -219,7 +219,7 @@
   @-webkit-keyframes topFadeIn {
     0% {
       position: relative;
-      top: 10%;
+      top: 25%;
       opacity: 0;
     }
     100% {
@@ -229,7 +229,7 @@
   @keyframes topFadeIn {
     0% {
       position: relative;
-      top: 10%;
+      top: 25%;
       opacity: 0;
     }
     100% {
@@ -239,12 +239,12 @@
   @-webkit-keyframes bottomFadeIn {
     0% {
       position: relative;
-      bottom: -20%;
+      bottom: -35%;
       opacity: 0;
     }
     50% {
       position: relative;
-      bottom: -20%;
+      bottom: -35%;
       opacity: 0;
     }
     100% {
@@ -254,12 +254,12 @@
   @keyframes bottomFadeIn {
     0% {
       position: relative;
-      bottom: -20%;
+      bottom: -35%;
       opacity: 0;
     }
     50% {
       position: relative;
-      bottom: -20%;
+      bottom: -35%;
       opacity: 0;
     }
     100% {
@@ -1609,13 +1609,19 @@ a + svg:focus {
   .desk_bg {
     background-position: bottom;
   }
+  .splash_content {
+    min-height: 320px;
+    max-height: 320px;
+  }
   .splash_content h1 {
     margin: 0 auto;
-    max-width: 280px;
-    top: 0;
+    font-size: 2.6em;
+    top: 15%;
   }
   .splash_content h4 {
-    bottom: -10%;
+    font-size: 1em;
+    bottom: -25%;
+    letter-spacing: 0.3em;
   }
   .col-20.swatchcol {
     width: 100%;
