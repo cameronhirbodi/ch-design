@@ -166,7 +166,7 @@
   @-webkit-keyframes topFadeIn {
     0% {
       position: relative;
-      top: 10%;
+      top: 25%;
       opacity: 0;
     }
     100% {
@@ -176,7 +176,7 @@
   @keyframes topFadeIn {
     0% {
       position: relative;
-      top: 10%;
+      top: 25%;
       opacity: 0;
     }
     100% {
@@ -1517,13 +1517,13 @@ a + svg:focus {
 
 @media (max-width: 1027px) {
   .splash_content h1 {
-    top: 20%;
+    top: 15%;
     font-size: 3.375em;
     line-height: 1;
     letter-spacing: -0.05em;
   }
   .splash_content h4 {
-    bottom: -25%;
+    bottom: -20%;
     font-size: 1.25em;
     letter-spacing: 0.4em;
   }
