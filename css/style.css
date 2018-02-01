@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -780,7 +780,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -1436,10 +1436,6 @@ a + svg:focus {
 
 .wide_layout {
   max-width: 1028px;
-}
-
-.post {
-  padding: 0 30px 30px;
 }
 
 .styles_splash h1 {
