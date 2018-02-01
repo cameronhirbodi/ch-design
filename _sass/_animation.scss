@@ -147,7 +147,7 @@
     @keyframes topFadeIn {
       0% {
         position: relative;
-        top: 25%;
+        top: 20%;
         opacity: 0;
       }
       100% {
@@ -158,12 +158,12 @@
     @keyframes bottomFadeIn {
       0% {
         position: relative;
-        bottom: -35%;
+        bottom: -30%;
         opacity: 0;
       }
       50% {
         position: relative;
-        bottom: -35%;
+        bottom: -30%;
         opacity: 0;
       }
       100% {
