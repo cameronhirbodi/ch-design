@@ -5,7 +5,6 @@ meta: Identity created for Hop Forged Brewing Company.
 category: portfolio
 permalink: portfolio/hop_forged_brewing_company
 image: /images/portfolio/hfbc.jpg
-image_sm: /images/portfolio/hfbc_sm.jpg
 source: http://www.hopforgedbrewing.com/
 ---
 

@@ -5,7 +5,6 @@ meta: Blizzard Support
 category: portfolio
 permalink: portfolio/blizzard_support
 image: /images/portfolio/blizz_supp.jpg
-image_sm: /images/portfolio/blizz_supp_sm.jpg
 source: http://www.battle.net/support
 ---
 

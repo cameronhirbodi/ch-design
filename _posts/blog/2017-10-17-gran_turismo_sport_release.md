@@ -5,7 +5,6 @@ meta: After some set backs, the long awaited Gran Turismo Sport has been release
 category: blog
 permalink: blog/gran_turismo_sport_released
 image: /images/blog/gts_rel.jpg
-image_sm: /images/blog/gts_rel_sm.jpg
 source: http://www.gran-turismo.com/us/products/gtsport/
 ---
 

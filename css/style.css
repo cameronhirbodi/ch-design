@@ -1426,7 +1426,7 @@ a + svg:focus {
   height: 100%;
 }
 
-.portfolio_list li:nth-child(2) {
+.portfolio_list li:nth-child(2n) {
   margin: 0 0 2% 0;
 }
 

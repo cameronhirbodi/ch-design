@@ -5,7 +5,6 @@ meta: Logo created for Parsons Racing.
 category: portfolio
 permalink: portfolio/parsons_racing
 image: /images/portfolio/parsons_racing.jpg
-image_sm: /images/portfolio/parsons_racing_sm.jpg
 source: http://parsonsracing.com/
 ---
 
