@@ -422,8 +422,20 @@ a + svg:focus {
 
 // About
 
-.about_bg {
-    background-image: url"{{blog.image_sm}}";
+.about {
+    position: relative;
+    margin: 0 auto;
+    .blue_box {
+        width: 65%;
+        height: 40%;
+        padding: $lgspacing;
+        background-color: rgba(0, 225, 255, 0.4);
+        color: $white;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        text-align: right;
+    }
 }
 
 // Blog
