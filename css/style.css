@@ -527,7 +527,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 5px;
   border: 0;
   width: 100%;
@@ -572,7 +572,7 @@ input[type=button], input[type=submit], .btn {
   background-color: #fc3468;
   text-transform: uppercase;
   font-size: 1em;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1em;
   min-width: 140px;
   max-width: 320px;
@@ -1010,6 +1010,7 @@ a + svg:focus {
   display: inline;
   list-style-type: none;
   margin-left: 120px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .desktop_nav ul li a {
@@ -1036,10 +1037,10 @@ a + svg:focus {
 .mobile_nav .nav_current {
   float: right;
   position: relative;
-  top: -0.5em;
+  top: -0.4em;
   right: 10px;
   font-size: 1em;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .mobile_nav #menuToggle {
@@ -1202,6 +1203,7 @@ a + svg:focus {
 }
 
 .mobile_nav #menuToggle #menu li a span {
+  font-family: "Montserrat", sans-serif;
   position: relative;
   padding-bottom: 5px;
 }

@@ -145,6 +145,7 @@ a + svg:focus {
             display: inline;
             list-style-type: none;
             margin-left: $xxxxlspacing;
+            font-family: $font-header;
             a {
                 position: relative;
                 padding-bottom: $xsmspacing;
@@ -168,10 +169,10 @@ a + svg:focus {
     .nav_current {
         float: right;
         position: relative;
-        top: -0.5em;
+        top: -0.4em;
         right: $smspacing;
         font-size: 1em;
-        font-family: $font-body;
+        font-family: $font-header;
     }
     #menuToggle {
         float: right;
@@ -288,6 +289,7 @@ a + svg:focus {
                     transform-origin: 0;
                     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
                     span {
+                        font-family: $font-header;
                         position: relative;
                         padding-bottom: $xsmspacing;
                     }
