@@ -7,9 +7,10 @@ image: /images/about/about_cam.jpg
 ---
 
 <main>
-    <figure class="about">
-        <img class="fade_in" src="{{page.image}}">
-        <span class="blue_box topFadeIn"><h3>me.</h3></span>
+    <figure>
+        <div class="about fade_in" style="background-image: url('{{page.image}}')">
+            <span class="blue_box fade_up"><h3>me.</h3></span>
+        </div>
     </figure>
     <article>
         <br>
