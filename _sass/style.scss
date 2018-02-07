@@ -451,6 +451,10 @@ a + svg:focus {
     margin: 0 auto;
     max-width: 800px;
     padding: $xxxlspacing $lgspacing;
+    .blog_title {
+        padding: 0;
+        margin: 0 0 $smspacing;
+    }
     li {
         display: block;
         border-bottom: 1px solid $greylight;
@@ -467,7 +471,7 @@ a + svg:focus {
 .blog_image_thumb {
     display: block;
     float: left;
-    margin-right: $mdspacing;
+    margin: 0 $mdspacing $xlspacing 0;
     width: 40%;
     height: 200px;
     background-color: $grey;
@@ -719,21 +723,6 @@ a + svg:focus {
             height: 200px;
         }
     }
-    .blog_list {
-        li {
-            padding-bottom: $mdspacing;
-            margin-bottom: $lgspacing;
-        }
-        .blog_title {
-            margin: 0 0 $smspacing;
-            padding: 0;
-        }
-        .blog_image_thumb {
-            width: 100%;
-            height: 320px;
-            margin-bottom: $mdspacing;
-        }
-    }
 }
 
 @media (max-width: 479px) {
@@ -772,8 +761,27 @@ a + svg:focus {
         }
     }
     .blog_list {
+        li {
+            padding-bottom: $mdspacing;
+            margin-bottom: $mdspacing;
+        }
         .blog_image_thumb {
-            height: 240px;
+            margin: 0 $mdspacing $smspacing 0;
+            width: 35%;
+            height: 100px;
+        }
+        .blog_title {
+            font-size: 1.2em;
+            margin: 0 0 $xsmspacing;
+        }
+    }
+    .blog_right_column {
+        min-height: 100px;
+        .header_date {
+            margin: 0 0 $xsmspacing;
+        }
+        .blog_description {
+            font-size: 0.9em;
         }
     }
 }
