@@ -374,10 +374,6 @@ bold {
   margin: 0;
 }
 
-.violet_text {
-  color: #0c0f89;
-}
-
 @media (max-width: 1599px) {
   html {
     font-size: 1em;
@@ -747,10 +743,6 @@ bold {
 
 .removemargin {
   margin: 0;
-}
-
-.violet_text {
-  color: #0c0f89;
 }
 
 @media (max-width: 1599px) {
@@ -1239,6 +1231,10 @@ a + svg:focus {
   max-height: 200px;
 }
 
+.welcome_text {
+  color: #0c0f89;
+}
+
 .about {
   height: 600px;
   position: relative;
@@ -1513,6 +1509,9 @@ a + svg:focus {
   .splash_content {
     min-height: 360px;
     max-height: 360px;
+  }
+  .welcome_text {
+    font-size: 1.5em;
   }
   .col-20.swatchcol {
     width: 33.33%;
