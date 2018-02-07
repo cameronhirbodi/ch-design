@@ -1510,14 +1510,14 @@ a + svg:focus {
     min-height: 360px;
     max-height: 360px;
   }
-  .welcome_text {
-    font-size: 1.5em;
-  }
   .col-20.swatchcol {
     width: 33.33%;
   }
   .portfolio_list li {
     height: 200px;
+  }
+  .welcome_text {
+    font-size: 1.5em;
   }
 }
 
