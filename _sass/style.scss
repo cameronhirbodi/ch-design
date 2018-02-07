@@ -98,9 +98,28 @@ footer {
     margin: 0 auto;
     text-align: center;
     clear: both;
+    padding: $xlspacing;
+    a {
+        padding: $xsmspacing;
+    }
     small {
+        padding: $smspacing 0 0;
         display: block;
-        padding: $xlspacing;
+    }
+}
+
+.social_desk {
+    display: block;
+    svg {
+        fill: $magenta;
+        margin: $smspacing;
+    }
+}
+
+.social_mob {
+    display: none;
+    svg {
+        fill: $magenta;
     }
 }
 
@@ -645,13 +664,13 @@ a + svg:focus {
 @media (max-width: 1027px) {
     .splash_content {
         h1 {
-            top: 15%;
+            top: 25%;
             font-size: 3.375em;
             line-height: 1;
             letter-spacing: -0.05em;
         }
         h4 {
-            bottom: -20%;
+            bottom: -30%;
             font-size: 1.25em;
             letter-spacing: 0.4em;
         }
@@ -731,6 +750,13 @@ a + svg:focus {
     }
     .welcome_text {
         font-size: 1.5em;
+    }
+    .social_desk {
+        display: none;
+    }
+    
+    .social_mob {
+        display: block;
     }
 }
 
