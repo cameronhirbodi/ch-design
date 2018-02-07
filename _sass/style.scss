@@ -272,7 +272,7 @@ a + svg:focus {
             width: 70%;
             height: 100%;
             text-align: center;
-            padding: $xxlspacing 0;
+            padding: $xxxlspacing 0;
             background-color: $violet;
             list-style-type: none;
             -webkit-font-smoothing: antialiased;
@@ -759,7 +759,11 @@ a + svg:focus {
     }
     .portfolio_list {
         li {
-            height: 120px;
+            width: 100%;
+            margin: 0 0 5% 0;
+        }
+        li:nth-child(2n) {
+            margin: 0 0 5% 0;
         }
     }
     .blog_list {
