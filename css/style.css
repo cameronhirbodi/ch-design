@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -367,7 +367,7 @@ a:active {
 }
 
 bold {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .removemargin {
@@ -470,6 +470,7 @@ input[type=button], input[type=submit], .btn {
   text-transform: uppercase;
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   letter-spacing: 0.1em;
   min-width: 140px;
   max-width: 320px;
@@ -482,6 +483,8 @@ input[type=button], input[type=submit], .btn {
 
 input[type=button].hollow, input[type=submit].hollow, .btn.hollow {
   border: 2px solid #fc3468;
+  border-image-source: linear-gradient(#fc3468, #b02448);
+  border-image-slice: 20;
   color: #fc3468;
   background-color: transparent;
 }
@@ -677,7 +680,7 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -735,7 +738,7 @@ a:active {
 }
 
 bold {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .removemargin {
@@ -909,6 +912,7 @@ a + svg:focus {
   list-style-type: none;
   margin-left: 120px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .desktop_nav ul li a {
