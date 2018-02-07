@@ -450,7 +450,7 @@ a + svg:focus {
     display: block;
     margin: 0 auto;
     max-width: 800px;
-    padding: $xxxlspacing $lgspacing;
+    padding: $xlspacing $lgspacing;
     .blog_title {
         padding: 0;
         margin: 0 0 $smspacing;
@@ -481,11 +481,12 @@ a + svg:focus {
 }
 
 .blog_right_column {
+    display: block;
+    overflow: hidden;
     min-height: 200px;
 }
 
 .blog_description {
-    overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 0;
 }
@@ -505,7 +506,6 @@ a + svg:focus {
     margin: auto;
     padding-left: $lgspacing;
     bottom: $xlspacing;
-    display: block;
 }
 
 .header_date, .header_subtitle {

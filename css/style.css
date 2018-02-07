@@ -1254,7 +1254,7 @@ a + svg:focus {
   display: block;
   margin: 0 auto;
   max-width: 800px;
-  padding: 80px 30px;
+  padding: 40px 30px;
 }
 
 .blog_list .blog_title {
@@ -1288,11 +1288,12 @@ a + svg:focus {
 }
 
 .blog_right_column {
+  display: block;
+  overflow: hidden;
   min-height: 200px;
 }
 
 .blog_description {
-  overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 0;
 }
@@ -1312,7 +1313,6 @@ a + svg:focus {
   margin: auto;
   padding-left: 30px;
   bottom: 40px;
-  display: block;
 }
 
 .header_date, .header_subtitle {
