@@ -96,7 +96,10 @@ input[type=button], input[type=submit], .btn {
     border: 2px solid $magenta;
     border-image-source: linear-gradient($magenta, $magentadark);
     border-image-slice: 20;
-    color: $magenta;
+    background-image: linear-gradient($magenta, $magentadark);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     background-color: transparent;
   }
 }
