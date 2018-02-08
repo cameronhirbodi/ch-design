@@ -855,7 +855,7 @@ footer {
 }
 
 footer a {
-  margin: 10px;
+  margin: 0 20px;
 }
 
 footer small {
@@ -1111,6 +1111,7 @@ a + svg:focus {
 
 .mobile_nav #menuToggle #menu li a span {
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   position: relative;
   padding-bottom: 5px;
 }

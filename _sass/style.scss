@@ -100,7 +100,7 @@ footer {
     clear: both;
     padding: $xxxlspacing $xlspacing $xlspacing;
     a {
-        margin: $smspacing;
+        margin: 0 $mdspacing;
     }
     small {
         padding: $smspacing 0 0;
@@ -299,6 +299,7 @@ a + svg:focus {
                     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
                     span {
                         font-family: $font-header;
+                        font-weight: 500;
                         position: relative;
                         padding-bottom: $xsmspacing;
                     }
