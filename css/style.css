@@ -855,7 +855,7 @@ footer {
 }
 
 footer a {
-  padding: 0 5px;
+  margin: 10px;
 }
 
 footer small {
@@ -863,25 +863,8 @@ footer small {
   display: block;
 }
 
-.social_desk {
-  display: block;
-}
-
-.social_desk svg {
-  fill: #fc3468;
-  margin: 10px;
-}
-
-.social_mob {
-  display: none;
-}
-
-.social_mob svg {
-  fill: #fc3468;
-}
-
-.social_mob a {
-  padding: 0 10px;
+footer svg {
+  fill: #000;
 }
 
 a + svg {
@@ -1128,7 +1111,6 @@ a + svg:focus {
 
 .mobile_nav #menuToggle #menu li a span {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
   position: relative;
   padding-bottom: 5px;
 }
@@ -1493,8 +1475,11 @@ a + svg:focus {
     min-height: 360px;
     max-height: 420px;
   }
-  nav, section, footer {
+  nav, section {
     padding: 30px 20px;
+  }
+  footer {
+    padding: 60px 20px 30px;
   }
   main article, main section, main .blog_list {
     padding: 30px 20px;
@@ -1541,15 +1526,6 @@ a + svg:focus {
   }
   .portfolio_list li {
     height: 200px;
-  }
-  .welcome_text {
-    font-size: 1.5em;
-  }
-  .social_desk {
-    display: none;
-  }
-  .social_mob {
-    display: block;
   }
 }
 

@@ -100,29 +100,14 @@ footer {
     clear: both;
     padding: $xxxlspacing $xlspacing $xlspacing;
     a {
-        padding: 0 $xsmspacing;
+        margin: $smspacing;
     }
     small {
         padding: $smspacing 0 0;
         display: block;
     }
-}
-
-.social_desk {
-    display: block;
     svg {
-        fill: $magenta;
-        margin: $smspacing;
-    }
-}
-
-.social_mob {
-    display: none;
-    svg {
-        fill: $magenta;
-    }
-    a {
-        padding: 0 $smspacing;
+        fill: $black;
     }
 }
 
@@ -314,7 +299,6 @@ a + svg:focus {
                     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
                     span {
                         font-family: $font-header;
-                        font-size: 1.5em;
                         position: relative;
                         padding-bottom: $xsmspacing;
                     }
@@ -694,8 +678,11 @@ a + svg:focus {
         min-height: 360px;
         max-height: 420px;
     }
-    nav, section, footer {
+    nav, section {
         padding: $lgspacing $mdspacing;
+    }
+    footer {
+        padding: $xxlspacing $mdspacing $lgspacing;    
     }
     main {
         article, section, .blog_list {
@@ -750,16 +737,6 @@ a + svg:focus {
         li {
             height: 200px;
         }
-    }
-    .welcome_text {
-        font-size: 1.5em;
-    }
-    .social_desk {
-        display: none;
-    }
-    
-    .social_mob {
-        display: block;
     }
 }
 
