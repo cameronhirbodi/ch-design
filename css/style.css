@@ -851,11 +851,11 @@ footer {
   margin: 0 auto;
   text-align: center;
   clear: both;
-  padding: 40px;
+  padding: 80px 40px 40px;
 }
 
 footer a {
-  padding: 5px;
+  padding: 0 5px;
 }
 
 footer small {
@@ -878,6 +878,10 @@ footer small {
 
 .social_mob svg {
   fill: #fc3468;
+}
+
+.social_mob a {
+  padding: 0 10px;
 }
 
 a + svg {

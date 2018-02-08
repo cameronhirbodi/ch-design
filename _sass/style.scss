@@ -98,9 +98,9 @@ footer {
     margin: 0 auto;
     text-align: center;
     clear: both;
-    padding: $xlspacing;
+    padding: $xxxlspacing $xlspacing $xlspacing;
     a {
-        padding: $xsmspacing;
+        padding: 0 $xsmspacing;
     }
     small {
         padding: $smspacing 0 0;
@@ -120,6 +120,9 @@ footer {
     display: none;
     svg {
         fill: $magenta;
+    }
+    a {
+        padding: 0 $smspacing;
     }
 }
 
