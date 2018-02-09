@@ -7,7 +7,7 @@ permalink: /blog/
 
 <main>
     <ul class="blog_list">
-        {% for blog in site.categories.blog limit:2 %}
+        {% for blog in site.categories.blog limit:5 %}
             <li>
                 <a class="fade_in blog_image_thumb" style="background-image: url('{{blog.image}}')" href="{{site.baseurl}}{{blog.url}}"></a>
                 <div class="blog_right_column">
