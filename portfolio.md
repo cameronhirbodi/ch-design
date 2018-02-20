@@ -5,7 +5,7 @@ category: Portfolio
 permalink: /portfolio/
 ---
 <main>
-    <article class="wide_layout">
+    <section class="wide_layout">
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">
             {% for portfolio in site.categories.portfolio %}
@@ -14,6 +14,6 @@ permalink: /portfolio/
                 </li>
             {% endfor %}
         </ul>
-    </article>
+    </section>
     {% include footer.html %}
 </main>

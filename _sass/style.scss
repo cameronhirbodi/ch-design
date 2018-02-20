@@ -538,7 +538,6 @@ a + svg:focus {
         float: left;
         width: 48%;
         height: 300px;
-        overflow: hidden;
         margin: 0 4% 4% 0;
         background-position: center;
         background-repeat: no-repeat;
@@ -679,15 +678,20 @@ a + svg:focus {
         min-height: 360px;
         max-height: 420px;
     }
-    nav, section {
+    nav {
         padding: $lgspacing $mdspacing;
     }
     footer {
         padding: $xxlspacing $mdspacing $lgspacing;    
     }
     main {
-        article, section, .blog_list {
+        article .blog_list {
             padding: $lgspacing $mdspacing;
+        }
+        section {
+            padding: 0;
+            margin: 0;
+            clear: both;
         }
         figure {
             padding: 0;
@@ -734,16 +738,19 @@ a + svg:focus {
     .col-20.swatchcol {
         width: 33.33%;
     }
+
     .portfolio_list {
         li {
-            height: 200px;
+            width: 49%;
+            height: 300px;
+            margin: 0 2% 2% 0;
         }
     }
 }
 
 @media (max-width: 479px) {
     main {
-        article, section, .blog_list {
+        article, .blog_list {
             padding: $mdspacing;
         }
         figure {
@@ -771,15 +778,6 @@ a + svg:focus {
     .swatch {
         min-height: 40px;
     }
-    .portfolio_list {
-        li {
-            width: 100%;
-            margin: 0 0 5% 0;
-        }
-        li:nth-child(2n) {
-            margin: 0 0 5% 0;
-        }
-    }
     .blog_list {
         li {
             padding-bottom: $mdspacing;
@@ -802,6 +800,11 @@ a + svg:focus {
         }
         .blog_description {
             font-size: 0.9em;
+        }
+    }
+    .portfolio_list {
+        li {
+            height: 200px;
         }
     }
 }
