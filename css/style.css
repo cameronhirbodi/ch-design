@@ -98,8 +98,8 @@
           animation-name: fadeUp;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
 }
 
 @-webkit-keyframes fadeUp {
@@ -127,10 +127,10 @@
 .fade_up_delay {
   -webkit-animation-name: fadeUpDelay;
           animation-name: fadeUpDelay;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
 }
 
 @-webkit-keyframes fadeUpDelay {

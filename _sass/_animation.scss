@@ -78,7 +78,7 @@
 .fade_up {
   animation-name: fadeUp;
   animation-duration: 1s;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
 }
 
   @keyframes fadeUp {
@@ -94,8 +94,8 @@
 
   .fade_up_delay {
     animation-name: fadeUpDelay;
-    animation-duration: 1.5s;
-    transition-timing-function: ease-in;
+    animation-duration: 1s;
+    transition-timing-function: ease-out;
   }
   
     @keyframes fadeUpDelay {
