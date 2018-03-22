@@ -12,4 +12,4 @@ There are some artists that can get me to whip out the ol' pen and pad again. Wh
 
 Jor Ros uses more realism than is seen in most Anime yet it feels stylized in his own way. I enjoy his choices of color, the urban streetwear influence, and how he incorporates geometric figures. 
 
-I encourage anyone reading this to support him in purchasing even a small print from him store as I just have.
+I encourage anyone reading this to support him in purchasing even a small print from his store as I just have.
