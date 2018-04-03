@@ -835,6 +835,10 @@ main article img, main section img {
   min-width: 100%;
 }
 
+main article h3, main section h3 {
+  color: #0c0f89;
+}
+
 main figure {
   margin: 0 auto;
   max-width: 800px;
