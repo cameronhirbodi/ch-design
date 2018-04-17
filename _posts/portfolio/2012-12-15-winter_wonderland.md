@@ -4,7 +4,7 @@ title: Winter Wonderland
 meta: Print invitation created internally for corporate party.
 category: portfolio
 type: print
-permalink: portfolio/winter_wonderland
+permalink: portfolio/:title/
 image: /images/portfolio/winter_wonderland_01.jpg
 ---
 

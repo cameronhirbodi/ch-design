@@ -4,7 +4,7 @@ title: Parsons Racing
 meta: Logo created for Parsons Racing.
 category: portfolio
 type: identity
-permalink: portfolio/parsons_racing
+permalink: portfolio/:title/
 image: /images/portfolio/parsons_racing.jpg
 source: http://parsonsracing.com/
 ---

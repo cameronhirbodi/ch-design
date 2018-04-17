@@ -3,7 +3,7 @@ layout: post_blog
 title: Airbnb's New Tool Simplifies Animation for Web
 meta: Lottie, a new open-source tool helps developers streamline animation for web.
 category: blog
-permalink: blog/airbnbs-new-tool-simplifies-animation-for-web
+permalink: blog/:title/
 image: /images/blog/lottie.jpg
 source: https://airbnb.design/introducing-lottie/
 ---

@@ -4,7 +4,7 @@ title: Blizzard Support
 meta: Blizzard Support
 category: portfolio
 type: web
-permalink: portfolio/blizzard_support
+permalink: portfolio/:title/
 image: /images/portfolio/blizz_supp.jpg
 source: http://www.battle.net/support
 ---

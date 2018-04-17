@@ -3,7 +3,7 @@ layout: post_blog
 title: Braille Neue Typeface Caters to the Sighted and Visually Impaired
 meta: This new typeface can be seen and touched by all.
 category: blog
-permalink: blog/braille_neue_typeface
+permalink: blog/:title/
 image: /images/blog/braille_neue.jpg
 source: http://brailleneue.com/
 ---
