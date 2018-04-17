@@ -3,13 +3,8 @@ layout: post_portfolio
 title: Blizzard Support
 meta: Blizzard Support
 category: portfolio
-<<<<<<< HEAD
 tag: web
 permalink: portfolio/:title/
-=======
-type: web
-permalink: portfolio/blizzard_support
->>>>>>> parent of 95390c7... restructured pages
 image: /images/portfolio/blizz_supp.jpg
 source: http://www.battle.net/support
 ---

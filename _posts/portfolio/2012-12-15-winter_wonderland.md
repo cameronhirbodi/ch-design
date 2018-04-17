@@ -3,13 +3,8 @@ layout: post_portfolio
 title: Winter Wonderland
 meta: Print invitation created internally for corporate party.
 category: portfolio
-<<<<<<< HEAD
 tag: print
 permalink: portfolio/:title/
-=======
-type: print
-permalink: portfolio/winter_wonderland
->>>>>>> parent of 95390c7... restructured pages
 image: /images/portfolio/winter_wonderland_01.jpg
 ---
 
