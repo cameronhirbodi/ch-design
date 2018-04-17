@@ -3,10 +3,6 @@ layout: simple
 title: Portfolio
 category: Portfolio
 permalink: /portfolio/
-pagination: 
-  enabled: true
-  category: portfolio
-  per_page: 8
 ---
 <main>
     <section class="wide_layout">
