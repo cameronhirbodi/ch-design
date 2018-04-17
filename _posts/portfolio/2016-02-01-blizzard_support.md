@@ -3,7 +3,7 @@ layout: post_portfolio
 title: Blizzard Support
 meta: Blizzard Support
 category: portfolio
-type: web
+tag: web
 permalink: portfolio/:title/
 image: /images/portfolio/blizz_supp.jpg
 source: http://www.battle.net/support

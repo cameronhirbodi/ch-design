@@ -3,7 +3,7 @@ layout: post_portfolio
 title: Gastroflonomics
 meta: Web development for culinary blog.
 category: portfolio
-type: web
+tag: web
 permalink: portfolio/:title/
 image: /images/portfolio/gastro_01.jpg
 source: http://www.gastroflonomics.com

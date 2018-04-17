@@ -76,7 +76,7 @@ main {
     article, section {
         margin: 0 auto;
         padding: $lgspacing $lgspacing;
-        max-width: 800px;
+        max-width: 768px;
         img {
             width: 100%;
             min-width: 100%;
@@ -87,7 +87,7 @@ main {
     }
     figure {
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 768px;
         padding: $lgspacing $lgspacing 0;
         img {
             width: 100%;
@@ -341,6 +341,19 @@ a + svg:focus {
     max-width: 768px;
 }
 
+.pagination {
+    clear: both;
+    ul {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        li {
+            padding: 0 $lgspacing;
+            display: inline-block;
+        }
+    }
+}
+
 // Splash
 
 .desk_splash_bg {
@@ -469,7 +482,7 @@ a + svg:focus {
 .blog_list {
     display: block;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 768px;
     padding: $xlspacing $lgspacing;
     .blog_title {
         padding: 0;
@@ -817,5 +830,8 @@ a + svg:focus {
         li {
             height: 200px;
         }
+    }
+    .pagination {
+        padding: $mdspacing;
     }
 }
