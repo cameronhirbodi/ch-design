@@ -3,7 +3,7 @@ layout: post_blog
 title: Inspired by Artist Jor Ros
 meta: Jor Ros is an artist that inspires me in digital illustration
 category: blog
-permalink: blog/:title/
+permalink: blog/inspired-by-artist-jor-ros
 image: /images/blog/jorros-art.jpg
 source: https://www.instagram.com/jor.ros/
 ---

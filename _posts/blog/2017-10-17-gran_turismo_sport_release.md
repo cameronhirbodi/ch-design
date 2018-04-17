@@ -3,7 +3,7 @@ layout: post_blog
 title: Gran Turismo Sport Released
 meta: After some set backs, the long awaited Gran Turismo Sport has been released. Car enthusiasts should enjoy it.
 category: blog
-permalink: blog/:title/
+permalink: blog/gran_turismo_sport_released
 image: /images/blog/gts_rel.jpg
 source: http://www.gran-turismo.com/us/products/gtsport/
 ---

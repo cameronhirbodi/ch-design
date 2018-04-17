@@ -3,8 +3,13 @@ layout: post_portfolio
 title: Gastroflonomics
 meta: Web development for culinary blog.
 category: portfolio
+<<<<<<< HEAD
 tag: web
 permalink: portfolio/:title/
+=======
+type: web
+permalink: portfolio/gastroflonomics
+>>>>>>> parent of 95390c7... restructured pages
 image: /images/portfolio/gastro_01.jpg
 source: http://www.gastroflonomics.com
 ---
