@@ -1559,7 +1559,7 @@ a + svg:focus {
   }
   .portfolio_list li {
     width: 49%;
-    height: 300px;
+    height: 260px;
     margin: 0 2% 2% 0;
   }
 }
@@ -1611,7 +1611,7 @@ a + svg:focus {
     font-size: 0.9em;
   }
   .portfolio_list li {
-    height: 200px;
+    height: 160px;
   }
   .pagination {
     padding: 20px;
