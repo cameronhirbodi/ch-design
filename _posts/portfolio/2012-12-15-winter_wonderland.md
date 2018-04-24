@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Winter Wonderland
-meta: Print invitation created internally for corporate party.
+meta: Print invitation created internally for corporate party
 category: portfolio
 tag: print
 permalink: portfolio/:title/

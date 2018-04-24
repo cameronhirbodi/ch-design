@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Blizzard Support
-meta: Blizzard Support
+meta: Support website designed for Blizzard Entertainment
 category: portfolio
 tag: web
 permalink: portfolio/:title/

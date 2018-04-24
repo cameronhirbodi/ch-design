@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Parsons Racing
-meta: Logo created for Parsons Racing.
+meta: Logo created for Parsons Racing
 category: portfolio
 tag: identity
 permalink: portfolio/:title/
