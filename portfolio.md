@@ -1,6 +1,7 @@
 ---
 layout: simple
 title: Portfolio
+meta: View a showcase of Cameron's most recent design work from various disciplines.
 category: Portfolio
 permalink: /portfolio/
 ---

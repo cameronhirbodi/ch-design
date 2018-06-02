@@ -1,6 +1,7 @@
 ---
 layout: simple
 title: Blog
+meta: Read about Cameron's take on various design related topics.
 category: Blog
 permalink: /blog/
 ---
