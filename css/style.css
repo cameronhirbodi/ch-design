@@ -293,7 +293,7 @@ html {
 
 body {
   background-color: white;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -664,7 +664,7 @@ html {
 
 body {
   background-color: white;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -1110,7 +1110,7 @@ a + svg:focus {
   margin: 20px 0;
   text-transform: uppercase;
   color: #FFF;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Lora", serif;
   -webkit-transform-origin: 0;
           transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -1356,7 +1356,7 @@ a + svg:focus {
 .header_date, .header_subtitle {
   color: #A4AAAE;
   margin: 20px 0 30px;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Lora", serif;
 }
 
 .header_date.font_small, .header_subtitle.font_small {
