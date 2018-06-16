@@ -826,8 +826,14 @@ main {
 
 main article, main section {
   margin: 0 auto;
-  padding: 30px 30px;
   max-width: 768px;
+  padding: 20px 30px;
+}
+
+main article.left_justify, main section.left_justify {
+  width: 40%;
+  padding: 30px 60px;
+  float: left;
 }
 
 main article img, main section img {
@@ -836,6 +842,7 @@ main article img, main section img {
 }
 
 main article h3, main section h3 {
+  text-align: center;
   color: #0c0f89;
 }
 
@@ -843,6 +850,11 @@ main figure {
   margin: 0 auto;
   max-width: 768px;
   padding: 30px 30px 0;
+}
+
+main figure.right_justify {
+  width: 60%;
+  float: right;
 }
 
 main figure img {
@@ -1163,6 +1175,14 @@ a + svg:focus {
   display: inline-block;
 }
 
+.dash {
+  display: block;
+  width: 30px;
+  margin: 30px auto;
+  background-color: #0c0f89;
+  height: 2px;
+}
+
 .desk_splash_bg {
   display: block;
   width: 100%;
@@ -1331,6 +1351,10 @@ a + svg:focus {
   min-height: 200px;
 }
 
+.blog_right_column .header_date {
+  text-align: left;
+}
+
 .blog_description {
   text-overflow: ellipsis;
   margin-bottom: 0;
@@ -1355,6 +1379,7 @@ a + svg:focus {
 
 .header_date, .header_subtitle {
   color: #A4AAAE;
+  text-align: center;
   margin: 20px 0 30px;
   font-family: "Lora", serif;
 }
@@ -1505,7 +1530,12 @@ a + svg:focus {
   footer {
     padding: 60px 20px 30px;
   }
-  main article .blog_list {
+  main article.left_justify {
+    width: 100%;
+    padding: 20px 20px;
+    float: none;
+  }
+  main article.blog_list {
     padding: 30px 20px;
   }
   main section {
@@ -1527,6 +1557,10 @@ a + svg:focus {
     height: 50%;
     min-height: 0;
     max-height: 480px;
+  }
+  main figure.right_justify {
+    width: 100%;
+    float: none;
   }
   .desktop_nav {
     display: none;

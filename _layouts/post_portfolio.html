@@ -3,13 +3,13 @@
   <body>
       {% include nav.html %}
       <main>
-        <figure>
+        <figure class="right_justify">
             <img class="fade_in" src="{{page.image}}">
         </figure>
-        <article>
+        <article class="left_justify">
           <h3>{{page.title}}</h3>
+          <span class="dash"></span>
           <div class="entry">
-            <br>
             {{ content }}
             <br>
             {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}

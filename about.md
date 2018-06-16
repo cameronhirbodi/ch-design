@@ -8,12 +8,14 @@ image: /images/about/about_cam.jpg
 ---
 
 <main>
-    <figure>
+    <figure class="right_justify">
         <div class="about fade_in" style="background-image: url('{{page.image}}')">
             <span class="blue_box fade_up"><h3>me.</h3></span>
         </div>
     </figure>
-    <article>
+    <article class="left_justify">
+        <h3>{{page.title}}</h3>
+        <span class="dash"></span>
         <br>
         <p>
         Hi. I'm Cameron Hirbodi, a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, interaction design, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
