@@ -790,11 +790,15 @@ body .mob_bg {
 }
 
 nav {
+  position: relative;
+  top: 0;
   background: #FFF;
-  margin: 0 auto;
+  margin: 0 auto 5px;
   padding: 40px;
   text-transform: uppercase;
   border-bottom: 1px solid #D7DDE1;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
 }
 
 header {
@@ -895,7 +899,6 @@ a + svg:focus {
 }
 
 .desktop_nav {
-  margin-bottom: 0;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -935,7 +938,6 @@ a + svg:focus {
 
 .mobile_nav {
   display: none;
-  margin-bottom: 0;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -1210,6 +1212,8 @@ a + svg:focus {
   background-color: transparent;
   border-bottom: none;
   padding-bottom: 80px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .splash_content .desktop_nav ul li a {
@@ -1218,8 +1222,9 @@ a + svg:focus {
 
 .splash_content .mobile_nav {
   background-color: transparent;
-  margin-bottom: 30px;
   border-bottom: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .splash_content .mobile_nav #menuToggle .hamburgerspan {
@@ -1233,14 +1238,12 @@ a + svg:focus {
 .splash_content h1 {
   position: relative;
   top: 15%;
-  z-index: 1;
 }
 
 .splash_content h4 {
   letter-spacing: 0.6em;
   position: relative;
   bottom: -20%;
-  z-index: 1;
 }
 
 .splash_content .splash_mask_left {
@@ -1505,6 +1508,10 @@ a + svg:focus {
   footer {
     padding: 60px 20px 30px;
   }
+  main {
+    position: relative;
+    top: -5px;
+  }
   main article .blog_list {
     padding: 30px 20px;
   }
@@ -1551,6 +1558,7 @@ a + svg:focus {
     display: block;
   }
   .splash_content {
+    margin: 0 auto 5px;
     min-height: 360px;
     max-height: 360px;
   }
