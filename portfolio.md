@@ -6,7 +6,7 @@ category: Portfolio
 permalink: /portfolio/
 ---
 <main>
-    <section class="wide_layout">
+    <section>
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">
             {% for portfolio in site.categories.portfolio %}
