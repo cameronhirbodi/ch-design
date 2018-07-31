@@ -288,7 +288,7 @@
 }
 
 html {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 body {
@@ -658,7 +658,7 @@ table {
 }
 
 html {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 body {
@@ -756,7 +756,7 @@ bold {
 }
 
 body {
-  color: #000;
+  color: #0F1A50;
   background: #FFF;
   min-width: 320px;
   margin: 0;
