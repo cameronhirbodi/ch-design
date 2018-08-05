@@ -825,15 +825,34 @@ main {
   background: #FFF;
 }
 
+main figure {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 30px 30px 0;
+}
+
+main figure.left_justify {
+  width: 60%;
+  padding: 20px 30px 0 0;
+  float: left;
+}
+
+main figure img {
+  height: 50%;
+  width: 100%;
+  min-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 main article, main section {
   margin: 0 auto;
 }
 
-main article.left_justify, main section.left_justify {
+main article.right_justify, main section.right_justify {
   width: 40%;
-  min-width: 360px;
-  padding: 30px 20px 30px 60px;
-  float: left;
+  padding: 40px 0 0 30px;
+  float: right;
 }
 
 main article img, main section img {
@@ -844,24 +863,6 @@ main article img, main section img {
 main article h3, main section h3 {
   text-align: center;
   color: #0c0f89;
-}
-
-main figure {
-  margin: 0 auto;
-  max-width: 768px;
-  padding: 30px 30px 0;
-}
-
-main figure.right_justify {
-  padding: 30px 60px 30px 20px;
-  float: right;
-}
-
-main figure img {
-  height: 50%;
-  min-height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 footer {
@@ -1180,6 +1181,10 @@ a + svg:focus {
   margin: 30px auto;
   background-color: #0c0f89;
   height: 2px;
+}
+
+.center {
+  text-align: center;
 }
 
 .desk_splash_bg {
@@ -1556,7 +1561,7 @@ a + svg:focus {
   main {
     padding: 0;
   }
-  main article.left_justify {
+  main article.right_justify {
     width: 100%;
     padding: 20px 20px;
     float: none;
@@ -1576,7 +1581,7 @@ a + svg:focus {
   }
   main figure img {
     width: 100%;
-    height: 65%;
+    height: 50%;
     min-height: 0;
   }
   main figure .about {
@@ -1584,7 +1589,7 @@ a + svg:focus {
     min-height: 0;
     max-height: 480px;
   }
-  main figure.right_justify {
+  main figure.left_justify {
     width: 100%;
     padding: 0;
     float: none;
