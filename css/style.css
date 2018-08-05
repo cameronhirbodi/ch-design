@@ -788,6 +788,7 @@ body .mob_bg {
 }
 
 nav {
+  position: relative;
   background: #FFF;
   margin: 0 auto;
   padding: 40px 40px;
