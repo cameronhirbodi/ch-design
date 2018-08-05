@@ -789,9 +789,10 @@ body .mob_bg {
 
 nav {
   position: relative;
+  top: 0;
   background: #FFF;
   margin: 0 auto;
-  padding: 40px 40px;
+  padding: 40px;
   text-transform: uppercase;
   border-bottom: 1px solid #D7DDE1;
   -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
