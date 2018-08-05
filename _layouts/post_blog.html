@@ -3,16 +3,17 @@
   <body>
       {% include nav.html %}
       <main>
-        <figure>
-            <img class="fade_in" src="{{page.image}}">
+        <figure class="left_justify">
+          <img class="fade_in" src="{{page.image}}">
         </figure>
-        <article>
+        <article class="right_justify">
           <h3>{{page.title}}</h3>
-          <div class="entry">
+          <span class="dash"></span>
+          <div>
             <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
             {{ content }}
             <br>
-            {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Source</a></p>{% endif %}
+            {% if page.source %}<p class="center"><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Source</a></p>{% endif %}
           </div>
         </article>
         {% include footer.html %}
