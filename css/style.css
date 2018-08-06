@@ -1264,14 +1264,12 @@ a + svg:focus {
 .splash_content h1 {
   position: relative;
   top: 15%;
-  z-index: 1;
 }
 
 .splash_content h4 {
   letter-spacing: 0.6em;
   position: relative;
   bottom: -20%;
-  z-index: 1;
 }
 
 .splash_content .splash_mask_left {
