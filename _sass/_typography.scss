@@ -8,11 +8,11 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: $white;
     font-family: $font-body;
     font-weight: 400;
     line-height: 1.45;
-    color: #333;
+    color: $greyslate;
 }
 
 p {
@@ -54,7 +54,7 @@ small, .font_small {
 }
 
 p {
-    margin-bottom: 1.3em;
+    margin-bottom: 2em;
 }
 
 a {

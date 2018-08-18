@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
-title: Blizzard Support
-meta: Support website designed for Blizzard Entertainment
+title: Blizzard Support Portal
+meta: Web portal designed to assist Blizzard Entertainment players and offer the best support in order to quickly get them back into the game.
 category: portfolio
 tag: web
 permalink: portfolio/:title/

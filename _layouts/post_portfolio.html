@@ -3,17 +3,21 @@
   <body>
       {% include nav.html %}
       <main>
-        <figure class="left_justify">
-          <img class="fade_in" src="{{page.image}}">
-        </figure>
-        <article class="right_justify">
-          <h3>{{page.title}}</h3>
-          <span class="dash"></span>
-          <div class="entry">
-            {{ content }}
-            <br>
-            {% if page.source %}<p class="center"><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
-          </div>
+          <figure class="left_justify">
+              <img class="fade_in" src="{{page.image}}">
+          </figure>
+          <aside class="right_justify">
+            <div>
+              <h3>{{page.title}}</h3>
+              <br>
+              <p>{{page.meta}}</p>
+            </div>
+          </aside>
+
+        <article class="entry">
+          {{ content }}
+          <br>
+          {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
         </article>
         {% include footer.html %}
       </main>
