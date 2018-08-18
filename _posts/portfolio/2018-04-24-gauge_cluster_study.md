@@ -13,4 +13,5 @@ This is a simple exercise to familiarize myself with in-car instrument gauge clu
 The next steps will be to iterate on this interface by adding more polish and missing details. Finally, the cluster should incorporate subtle but meaningful animations to improve usability.
 
 ![Gauge Cluster Study - Wireframe]({{ "/images/portfolio/gauge_clust_wire.jpg" }})
+<br>
 ![Gauge Cluster Study - Sketch]({{ "/images/portfolio/gauge_clust_lofi.jpg" }})
