@@ -1508,6 +1508,12 @@ a + svg:focus {
   main article.right_justify {
     padding: 20px 0;
   }
+  main aside.right_justify {
+    max-width: 640px;
+    width: 100%;
+    padding: 30px 30px 0;
+    float: none;
+  }
   .splash_content h1 {
     top: 25%;
     font-size: 3.375em;
