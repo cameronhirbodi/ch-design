@@ -3,10 +3,10 @@
   <body>
       {% include nav.html %}
       <main>
-        <figure class="left_justify">
+        <figure class="left_float">
           <img class="fade_in" src="{{page.image}}">
         </figure>
-        <article class="right_justify">
+        <article class="right_float">
           <h3>{{page.title}}</h3>
           <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
           {{ content }}

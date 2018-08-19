@@ -8,12 +8,12 @@ image: /images/about/about_cam.jpg
 ---
 
 <main>
-    <figure class="left_justify">
+    <figure class="left_float">
         <div class="about fade_in" style="background-image: url('{{page.image}}')">
             <span class="blue_box fade_up"><h3>me.</h3></span>
         </div>
     </figure>
-    <article class="right_justify">
+    <article class="right_float">
         <h3>{{page.title}}</h3>
         <br>
         <p>

@@ -854,20 +854,20 @@ aside h4 {
 }
 
 .entry {
-  margin: 30px auto;
-  max-width: 640px;
+  padding: 0 20px 30px 0;
+  width: 70%;
   clear: both;
 }
 
-.left_justify {
-  width: 60%;
+.left_float {
+  width: 70%;
   padding: 0 30px 40px 0;
   float: left;
 }
 
-.right_justify {
-  width: 40%;
-  padding: 30px 0 30px 20px;
+.right_float {
+  width: 30%;
+  padding: 0 40px 0 0;
   float: right;
 }
 
@@ -1300,6 +1300,13 @@ a + svg:focus {
   color: #0c0f89;
 }
 
+.fixed {
+  position: fixed;
+  right: 0;
+  width: 30%;
+  padding: 0 40px 0 0;
+}
+
 .about {
   height: 65%;
   min-height: 500px;
@@ -1505,14 +1512,14 @@ a + svg:focus {
   main {
     padding: 20px;
   }
-  main article.right_justify {
-    padding: 20px 0;
+  main .left_float {
+    width: 60%;
   }
-  main aside.right_justify {
-    max-width: 640px;
-    width: 100%;
-    padding: 30px 30px 0;
-    float: none;
+  main .right_float {
+    width: 40%;
+  }
+  main .entry {
+    width: 60%;
   }
   .splash_content h1 {
     top: 25%;
@@ -1593,16 +1600,18 @@ a + svg:focus {
     min-height: 0;
     max-height: 480px;
   }
-  main figure.left_justify {
+  main figure.left_float {
     width: 100%;
     padding: 0;
     float: none;
   }
   main article.entry {
     margin: 0 auto;
+    width: 100%;
     padding: 0 20px 20px;
   }
-  main article.right_justify {
+  main article.right_float {
+    position: relative;
     width: 100%;
     padding: 20px 20px 0;
     float: none;
@@ -1610,7 +1619,8 @@ a + svg:focus {
   main article.blog_list {
     padding: 30px 20px;
   }
-  main aside.right_justify {
+  main aside.right_float {
+    position: relative;
     width: 100%;
     padding: 20px 20px 0;
     float: none;

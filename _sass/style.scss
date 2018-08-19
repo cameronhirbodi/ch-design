@@ -103,20 +103,20 @@ aside {
 }
 
 .entry {
-    margin: $lgspacing auto;
-    max-width: 640px;
+    padding: 0 $mdspacing $lgspacing 0;
+    width: 70%;
     clear: both;
 }
 
-.left_justify {
-    width: 60%;
+.left_float {
+    width: 70%;
     padding: 0 $lgspacing $xlspacing 0;
     float: left;       
 }
 
-.right_justify {
-    width: 40%;
-    padding: $lgspacing 0 $lgspacing $mdspacing;
+.right_float {
+    width: 30%;
+    padding: 0 $xlspacing 0 0;
     float: right;
 }
 
@@ -490,6 +490,13 @@ a + svg:focus {
     color: $violet;
 }
 
+.fixed {
+    position: fixed;
+    right: 0;
+    width: 30%;
+    padding: 0 $xlspacing 0 0;
+}
+
 // About
 
 .about {
@@ -700,19 +707,16 @@ a + svg:focus {
 @media (max-width: 1028px) {
     main {
         padding: $mdspacing;
-        article {
-            &.right_justify {
-                padding: $mdspacing 0;
-            }
+        .left_float {
+            width: 60%;
         }
-        aside {
-            &.right_justify {
-                max-width: 640px;
-                width: 100%;
-                padding: $lgspacing $lgspacing 0;
-                float: none; 
-            }     
+        .right_float {
+            width: 40%;
         }
+        .entry {
+            width: 60%;
+        }
+
     }
     .splash_content {
         h1 {
@@ -799,7 +803,7 @@ a + svg:focus {
                 min-height: 0;
                 max-height: 480px;
             }
-            &.left_justify {
+            &.left_float {
                 width: 100%;
                 padding: 0;
                 float: none;       
@@ -808,9 +812,11 @@ a + svg:focus {
         article {
             &.entry {
                 margin: 0 auto;
+                width: 100%;
                 padding: 0 $mdspacing $mdspacing;
             }
-            &.right_justify {
+            &.right_float {
+                position: relative;
                 width: 100%;
                 padding: $mdspacing $mdspacing 0;
                 float: none; 
@@ -820,7 +826,8 @@ a + svg:focus {
             }
         }
         aside {
-            &.right_justify {
+            &.right_float {
+                position: relative;
                 width: 100%;
                 padding: $mdspacing $mdspacing 0;
                 float: none; 
