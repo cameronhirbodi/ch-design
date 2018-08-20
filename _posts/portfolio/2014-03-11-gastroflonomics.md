@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Gastroflonomics
-meta: This blog was created as a way for the client to share her experiences in food and culture around the world.
+meta: This blog was created as a way for the client to quickly share her experiences related to food and culture from around the world.
 category: portfolio
 tag: web
 permalink: portfolio/:title/

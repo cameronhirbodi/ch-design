@@ -14,5 +14,5 @@ This logo was created to represent the Parson's Racing identity. Cameron Parson 
 The logo is currently being used on the actual Formula car Cameron drives as well as other racing material.
 
 ![Parson's Racing - Formula Car]({{ "/images/portfolio/parsons_01.jpg" }})
-<br>
+<br><br>
 ![Parson's Racing - Tent]({{ "/images/portfolio/parsons_02.jpg" }})
