@@ -5,13 +5,13 @@ meta: This is a simple exercise to familiarize myself with general in-car instru
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-image: /images/portfolio/gauge_clust_hifi.jpg
+image: /images/portfolio/gauge_clust/gauge_clust_hifi.jpg
 ---
 
 Applying UI principles to the design experience for driving a car is a new challenge for me.
 
 The next steps will be to iterate on this interface by adding more polish and missing details. Finally, the cluster should incorporate subtle but meaningful animations to improve usability.
 
-![Gauge Cluster Study - Wireframe]({{ "/images/portfolio/gauge_clust_wire.jpg" }})
+![Gauge Cluster Study - Wireframe]({{ "/images/portfolio/gauge_clust/gauge_clust_wire.jpg" }})
 <br><br>
-![Gauge Cluster Study - Sketch]({{ "/images/portfolio/gauge_clust_lofi.jpg" }})
+![Gauge Cluster Study - Sketch]({{ "/images/portfolio/gauge_clust/gauge_clust_lofi.jpg" }})
