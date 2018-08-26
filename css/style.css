@@ -206,16 +206,16 @@
   }
 }
 
-.kenburns-vert {
-  -webkit-animation: kenburns-vert 15s infinite;
+.kenburns_vert {
+  -webkit-animation: kenburns_vert 15s infinite;
   /* Safari, Chrome and Opera > 12.1 */
   /* Firefox < 16 */
   /* Internet Explorer */
   /* Opera < 12.1 */
-  animation: kenburns-vert 15s infinite;
+  animation: kenburns_vert 15s infinite;
 }
 
-@-webkit-keyframes kenburns-vert {
+@-webkit-keyframes kenburns_vert {
   0% {
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
             transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -238,7 +238,7 @@
   }
 }
 
-@keyframes kenburns-vert {
+@keyframes kenburns_vert {
   0% {
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
             transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -262,7 +262,7 @@
 }
 
 @media (max-width: 768px) {
-  @-webkit-keyframes kenburns-vert {
+  @-webkit-keyframes kenburns_vert {
     0% {
       -webkit-transform: scale3d(1.35, 1.35, 1.35) translate3d(0, 0, 0);
               transform: scale3d(1.35, 1.35, 1.35) translate3d(0, 0, 0);
@@ -284,7 +284,7 @@
       opacity: 0;
     }
   }
-  @keyframes kenburns-vert {
+  @keyframes kenburns_vert {
     0% {
       -webkit-transform: scale3d(1.35, 1.35, 1.35) translate3d(0, 0, 0);
               transform: scale3d(1.35, 1.35, 1.35) translate3d(0, 0, 0);
