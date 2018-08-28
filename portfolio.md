@@ -10,7 +10,7 @@ permalink: /portfolio/
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">
             {% for portfolio in site.categories.portfolio %}
-                <li class="fade_in" style="background-image: url('{{portfolio.images}}')">
+                <li class="fade_in" style="background-image: url('{{portfolio.images[0]}}')">
                     <a href="{{site.baseurl}}{{portfolio.url}}"></a>
                 </li>
             {% endfor %}
