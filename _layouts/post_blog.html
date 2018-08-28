@@ -4,14 +4,17 @@
       {% include nav.html %}
       <main>
         <figure class="left_float">
-          <img class="fade_in" src="{{page.image}}">
+            {% for image in page.images %}
+                <img src="{{image}}">
+            {% endfor %}
         </figure>
-        <article class="right_float">
+        <article class="right_float sticky">
           <h3>{{page.title}}</h3>
           <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
-          {{ content }}
-          <br>
-          {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Source</a></p>{% endif %}
+          <p>{{content}}</p>
+          {% if page.source %}
+            <p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Source</a></p>
+          {% endif %}
         </article>
         {% include footer.html %}
       </main>

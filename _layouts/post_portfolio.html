@@ -3,19 +3,17 @@
   <body>
       {% include nav.html %}
       <main>
-          <figure class="left_float">
-              <img src="{{page.image}}">
-          </figure>
-          <aside class="right_float fixed">
-              <h3>{{page.title}}</h3>
-              <br>
-              <p>{{page.meta}}</p>
-          </aside>
-
-        <article class="entry">
-          {{ content }}
-          <br>
-          {% if page.source %}<p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>{% endif %}
+        <figure class="left_float">
+            {% for image in page.images %}
+                <img src="{{image}}">
+            {% endfor %}
+        </figure>
+        <article class="right_float sticky">
+            <h3>{{page.title}}</h3>
+            <p>{{content}}</p>
+            {% if page.source %}
+                <p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>
+            {% endif %}
         </article>
         {% include footer.html %}
       </main>

@@ -4,7 +4,8 @@ title: Inspiring Car Dashboard UI/UX Concepts
 meta: This is a nice collection of well designed car dashboard UI/UX concepts.
 category: blog
 permalink: blog/inspiring_car_dashboard
-image: /images/blog/car_int_conc.jpg
+images: 
+- /images/blog/car_int_conc.jpg
 source: https://medium.com/inspiration-supply/car-dashboard-ui-ux-concepts-d135959d963f
 ---
 

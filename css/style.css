@@ -980,26 +980,15 @@ figure {
 }
 
 figure img {
-  height: 50%;
-  min-height: 480px;
+  margin: 0 0 20px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-aside {
-  margin: 0 auto;
-}
-
-aside h4 {
-  text-align: center;
-  color: #0c0f89;
-}
-
 .entry {
-  padding: 0 20px 30px 0;
+  padding: 0 30px 30px 0;
   width: 70%;
-  clear: both;
 }
 
 .left_float {
@@ -1447,11 +1436,13 @@ a + svg:focus {
   color: #0c0f89;
 }
 
-.fixed {
-  position: fixed;
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   right: 0;
   width: 30%;
-  padding: 0 40px 0 0;
+  padding: 20px 40px 160px 0;
 }
 
 .about {
@@ -1669,8 +1660,7 @@ a + svg:focus {
     width: 60%;
   }
   main figure img {
-    min-height: 320px;
-    height: 30%;
+    margin: 0 0 10px;
   }
   .splash_content h1 {
     top: 25%;
@@ -1768,12 +1758,6 @@ a + svg:focus {
   }
   main article.blog_list {
     padding: 30px 20px;
-  }
-  main aside.right_float {
-    position: relative;
-    width: 100%;
-    padding: 20px 20px 0;
-    float: none;
   }
   .desktop_nav {
     display: none;

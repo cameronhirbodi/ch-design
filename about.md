@@ -13,7 +13,7 @@ image: /images/about/about_cam.jpg
             <span class="blue_box fade_up"><h3>me.</h3></span>
         </div>
     </figure>
-    <article class="right_float">
+    <article class="right_float sticky">
         <h3>{{page.title}}</h3>
         <br>
         <p>
