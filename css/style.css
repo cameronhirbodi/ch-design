@@ -906,30 +906,6 @@ body {
   padding: 0;
 }
 
-body .desk_bg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-height: 680px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  z-index: -10;
-}
-
-body .mob_bg {
-  display: none;
-  width: 100%;
-  height: 100%;
-  max-height: 420px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  z-index: -10;
-}
-
 nav {
   position: relative;
   top: 0;
@@ -966,6 +942,7 @@ header.tint:before {
 
 main {
   width: 100%;
+  height: 100%;
   padding: 30px 80px;
   background: #FFF;
 }
@@ -1333,7 +1310,6 @@ a + svg:focus {
   display: block;
   width: 100%;
   height: 100%;
-  max-height: 680px;
   background-image: url("../images/home/splash_bg.jpg");
   background-color: #0c0f89;
   background-position: center;
@@ -1347,7 +1323,6 @@ a + svg:focus {
   display: none;
   width: 100%;
   height: 100%;
-  max-height: 420px;
   background-image: url("../images/home/splash_bg_sm.jpg");
   background-color: #0c0f89;
   background-position: center;
@@ -1646,21 +1621,47 @@ a + svg:focus {
   }
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
   main {
-    padding: 20px;
+    padding: 0;
   }
-  main .left_float {
-    width: 60%;
+  main section {
+    padding: 0;
+    margin: 0;
+    clear: both;
   }
-  main .right_float {
-    width: 40%;
-  }
-  main .entry {
-    width: 60%;
+  main figure {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
   }
   main figure img {
-    margin: 0 0 10px;
+    width: 100%;
+    height: 50%;
+  }
+  main figure .about {
+    height: 50%;
+    min-height: 0;
+    max-height: 480px;
+  }
+  main figure.left_float {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+  main article.entry {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px 20px;
+  }
+  main article.right_float {
+    position: relative;
+    width: 100%;
+    padding: 20px 20px 0;
+    float: none;
+  }
+  main article.blog_list {
+    padding: 30px 20px;
   }
   .splash_content h1 {
     top: 25%;
@@ -1717,47 +1718,6 @@ a + svg:focus {
   }
   footer {
     padding: 60px 20px 30px;
-  }
-  main {
-    padding: 0;
-  }
-  main section {
-    padding: 0;
-    margin: 0;
-    clear: both;
-  }
-  main figure {
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
-  }
-  main figure img {
-    width: 100%;
-    height: 50%;
-  }
-  main figure .about {
-    height: 50%;
-    min-height: 0;
-    max-height: 480px;
-  }
-  main figure.left_float {
-    width: 100%;
-    padding: 0;
-    float: none;
-  }
-  main article.entry {
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 20px 20px;
-  }
-  main article.right_float {
-    position: relative;
-    width: 100%;
-    padding: 20px 20px 0;
-    float: none;
-  }
-  main article.blog_list {
-    padding: 30px 20px;
   }
   .desktop_nav {
     display: none;

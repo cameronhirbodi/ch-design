@@ -17,28 +17,6 @@ body {
     min-width: 320px;
     margin: 0;
     padding: 0;
-    .desk_bg {
-        display: block;
-        width: 100%;
-        height: 100%;
-        max-height: 680px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: fixed;
-        z-index: -10;
-    }
-    .mob_bg {
-        display: none;
-        width: 100%;
-        height: 100%;
-        max-height: 420px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: fixed;
-        z-index: -10;
-    }
 }
 
 nav {
@@ -75,6 +53,7 @@ header.tint:before {
 
 main {
     width: 100%;
+    height: 100%;
     padding: $lgspacing $xxxlspacing;
     background: $white;
 }
@@ -388,7 +367,6 @@ a + svg:focus {
     display: block;
     width: 100%;
     height: 100%;
-    max-height: 680px;
     background-image: url("../images/home/splash_bg.jpg");
     background-color: $violet;
     background-position: center;
@@ -402,7 +380,6 @@ a + svg:focus {
     display: none;
     width: 100%;
     height: 100%;
-    max-height: 420px;
     background-image: url("../images/home/splash_bg_sm.jpg");
     background-color: $violet;
     background-position: center;
@@ -700,21 +677,47 @@ a + svg:focus {
     }
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
     main {
-        padding: $mdspacing;
-        .left_float {
-            width: 60%;
-        }
-        .right_float {
-            width: 40%;
-        }
-        .entry {
-            width: 60%;
+        padding: 0;
+        section {
+            padding: 0;
+            margin: 0;
+            clear: both;
         }
         figure {
+            padding: 0;
+            max-width: 100%;
+            width: 100%;
             img {
-                margin: 0 0 $smspacing;
+                width: 100%;
+                height: 50%;
+            }
+            .about {
+                height: 50%;
+                min-height: 0;
+                max-height: 480px;
+            }
+            &.left_float {
+                width: 100%;
+                padding: 0;
+                float: none;       
+            }
+        }
+        article {
+            &.entry {
+                margin: 0 auto;
+                width: 100%;
+                padding: 0 $mdspacing $mdspacing;
+            }
+            &.right_float {
+                position: relative;
+                width: 100%;
+                padding: $mdspacing $mdspacing 0;
+                float: none; 
+            }
+            &.blog_list {
+                padding: $lgspacing $mdspacing;
             }
         }
     }
@@ -782,49 +785,6 @@ a + svg:focus {
     footer {
         padding: $xxlspacing $mdspacing $lgspacing;    
     }    
-    main {
-        padding: 0;
-        section {
-            padding: 0;
-            margin: 0;
-            clear: both;
-        }
-        figure {
-            padding: 0;
-            max-width: 100%;
-            width: 100%;
-            img {
-                width: 100%;
-                height: 50%;
-            }
-            .about {
-                height: 50%;
-                min-height: 0;
-                max-height: 480px;
-            }
-            &.left_float {
-                width: 100%;
-                padding: 0;
-                float: none;       
-            }
-        }
-        article {
-            &.entry {
-                margin: 0 auto;
-                width: 100%;
-                padding: 0 $mdspacing $mdspacing;
-            }
-            &.right_float {
-                position: relative;
-                width: 100%;
-                padding: $mdspacing $mdspacing 0;
-                float: none; 
-            }
-            &.blog_list {
-                padding: $lgspacing $mdspacing;
-            }
-        }
-    }
     .desktop_nav {
         display: none;
         ul {
