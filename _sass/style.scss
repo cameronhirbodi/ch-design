@@ -334,7 +334,7 @@ a + svg:focus {
 }
 
 .blurb {
-    padding: $mdspacing;
+    padding: $lgspacing 0;
     margin: 0 auto;
     text-align: center;
     max-width: 480px;
@@ -688,6 +688,7 @@ a + svg:focus {
 
 @media (max-width: 1024px) {
     main {
+        padding: 0;
         section {
             padding: 0;
             margin: 0;
@@ -698,8 +699,9 @@ a + svg:focus {
             max-width: 100%;
             width: 100%;
             img {
-                width: 100%;
-                height: 50%;
+                width: inherit;
+                height: inherit;
+                object-fit: inherit;
             }
             .about {
                 height: 50%;
@@ -721,7 +723,7 @@ a + svg:focus {
             &.right_float {
                 position: relative;
                 width: 100%;
-                padding: $lgspacing 0;
+                padding: $xlspacing;
                 float: none; 
             }
             &.blog_list {
@@ -775,7 +777,6 @@ a + svg:focus {
 
 @media (max-width: 768px) {
     main {
-        padding: 0;
         article {
             &.entry {
                 padding: $mdspacing;
@@ -850,6 +851,9 @@ a + svg:focus {
         li {
             height: 180px;
         }
+    }
+    .blurb {
+        padding: $mdspacing;
     }
 }
 
