@@ -11,6 +11,10 @@
 
 // General
 
+html {
+    background: $white;
+}
+
 body {
     color: $greyslate;
     background: $white;
@@ -52,10 +56,11 @@ header.tint:before {
   }
 
 main {
+    position: relative;
     width: 100%;
-    height: 100%;
     padding: $lgspacing $xxxlspacing;
     background: $white;
+    z-index: 2;
 }
 
 img {
@@ -128,7 +133,7 @@ a + svg:focus {
 
 .desktop_nav {
     margin-bottom: 0;
-    z-index: 1;
+    z-index: 10;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     /* CH Logo */
@@ -162,7 +167,7 @@ a + svg:focus {
 .mobile_nav {
     display: none;
     margin-bottom: 0;
-    z-index: 1;
+    z-index: 10;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     /* CH Logo */
@@ -326,7 +331,7 @@ a + svg:focus {
 }
 
 .blurb {
-    padding: $smspacing;
+    padding: $mdspacing;
     margin: 0 auto;
     text-align: center;
     max-width: 480px;
@@ -359,34 +364,31 @@ a + svg:focus {
 
 // Splash
 
-.splash_bg {
-    background-color: $violet;
-}
-
 .desk_splash_bg {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 960px;
     background-image: url("../images/home/splash_bg.jpg");
     background-color: $violet;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: -10;
+    z-index: 0;
+    top: 0;
 }
 
 .mob_splash_bg {
     display: none;
     width: 100%;
-    height: 100%;
+    height: 480px;
     background-image: url("../images/home/splash_bg_sm.jpg");
     background-color: $violet;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: -10;
+    top: 0;
 }
 
 .splash_content {
@@ -397,9 +399,9 @@ a + svg:focus {
     min-height: 480px;
     max-height: 600px;
     position: relative;
-    z-index: 1;
     text-align: center;
     color: $white;
+    background: $violet;
     background-size: cover;
     text-transform: uppercase;
     nav {
@@ -431,11 +433,13 @@ a + svg:focus {
     h1 {
         position: relative;
         top: 15%;
+        z-index: 1;
     }
     h4 {
         letter-spacing: 0.6em;
         position: relative;
         bottom: -20%;
+        z-index: 1;
     }
     .splash_mask_left {
         fill: $white;
@@ -445,6 +449,7 @@ a + svg:focus {
         width: 51%;
         height: 40%;
         max-height: 200px;
+        z-index: 1;
     }
     .splash_mask_right {
         fill: $white;
@@ -454,6 +459,7 @@ a + svg:focus {
         width: 51%;
         height: 40%;
         max-height: 200px;
+        z-index: 1;
     }
 }
 
@@ -679,7 +685,6 @@ a + svg:focus {
 
 @media (max-width: 1024px) {
     main {
-        padding: 0;
         section {
             padding: 0;
             margin: 0;
@@ -766,6 +771,9 @@ a + svg:focus {
 }
 
 @media (max-width: 768px) {
+    main {
+        padding: 0;
+    }
     body {
         .desk_bg {
             display: none;
