@@ -74,6 +74,9 @@ figure {
         margin: 0 0 $mdspacing;
         width: 100%;
         object-fit: cover;
+        &:last-child {
+            margin: 0;
+        }
     }
 }
 
@@ -713,12 +716,12 @@ a + svg:focus {
             &.entry {
                 margin: 0 auto;
                 width: 100%;
-                padding: 0 $mdspacing $mdspacing;
+                padding: $xlspacing;
             }
             &.right_float {
                 position: relative;
                 width: 100%;
-                padding: $mdspacing $mdspacing 0;
+                padding: $lgspacing 0;
                 float: none; 
             }
             &.blog_list {
@@ -773,6 +776,14 @@ a + svg:focus {
 @media (max-width: 768px) {
     main {
         padding: 0;
+        article {
+            &.entry {
+                padding: $mdspacing;
+            }
+            &.right_float {
+                padding: $mdspacing;
+            }
+        }
     }
     body {
         .desk_bg {
