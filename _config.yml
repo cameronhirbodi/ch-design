@@ -24,9 +24,7 @@ github_username:  cameronhirbodi
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
 paginate: 5
 
 sass:

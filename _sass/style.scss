@@ -80,11 +80,6 @@ figure {
     }
 }
 
-.entry {
-    padding: 0 $lgspacing $lgspacing 0;
-    width: 70%;
-}
-
 .left_float {
     width: 70%;
     padding: 0 $lgspacing $xlspacing 0;
@@ -95,6 +90,9 @@ figure {
     width: 30%;
     padding: 0 $xlspacing 0 0;
     float: right;
+    img {
+        display: none;
+    }
 }
 
 footer {
@@ -715,11 +713,6 @@ a + svg:focus {
             }
         }
         article {
-            &.entry {
-                margin: 0 auto;
-                width: 100%;
-                padding: $xlspacing;
-            }
             &.right_float {
                 position: relative;
                 width: 100%;
@@ -777,12 +770,22 @@ a + svg:focus {
 
 @media (max-width: 768px) {
     main {
-        article {
-            &.entry {
-                padding: $mdspacing;
+        figure {
+            &.left_float {
+                img {
+                    display: none;
+                    &:first-child {
+                        display: block;
+                    }
+                }
             }
+        }
+        article {
             &.right_float {
                 padding: $mdspacing;
+                img {
+                    display: block;
+                }
             }
         }
     }

@@ -14,4 +14,6 @@ With Microsoft's Build 2018 conference wrapping up last week, developers were gi
 
 Fluent Design not only gives a glympse of where Windows 10 is going visually, but the guidelines offer examples to follow for good design principles. Examples of topics covered include layout, inputs, and usability.
 
+![Microsoft - Fluent Design System]({{ "/images/blog/introuwp-header.jpg" }})
+
 These principles are not only helpful in creating a Windows application, but factors to generally keep in mind as a designer.
