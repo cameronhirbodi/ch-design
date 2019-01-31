@@ -973,13 +973,13 @@ figure img:last-child {
 }
 
 .left_float {
-  width: 70%;
+  width: 65%;
   padding: 0 30px 40px 0;
   float: left;
 }
 
 .right_float {
-  width: 30%;
+  width: 35%;
   padding: 0 40px 0 0;
   float: right;
 }
@@ -1425,8 +1425,8 @@ a + svg:focus {
   position: sticky;
   top: 0;
   right: 0;
-  width: 30%;
-  padding: 20px 40px 160px 0;
+  width: 35%;
+  padding: 20px 0 160px 0;
 }
 
 .about {
@@ -1632,42 +1632,12 @@ a + svg:focus {
 
 @media (max-width: 1024px) {
   main {
-    padding: 0;
+    padding: 20px;
   }
   main section {
     padding: 0;
     margin: 0;
     clear: both;
-  }
-  main figure {
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
-  }
-  main figure img {
-    width: inherit;
-    height: inherit;
-    -o-object-fit: inherit;
-       object-fit: inherit;
-  }
-  main figure .about {
-    height: 50%;
-    min-height: 0;
-    max-height: 480px;
-  }
-  main figure.left_float {
-    width: 100%;
-    padding: 0;
-    float: none;
-  }
-  main article.right_float {
-    position: relative;
-    width: 100%;
-    padding: 40px;
-    float: none;
-  }
-  main article.blog_list {
-    padding: 30px 20px;
   }
   .splash_content h1 {
     top: 25%;
@@ -1683,7 +1653,7 @@ a + svg:focus {
   .blog_list li {
     margin-bottom: 40px;
     margin-right: 4%;
-    width: 48%;
+    width: 49%;
   }
   .blog_list li:nth-child(3n) {
     margin-right: 4%;
@@ -1695,7 +1665,7 @@ a + svg:focus {
     height: 240px;
   }
   .portfolio_list li {
-    width: 48%;
+    width: 49%;
     height: 300px;
     margin: 0 2% 2% 0;
   }
@@ -1708,6 +1678,24 @@ a + svg:focus {
 }
 
 @media (max-width: 768px) {
+  main {
+    padding: 0;
+  }
+  main figure {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  main figure .about {
+    height: 50%;
+    min-height: 0;
+    max-height: 480px;
+  }
+  main figure.left_float {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
   main figure.left_float img {
     display: none;
   }
@@ -1715,10 +1703,16 @@ a + svg:focus {
     display: block;
   }
   main article.right_float {
-    padding: 20px;
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    float: none;
   }
   main article.right_float img {
     display: block;
+  }
+  main article.blog_list {
+    padding: 30px 20px;
   }
   body .desk_bg {
     display: none;
@@ -1785,8 +1779,20 @@ a + svg:focus {
   main article, main .blog_list {
     padding: 20px;
   }
+  main figure.left_float img {
+    display: none;
+  }
+  main figure.left_float img:first-child {
+    display: block;
+  }
   main figure .about {
     max-height: 360px;
+  }
+  main article.right_float {
+    padding: 20px;
+  }
+  main article.right_float img {
+    display: block;
   }
   .desk_bg {
     background-position: bottom;
