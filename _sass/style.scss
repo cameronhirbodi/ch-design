@@ -490,13 +490,13 @@ a + svg:focus {
         color: $white;
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         z-index: 1;
-        h3 {
+        h4 {
             position: relative;
             z-index: 3;
-            top: 1em;
-            right: 1em;
+            top: 1.6em;
+            left: 1.6em;
         }
     }
     
@@ -505,14 +505,14 @@ a + svg:focus {
         content: '';
         position: absolute;
         top: $mdspacing;
-        right: $mdspacing;
+        left: $mdspacing;
         border-color: transparent;
         border-style: solid;
     }
     
     .blue_triangle::after {
-        border-width: 5em;
-        border-right-color: rgba(0, 225, 255, 0.4);
+        border-width: 4em;
+        border-left-color: rgba(0, 225, 255, 0.4);
         border-top-color: rgba(0, 225, 255, 0.4);
     }
 }

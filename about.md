@@ -10,7 +10,7 @@ image: /images/about/about_cam.jpg
 <main>
     <figure class="left_float">
         <div class="about fade_in" style="background-image: url('{{page.image}}')">
-            <span class="blue_triangle fade_up"><h3>me.</h3></span>
+            <span class="blue_triangle fade_up"><h4>me.</h4></span>
         </div>
     </figure>
     <article class="right_float sticky">
