@@ -974,7 +974,7 @@ figure img:last-child {
 
 .left_float {
   width: 65%;
-  padding: 0 30px 40px 0;
+  padding: 0 40px 40px 0;
   float: left;
 }
 
@@ -1856,4 +1856,3 @@ a + svg:focus {
     padding: 20px;
   }
 }
-/*# sourceMappingURL=style.css.map */
