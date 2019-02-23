@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
-title: In-car Instrument Cluster Study
-meta: This is a simple exercise to familiarize myself with general in-car instrument gauge cluster interfaces.
+title: Interactive Instrument Cluster Prototype
+meta: This exercise is intended to test various user interactions with an instrument cluster using an interactive prototype model.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
@@ -12,12 +12,12 @@ images:
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
 
-This is a simple exercise to familiarize myself with general in-car instrument gauge cluster interfaces by creating an interactive prototype with animation.
+This exercise is intended to test various user interactions with an instrument cluster using an interactive prototype model.
 
 ![Gauge Cluster - Wireframe]({{ "/images/portfolio/gauge_clust/gauge_clust_wire.jpg" }})
 
-Applying UI principles to the design experience for driving a car is a new challenge for me.
+The first step was to conceptualize the layout for how the user will simulate basic in-car controls. Once I settled on a rouch sketch, converting this to digital outlines was necessary. From there, I began creating the full color, high-fidelity mockups. Lastly, numerous screens were made to account for each animation and state of the process.
 
 ![Gauge Cluster - Sketch]({{ "/images/portfolio/gauge_clust/gauge_clust_lofi.jpg" }})
 
-The next steps will be to iterate on this interface by adding more polish and missing interactions.
+The next steps will be to run through these flows with user testing and incorporating new feedback I feel is necessary for an improved experience.
