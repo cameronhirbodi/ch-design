@@ -915,7 +915,7 @@ nav {
   top: 0;
   background: #FFF;
   margin: 0 auto;
-  padding: 40px;
+  padding: 40px 60px;
   text-transform: uppercase;
   border-bottom: 1px solid #D7DDE1;
   -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
@@ -947,7 +947,7 @@ header.tint:before {
 main {
   position: relative;
   width: 100%;
-  padding: 30px 80px;
+  padding: 30px 60px;
   background: #FFF;
   z-index: 2;
 }
@@ -1650,13 +1650,21 @@ a + svg:focus {
 }
 
 @media (max-width: 1024px) {
+  nav {
+    padding: 40px 30px;
+  }
   main {
-    padding: 20px;
+    padding: 30px;
   }
   main section {
     padding: 0;
     margin: 0;
     clear: both;
+  }
+  main figure .about {
+    height: 60%;
+    min-height: 0;
+    max-height: 480px;
   }
   .splash_content h1 {
     top: 25%;
