@@ -1239,6 +1239,11 @@ a + svg:focus {
   overflow-y: auto;
 }
 
+.mobile_nav #menuToggle #menu li {
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
 .mobile_nav #menuToggle #menu li a {
   display: block;
   padding: 20px 0;

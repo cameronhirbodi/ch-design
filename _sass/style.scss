@@ -290,6 +290,8 @@ a + svg:focus {
             transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
             overflow-y: auto;
             li {
+                margin-top: $xlspacing;
+                font-size: 1.5em;
                 a {
                     display: block;
                     padding: $mdspacing 0;
