@@ -1016,7 +1016,7 @@ main {
   position: relative;
   width: 100%;
   padding: 30px 60px;
-  background: #FFF;
+  background: #F0F6FA;
   z-index: 2;
 }
 
@@ -1058,6 +1058,7 @@ figure img:last-child {
 
 footer {
   width: 100%;
+  padding: 40px 20px;
   margin: 0 auto;
   text-align: center;
   clear: both;
@@ -1460,10 +1461,8 @@ a + svg:focus {
 }
 
 .bleed footer {
-  width: 35%;
   position: relative;
   z-index: 10;
-  margin-bottom: 40px;
 }
 
 .splash_content {
@@ -1678,6 +1677,9 @@ a + svg:focus {
   width: 32%;
   height: 300px;
   margin: 0 2% 2% 0;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
+  border: 10px #FFF solid;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1922,6 +1924,9 @@ a + svg:focus {
   }
   .portfolio_list li {
     height: 180px;
+  }
+  .padded {
+    padding: 10px;
   }
   .blurb {
     padding: 20px;

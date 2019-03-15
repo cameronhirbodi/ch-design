@@ -5,7 +5,7 @@ meta: View a showcase of Cameron's most recent design work from various discipli
 category: Portfolio
 permalink: /portfolio/
 ---
-<main>
+<main class="padded">
     <section>
         <!-- <h5>Filter</h5> -->
         <ul class="portfolio_list">

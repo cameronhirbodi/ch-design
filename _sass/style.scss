@@ -47,7 +47,7 @@ main {
     position: relative;
     width: 100%;
     padding: $lgspacing $xxlspacing;
-    background: $white;
+    background: $greylightest;
     z-index: 2;
 }
 
@@ -85,6 +85,7 @@ figure {
 
 footer {
     width: 100%;
+    padding: $xlspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
@@ -424,10 +425,8 @@ a + svg:focus {
         background-color: transparent;
     }
     footer {
-        width: 35%;
         position: relative;
         z-index: 10;
-        margin-bottom: $xlspacing;
     }
 }
 
@@ -636,6 +635,8 @@ a + svg:focus {
         width: 32%;
         height: 300px;
         margin: 0 2% 2% 0;
+        box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.15);
+        border: $smspacing $white solid;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -906,6 +907,9 @@ a + svg:focus {
         li {
             height: 180px;
         }
+    }
+    .padded {
+        padding: $smspacing;
     }
     .blurb {
         padding: $mdspacing;
