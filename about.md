@@ -10,12 +10,12 @@ image: /images/about/about_cam.jpg
 <main>
     <figure class="left_float">
         <div class="about fade_in" style="background-image: url('{{page.image}}')">
-            <span class="blue_triangle fade_up"><h4>me.</h4></span>
+            <span class="blue_triangle fade_up"><h5>me.</h5></span>
         </div>
     </figure>
     <article class="right_float">
         <h3>{{page.title}}</h3>
-        <br>
+        <span class="electric-divider"></span>
         <p>
         Hi. I'm Cameron Hirbodi, a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, interaction design, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
         </p>
