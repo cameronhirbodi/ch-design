@@ -45,8 +45,8 @@ header {
 
 main {
     position: relative;
-    padding: $lgspacing $xxlspacing;
-    background: $greylightest;
+    padding: $xxlspacing;
+    background: $white;
     z-index: 2;
 }
 
@@ -69,13 +69,13 @@ figure {
 
 .left_float {
     width: 65%;
-    padding: 0 $xlspacing $xlspacing 0;
+    padding: 0 $xxlspacing 0 0;
     float: left;       
 }
 
 .right_float {
     width: 35%;
-    padding: 0 $xlspacing 0 0;
+    padding: 0;
     float: right;
     img {
         display: none;

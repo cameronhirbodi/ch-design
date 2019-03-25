@@ -1047,8 +1047,8 @@ header {
 
 main {
   position: relative;
-  padding: 30px 60px;
-  background: #F0F6FA;
+  padding: 60px;
+  background: #FFF;
   z-index: 2;
 }
 
@@ -1074,13 +1074,13 @@ figure img:last-child {
 
 .left_float {
   width: 65%;
-  padding: 0 40px 40px 0;
+  padding: 0 60px 0 0;
   float: left;
 }
 
 .right_float {
   width: 35%;
-  padding: 0 40px 0 0;
+  padding: 0;
   float: right;
 }
 
