@@ -43,23 +43,11 @@ header {
     max-height: 640px;
 }
 
-header.tint:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 50, 175, 0.75);
-    transition: all .3s linear;
-  }
-
 main {
     position: relative;
     width: 100%;
     padding: $lgspacing $xxlspacing;
-    background: $white;
+    background: $greylightest;
     z-index: 2;
 }
 
@@ -97,10 +85,10 @@ figure {
 
 footer {
     width: 100%;
+    padding: $xlspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
-    padding: $xxxlspacing $xlspacing $xlspacing;
     a {
         margin: 0 $smspacing;
     }
@@ -333,13 +321,6 @@ a + svg:focus {
     content: ""
 }
 
-.blurb {
-    padding: $lgspacing 0;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 480px;
-}
-
 .pagination {
     clear: both;
     ul {
@@ -371,9 +352,9 @@ a + svg:focus {
     display: block;
     width: 100%;
     height: 960px;
-    background-image: url("../images/home/splash_bg.jpg");
+    background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $violet;
-    background-position: center;
+    background-position: 0;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -385,13 +366,68 @@ a + svg:focus {
     display: none;
     width: 100%;
     height: 480px;
-    background-image: url("../images/home/splash_bg_sm.jpg");
+    background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $violet;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
     top: 0;
+}
+
+.bleed {
+    display: block;
+    max-width: none;
+    position: relative;
+    color: $white;
+    background: $violet;
+    background-size: cover;
+    nav {
+        box-shadow: none;
+    }
+    .desktop_nav {
+        background-color: transparent;
+        border-bottom: none;
+        padding-bottom: $xxxlspacing;
+        ul {
+            li {
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .mobile_nav {
+        background-color: transparent;
+        margin-bottom: $lgspacing;
+        border-bottom: none;
+    }
+    .mobile_nav #menuToggle .hamburgerspan {
+        background: $white;
+    }
+    a svg {
+        fill: $white;
+    }
+    header {
+        width: 35%;
+        margin: 0 $xxxxlspacing;
+        z-index: 10;
+        h4 {
+            letter-spacing: 0.6em;
+        }
+    }
+    main {
+        width: 50%;
+        float: right;
+        position: relative;
+        text-align: left;
+        margin-bottom: $xxxxlspacing;
+        background-color: transparent;
+    }
+    footer {
+        position: relative;
+        z-index: 10;
+    }
 }
 
 .splash_content {
@@ -599,6 +635,8 @@ a + svg:focus {
         width: 32%;
         height: 300px;
         margin: 0 2% 2% 0;
+        box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.15);
+        border: $smspacing $white solid;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -822,10 +860,7 @@ a + svg:focus {
     }
     nav {
         padding: $lgspacing $mdspacing;
-    }
-    footer {
-        padding: $xxlspacing $mdspacing $lgspacing;    
-    }    
+    }  
     .desktop_nav {
         display: none;
         ul {
@@ -872,6 +907,9 @@ a + svg:focus {
         li {
             height: 180px;
         }
+    }
+    .padded {
+        padding: $smspacing;
     }
     .blurb {
         padding: $mdspacing;
