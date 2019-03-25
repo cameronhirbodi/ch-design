@@ -515,7 +515,7 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #47515b;
@@ -886,7 +886,7 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #47515b;
@@ -1318,7 +1318,7 @@ a + svg:focus {
   margin: 20px 0;
   text-transform: uppercase;
   color: #FFF;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-transform-origin: 0;
           transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
