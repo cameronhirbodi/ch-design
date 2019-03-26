@@ -367,6 +367,7 @@ a + svg:focus {
     position: fixed;
     z-index: 0;
     top: 0;
+    transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .mob_splash_bg {
@@ -380,6 +381,7 @@ a + svg:focus {
     background-size: cover;
     position: fixed;
     top: 0;
+    transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .bleed {
