@@ -315,6 +315,8 @@
   /* Internet Explorer */
   /* Opera < 12.1 */
   animation: kenburns_hori 15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes kenburns_hori {
@@ -353,6 +355,43 @@
   }
 }
 
+@media (max-width: 1024px) {
+  @-webkit-keyframes kenburns_hori {
+    0% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(-5%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(-5%, 0, 0);
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(5%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(5%, 0, 0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+  }
+  @keyframes kenburns_hori {
+    0% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(-5%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(-5%, 0, 0);
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(5%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(5%, 0, 0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   @-webkit-keyframes kenburns_hori {
     0% {
@@ -364,8 +403,8 @@
       opacity: 1;
     }
     100% {
-      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(15%, 0, 0);
-              transform: scale3d(1.25, 1.25, 1.25) translate3d(15%, 0, 0);
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(10%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(10%, 0, 0);
       -webkit-animation-timing-function: ease-in;
               animation-timing-function: ease-in;
       opacity: 1;
@@ -381,8 +420,8 @@
       opacity: 1;
     }
     100% {
-      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(15%, 0, 0);
-              transform: scale3d(1.25, 1.25, 1.25) translate3d(15%, 0, 0);
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) translate3d(10%, 0, 0);
+              transform: scale3d(1.25, 1.25, 1.25) translate3d(10%, 0, 0);
       -webkit-animation-timing-function: ease-in;
               animation-timing-function: ease-in;
       opacity: 1;
@@ -728,6 +767,8 @@ input[type=button]:visited.hollow, input[type=submit]:visited.hollow, .btn:visit
 
 input[type=button]:visited.hollow.white, input[type=submit]:visited.hollow.white, .btn:visited.hollow.white {
   color: #FFF;
+  border: 3px solid #FFF;
+  background-image: none;
 }
 
 input[type=button]:hover, input[type=submit]:hover, .btn:hover {
@@ -743,19 +784,27 @@ input[type=button]:hover.hollow, input[type=submit]:hover.hollow, .btn:hover.hol
   background-color: transparent;
 }
 
+input[type=button]:hover.hollow.white, input[type=submit]:hover.hollow.white, .btn:hover.hollow.white {
+  color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  background-image: none;
+}
+
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: #FFF;
   background-color: #b02448;
 }
 
-input[type=button]:active.hollow:active, input[type=submit]:active.hollow:active, .btn:active.hollow:active {
+input[type=button]:active.hollow, input[type=submit]:active.hollow, .btn:active.hollow {
   color: #b02448;
   border: 3px solid #b02448;
   background-color: transparent;
 }
 
-input[type=button]:active.hollow:active.white:active, input[type=submit]:active.hollow:active.white:active, .btn:active.hollow:active.white:active {
-  color: #FFF;
+input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, .btn:active.hollow.white {
+  color: rgba(255, 255, 255, 0.7);
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  background-image: none;
 }
 
 .grid {
@@ -1070,7 +1119,7 @@ figure img:last-child {
 
 footer {
   width: 100%;
-  padding: 60px 20px 40px;
+  padding: 80px 20px 10px;
   margin: 0 auto;
   text-align: center;
   clear: both;
@@ -1403,14 +1452,12 @@ a + svg:focus {
   height: 960px;
   background-image: url("../images/home/cam_splash_image.jpg");
   background-color: #000f52;
-  background-position: right;
+  background-position: right -40px;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
   z-index: 0;
   top: 0;
-  -webkit-transform: scale3d(1.25, 1.25, 1.25);
-          transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .mob_splash_bg {
@@ -1419,13 +1466,11 @@ a + svg:focus {
   height: 480px;
   background-image: url("../images/home/cam_splash_image.jpg");
   background-color: #000f52;
-  background-position: right;
+  background-position: right -40px;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
   top: 0;
-  -webkit-transform: scale3d(1.25, 1.25, 1.25);
-          transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .bleed {
@@ -1472,7 +1517,7 @@ a + svg:focus {
   position: relative;
   text-align: left;
   padding: 0;
-  margin: 120px 60px;
+  margin: 30px 60px;
   background-color: transparent;
 }
 
@@ -1816,7 +1861,7 @@ a + svg:focus {
     max-height: 480px;
   }
   .bleed main {
-    margin: 120px 30px 60px;
+    margin: 30px;
   }
   .splash_content h1 {
     top: 25%;
@@ -1950,7 +1995,10 @@ a + svg:focus {
     padding: 20px;
   }
   .bleed main {
-    margin: 160px 20px 60px;
+    margin: 120px 20px 0;
+  }
+  footer {
+    padding: 40px 20px 10px;
   }
 }
 

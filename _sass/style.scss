@@ -84,7 +84,7 @@ figure {
 
 footer {
     width: 100%;
-    padding: $xxlspacing $mdspacing $xlspacing;
+    padding: $xxxlspacing $mdspacing $smspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
@@ -361,13 +361,12 @@ a + svg:focus {
     height: 960px;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: right;
+    background-position: right -40px;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
     z-index: 0;
     top: 0;
-    transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .mob_splash_bg {
@@ -376,12 +375,11 @@ a + svg:focus {
     height: 480px;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: right;
+    background-position: right -40px;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
     top: 0;
-    transform: scale3d(1.25, 1.25, 1.25);
 }
 
 .bleed {
@@ -423,7 +421,7 @@ a + svg:focus {
         position: relative;
         text-align: left;
         padding: 0;
-        margin: $xxxxlspacing $xxlspacing;
+        margin: $lgspacing $xxlspacing;
         background-color: transparent;
         h1 {
             font-weight: 600;
@@ -761,7 +759,7 @@ a + svg:focus {
     }
     .bleed {
         main {
-            margin: $xxxxlspacing $lgspacing $xxlspacing;
+            margin: $lgspacing;
         }
     }
     .splash_content {
@@ -912,8 +910,11 @@ a + svg:focus {
     }
     .bleed {
         main {
-            margin: $xxxxxlspacing $mdspacing $xxlspacing;
+            margin: $xxxxlspacing $mdspacing 0;
         }
+    }
+    footer {
+        padding: $xlspacing $mdspacing $smspacing;
     }
 }
 

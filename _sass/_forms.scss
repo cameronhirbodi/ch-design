@@ -115,6 +115,8 @@ input[type=button]:visited, input[type=submit]:visited, .btn:visited {
     color: $magenta;
     &.white {
       color: $white;
+      border: 3px solid $white;
+      background-image: none;
     }
   }
 }
@@ -128,18 +130,25 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
     color: $magentalight;
     border: 3px solid $magentalight;
     background-color: transparent;
+    &.white {
+      color: rgba($white,0.5);
+      border: 3px solid rgba($white,0.5);
+      background-image: none;
+    }
   }
 }
 
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: $white;
   background-color: $magentadark;
-  &.hollow:active {
+  &.hollow {
     color: $magentadark;
     border: 3px solid $magentadark;
     background-color: transparent;
-    &.white:active {
-      color: $white;
+    &.white {
+      color: rgba($white,0.7);
+      border: 3px solid rgba($white,0.7);
+      background-image: none;
     }
   }
 }
