@@ -1097,6 +1097,10 @@ figure img {
      object-fit: cover;
 }
 
+figure img:first-child {
+  margin: 0;
+}
+
 figure img:last-child {
   margin: 0;
 }
@@ -1219,6 +1223,7 @@ a + svg:focus {
   right: 10px;
   font-size: 1em;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 .mobile_nav #menuToggle {
@@ -1641,6 +1646,7 @@ a + svg:focus {
   top: 0;
   left: 0;
   z-index: 1;
+  font-weight: 700;
 }
 
 .about .blue_triangle h5 {
@@ -2016,7 +2022,7 @@ a + svg:focus {
     max-height: 360px;
   }
   main article.right_float {
-    padding: 20px;
+    padding: 30px 20px;
   }
   main article.right_float img {
     display: block;

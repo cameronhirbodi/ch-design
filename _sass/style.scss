@@ -61,6 +61,9 @@ figure {
         margin: 0 0 $mdspacing;
         width: 100%;
         object-fit: cover;
+        &:first-child {
+            margin: 0;
+        }
         &:last-child {
             margin: 0;
         }
@@ -171,6 +174,8 @@ a + svg:focus {
         right: $smspacing;
         font-size: 1em;
         font-family: $font-header;
+        font-weight: 700;
+
     }
     #menuToggle {
         float: right;
@@ -536,6 +541,7 @@ a + svg:focus {
         top: 0;
         left: 0;
         z-index: 1;
+        font-weight: 700;
         h5 {
             position: relative;
             z-index: 3;
@@ -938,7 +944,7 @@ a + svg:focus {
         }
         article {
             &.right_float {
-                padding: $mdspacing;
+                padding: $lgspacing $mdspacing;
                 img {
                     display: block;
                 }
