@@ -532,36 +532,6 @@ a + svg:focus {
     margin: 0 auto;
     background-size: cover;
     background-color: $grey;
-    .blue_triangle {
-        color: $white;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        font-weight: 700;
-        h5 {
-            position: relative;
-            z-index: 3;
-            top: 1.6em;
-            left: 1.6em;
-        }
-    }
-    
-    .blue_triangle::before,
-    .blue_triangle::after {
-        content: '';
-        position: absolute;
-        top: $mdspacing;
-        left: $mdspacing;
-        border-color: transparent;
-        border-style: solid;
-    }
-    
-    .blue_triangle::after {
-        border-width: 4em;
-        border-left-color: rgba(0, 225, 255, 0.4);
-        border-top-color: rgba(0, 225, 255, 0.4);
-    }
 }
 
 // Blog

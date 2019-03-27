@@ -1636,38 +1636,6 @@ a + svg:focus {
   background-color: #BDC3C7;
 }
 
-.about .blue_triangle {
-  color: #FFF;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  font-weight: 700;
-}
-
-.about .blue_triangle h5 {
-  position: relative;
-  z-index: 3;
-  top: 1.6em;
-  left: 1.6em;
-}
-
-.about .blue_triangle::before,
-.about .blue_triangle::after {
-  content: '';
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  border-color: transparent;
-  border-style: solid;
-}
-
-.about .blue_triangle::after {
-  border-width: 4em;
-  border-left-color: rgba(0, 225, 255, 0.4);
-  border-top-color: rgba(0, 225, 255, 0.4);
-}
-
 .blog_list {
   display: block;
   margin: 0 auto;
