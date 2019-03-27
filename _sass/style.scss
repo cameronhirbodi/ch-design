@@ -61,9 +61,6 @@ figure {
         margin: 0 0 $mdspacing;
         width: 100%;
         object-fit: cover;
-        &:first-child {
-            margin: 0;
-        }
         &:last-child {
             margin: 0;
         }
@@ -830,6 +827,7 @@ a + svg:focus {
                 padding: 0;
                 float: none;    
                 img {
+                    margin: 0;
                     display: none;
                     &:first-child {
                         display: block;

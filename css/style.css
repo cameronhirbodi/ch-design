@@ -1097,10 +1097,6 @@ figure img {
      object-fit: cover;
 }
 
-figure img:first-child {
-  margin: 0;
-}
-
 figure img:last-child {
   margin: 0;
 }
@@ -1927,6 +1923,7 @@ a + svg:focus {
     float: none;
   }
   main figure.left_float img {
+    margin: 0;
     display: none;
   }
   main figure.left_float img:first-child {
