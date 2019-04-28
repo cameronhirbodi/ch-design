@@ -1528,6 +1528,7 @@ a + svg:focus {
 
 .bleed main h5 {
   letter-spacing: 0.2em;
+  margin-bottom: 10px;
 }
 
 .bleed footer {
