@@ -84,7 +84,7 @@ figure {
 
 footer {
     width: 100%;
-    padding: $xxxlspacing $mdspacing $smspacing;
+    padding: $xxxlspacing $mdspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
@@ -141,7 +141,7 @@ a + svg:focus {
         li {
             display: inline;
             list-style-type: none;
-            margin-left: $xxlspacing;
+            margin-left: $xxxlspacing;
             font-family: $font-header;
             font-weight: 500;
             a {
@@ -171,7 +171,7 @@ a + svg:focus {
         right: $smspacing;
         font-size: 1em;
         font-family: $font-header;
-        font-weight: 700;
+        font-weight: 500;
 
     }
     #menuToggle {
@@ -398,7 +398,7 @@ a + svg:focus {
     .desktop_nav {
         background-color: transparent;
         border-bottom: none;
-        padding-bottom: $xxxxxlspacing;
+        padding-bottom: $xxxxlspacing;
         ul {
             li {
                 a {
@@ -409,7 +409,7 @@ a + svg:focus {
     }
     .mobile_nav {
         background-color: transparent;
-        margin-bottom: $lgspacing;
+        padding-bottom: $lgspacing;
         border-bottom: none;
     }
     .mobile_nav #menuToggle .hamburgerspan {
@@ -422,8 +422,7 @@ a + svg:focus {
         max-width: 420px;
         position: relative;
         text-align: left;
-        padding: 0;
-        margin: $lgspacing $xxlspacing;
+        padding: $lgspacing $xxlspacing;
         background-color: transparent;
         h1 {
             font-weight: 600;
@@ -469,7 +468,7 @@ a + svg:focus {
     }
     .mobile_nav {
         background-color: transparent;
-        margin-bottom: $lgspacing;
+        padding-bottom: $lgspacing;
         border-bottom: none;
     }
     .mobile_nav #menuToggle .hamburgerspan {
@@ -734,7 +733,7 @@ a + svg:focus {
     }
     .bleed {
         main {
-            margin: $lgspacing;
+            padding: $lgspacing;
         }
     }
     .splash_content {
@@ -886,11 +885,11 @@ a + svg:focus {
     }
     .bleed {
         main {
-            margin: $xxxxlspacing $mdspacing 0;
+            padding: $xxxxlspacing $mdspacing 0;
         }
     }
     footer {
-        padding: $xlspacing $mdspacing $smspacing;
+        padding: $xlspacing $mdspacing $mdspacing;
     }
 }
 
