@@ -88,6 +88,8 @@ footer {
     margin: 0 auto;
     text-align: center;
     clear: both;
+    z-index: 9;
+    position: relative;
     a {
         margin: 0 $smspacing;
     }
@@ -432,10 +434,6 @@ a + svg:focus {
             letter-spacing: 0.2em;
             margin-bottom: $smspacing;
         }
-    }
-    footer {
-        z-index: 9;
-        position: relative;
     }
 }
 
@@ -888,9 +886,6 @@ a + svg:focus {
         main {
             padding: $xxxxlspacing $mdspacing $lgspacing;
         }
-    }
-    footer {
-        padding: $xlspacing $mdspacing $mdspacing;
     }
 }
 

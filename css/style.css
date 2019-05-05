@@ -972,6 +972,8 @@ footer {
   margin: 0 auto;
   text-align: center;
   clear: both;
+  z-index: 9;
+  position: relative;
 }
 
 footer a {
@@ -1378,11 +1380,6 @@ a + svg:focus {
 .bleed main h5 {
   letter-spacing: 0.2em;
   margin-bottom: 10px;
-}
-
-.bleed footer {
-  z-index: 9;
-  position: relative;
 }
 
 .splash_content {
@@ -1818,9 +1815,6 @@ a + svg:focus {
   }
   .bleed main {
     padding: 120px 20px 30px;
-  }
-  footer {
-    padding: 40px 20px 20px;
   }
 }
 
