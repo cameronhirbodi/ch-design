@@ -94,12 +94,7 @@ input[type=button], input[type=submit], .btn {
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
   &.hollow {
     border: 3px solid $magenta;
-    border-image-source: linear-gradient($magenta, $magentadark);
-    border-image-slice: 20;
-    background-image: linear-gradient($magenta, $magentadark);
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: $magenta;
     background-color: transparent;
     &.white {
       color: $white;

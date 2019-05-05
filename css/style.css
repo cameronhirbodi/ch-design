@@ -590,13 +590,7 @@ input[type=button], input[type=submit], .btn {
 
 input[type=button].hollow, input[type=submit].hollow, .btn.hollow {
   border: 3px solid #fc3468;
-  border-image-source: linear-gradient(#fc3468, #b02448);
-  border-image-slice: 20;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fc3468), to(#b02448));
-  background-image: linear-gradient(#fc3468, #b02448);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: #fc3468;
   background-color: transparent;
 }
 
