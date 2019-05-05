@@ -348,15 +348,12 @@ a + svg:focus {
 }
 
 .electric-divider {
-    position: relative;
     height: 2px;
     margin: $lgspacing 0;
     display: block;
-    span {
-        border: none;
-        height: 2px;
-        background-image: linear-gradient(to right, $turquoise, transparent);
-    }
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, $turquoise, transparent);
 }
 
 // Splash

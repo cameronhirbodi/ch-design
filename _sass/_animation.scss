@@ -1,24 +1,41 @@
+// Imports
+@import 'spacing';
+
 /* Fade Animations */
 
-@keyframes fadeinLeft {
+@keyframes fadeIn {
   from { 
     opacity: 0;
-    transform: translateX(10%);
   }
   to   { 
-    opacity: 1; 
-    transform: translateX(0);
+    opacity: 1;
   }
 }
 
-.fadeinLeft {
+.fadeIn {
   opacity: 0;
-  animation: 1s ease-out 1 forwards fadeinLeft;
+  animation: 1s ease-out 1 forwards fadeIn;
+}
+
+@keyframes fadeUp {
+  from { 
+    opacity: 0;
+    transform: translateY($mdspacing);
+  }
+  to   { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeUp {
+  opacity: 0;
+  animation: 1s ease-out 1 forwards fadeUp;
 }
 
 /* Grow Animations */
 
-@keyframes growLeft {
+@keyframes growRight {
   from { 
     opacity: 0;
     width: 0;
@@ -29,11 +46,9 @@
   }
 }
 
-.growLeft {
+.growRight {
   opacity: 0;
-  position: absolute;
-  right: 0;
-  animation: 1s ease-out 1 forwards growLeft;
+  animation: 1s ease-out 1 forwards growRight;
 }
 
 /* Ken Burns Animations */
@@ -130,12 +145,24 @@
 
 /* Delay Durations */
 
+.delay250ms {
+  animation-delay: 250ms;
+}
+
 .delay500ms {
   animation-delay: 500ms;
 }
 
+.delay750ms {
+  animation-delay: 750ms;
+}
+
 .delay1s {
   animation-delay: 1s;
+}
+
+.delay1500ms {
+  animation-delay: 1500ms;
 }
 
 .delay2s {
