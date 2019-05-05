@@ -18,8 +18,8 @@
 
 .fadeIn {
   opacity: 0;
-  -webkit-animation: 1s ease-out 1 forwards fadeIn;
-          animation: 1s ease-out 1 forwards fadeIn;
+  -webkit-animation: 500ms ease-out 1 forwards fadeIn;
+          animation: 500ms ease-out 1 forwards fadeIn;
 }
 
 @-webkit-keyframes fadeUp {
