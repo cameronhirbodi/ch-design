@@ -9,7 +9,7 @@ image: /images/about/about_cam.jpg
 
 <main>
     <figure class="left_float">
-        <div class="about fade_in" style="background-image: url('{{page.image}}')">
+        <div class="about fadein" style="background-image: url('{{page.image}}')">
         </div>
     </figure>
     <article class="right_float">
