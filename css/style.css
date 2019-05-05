@@ -1805,6 +1805,7 @@ a + svg:focus {
     height: 200px;
   }
   .portfolio_list li {
+    border: 5px #FFF solid;
     height: 180px;
   }
   .padded {

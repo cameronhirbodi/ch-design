@@ -873,6 +873,7 @@ a + svg:focus {
     }
     .portfolio_list {
         li {
+            border: $xsmspacing $white solid;
             height: 180px;
         }
     }
