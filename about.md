@@ -12,9 +12,9 @@ image: /images/about/about_cam.jpg
         <div class="about fadeIn" style="background-image: url('{{page.image}}')">
         </div>
     </figure>
-    <article class="right_float fadeUp delay500ms">
+    <article class="right_float fadeUp delay250ms">
         <h3>{{page.title}}</h3>
-        <span class="electric-divider growRight delay750ms"></span>
+        <span class="electric-divider growRight delay500ms"></span>
         <div>
             <p>
             Hi. I'm Cameron Hirbodi, a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, interaction design, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
