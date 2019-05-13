@@ -10,7 +10,7 @@ images:
 - /images/portfolio/electro/electro_02.jpg
 ---
 
-This illustration was an opportunity for me to have fun and tap into my creative side. Since childhood, illustration has always been a passion of mine and is still something I intend to regularly do when the opportunity arrives.
+This illustration was an exercise in creating a fantasy digital illustration using a stylus with Photoshop layering. Since childhood, illustration has been a passion of mine and is still something I intend to regularly do when the opportunity arrives.
 
 ![Electro - Progression]({{ "/images/portfolio/electro/electro_02.jpg" }})
 

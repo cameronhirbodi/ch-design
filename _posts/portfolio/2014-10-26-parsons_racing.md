@@ -16,7 +16,7 @@ This logo was created to represent the Parson's Racing identity. Cameron Parson 
 
 ![Parson's Racing - Formula Car Branding]({{ "/images/portfolio/parsons/parsons_01.jpg" }})
 
-Several iterations were required from early conception. As a result, I landed on a logo that displayed Cameron's love for racing in a simple yet dynamic portrayal.
+Several iterations were required from early conception. As a result, we landed on a logo that displayed Cameron's love for racing in a simple yet dynamic portrayal.
 
 ![Parson's Racing - Tent Branding]({{ "/images/portfolio/parsons/parsons_02.jpg" }})
 
