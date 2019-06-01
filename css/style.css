@@ -589,14 +589,14 @@ input[type=button], input[type=submit], .btn {
 }
 
 input[type=button].hollow, input[type=submit].hollow, .btn.hollow {
-  border: 3px solid #fc3468;
+  border: 2px solid #fc3468;
   color: #fc3468;
   background-color: transparent;
 }
 
 input[type=button].hollow.white, input[type=submit].hollow.white, .btn.hollow.white {
   color: #FFF;
-  border: 3px solid #FFF;
+  border: 2px solid #FFF;
   background-image: none;
 }
 
@@ -610,7 +610,7 @@ input[type=button]:visited.hollow, input[type=submit]:visited.hollow, .btn:visit
 
 input[type=button]:visited.hollow.white, input[type=submit]:visited.hollow.white, .btn:visited.hollow.white {
   color: #FFF;
-  border: 3px solid #FFF;
+  border: 2px solid #FFF;
   background-image: none;
 }
 
@@ -623,13 +623,13 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
 
 input[type=button]:hover.hollow, input[type=submit]:hover.hollow, .btn:hover.hollow {
   color: #fc7095;
-  border: 3px solid #fc7095;
+  border: 2px solid #fc7095;
   background-color: transparent;
 }
 
 input[type=button]:hover.hollow.white, input[type=submit]:hover.hollow.white, .btn:hover.hollow.white {
   color: rgba(255, 255, 255, 0.5);
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   background-image: none;
 }
 
@@ -640,13 +640,13 @@ input[type=button]:active, input[type=submit]:active, .btn:active {
 
 input[type=button]:active.hollow, input[type=submit]:active.hollow, .btn:active.hollow {
   color: #b02448;
-  border: 3px solid #b02448;
+  border: 2px solid #b02448;
   background-color: transparent;
 }
 
 input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, .btn:active.hollow.white {
   color: rgba(255, 255, 255, 0.7);
-  border: 3px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
   background-image: none;
 }
 

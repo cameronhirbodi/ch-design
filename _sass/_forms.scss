@@ -93,12 +93,12 @@ input[type=button], input[type=submit], .btn {
   transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
   &.hollow {
-    border: 3px solid $magenta;
+    border: 2px solid $magenta;
     color: $magenta;
     background-color: transparent;
     &.white {
       color: $white;
-      border: 3px solid $white;
+      border: 2px solid $white;
       background-image: none;
     }
   }
@@ -110,7 +110,7 @@ input[type=button]:visited, input[type=submit]:visited, .btn:visited {
     color: $magenta;
     &.white {
       color: $white;
-      border: 3px solid $white;
+      border: 2px solid $white;
       background-image: none;
     }
   }
@@ -123,11 +123,11 @@ input[type=button]:hover, input[type=submit]:hover, .btn:hover {
   opacity: 1;
   &.hollow {
     color: $magentalight;
-    border: 3px solid $magentalight;
+    border: 2px solid $magentalight;
     background-color: transparent;
     &.white {
       color: rgba($white,0.5);
-      border: 3px solid rgba($white,0.5);
+      border: 2px solid rgba($white,0.5);
       background-image: none;
     }
   }
@@ -138,11 +138,11 @@ input[type=button]:active, input[type=submit]:active, .btn:active {
   background-color: $magentadark;
   &.hollow {
     color: $magentadark;
-    border: 3px solid $magentadark;
+    border: 2px solid $magentadark;
     background-color: transparent;
     &.white {
       color: rgba($white,0.7);
-      border: 3px solid rgba($white,0.7);
+      border: 2px solid rgba($white,0.7);
       background-image: none;
     }
   }
