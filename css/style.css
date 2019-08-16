@@ -1855,16 +1855,19 @@ a + svg:focus {
   .swatch {
     min-height: 40px;
   }
+  .portfolio_list li {
+    height: 100px;
+  }
   .blog_list li {
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
-  .blog_list .blog_image_thumb {
+  .blog_list li .blog_image_thumb {
     margin: 0 20px 10px 0;
     width: 35%;
     height: 100px;
   }
-  .blog_list .blog_title {
+  .blog_list li .blog_title {
     font-size: 1.2em;
     margin: 0 0 5px;
   }

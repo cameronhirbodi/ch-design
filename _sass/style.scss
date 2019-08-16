@@ -942,19 +942,24 @@ a + svg:focus {
     .swatch {
         min-height: 40px;
     }
+    .portfolio_list {
+        li {
+            height: 100px;
+        }
+    }
     .blog_list {
         li {
             padding-bottom: $mdspacing;
             margin-bottom: $mdspacing;
-        }
-        .blog_image_thumb {
-            margin: 0 $mdspacing $smspacing 0;
-            width: 35%;
-            height: 100px;
-        }
-        .blog_title {
-            font-size: 1.2em;
-            margin: 0 0 $xsmspacing;
+            .blog_image_thumb {
+                margin: 0 $mdspacing $smspacing 0;
+                width: 35%;
+                height: 100px;
+            }
+            .blog_title {
+                font-size: 1.2em;
+                margin: 0 0 $xsmspacing;
+            }
         }
     }
     .blog_right_column {
