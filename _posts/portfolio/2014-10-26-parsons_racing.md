@@ -12,6 +12,12 @@ images:
 source: http://parsonsracing.com/
 ---
 
+###### Role
+
+Logo Designer
+
+###### Objective
+
 This logo was created to represent the Parson's Racing identity. Cameron Parson has a longtime racing career in karting and Formula cars.
 
 ![Parson's Racing - Formula Car Branding]({{ "/images/portfolio/parsons/parsons_01.jpg" }})

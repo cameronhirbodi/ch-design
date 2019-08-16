@@ -13,14 +13,14 @@ image: /images/about/about_cam.jpg
         </div>
     </figure>
     <article class="right_float fadeUp delay250ms">
-        <h3>{{page.title}}</h3>
+        <h3>Cameron Hirbodi</h3>
         <span class="electric-divider growRight delay500ms"></span>
         <div>
             <p>
-            Hi. I'm Cameron Hirbodi, a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design, including web, interaction design, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
+            Hello. I am currently a full time UI Designer at Blizzard Entertainment. My experience is in various medium of design including web, interaction design, & illustration. As an alumni of Cal State University, Fullerton, I earned my BFA in Graphic Design.
             </p>
             <p>
-            I enjoy collaborating with others on improving user experience and enjoyment with products. My goals are to develop personal skill sets and extend my reach towards new areas of design and programming. Other passions of mine include motorsports, music, and technology.
+            I enjoy collaborating with others on building reusable design systems, improving the user experience, creating accessible design, and bringing enjoyment with products. My goals are to develop personal skill sets and extend my reach towards new areas of design, research, and programming. Other passions of mine include motorsports, music, and technology.
             </p>
             <br>
             <p><a class="btn hollow" href="mailto:cameronhirbodi@outlook.com">Contact</a></p>

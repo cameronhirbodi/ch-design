@@ -11,6 +11,12 @@ images:
 source: http://www.gastroflonomics.com
 ---
 
+###### Role
+
+Developer
+
+###### Objective
+
 This blog was created as a way for the client to quickly share her experiences related to food and culture from around the world.
 
 ![Gastroflonomics - Sample Devices]({{ "/images/portfolio/gastro/gastro_02.jpg" }})

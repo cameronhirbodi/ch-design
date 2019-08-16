@@ -12,6 +12,11 @@ images:
 - /images/portfolio/hfbc/hfbc_03.jpg
 source: http://www.hopforgedbrewing.com/
 ---
+###### Role
+
+Logo Designer
+
+###### Objective
 
 These logos were created to represent the identity of a newly established brewery in Hanford, California.
 

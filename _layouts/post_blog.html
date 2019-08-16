@@ -12,7 +12,7 @@
           <h3>{{page.title}}</h3>
           <h5 class="header_date">{{ page.date | date: "%B %e, %Y" }}</h5>
           <span class="electric-divider"></span>
-          <p>{{content}}</p>
+          {{content}}
           {% if page.source %}
             <p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Source</a></p>
           {% endif %}

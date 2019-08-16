@@ -14,6 +14,12 @@ images:
 source: http://www.battle.net/support
 ---
 
+###### Role
+
+UI Designer / Developer
+
+###### Objective
+
 This web portal was designed to quickly assist Blizzard game customers in solving their issues to quickly get them back into their game.
 
 ![Blizzard Support - Redesign]({{ "/images/portfolio/blizz_supp/blizz_supp_02.jpg" }})
