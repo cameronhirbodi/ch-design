@@ -486,6 +486,10 @@ bold {
   margin: 0;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 @media (max-width: 1366px) {
   html {
     font-size: 16px;
@@ -872,6 +876,10 @@ bold {
 
 .removemargin {
   margin: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 @media (max-width: 1366px) {
