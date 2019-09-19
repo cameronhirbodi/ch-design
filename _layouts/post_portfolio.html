@@ -1,7 +1,6 @@
 <html>
   {% include head.html %}
   <body>
-      {% include nav.html %}
       <main>
         <figure class="left_float">
             {% for image in page.images %}
@@ -17,7 +16,7 @@
             <p><a class="btn hollow" target="_blank" href="{{page.source}}">Visit Project</a></p>
             {% endif %}
         </article>
-        {% include footer.html %}
       </main>
+      {% include footer.html %}
   </body>
 </html>

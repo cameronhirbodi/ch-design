@@ -34,12 +34,11 @@ nav {
 }
 
 header {
+    display: block;
+    height: 100%;
     position: relative;
     margin: 0 auto;
     padding: 0;
-    height: 70%;
-    min-height: 420px;
-    max-height: 640px;
 }
 
 main {
@@ -47,6 +46,12 @@ main {
     padding: $xxlspacing;
     background: $white;
     z-index: 2;
+    ::after {
+        content: " ";
+        display: block; 
+        height: 0; 
+        clear: both;
+    }
 }
 
 img {
@@ -108,218 +113,6 @@ footer {
     }
 }
 
-a + svg {
-    fill: $navy;
-    float: left;
-    transform-origin: 0;
-    transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-
-a + svg:hover {
-    opacity: 0.5;
-}
-
-a + svg:active {
-    opacity: 1;
-}
-
-a + svg:focus {
-    opacity: 1;
-}
-
-.desktop_nav {
-    margin-bottom: 0;
-    z-index: 10;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    /* CH Logo */
-    > a {
-        float: left;
-        position: relative;
-        top: -23px;
-    }
-    .icon {
-        width: 48px;
-        height: 48px;
-    }
-    ul {
-        float: right;
-        position: relative;
-        top: -12px;
-        li {
-            display: inline;
-            list-style-type: none;
-            margin-left: $xxlspacing;
-            font-family: $font-header;
-            font-weight: 500;
-            a {
-                position: relative;
-                padding-bottom: $xsmspacing;
-                color: $black;
-            }
-        }
-    }
-}
-.mobile_nav {
-    display: none;
-    margin-bottom: 0;
-    z-index: 10;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    /* CH Logo */
-    > a {
-        float: left;
-        position: relative;
-        top: -14px;
-    }
-    .nav_current {
-        float: right;
-        position: relative;
-        top: -0.4em;
-        right: $smspacing;
-        font-size: 1em;
-        font-family: $font-header;
-        font-weight: 500;
-
-    }
-    #menuToggle {
-        float: right;
-        position: relative;
-        top: -6px;
-        left: $smspacing;
-        z-index: 2;
-        -webkit-user-select: none;
-        user-select: none;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        #hamburgerinput {
-            display: block;
-            width: 32px;
-            height: 32px;
-            top: -12px;
-            left: -18px;
-            position: absolute;
-            cursor: pointer;
-            opacity: 0; /* hide this */
-            z-index: 2; /* and place it over the hamburger */
-            -webkit-touch-callout: none;
-        }
-        .hamburgerspan {
-            display: block;
-            width: $mdspacing;
-            height: 2px;
-            margin-bottom: 4px;
-            position: relative;
-            right: 8px;
-            background: $black;
-            z-index: 1;
-            transform-origin: 0;
-            transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.2s ease;
-        }
-        .hamburgerspan:first-child {
-            transform-origin: 0% 0%;
-        }
-        .hamburgerspan:nth-last-child(2) {
-            transform-origin: 0% 100%;
-        }
-        #hamburgerinput:checked ~ .hamburgerspan {
-            transform: rotate(45deg) translate(0, -1px);
-            background: $white;
-        }
-        #hamburgerinput:checked ~ .hamburgerspan:nth-last-child(3) {
-            opacity: 0;
-            transform: rotate(0deg) scale(0.2, 0.2);
-        }
-        #hamburgerinput:checked ~ .hamburgerspan:nth-last-child(2) {
-            opacity: 1;
-            transform: rotate(-45deg) translate(0, 1px);
-        }
-        #hamburgerinput:checked ~ ul {
-            transform: scale(1.0, 1.0);
-            opacity: 1;
-        }
-        #hamburgerinput:checked ~ .hamburgerbg {
-            visibility: visible;
-            opacity: 1;
-            transition: visibility 0s, opacity 0.5s linear;
-            z-index: -10;
-        }
-        #hamburgerinput:checked ~ #menu {
-            transform: translate(0, 0);
-            transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
-        }
-        #hamburgerinput:hover ~ .hamburgerspan, #hamburgerinput:checked:hover ~ .hamburgerspan {
-            opacity: 0.5;
-        }
-        #hamburgerinput:focus ~ .hamburgerspan, #hamburgerinput:checked:focus ~ .hamburgerspan {
-            opacity: 1;
-        }
-        #hamburgerinput:checked:hover ~ .hamburgerspan:nth-last-child(3), #hamburgerinput:checked:focus ~ .hamburgerspan:nth-last-child(3) {
-            opacity: 0;
-        }
-        .hamburgerbg {
-            display: block;
-            cursor: pointer;
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255,255,255,0.7);
-            visibility: hidden;
-            opacity: 0;
-            transition: visibility 0s, opacity 0.5s linear;
-            z-index: -10;
-        }
-        #menu {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 70%;
-            height: 100%;
-            text-align: center;
-            padding: $xxxlspacing 0;
-            background-color: $navy;
-            list-style-type: none;
-            -webkit-font-smoothing: antialiased;
-            transform-origin: 0;
-            transform: translate(100%, 0);
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-            overflow-y: auto;
-            li {
-                margin-top: $xlspacing;
-                font-size: 1.2em;
-                a {
-                    display: block;
-                    padding: $mdspacing 0;
-                    margin: $mdspacing 0;
-                    text-transform: uppercase;
-                    color: $white;
-                    font-family: $font-body;
-                    transform-origin: 0;
-                    transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);                
-                    span {
-                        font-family: $font-header;
-                        font-weight: 500;
-                        position: relative;
-                        padding-bottom: $xsmspacing;
-                    }
-                }
-            }
-            li {
-                span:hover {
-                    a {
-                        opacity: 0.5;
-                    }
-                }
-            }
-        }
-        #menu::-webkit-scrollbar { 
-            display: none; 
-        }
-    }
-}
-
 .active span::after {
     position: absolute; 
     left: 0; 
@@ -355,177 +148,36 @@ a + svg:focus {
     text-align: center;
 }
 
-.electric-divider {
-    height: 2px;
-    margin: $mdspacing 0 $lgspacing;
-    display: block;
-    border: none;
-    height: 2px;
-    background-image: linear-gradient(to right, $turquoise, transparent);
-}
-
 // Splash
 
-.desk_splash_bg {
-    display: block;
+.cam_bg {
     width: 100%;
-    height: 960px;
-    background-image: url("../images/home/cam_splash_image.jpg");
+    height: 100%;
+    color: $white;
     background-color: $navy;
+    background-image: url("../images/home/cam_splash_image.jpg");
     background-position: right -40px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    z-index: 0;
+    background-attachment: fixed;
     top: 0;
 }
 
-.mob_splash_bg {
-    display: none;
-    width: 100%;
-    height: 480px;
-    background-image: url("../images/home/cam_splash_image.jpg");
-    background-color: $navy;
-    background-position: right -40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-}
-
-.bleed {
+.ch_logo {
     display: block;
-    max-width: none;
     position: relative;
-    color: $white;
-    background: $navy;
-    background-size: cover;
-    background-position-x: -50%;
-    nav {
-        box-shadow: none;
-    }
-    .desktop_nav {
-        background-color: transparent;
-        border-bottom: none;
-        padding-bottom: $xxxxlspacing;
-        ul {
-            li {
-                a {
-                    color: $white;
-                }
-            }
-        }
-    }
-    .mobile_nav {
-        background-color: transparent;
-        padding-bottom: $lgspacing;
-        border-bottom: none;
-    }
-    .mobile_nav #menuToggle .hamburgerspan {
-        background: $white;
-    }
-    a svg {
-        fill: $white;
-    }
-    main {
-        max-width: 480px;
-        position: relative;
-        text-align: left;
-        padding: $lgspacing $xxlspacing;
-        background-color: transparent;
-        h1 {
-            font-weight: 600;
-        }
-        h5 {
-            letter-spacing: 0.2em;
-            margin-bottom: $smspacing;
-        }
-    }
-}
-
-.splash_content {
-    display: block;
-    max-width: none;
-    padding-bottom: $xxxxxlspacing;
-    height: 65%;
-    min-height: 480px;
-    max-height: 600px;
-    position: relative;
-    text-align: center;
-    color: $white;
-    background: $navy;
-    background-size: cover;
-    text-transform: uppercase;
-    nav {
-        box-shadow: none;
-    }
-    .desktop_nav {
-        background-color: transparent;
-        border-bottom: none;
-        padding-bottom: $xxxxxlspacing;
-        ul {
-            li {
-                a {
-                    color: $white;
-                }
-            }
-        }
-    }
-    .mobile_nav {
-        background-color: transparent;
-        padding-bottom: $lgspacing;
-        border-bottom: none;
-    }
-    .mobile_nav #menuToggle .hamburgerspan {
-        background: $white;
-    }
-    a svg {
-        fill: $white;
-    }
-    h1 {
-        position: relative;
-        top: 15%;
-        z-index: 1;
-    }
-    h5 {
-        letter-spacing: 0.6em;
-        position: relative;
-        bottom: -20%;
-        z-index: 1;
-    }
-    .splash_mask_left {
-        fill: $white;
+    svg {
         position: absolute;
-        left: 0;
-        bottom: -1px;
-        width: 51%;
-        height: 40%;
-        max-height: 200px;
-        z-index: 1;
-    }
-    .splash_mask_right {
         fill: $white;
-        position: absolute;
-        right: 0;
-        bottom: -1px;
-        width: 51%;
-        height: 40%;
-        max-height: 200px;
-        z-index: 1;
+        z-index: 10;
     }
-}
-
-.welcome_text {
-    color: $navy;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    right: 0;
-    width: 35%;
-    padding: $mdspacing 0 $xxxxxlspacing 0;
+    rect {
+        position: absolute;
+        background-color: $magentalight;
+        width: 64px;
+        height: 64px;
+        z-index: 0;
+    }
 }
 
 // About
@@ -736,7 +388,7 @@ a + svg:focus {
             }
         }
     }
-    .bleed {
+    .dark {
         main {
             padding: $lgspacing;
         }
@@ -835,10 +487,6 @@ a + svg:focus {
             max-height: 480px;
         }
     }
-    header {
-        min-height: 360px;
-        max-height: 420px;
-    }
     nav {
         padding: $lgspacing $mdspacing;
     }  
@@ -889,7 +537,7 @@ a + svg:focus {
     .blurb {
         padding: $mdspacing;
     }
-    .bleed {
+    .dark {
         main {
             padding: $xxxxlspacing $mdspacing $lgspacing;
         }
@@ -944,7 +592,7 @@ a + svg:focus {
     }
     .portfolio_list {
         li {
-            height: 10y0px;
+            height: 100px;
         }
     }
     .blog_list {
