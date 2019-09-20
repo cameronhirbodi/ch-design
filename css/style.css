@@ -897,24 +897,11 @@ body {
   padding: 0;
 }
 
-nav {
-  position: relative;
-  top: 0;
-  background: #FFF;
-  margin: 0 auto;
-  padding: 40px 60px;
-  text-transform: uppercase;
-  border-bottom: 1px solid #D7DDE1;
-  -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.15);
-}
-
 header {
   display: block;
   height: 100%;
-  position: relative;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 120px;
 }
 
 main {
@@ -1032,7 +1019,7 @@ footer svg {
   text-align: center;
 }
 
-.cam_bg {
+.splash {
   width: 100%;
   height: 100%;
   color: #FFF;
@@ -1042,7 +1029,54 @@ footer svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.splash_content {
+  padding: 160px 0;
+}
+
+.splash_content h1 {
+  margin-bottom: 1rem;
+}
+
+.splash_content .rotate_styled {
+  position: absolute;
   top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 100%;
+  width: 4em;
+  text-align: center;
+  margin: auto;
+}
+
+.splash_content .rotate_styled h2 {
+  position: absolute;
+  font-size: 1em;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.splash_content p {
+  margin: 0;
+}
+
+.splash_content .about_link {
+  position: absolute;
+  top: 35%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.splash_content .portfolio_link {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .ch_logo {
@@ -1052,8 +1086,8 @@ footer svg {
 
 .ch_logo svg {
   position: absolute;
-  top: 20px;
-  left: 90px;
+  top: 22px;
+  left: 20px;
   fill: #FFF;
   z-index: 10;
 }
@@ -1061,20 +1095,15 @@ footer svg {
 .ch_logo rect {
   position: absolute;
   background-color: #fc3468;
+  opacity: 0.3;
   width: 64px;
   height: 64px;
   z-index: 0;
 }
 
-.ch_logo rect.rear {
-  left: 70px;
-  opacity: 0.3;
-}
-
 .ch_logo rect.front {
   top: 10px;
-  left: 80px;
-  opacity: 0.5;
+  left: 10px;
 }
 
 .about {
@@ -1232,11 +1261,11 @@ footer svg {
   clear: both;
 }
 
-.boldsection {
+.bold_section {
   font-weight: 700;
 }
 
-.lightsection {
+.light_section {
   font-weight: 300;
 }
 

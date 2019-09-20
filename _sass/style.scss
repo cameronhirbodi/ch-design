@@ -22,23 +22,11 @@ body {
     padding: 0;
 }
 
-nav {
-    position: relative;
-    top: 0;
-    background: $white;
-    margin: 0 auto;
-    padding: $xlspacing $xxlspacing;
-    text-transform: uppercase;
-    border-bottom: 1px solid $greylight;
-    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.15);
-}
-
 header {
     display: block;
     height: 100%;
-    position: relative;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 $xxxxlspacing;
 }
 
 main {
@@ -150,7 +138,7 @@ footer {
 
 // Splash
 
-.cam_bg {
+.splash {
     width: 100%;
     height: 100%;
     color: $white;
@@ -160,7 +148,44 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    top: 0;
+}
+
+.splash_content {
+    padding: $xxxxxlspacing 0;
+    h1 {
+        margin-bottom: 1rem;
+    }
+    .rotate_styled {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba($white, 0.15);
+        height: 100%;
+        width: 4em;
+        text-align: center;
+        margin: auto;
+        h2 {
+            position: absolute;
+            font-size: 1em;
+            transform: rotate(-90deg);
+            transform-origin: bottom right;
+        }
+    }
+    p {
+        margin: 0;
+    }
+    .about_link {
+        position: absolute;
+        top: 35%;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+    .portfolio_link {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .ch_logo {
@@ -168,25 +193,21 @@ footer {
     position: relative;
     svg {
         position: absolute;
-        top: 20px;
-        left: 90px;
+        top: 22px;
+        left: 20px;
         fill: $white;
         z-index: 10;
     }
     rect {
         position: absolute;
         background-color: $magenta;
+        opacity: 0.3;
         width: 64px;
         height: 64px;
         z-index: 0;
-        &.rear {
-            left: 70px;
-            opacity: 0.3;
-        }
         &.front {
             top: 10px;
-            left: 80px;
-            opacity: 0.5;
+            left: 10px;
         }
     }
 }
@@ -346,11 +367,11 @@ footer {
     clear: both;
 }
 
-.boldsection {
+.bold_section {
     font-weight: 700;
 }
 
-.lightsection {
+.light_section {
     font-weight: 300;
 }
 
