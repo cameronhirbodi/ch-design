@@ -168,15 +168,26 @@ footer {
     position: relative;
     svg {
         position: absolute;
+        top: 20px;
+        left: 90px;
         fill: $white;
         z-index: 10;
     }
     rect {
         position: absolute;
-        background-color: $magentalight;
+        background-color: $magenta;
         width: 64px;
         height: 64px;
         z-index: 0;
+        &.rear {
+            left: 70px;
+            opacity: 0.3;
+        }
+        &.front {
+            top: 10px;
+            left: 80px;
+            opacity: 0.5;
+        }
     }
 }
 

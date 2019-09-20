@@ -1052,16 +1052,29 @@ footer svg {
 
 .ch_logo svg {
   position: absolute;
+  top: 20px;
+  left: 90px;
   fill: #FFF;
   z-index: 10;
 }
 
 .ch_logo rect {
   position: absolute;
-  background-color: #fc7095;
+  background-color: #fc3468;
   width: 64px;
   height: 64px;
   z-index: 0;
+}
+
+.ch_logo rect.rear {
+  left: 70px;
+  opacity: 0.3;
+}
+
+.ch_logo rect.front {
+  top: 10px;
+  left: 80px;
+  opacity: 0.5;
 }
 
 .about {
