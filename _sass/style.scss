@@ -13,6 +13,7 @@
 
 html {
     background: $white;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -26,7 +27,6 @@ header {
     display: block;
     height: 100%;
     margin: 0 auto;
-    padding: 0 $xxxxlspacing;
 }
 
 main {
@@ -143,60 +143,103 @@ footer {
     height: 100%;
     color: $white;
     background-color: $navy;
-    background-image: url("../images/home/cam_splash_image.jpg");
-    background-position: right -40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .splash_content {
-    padding: $xxxxxlspacing 0;
+    position: relative;
+    padding: $xxxxxlspacing $xxxxlspacing;
+    height: 100%;
+    z-index: 1;
     h1 {
-        margin-bottom: 1rem;
+        position: relative;
+        margin: 1rem 0;
     }
-    .rotate_styled {
+    .rotated_container {
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba($white, 0.15);
+        background-color: rgba(255, 255, 255, 0.15);
+        display: block;
+        padding: 1em;
         height: 100%;
-        width: 4em;
-        text-align: center;
-        margin: auto;
         h2 {
-            position: absolute;
             font-size: 1em;
-            transform: rotate(-90deg);
-            transform-origin: bottom right;
+            position: relative;
+            white-space: nowrap;
+            text-align: center;
+            height: 100%;
+            transform: rotate(180deg);
+            writing-mode: vertical-lr;
+            letter-spacing: 0.5em;
         }
     }
     p {
+        position: relative;
         margin: 0;
     }
     .about_link {
+        text-transform: uppercase;
+        color: $turquoise;
         position: absolute;
         top: 35%;
         right: 0;
         transform: translate(-50%, -50%);
+        &:before {
+            content: "";
+            height: 40px;
+            width: 40px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.15;
+            display: inline-block;
+            position: absolute;
+            top: -7px;
+            left: -48px;
+        }
+        &:after {
+            content: "";
+            height: 10px;
+            width: 10px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.5;
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            left: -33px;
+        }
     }
     .portfolio_link {
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
         position: absolute;
-        bottom: 0;
+        bottom: 5%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    i {
+        border: solid $white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
 }
 
 .ch_logo {
     display: block;
-    position: relative;
+    position: absolute;
+    left: $xxxxlspacing;
     svg {
         position: absolute;
         top: 22px;
         left: 20px;
         fill: $white;
-        z-index: 10;
+        z-index: 15;
     }
     rect {
         position: absolute;
@@ -204,12 +247,26 @@ footer {
         opacity: 0.3;
         width: 64px;
         height: 64px;
-        z-index: 0;
+        z-index: 10;
         &.front {
             top: 10px;
             left: 10px;
         }
     }
+}
+
+.splash_bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/home/cam_splash_image.jpg");
+    background-color: $navy;
+    background-position: right 15% top 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    top: 0;
 }
 
 // About
@@ -425,19 +482,6 @@ footer {
             padding: $lgspacing;
         }
     }
-    .splash_content {
-        h1 {
-            top: 25%;
-            font-size: 3.375em;
-            line-height: 1;
-            letter-spacing: -0.05em;
-        }
-        h5 {
-            bottom: -30%;
-            font-size: 1.25em;
-            letter-spacing: 0.4em;
-        }
-    }
     .blog_list {
         li {
             margin-bottom: $xlspacing;
@@ -511,72 +555,64 @@ footer {
         }
     }
     body {
-        .desk_bg {
+        nav {
+            padding: $lgspacing $mdspacing;
+        }  
+        .desktop_nav {
             display: none;
         }
-        .mob_bg {
+        .mobile_nav {
             display: block;
-            max-height: 480px;
         }
-    }
-    nav {
-        padding: $lgspacing $mdspacing;
-    }  
-    .desktop_nav {
-        display: none;
-    }
-    .mobile_nav {
-        display: block;
-    }
-    .header_title_container {
-        padding: $mdspacing;
-    }
-    .header_title {
-        font-size: 3.375em;
-        padding-left: $smspacing;
-    }
-    .desk_splash_bg {
-        display: none;
-    }
-    .mob_splash_bg {
-        display: block;
-    }
-    .splash_content {
-        min-height: 360px;
-        max-height: 360px;
-    }
-    .col-20.swatchcol {
-        width: 33.33%;
-    }    
-    .blog_list {
-        li {
-            margin-right: 0;
-            width: 100%;
-            .blog_image_thumb {
-                height: 200px;
+        .header_title_container {
+            padding: $mdspacing;
+        }
+        .header_title {
+            font-size: 3.375em;
+            padding-left: $smspacing;
+        }
+        .col-20.swatchcol {
+            width: 33.33%;
+        }    
+        .blog_list {
+            li {
+                margin-right: 0;
+                width: 100%;
+                .blog_image_thumb {
+                    height: 200px;
+                }
+            }
+        }
+        .portfolio_list {
+            li {
+                border: $xsmspacing $white solid;
+                height: 180px;
+            }
+        }
+        .padded {
+            padding: $mdspacing $smspacing;
+        }
+        .blurb {
+            padding: $mdspacing;
+        }
+        .dark {
+            main {
+                padding: $xxxxlspacing $mdspacing $lgspacing;
             }
         }
     }
-    .portfolio_list {
-        li {
-            border: $xsmspacing $white solid;
-            height: 180px;
-        }
+    .ch_logo {
+        left: 45%;
     }
-    .padded {
-        padding: $smspacing;
-    }
-    .blurb {
-        padding: $mdspacing;
-    }
-    .dark {
-        main {
-            padding: $xxxxlspacing $mdspacing $lgspacing;
+    .splash_content {
+        padding: $xxxxlspacing $xxlspacing $xxlspacing;
+        .rotate_styled {
+            width: 3em;
         }
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-height: 480px) {
     main {
         article, .blog_list {
             padding: $mdspacing;
@@ -601,19 +637,6 @@ footer {
                     display: block;
                 }
             }
-        }
-    }
-    .desk_bg {
-        background-position: bottom;
-    }
-    .splash_content {
-        h1 {
-            margin: 0 auto;
-            top: 5%;
-        }
-        h4 {
-            bottom: -15%;
-            letter-spacing: 0.3em;
         }
     }
     .col-20.swatchcol {
@@ -653,5 +676,16 @@ footer {
     }
     .pagination {
         padding: $mdspacing;
+    }
+    .splash_content {
+        padding: $xxxxlspacing $xlspacing $xxlspacing;
+        .rotate_styled {
+            width: 2em;
+        }
+    }
+}
+@media (max-height: 480px){
+    .splash {
+        height: 125%;
     }
 }
