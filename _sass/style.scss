@@ -146,36 +146,43 @@ footer {
 }
 
 .splash_content {
-    position: relative;
-    padding: $xxxxxlspacing $xxxxlspacing;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 4em;
+    padding: $xxxlspacing;
     height: 100%;
-    z-index: 1;
-    h1 {
-        position: relative;
-        margin: 1rem 0;
+    width: 50%;
+    * {
+        z-index: 2;
     }
-    .rotated_container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(255, 255, 255, 0.15);
-        display: block;
-        padding: 1em;
-        height: 100%;
-        h2 {
-            font-size: 1em;
-            position: relative;
-            white-space: nowrap;
-            text-align: center;
-            height: 100%;
-            transform: rotate(180deg);
-            writing-mode: vertical-lr;
-            letter-spacing: 0.5em;
+    .splash_inner {
+        h1 {
+            flex: 1;
+            order: 1;
         }
-    }
-    p {
-        position: relative;
-        margin: 0;
+        .rotated_container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 1em;
+            h2 {
+                font-size: 1em;
+                white-space: nowrap;
+                text-align: center;
+                height: 100%;
+                transform: rotate(180deg);
+                writing-mode: vertical-lr;
+                letter-spacing: 0.5em;
+            }
+        }
+        p {
+            flex: 1;
+            order: 2;
+        }
     }
     .about_link {
         text-transform: uppercase;
