@@ -1030,9 +1030,6 @@ footer svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1060,6 +1057,8 @@ footer svg {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 .splash_content .splash_inner .rotated_container {
@@ -1067,7 +1066,7 @@ footer svg {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.15);
-  padding: 1em;
+  padding: 1.5em;
 }
 
 .splash_content .splash_inner .rotated_container h2 {
@@ -1090,6 +1089,8 @@ footer svg {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 .splash_content .about_link {
