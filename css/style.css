@@ -756,7 +756,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 }
 
 #modal .header, #modal .footer {
-  border-bottom: 1px solid #1ABC9C;
+  border-bottom: 1px solid #000f52;
   border-radius: 5px 5px 0 0;
 }
 
@@ -781,7 +781,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 }
 
 .modal-content {
-  background: #34BC9D;
+  background: #000f52;
   position: relative;
   z-index: 20;
   border-radius: 5px;
@@ -789,7 +789,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 }
 
 #modal .copy {
-  background: #46CFB0;
+  background: #000f52;
 }
 
 #modal .overlay {
@@ -800,7 +800,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 12;
 }
 
 .copy a {
@@ -809,7 +809,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #E74C3C;
+  background-color: #000f52;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -1138,7 +1138,6 @@ footer svg {
           order: 1;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  padding-bottom: 1em;
 }
 
 .splash_content .splash_inner .rotated_container {
@@ -1588,17 +1587,38 @@ footer svg {
     padding: 120px 20px 30px;
   }
   .ch_logo {
-    left: 45%;
+    left: 40%;
   }
   .splash_content {
-    padding: 120px 60px 60px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
   }
-  .splash_content .rotate_styled {
-    width: 3em;
+  .splash_content .splash_inner {
+    padding: 0;
+  }
+  .splash_content .splash_inner h1 {
+    font-size: 3.157em;
+  }
+  .splash_content .splash_inner .rotated_container {
+    display: inline-block;
+    position: initial;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: 1em;
+    padding: 0.5em 1em;
+  }
+  .splash_content .splash_inner .rotated_container h2 {
+    height: initial;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-writing-mode: initial;
+        -ms-writing-mode: initial;
+            writing-mode: initial;
+    letter-spacing: 0.5em;
   }
 }
 
-@media (max-width: 480px), (max-height: 480px) {
+@media (max-width: 480px) {
   main article, main .blog_list {
     padding: 20px;
   }
@@ -1651,16 +1671,28 @@ footer svg {
   .pagination {
     padding: 20px;
   }
-  .splash_content {
-    padding: 120px 40px 60px;
-  }
   .splash_content .rotate_styled {
     width: 2em;
   }
 }
 
-@media (max-height: 480px) {
+@media (min-width: 769px) and (max-height: 480px) {
   .splash {
-    height: 125%;
+    height: 150%;
+  }
+  .splash .splash_content .portfolio_link {
+    bottom: -45%;
+  }
+  .splash .splash_content .splash_inner h2 {
+    height: 150%;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 360px) {
+  .splash {
+    height: 150%;
+  }
+  .splash .splash_content .portfolio_link {
+    bottom: -45%;
   }
 }

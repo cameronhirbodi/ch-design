@@ -20,7 +20,7 @@
 }
 
 #modal .header, #modal .footer {
-  border-bottom: 1px solid #1ABC9C;
+  border-bottom: 1px solid $navy;
   border-radius: 5px 5px 0 0
 }
 
@@ -43,14 +43,14 @@
 }
 
 .modal-content {
-  background: #34BC9D;
+  background: $navy;
   position: relative;
   z-index: 20;
   border-radius: 5px;
   color: #fff
 }
 
-#modal .copy { background: #46CFB0 }
+#modal .copy { background: $navy }
 
 #modal .overlay {
   background-color: $white;
@@ -60,7 +60,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10
+  z-index: 12
 }
 
 .copy a {
@@ -69,5 +69,5 @@
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #E74C3C;
+  background-color: $navy;
 }
