@@ -732,6 +732,86 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   height: 128px;
 }
 
+#modal {
+  left: 50%;
+  margin: -250px 0 0 -32%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  visibility: hidden;
+  width: 65%;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+
+#modal:target {
+  opacity: 1;
+  top: 50%;
+  visibility: visible;
+}
+
+#modal .header, #modal .footer {
+  border-bottom: 1px solid #1ABC9C;
+  border-radius: 5px 5px 0 0;
+}
+
+#modal .footer {
+  border: none;
+  border-top: 1px solid #e7e7e7;
+  border-radius: 0 0 5px 5px;
+}
+
+#modal h2 {
+  margin: 0;
+  color: #fff;
+}
+
+#modal .btn {
+  float: right;
+}
+
+#modal .copy, #modal .header, #modal .footer {
+  padding: 10px;
+  color: #fff;
+}
+
+.modal-content {
+  background: #34BC9D;
+  position: relative;
+  z-index: 20;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#modal .copy {
+  background: #46CFB0;
+}
+
+#modal .overlay {
+  background-color: #FFF;
+  background: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.copy a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #E74C3C;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1040,8 +1120,7 @@ footer svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 4em;
-  padding: 80px;
+  padding-left: 120px;
   height: 100%;
   width: 50%;
 }
@@ -1059,6 +1138,7 @@ footer svg {
           order: 1;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  padding-bottom: 1em;
 }
 
 .splash_content .splash_inner .rotated_container {
@@ -1066,7 +1146,7 @@ footer svg {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.15);
-  padding: 1.5em;
+  padding: 0 1.5em;
 }
 
 .splash_content .splash_inner .rotated_container h2 {
@@ -1091,6 +1171,7 @@ footer svg {
           order: 2;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  margin-top: 1em;
 }
 
 .splash_content .about_link {
@@ -1163,7 +1244,7 @@ footer svg {
   top: 22px;
   left: 20px;
   fill: #FFF;
-  z-index: 15;
+  z-index: 9;
 }
 
 .ch_logo rect {
@@ -1172,10 +1253,11 @@ footer svg {
   opacity: 0.3;
   width: 64px;
   height: 64px;
-  z-index: 10;
+  z-index: 8;
 }
 
 .ch_logo rect.front {
+  opacity: 0.5;
   top: 10px;
   left: 10px;
 }
