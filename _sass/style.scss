@@ -191,7 +191,7 @@ footer {
         text-transform: uppercase;
         color: $turquoise;
         position: absolute;
-        top: 35%;
+        top: 65%;
         right: 0;
         transform: translate(-50%, -50%);
         &:before {
@@ -611,7 +611,8 @@ footer {
         }
     }
     .ch_logo {
-        left: 40%;
+        left: 50%;
+        margin-left: -37px;
     }
     .splash_content {
         width: 100%;
@@ -634,6 +635,10 @@ footer {
                     writing-mode: initial;
                     letter-spacing: 0.5em;
                 }
+            }
+            p {
+                margin: 1em auto;
+                max-width: 480px;
             }
         }
     }

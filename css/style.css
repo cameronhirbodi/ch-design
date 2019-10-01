@@ -1177,7 +1177,7 @@ footer svg {
   text-transform: uppercase;
   color: #00CDC6;
   position: absolute;
-  top: 35%;
+  top: 65%;
   right: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1587,7 +1587,8 @@ footer svg {
     padding: 120px 20px 30px;
   }
   .ch_logo {
-    left: 40%;
+    left: 50%;
+    margin-left: -37px;
   }
   .splash_content {
     width: 100%;
@@ -1615,6 +1616,10 @@ footer svg {
         -ms-writing-mode: initial;
             writing-mode: initial;
     letter-spacing: 0.5em;
+  }
+  .splash_content .splash_inner p {
+    margin: 1em auto;
+    max-width: 480px;
   }
 }
 
