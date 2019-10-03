@@ -10,7 +10,8 @@
   box-sizing: border-box;
   transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out
+  -webkit-transition: all .4s ease-in-out;
+  z-index: 20;
 }
 
 #modal:target {

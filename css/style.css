@@ -747,6 +747,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
+  z-index: 20;
 }
 
 #modal:target {
