@@ -1024,6 +1024,10 @@ figure img:last-child {
   margin: 0;
 }
 
+article h3 {
+  margin-bottom: 1em;
+}
+
 article h6 {
   font-size: 0.75em;
   margin-bottom: 1.7;
