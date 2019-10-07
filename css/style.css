@@ -769,7 +769,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 
 #modal h2 {
   margin: 0;
-  color: #fff;
+  color: #FFF;
 }
 
 #modal .btn {
@@ -777,8 +777,8 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 }
 
 #modal .copy, #modal .header, #modal .footer {
-  padding: 10px;
-  color: #fff;
+  padding: 20px;
+  color: #FFF;
 }
 
 .modal-content {
@@ -786,7 +786,7 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   position: relative;
   z-index: 20;
   border-radius: 5px;
-  color: #fff;
+  color: #FFF;
 }
 
 #modal .copy {
@@ -805,12 +805,17 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
 }
 
 .copy a {
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
   display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
   background-color: #000f52;
+}
+
+@media (max-width: 768px) and (max-height: 360px) {
+  #modal {
+    height: 10%;
+    top: -62.5%;
+  }
 }
 
 html, body, div, span, applet, object, iframe,
@@ -1213,7 +1218,7 @@ footer svg {
 .splash_content .portfolio_link {
   text-transform: uppercase;
   text-align: center;
-  color: #FFF;
+  color: #00CDC6;
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -1222,7 +1227,7 @@ footer svg {
 }
 
 .splash_content i {
-  border: solid #FFF;
+  border: solid #00CDC6;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -1510,7 +1515,7 @@ footer svg {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   main {
     padding: 0;
   }
@@ -1597,6 +1602,7 @@ footer svg {
     text-align: center;
   }
   .splash_content .splash_inner {
+    margin-top: 25%;
     padding: 0;
   }
   .splash_content .splash_inner h1 {
@@ -1621,6 +1627,9 @@ footer svg {
   .splash_content .splash_inner p {
     margin: 1em auto;
     max-width: 480px;
+  }
+  .splash_content .about_link {
+    display: none;
   }
 }
 
@@ -1682,23 +1691,36 @@ footer svg {
   }
 }
 
-@media (min-width: 769px) and (max-height: 480px) {
+@media (min-width: 641px) and (max-height: 480px) {
   .splash {
     height: 150%;
   }
   .splash .splash_content .portfolio_link {
     bottom: -45%;
+  }
+  .splash .splash_content .splash_inner {
+    margin-top: 0;
   }
   .splash .splash_content .splash_inner h2 {
     height: 150%;
   }
 }
 
-@media (max-width: 768px) and (max-height: 360px) {
+@media (max-width: 640px) and (max-height: 480px) {
   .splash {
     height: 150%;
   }
   .splash .splash_content .portfolio_link {
     bottom: -45%;
+  }
+  .splash .splash_content .splash_inner {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) and (min-height: 480px) {
+  .splash_bg {
+    height: 70%;
+    background-position: right 0 top 30%;
   }
 }

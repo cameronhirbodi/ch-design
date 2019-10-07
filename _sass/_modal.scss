@@ -33,14 +33,14 @@
 
 #modal h2 {
   margin: 0;
-  color: #fff
+  color: $white;
 }
 
 #modal .btn { float: right }
 
 #modal .copy, #modal .header, #modal .footer {
-  padding: 10px;
-  color: #fff
+  padding: $mdspacing;
+  color: $white;
 }
 
 .modal-content {
@@ -48,7 +48,7 @@
   position: relative;
   z-index: 20;
   border-radius: 5px;
-  color: #fff
+  color: $white
 }
 
 #modal .copy { background: $navy }
@@ -65,10 +65,15 @@
 }
 
 .copy a {
-  color: #fff;
+  color: $white;
   text-decoration: none;
   display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
   background-color: $navy;
+}
+
+@media (max-width: 768px) and (max-height: 360px){
+  #modal {
+    height: 10%;
+    top: -62.5%;
+  }
 }
