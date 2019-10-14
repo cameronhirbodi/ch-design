@@ -230,17 +230,35 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    i {
-        border: solid $turquoise;
-        border-width: 0 3px 3px 0;
+}
+
+i {
+    &.arrow {
+        border-style: solid;
         display: inline-block;
         padding: 3px;
-      }
-      .down {
+        width: 12px;
+        height: 12px;
+    }
+    &.down {
+        border-width: 0 3px 3px 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
       }
-}
+    &.left {
+        border-width: 3px 0 0 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    &.turquoise {
+        background: none;
+        border-color: $turquoise;
+    }
+    &.magenta {
+        background: none;
+        border-color: $magenta;
+    }
+  }
 
 .ch_logo {
     display: block;
@@ -277,6 +295,7 @@ footer {
     background-position: right 65% top 30%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: fixed;
     z-index: 0;
     top: 0;
@@ -396,77 +415,11 @@ footer {
     }
 }
 
-// Style Guide
-
-.styles_splash {
-    h1 {
-        font-size: 1.999em;
-        display: inline;
-        position: relative;
-        bottom: 14px;
-    }
-    p {
-        text-transform: none;
-    }
-    .divider {
-        border-left: 1px solid $black;
-        height: 50px;
-        width: 1px;
-        margin: 0 $mdspacing;
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        opacity: 0.5;
-    }
-}
-
-.design_element {
-    margin-bottom: $xxlspacing;
-}
-
-.design_element:after {
+.return_link {
     display: block;
-    content: "";
-    clear: both;
-}
-
-.element_title {
-    color: $grey;
-    margin-bottom: $mdspacing;
+    z-index: 100;
+    padding: $smspacing;
     text-transform: uppercase;
-    clear: both;
-}
-
-.bold_section {
-    font-weight: 700;
-}
-
-.light_section {
-    font-weight: 300;
-}
-
-.swatchcol {
-    float: left;
-    min-height: 1px;
-    padding-left: $mdspacing;
-    margin-bottom: $mdspacing;
-}
-
-.swatch {
-    font-size: 0.707em;
-    display: block;
-    min-height: 20px;
-    line-height: 1.2;
-    text-align: center;
-    padding: $mdspacing;
-}
-
-.gridcolor {
-    background: $greylight;
-}
-
-.grid :nth-child(2n) .gridcolor {
-    background: $greylightest;
 }
 
 // Media Queries

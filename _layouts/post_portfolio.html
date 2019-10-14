@@ -1,8 +1,8 @@
 <html>
   {% include head.html %}
   <body>
+      <a class="return_link" href="{{ site.url }}"><i class="arrow left magenta"></i> Back</a>
       <main>
-          <a href="{{ site.url }}">Back to home</a>
           <figure class="left_float">
             {% for image in page.images %}
                 <img class="fadeIn" src="{{image}}">
