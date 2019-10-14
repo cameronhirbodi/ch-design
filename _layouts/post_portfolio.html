@@ -2,7 +2,8 @@
   {% include head.html %}
   <body>
       <main>
-        <figure class="left_float">
+          <a href="{{ site.url }}">Back to home</a>
+          <figure class="left_float">
             {% for image in page.images %}
                 <img class="fadeIn" src="{{image}}">
             {% endfor %}

@@ -274,7 +274,7 @@ footer {
     height: 100%;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: right 15% top 30%;
+    background-position: right 65% top 30%;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -748,10 +748,13 @@ footer {
             }
         }
     }
+    .splash_bg {
+        background-position: right 35% top 30%;
+    }
 }
 @media (max-width: 480px) and (min-height: 480px) {
     .splash_bg {
         height: 70%;
-        background-position: right 0 top 30%;
+        background-position: right 35% top 30%;
     }
 }

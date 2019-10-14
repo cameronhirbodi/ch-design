@@ -21,11 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cameronhirbodi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cameronhirbodi
 github_username:  cameronhirbodi
+exclude: ["_posts/portfolio/archived"]
 
 # Build settings
 markdown: kramdown
 plugins:
-paginate: 5
 
 sass:
 style: compressed
