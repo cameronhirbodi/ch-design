@@ -170,7 +170,7 @@ footer {
             position: absolute;
             top: 0;
             left: 0;
-            background-color: rgba(255, 255, 255, 0.15);
+            background-color: rgba($white, 0.15);
             padding: 0 1.5em;
             h2 {
                 font-size: 1em;
@@ -193,7 +193,7 @@ footer {
         text-transform: uppercase;
         color: $turquoise;
         position: absolute;
-        top: 65%;
+        top: 50%;
         right: 0;
         transform: translate(-50%, -50%);
         &:before {
@@ -224,7 +224,7 @@ footer {
     .portfolio_link {
         text-transform: uppercase;
         text-align: center;
-        color: $turquoise;
+        color: $white;
         position: absolute;
         bottom: 5%;
         left: 50%;
@@ -288,13 +288,13 @@ i {
 
 .splash_bg {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: right 65% top 30%;
+    background-size: contain;
+    background-position: 115% 0;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     position: fixed;
     z-index: 0;
@@ -424,7 +424,14 @@ i {
 
 // Media Queries
 
-@media (max-width: 1024px) {
+@media (min-height: 1024px) {
+    .splash_bg {
+        background-position: 30% 50%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px){
     nav {
         padding: $xlspacing $lgspacing;
     }
@@ -477,8 +484,20 @@ i {
             }
         }
     }
+    .splash_bg {
+        background-position: 120px -50px;
+        background-size: cover;
+    }
 }
-@media (max-width: 640px) {
+
+@media (min-height: 768px) {
+    .splash_bg {
+        background-position: 25% -50px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 640px){
     main {
         padding: 0;
         figure {
@@ -582,7 +601,7 @@ i {
             .rotated_container {
                 display: inline-block;
                 position: initial;
-                background-color: rgba(255, 255, 255, 0.15);
+                background-color: rgba($white, 0.15);
                 margin-top: 1em;
                 padding: 0.5em 1em;
                 h2 {
@@ -601,8 +620,13 @@ i {
             display: none;
         }
     }
+    .splash_bg {
+        background-position: 50% -50px;
+        background-size: cover;
+    }
 }
-@media (max-width: 480px) {
+
+@media (max-width: 480px){
     main {
         article, .blog_list {
             padding: $mdspacing;
@@ -673,6 +697,7 @@ i {
         }
     }
 }
+
 @media (min-width: 641px) and (max-height: 480px){
     .splash {
         height: 150%;
@@ -689,6 +714,7 @@ i {
         }
     }
 }
+
 @media (max-width: 640px) and (max-height: 480px){
     .splash {
         height: 150%;
@@ -700,14 +726,5 @@ i {
                 margin-top: 0;
             }
         }
-    }
-    .splash_bg {
-        background-position: right 35% top 30%;
-    }
-}
-@media (max-width: 480px) and (min-height: 480px) {
-    .splash_bg {
-        height: 70%;
-        background-position: right 35% top 30%;
     }
 }

@@ -54,93 +54,28 @@
 /* Ken Burns Animations */
 
 .kenburns {
-  -webkit-animation: kenburns 20s infinite; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: kenburns 20s infinite; /* Firefox < 16 */
-   -ms-animation: kenburns 20s infinite; /* Internet Explorer */
-    -o-animation: kenburns 20s infinite; /* Opera < 12.1 */
-       animation: kenburns 20s infinite;
-
-  @keyframes kenburns {
-    0% {
-      opacity: 0;
-    }
-    5% {
-      opacity: 1;
-    }
-    95% {
-        transform: scale3d(1.5, 1.5, 1.5) translate3d(-190px, -120px, 0px);
-        animation-timing-function: ease-in;
-        opacity: 1;
-    }
-    100% {
-        transform: scale3d(2, 2, 2) translate3d(-170px, -100px, 0px);
-        opacity: 0;
-    }
-  }
-}
-
-.kenburns {
-  -webkit-animation: kenburns 15s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: kenburns 15s; /* Firefox < 16 */
-   -ms-animation: kenburns 15s; /* Internet Explorer */
-    -o-animation: kenburns 15s; /* Opera < 12.1 */
-       animation: kenburns 15s;
+  -webkit-animation: kenburns 10s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: kenburns 10s; /* Firefox < 16 */
+   -ms-animation: kenburns 10s; /* Internet Explorer */
+    -o-animation: kenburns 10s; /* Opera < 12.1 */
+       animation: kenburns 10s;
        animation-fill-mode: forwards;  
+       animation-timing-function: ease-out;
 
   @keyframes kenburns {
     0% {
-      transform: scale3d(1.25, 1.25, 1.25) translate3d(-10%, 0, 0);
+      transform: translateX(-10%);
       opacity: 0;
     }
     5% {
       opacity: 1;
     }
     100% {
-        transform: scale3d(1.25, 1.25, 1.25) translate3d(0, 0, 0);
+        transform: translateX(0);
         animation-timing-function: ease-in;
         opacity: 1;
     }
   }
-}
-
-@media (max-width: 1024px) {
-  .kenburns {
-  
-    @keyframes kenburns {
-      0% {
-        transform: scale3d(1.25, 1.25, 1.25) translate3d(-5%, 0, 0);
-        opacity: 0;
-      }
-      5% {
-        opacity: 1;
-      }
-      100% {
-          transform: scale3d(1.25, 1.25, 1.25) translate3d(5%, 0, 0);
-          animation-timing-function: ease-in;
-          opacity: 1;
-      }
-    }
-  } 
-}
-
-@media (max-width: 768px) {
-  .kenburns {
-  
-    @keyframes kenburns {
-      0% {
-        transform: scale3d(1.25, 1.25, 1.25) translate3d(0, 0, 0);
-        opacity: 0;
-      }
-      5% {
-        opacity: 1;
-      }
-      100% {
-          transform: scale3d(1.25, 1.25, 1.25) translate3d(10%, 0, 0);
-          animation-timing-function: ease-in;
-          opacity: 1;
-      }
-    }
-  } 
 }
 
 /* Delay Durations */
