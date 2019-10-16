@@ -250,6 +250,11 @@ i {
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
     }
+    &.right {
+        border-width: 3px 3px 0 0;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
     &.turquoise {
         background: none;
         border-color: $turquoise;
@@ -385,32 +390,40 @@ i {
 }
 
 // Portfolio
-
-.portfolio_list {
-    li {
-        position: relative;
-        float: left;
-        width: 32%;
-        height: 280px;
-        margin: 0 2% 2% 0;
-        box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.15);
-        border: $smspacing $white solid;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: $grey;
-        transform-origin: 0;
-        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);   
-        a {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-        &:nth-child(3n) {
-            margin: 0 0 2% 0;
-        }
-        &:hover {
-            opacity: 0.5;
+#portfolio {
+    padding: 0;
+    .portfolio_list {
+        margin: 0 auto;
+        li {
+            margin: 0 auto;
+            .row {
+                margin: 0 auto;
+                padding: $xxlspacing $xxxxlspacing;
+                img {
+                    float: left;
+                    width: 50%;
+                    margin-right: 5%;
+                }
+                .description {
+                    float: left;
+                    width: 45%;
+                    h4 {
+                        margin-bottom: 0.5em;
+                    }
+                }
+            }
+            &:nth-child(even) {
+                background-color: $greylight;
+                img {
+                    float: right;
+                    margin-right: 0;
+                    margin-left: 5%;
+                }
+                .description {
+                    float: right;
+                    text-align: right;
+                }
+            }
         }
     }
 }
