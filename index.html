@@ -46,7 +46,7 @@ category: Menu
         {% for portfolio in site.categories.portfolio %}
         <li>
             <div class="row">
-                <img src ="{{portfolio.images[0]}}">
+                <a href="{{site.baseurl}}{{portfolio.url}}"><img src ="{{portfolio.images[0]}}"></a>
                 <div class="description">
                     <h4>{{portfolio.title}}</h4>
                     <p>{{portfolio.meta}}<br/><br/><a href="{{site.baseurl}}{{portfolio.url}}">See More <i class="arrow right magenta"></i></a>
