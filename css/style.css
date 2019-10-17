@@ -1306,7 +1306,7 @@ i.magenta {
   padding: 60px 120px;
 }
 
-#portfolio .portfolio_list li .row img {
+#portfolio .portfolio_list li .row .thumb {
   float: left;
   width: 50%;
   margin-right: 5%;
@@ -1322,10 +1322,10 @@ i.magenta {
 }
 
 #portfolio .portfolio_list li:nth-child(even) {
-  background-color: #D7DDE1;
+  background-color: #F0F6FA;
 }
 
-#portfolio .portfolio_list li:nth-child(even) img {
+#portfolio .portfolio_list li:nth-child(even) .thumb {
   float: right;
   margin-right: 0;
   margin-left: 5%;
@@ -1370,34 +1370,12 @@ i.magenta {
   .dark main {
     padding: 30px;
   }
-  .blog_list li {
-    margin-bottom: 40px;
-    margin-right: 4%;
-    width: 49%;
-  }
-  .blog_list li:nth-child(3n) {
-    margin-right: 4%;
-  }
-  .blog_list li:nth-child(even) {
-    margin-right: 0;
-  }
-  .blog_list li .blog_image_thumb {
-    height: 240px;
-  }
-  .portfolio_list li {
-    width: 49%;
-    height: 240px;
-    margin: 0 2% 2% 0;
-  }
-  .portfolio_list li:nth-child(3n) {
-    margin: 0 2% 2% 0;
-  }
-  .portfolio_list li:nth-child(even) {
-    margin: 0 0 2% 0;
-  }
   .splash_bg {
     background-position: 120px -50px;
     background-size: cover;
+  }
+  #portfolio .portfolio_list li .row {
+    padding: 40px;
   }
 }
 
@@ -1473,7 +1451,6 @@ i.magenta {
     height: 200px;
   }
   body .portfolio_list li {
-    border: 5px #FFF solid;
     height: 180px;
   }
   body .padded {
@@ -1527,6 +1504,31 @@ i.magenta {
   .splash_bg {
     background-position: 50% -50px;
     background-size: cover;
+  }
+  #portfolio .portfolio_list li {
+    height: auto;
+    width: 100%;
+  }
+  #portfolio .portfolio_list li .row {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #portfolio .portfolio_list li .row .thumb {
+    clear: both;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #portfolio .portfolio_list li .row .description {
+    clear: both;
+    width: 100%;
+  }
+  #portfolio .portfolio_list li:nth-child(even) .thumb {
+    margin-left: 0;
+  }
+  #portfolio .portfolio_list li:nth-child(even) .description {
+    clear: both;
+    text-align: left;
   }
 }
 

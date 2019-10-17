@@ -399,7 +399,7 @@ i {
             .row {
                 margin: 0 auto;
                 padding: $xxlspacing $xxxxlspacing;
-                img {
+                .thumb {
                     float: left;
                     width: 50%;
                     margin-right: 5%;
@@ -413,8 +413,8 @@ i {
                 }
             }
             &:nth-child(even) {
-                background-color: $greylight;
-                img {
+                background-color: $greylightest;
+                .thumb {
                     float: right;
                     margin-right: 0;
                     margin-left: 5%;
@@ -468,38 +468,18 @@ i {
             padding: $lgspacing;
         }
     }
-    .blog_list {
-        li {
-            margin-bottom: $xlspacing;
-            margin-right: 4%;
-            width: 49%;
-            &:nth-child(3n) {
-                margin-right: 4%;
-            }
-            &:nth-child(even) {
-                margin-right: 0;
-            }
-            .blog_image_thumb {
-                height: 240px;
-            }
-        }
-    }
-    .portfolio_list {
-        li {
-            width: 49%;
-            height: 240px;
-            margin: 0 2% 2% 0;
-            &:nth-child(3n) {
-                margin: 0 2% 2% 0;
-            }
-            &:nth-child(even) {
-                margin: 0 0 2% 0;
-            }
-        }
-    }
     .splash_bg {
         background-position: 120px -50px;
         background-size: cover;
+    }
+    #portfolio {
+        .portfolio_list {
+            li {
+                .row {
+                    padding: $xlspacing;
+                }
+            }
+        }
     }
 }
 
@@ -581,7 +561,6 @@ i {
         }
         .portfolio_list {
             li {
-                border: $xsmspacing $white solid;
                 height: 180px;
             }
         }
@@ -636,6 +615,37 @@ i {
     .splash_bg {
         background-position: 50% -50px;
         background-size: cover;
+    }
+    #portfolio {
+        .portfolio_list {
+            li {
+                height: auto;
+                width: 100%;
+                .row {
+                    margin: 0 auto;
+                    padding: $mdspacing;
+                    .thumb {
+                        clear: both;
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: $mdspacing;
+                    }
+                    .description {
+                        clear: both;
+                        width: 100%;
+                    }
+                }
+                &:nth-child(even) {
+                    .thumb {
+                        margin-left: 0;
+                    }
+                    .description {
+                        clear: both;
+                        text-align: left;
+                    }
+                }
+            }
+        }
     }
 }
 
