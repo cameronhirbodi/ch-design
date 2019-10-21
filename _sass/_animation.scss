@@ -33,6 +33,31 @@
   animation: 1s ease-out 1 forwards fadeUp;
 }
 
+/* Pulse Animations */
+
+@keyframes pulse {
+  0% {
+    width: 40px;
+    height: 40px;
+  }
+  50% { 
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    left: -43px;
+  }
+  100% {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.pulse {
+  &:before {
+    animation: 3s ease-in-out infinite pulse;
+  }
+}
+
 /* Hover Animations */
 
 @keyframes hover {

@@ -54,6 +54,45 @@
           animation: 1s ease-out 1 forwards fadeUp;
 }
 
+/* Pulse Animations */
+@-webkit-keyframes pulse {
+  0% {
+    width: 40px;
+    height: 40px;
+  }
+  50% {
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    left: -43px;
+  }
+  100% {
+    width: 40px;
+    height: 40px;
+  }
+}
+@keyframes pulse {
+  0% {
+    width: 40px;
+    height: 40px;
+  }
+  50% {
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    left: -43px;
+  }
+  100% {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.pulse:before {
+  -webkit-animation: 3s ease-in-out infinite pulse;
+          animation: 3s ease-in-out infinite pulse;
+}
+
 /* Hover Animations */
 @-webkit-keyframes hover {
   0% {
@@ -1085,6 +1124,7 @@ footer svg {
 
 .splash_content .splash_inner .rotated_container h2 {
   font-size: 1em;
+  font-weight: normal;
   white-space: nowrap;
   text-align: center;
   height: 100%;
