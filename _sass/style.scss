@@ -270,6 +270,8 @@ i {
     position: absolute;
     left: $xxxxlspacing;
     svg {
+        width: 32px;
+        height: 32px;
         position: absolute;
         top: 22px;
         left: 20px;
@@ -578,7 +580,21 @@ i {
     }
     .ch_logo {
         left: 50%;
-        margin-left: -37px;
+        margin-left: -26px;
+        svg {
+            width: 24px;
+            height: 24px;
+            top: 16px;
+            left: 15px;
+        }
+        rect {
+            width: 48px;
+            height: 48px;
+            &.front {
+                top: 7px;
+                left: 7px;
+            }
+        }
     }
     .splash_content {
         width: 100%;

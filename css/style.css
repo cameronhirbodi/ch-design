@@ -1168,6 +1168,8 @@ i.magenta {
 }
 
 .ch_logo svg {
+  width: 32px;
+  height: 32px;
   position: absolute;
   top: 22px;
   left: 20px;
@@ -1464,7 +1466,21 @@ i.magenta {
   }
   .ch_logo {
     left: 50%;
-    margin-left: -37px;
+    margin-left: -26px;
+  }
+  .ch_logo svg {
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 15px;
+  }
+  .ch_logo rect {
+    width: 48px;
+    height: 48px;
+  }
+  .ch_logo rect.front {
+    top: 7px;
+    left: 7px;
   }
   .splash_content {
     width: 100%;
