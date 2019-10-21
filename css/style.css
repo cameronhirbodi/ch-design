@@ -54,6 +54,36 @@
           animation: 1s ease-out 1 forwards fadeUp;
 }
 
+/* Hover Animations */
+@-webkit-keyframes hover {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 1em;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes hover {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 1em;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.hover {
+  position: relative;
+  -webkit-animation: 3s ease-in-out infinite hover;
+          animation: 3s ease-in-out infinite hover;
+}
+
 /* Grow Animations */
 @-webkit-keyframes growRight {
   from {
