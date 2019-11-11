@@ -1281,6 +1281,60 @@ i.magenta {
   top: 0;
 }
 
+#portfolio {
+  padding: 0;
+}
+
+#portfolio .portfolio_list {
+  margin: 0 auto;
+}
+
+#portfolio .portfolio_list li {
+  margin: 0 auto;
+}
+
+#portfolio .portfolio_list li .row {
+  margin: 0 auto;
+  padding: 60px 120px;
+}
+
+#portfolio .portfolio_list li .row .thumb {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+}
+
+#portfolio .portfolio_list li .row .description {
+  float: left;
+  width: 45%;
+}
+
+#portfolio .portfolio_list li .row .description h4 {
+  margin-bottom: 0.5em;
+}
+
+#portfolio .portfolio_list li:nth-child(even) {
+  background-color: #F0F6FA;
+}
+
+#portfolio .portfolio_list li:nth-child(even) .thumb {
+  float: right;
+  margin-right: 0;
+  margin-left: 5%;
+}
+
+#portfolio .portfolio_list li:nth-child(even) .description {
+  float: right;
+  text-align: right;
+}
+
+.return_link {
+  display: block;
+  z-index: 100;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
 @media (min-height: 1024px) {
   .splash_bg {
     background-position: 30% 50%;

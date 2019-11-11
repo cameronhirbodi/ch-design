@@ -310,6 +310,52 @@ i {
     top: 0;
 }
 
+// Portfolio
+#portfolio {
+    padding: 0;
+    .portfolio_list {
+        margin: 0 auto;
+        li {
+            margin: 0 auto;
+            .row {
+                margin: 0 auto;
+                padding: $xxlspacing $xxxxlspacing;
+                .thumb {
+                    float: left;
+                    width: 50%;
+                    margin-right: 5%;
+                }
+                .description {
+                    float: left;
+                    width: 45%;
+                    h4 {
+                        margin-bottom: 0.5em;
+                    }
+                }
+            }
+            &:nth-child(even) {
+                background-color: $greylightest;
+                .thumb {
+                    float: right;
+                    margin-right: 0;
+                    margin-left: 5%;
+                }
+                .description {
+                    float: right;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+.return_link {
+    display: block;
+    z-index: 100;
+    padding: $smspacing;
+    text-transform: uppercase;
+}
+
 // Media Queries
 
 @media (min-height: 1024px) {
