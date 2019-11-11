@@ -1084,6 +1084,7 @@ footer svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1096,11 +1097,14 @@ footer svg {
           flex-direction: column;
   padding-left: 120px;
   height: 100%;
-  width: 50%;
 }
 
 .splash_content * {
   z-index: 2;
+}
+
+.splash_content .splash_inner {
+  width: 50%;
 }
 
 .splash_content .splash_inner h1 {
@@ -1553,11 +1557,11 @@ i.magenta {
     left: 7px;
   }
   .splash_content {
-    width: 100%;
     padding: 20px;
     text-align: center;
   }
   .splash_content .splash_inner {
+    width: 100%;
     margin-top: 25%;
     padding: 0;
   }
@@ -1688,6 +1692,20 @@ i.magenta {
   }
   .splash .splash_content .splash_inner h2 {
     height: 150%;
+  }
+  .ch_logo svg {
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 15px;
+  }
+  .ch_logo rect {
+    width: 48px;
+    height: 48px;
+  }
+  .ch_logo rect.front {
+    top: 7px;
+    left: 7px;
   }
 }
 

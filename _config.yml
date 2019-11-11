@@ -25,7 +25,6 @@ exclude: ["_posts/portfolio/archived"]
 
 # Build settings
 markdown: kramdown
-plugins:
 
 sass:
 style: compressed

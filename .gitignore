@@ -6,3 +6,4 @@ Gemfile.lock
 Gemfile.lock
 node_modules
 gulpfile.js
+.jekyll-cache
