@@ -32,7 +32,7 @@ header {
 
 main {
     position: relative;
-    padding: $xxlspacing;
+    padding: $mdspacing $xxlspacing;
     background: $white;
     z-index: 2;
     ::after {
@@ -370,7 +370,7 @@ i {
         padding: $xlspacing $lgspacing;
     }
     main {
-        padding: $lgspacing;
+        padding: 0 $lgspacing;
         section {
             padding: 0;
             margin: 0;

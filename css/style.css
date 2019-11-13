@@ -956,7 +956,7 @@ header {
 
 main {
   position: relative;
-  padding: 60px;
+  padding: 20px 60px;
   background: #FFF;
   z-index: 2;
 }
@@ -1347,7 +1347,7 @@ i.magenta {
     padding: 40px 30px;
   }
   main {
-    padding: 30px;
+    padding: 0 30px;
   }
   main section {
     padding: 0;
