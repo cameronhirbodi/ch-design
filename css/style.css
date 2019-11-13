@@ -1331,7 +1331,7 @@ i.magenta {
 .return_link {
   display: block;
   z-index: 100;
-  padding: 10px;
+  padding: 10px 60px;
   text-transform: uppercase;
 }
 
@@ -1368,6 +1368,9 @@ i.magenta {
   }
   #portfolio .portfolio_list li .row {
     padding: 40px;
+  }
+  .return_link {
+    padding: 10px 30px;
   }
 }
 
@@ -1535,6 +1538,9 @@ i.magenta {
   #portfolio .portfolio_list li:nth-child(even) .description {
     clear: both;
     text-align: left;
+  }
+  .return_link {
+    padding: 10px;
   }
 }
 

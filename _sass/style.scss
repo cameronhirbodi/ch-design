@@ -352,7 +352,7 @@ i {
 .return_link {
     display: block;
     z-index: 100;
-    padding: $smspacing;
+    padding: $smspacing $xxlspacing;
     text-transform: uppercase;
 }
 
@@ -401,6 +401,9 @@ i {
                 }
             }
         }
+    }
+    .return_link {
+        padding: $smspacing $lgspacing;
     }
 }
 
@@ -581,6 +584,9 @@ i {
                 }
             }
         }
+    }
+    .return_link {
+        padding: $smspacing;
     }
 }
 
