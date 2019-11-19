@@ -32,7 +32,7 @@ header {
 
 main {
     position: relative;
-    padding: $mdspacing $xxlspacing;
+    padding: 0;
     background: $white;
     z-index: 2;
     ::after {
@@ -50,6 +50,13 @@ img {
 figure {
     margin: 0 auto;
     padding: 0;
+    max-width: 100%;
+    width: 100%;
+    .about {
+        height: 50%;
+        min-height: 0;
+        max-height: 360px;
+    }
     img {
         margin: 0 0 $mdspacing;
         width: 100%;
@@ -61,6 +68,7 @@ figure {
 }
 
 article {
+    padding: $mdspacing;
     h3 {
         margin-bottom: 1em;
     }
@@ -71,17 +79,25 @@ article {
 }
 
 .left_float {
-    width: 65%;
-    padding: 0 $xxlspacing 0 0;
-    float: left;       
+    width: 100%;
+    padding: 0;
+    float: none;       
+    img {
+        margin: 0;
+        display: none;
+        &:first-child {
+            display: block;
+        }
+    }
 }
 
 .right_float {
-    width: 35%;
-    padding: 0;
-    float: right;
+    position: relative;
+    width: 100%;
+    padding: $xlspacing;
+    float: none;
     img {
-        display: none;
+        display: block;
     }
 }
 
@@ -116,6 +132,7 @@ footer {
 }
 
 .pagination {
+    padding: $mdspacing;
     clear: both;
     ul {
         display: block;
@@ -155,32 +172,37 @@ footer {
     justify-content: center;
     flex: 1;
     flex-direction: column;
-    padding-left: $xxxxlspacing;
+    padding: $mdspacing;
+    text-align: center;
     height: 100%;
     * {
         z-index: 2;
     }
     .splash_inner {
-        width: 50%;
+        width: 100%;
+        margin-top: 25%;
+        padding: 0;
         h1 {
+            font-size: 3.157em;
             flex: 1;
             order: 1;
             flex-basis: 100%;
         }
         .rotated_container {
-            position: absolute;
+            display: inline-block;
+            position: initial;
             top: 0;
             left: 0;
             background-color: rgba($white, 0.15);
-            padding: 0 1.5em;
+            padding: 0.5em 1em;
             h2 {
                 font-size: 1em;
                 font-weight: normal;
                 white-space: nowrap;
                 text-align: center;
-                height: 100%;
-                transform: rotate(180deg);
-                writing-mode: vertical-lr;
+                height: initial;
+                transform: none;
+                writing-mode: initial;
                 letter-spacing: 0.5em;
             }
         }
@@ -188,40 +210,12 @@ footer {
             flex: 1;
             order: 2;
             flex-basis: 100%;
-            margin-top: 1em;
+            margin: 1em auto;
+            max-width: 480px;
         }
     }
     .about_link {
-        text-transform: uppercase;
-        color: $turquoise;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translate(-50%, -50%);
-        &:before {
-            content: "";
-            height: 40px;
-            width: 40px;
-            background-color: $turquoise;
-            border-radius: 50%;
-            opacity: 0.15;
-            display: inline-block;
-            position: absolute;
-            top: -7px;
-            left: -48px;
-        }
-        &:after {
-            content: "";
-            height: 10px;
-            width: 10px;
-            background-color: $turquoise;
-            border-radius: 50%;
-            opacity: 0.5;
-            display: inline-block;
-            position: absolute;
-            top: 8px;
-            left: -33px;
-        }
+        display: none;
     }
     .portfolio_link {
         text-transform: uppercase;
@@ -270,13 +264,14 @@ i {
 .ch_logo {
     display: block;
     position: absolute;
-    left: $xxxxlspacing;
+    left: 50%;
+    margin-left: -26px;
     svg {
-        width: 32px;
-        height: 32px;
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        left: 15px;
         position: absolute;
-        top: 22px;
-        left: 20px;
         fill: $white;
         z-index: 9;
     }
@@ -284,13 +279,13 @@ i {
         position: absolute;
         background-color: $magenta;
         opacity: 0.3;
-        width: 64px;
-        height: 64px;
+        width: 48px;
+        height: 48px;
         z-index: 8;
         &.front {
             opacity: 0.5;
-            top: 10px;
-            left: 10px;
+            top: 7px;
+            left: 7px;
         }
     }
 }
@@ -301,8 +296,8 @@ i {
     height: 150%;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-size: contain;
-    background-position: 115% 0;
+    background-position: 50% -50px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: fixed;
@@ -311,23 +306,26 @@ i {
 }
 
 // Portfolio
+
 #portfolio {
     padding: 0;
     .portfolio_list {
         margin: 0 auto;
         li {
             margin: 0 auto;
+            height: auto;
+            width: 100%;
             .row {
                 margin: 0 auto;
-                padding: $xxlspacing $xxxxlspacing;
+                padding: $mdspacing;
                 .thumb {
-                    float: left;
-                    width: 50%;
-                    margin-right: 5%;
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: $mdspacing;
                 }
                 .description {
                     float: left;
-                    width: 45%;
+                    width: 100%;
                     h4 {
                         margin-bottom: 0.5em;
                     }
@@ -338,11 +336,10 @@ i {
                 .thumb {
                     float: right;
                     margin-right: 0;
-                    margin-left: 5%;
+                    margin-left: 0;
                 }
                 .description {
-                    float: right;
-                    text-align: right;
+                    text-align: left;
                 }
             }
         }
@@ -352,23 +349,140 @@ i {
 .return_link {
     display: block;
     z-index: 100;
-    padding: $smspacing $xxlspacing;
+    padding: $smspacing;
     text-transform: uppercase;
 }
 
-// Media Queries
+// Smartphones, iPhone, portrait 480x320 phones
+@media (min-width:320px) {  
 
-@media (min-height: 1024px) {
+}
+
+// Portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
+@media (min-width:481px) {
+
+}
+
+// portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
+@media (min-width:641px) {
+    main {
+        padding: $mdspacing $xxlspacing;
+    }
+    .left_float {
+        width: 65%;
+        padding: 0 $xxlspacing 0 0;
+        float: left;       
+    }
+    .right_float {
+        width: 35%;
+        padding: 0;
+        float: right;
+        img {
+            display: none;
+        }
+    }
+    .splash_content {
+        padding-left: $xxxxlspacing;
+        .splash_inner {
+            width: 50%;
+            .rotated_container {
+                position: absolute;
+                padding: 0 1.5em;
+                h2 {
+                    height: 100%;
+                    transform: rotate(180deg);
+                    writing-mode: vertical-lr;
+                }
+            }
+            p {
+                margin-top: 1em;
+            }
+        }
+    }
+    .about_link {
+        text-transform: uppercase;
+        color: $turquoise;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        &:before {
+            content: "";
+            height: 40px;
+            width: 40px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.15;
+            display: inline-block;
+            position: absolute;
+            top: -7px;
+            left: -48px;
+        }
+        &:after {
+            content: "";
+            height: 10px;
+            width: 10px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.5;
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            left: -33px;
+        }
+    }
+    .ch_logo {
+        margin: 0;
+        left: $xxxxlspacing;
+        svg {
+            width: 32px;
+            height: 32px;
+            top: 22px;
+            left: 20px;
+        }
+        rect {
+            width: 64px;
+            height: 64px;
+            &.front {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    }
     .splash_bg {
-        background-position: 30% 50%;
-        background-size: cover;
+        background-size: contain;
+        background-position: 115% 0;
+    }
+    #portfolio {
+        .portfolio_list {
+            li {
+                .row {
+                    padding: $xxlspacing $xxxxlspacing;
+                    .thumb {
+                        float: left;
+                        width: 50%;
+                        margin-right: 5%;
+                    }
+                    .description {
+                        width: 45%;
+                    }
+                }
+                &:nth-child(even) {
+                    .thumb {
+                        margin-left: 5%;
+                    }
+                    .description {
+                        float: right;
+                        text-align: right;
+                    }
+                }
+            }
+        }
     }
 }
 
-@media (max-width: 1024px){
-    nav {
-        padding: $xlspacing $lgspacing;
-    }
+// tablet, landscape iPad, lo-res laptops ands desktops
+@media (min-width:961px) {  
     main {
         padding: 0 $lgspacing;
         section {
@@ -405,306 +519,73 @@ i {
     .return_link {
         padding: $smspacing $lgspacing;
     }
-}
-
-@media (min-height: 768px) {
-    .splash_bg {
-        background-position: 25% -50px;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 640px){
-    main {
-        padding: 0;
-        figure {
-            padding: 0;
-            max-width: 100%;
-            width: 100%;
-            .about {
-                height: 50%;
-                min-height: 0;
-                max-height: 480px;
-            }
-            &.left_float {
-                width: 100%;
-                padding: 0;
-                float: none;    
-                img {
-                    margin: 0;
-                    display: none;
-                    &:first-child {
-                        display: block;
-                    }
-                }   
-            }
-        }
-        article {
-            &.right_float {
-                position: relative;
-                width: 100%;
-                padding: $xlspacing;
-                float: none;
-                img {
-                    display: block;
-                }
-            }
-            &.blog_list {
-                padding: $lgspacing $mdspacing;
-            }
-        }
-    }
-    body {
-        nav {
-            padding: $lgspacing $mdspacing;
-        }  
-        .desktop_nav {
-            display: none;
-        }
-        .mobile_nav {
-            display: block;
-        }
-        .header_title_container {
-            padding: $mdspacing;
-        }
-        .header_title {
-            font-size: 3.375em;
-            padding-left: $smspacing;
-        }
-        .col-20.swatchcol {
-            width: 33.33%;
-        }    
-        .blog_list {
-            li {
-                margin-right: 0;
-                width: 100%;
-                .blog_image_thumb {
-                    height: 200px;
-                }
-            }
-        }
-        .portfolio_list {
-            li {
-                height: 180px;
-            }
-        }
-        .padded {
-            padding: $mdspacing $smspacing;
-        }
-        .blurb {
-            padding: $mdspacing;
-        }
-        .dark {
-            main {
-                padding: $xxxxlspacing $mdspacing $lgspacing;
-            }
-        }
-    }
     .ch_logo {
-        left: 50%;
-        margin-left: -26px;
+        display: block;
+        position: absolute;
+        left: $xxxxlspacing;
         svg {
-            width: 24px;
-            height: 24px;
-            top: 16px;
-            left: 15px;
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            top: 22px;
+            left: 20px;
+            fill: $white;
+            z-index: 9;
         }
         rect {
-            width: 48px;
-            height: 48px;
+            position: absolute;
+            background-color: $magenta;
+            opacity: 0.3;
+            width: 64px;
+            height: 64px;
+            z-index: 8;
             &.front {
-                top: 7px;
-                left: 7px;
+                opacity: 0.5;
+                top: 10px;
+                left: 10px;
             }
         }
     }
-    .splash_content {
-        padding: $mdspacing;
-        text-align: center;
-        .splash_inner {
-            width: 100%;
-            margin-top: 25%;
-            padding: 0;
-            h1 {
-                font-size: 3.157em;
-            }
-            .rotated_container {
-                display: inline-block;
-                position: initial;
-                background-color: rgba($white, 0.15);
-                margin-top: 1em;
-                padding: 0.5em 1em;
-                h2 {
-                    height: initial;
-                    transform: none;
-                    writing-mode: initial;
-                    letter-spacing: 0.5em;
-                }
-            }
-            p {
-                margin: 1em auto;
-                max-width: 480px;
-            }
+    .about_link {
+        text-transform: uppercase;
+        color: $turquoise;
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        transform: translate(-50%, -50%);
+        &:before {
+            content: "";
+            height: 40px;
+            width: 40px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.15;
+            display: inline-block;
+            position: absolute;
+            top: -7px;
+            left: -48px;
         }
-        .about_link {
-            display: none;
-        }
-    }
-    .splash_bg {
-        background-position: 50% -50px;
-        background-size: cover;
-    }
-    #portfolio {
-        .portfolio_list {
-            li {
-                height: auto;
-                width: 100%;
-                .row {
-                    margin: 0 auto;
-                    padding: $mdspacing;
-                    .thumb {
-                        clear: both;
-                        width: 100%;
-                        margin-right: 0;
-                        margin-bottom: $mdspacing;
-                    }
-                    .description {
-                        clear: both;
-                        width: 100%;
-                    }
-                }
-                &:nth-child(even) {
-                    .thumb {
-                        margin-left: 0;
-                    }
-                    .description {
-                        clear: both;
-                        text-align: left;
-                    }
-                }
-            }
-        }
-    }
-    .return_link {
-        padding: $smspacing;
-    }
-}
-
-@media (max-width: 480px){
-    main {
-        article, .blog_list {
-            padding: $mdspacing;
-        }
-        figure {
-            &.left_float {
-                img {
-                    display: none;
-                    &:first-child {
-                        display: block;
-                    }
-                }
-            }
-            .about {
-                max-height: 360px;
-            }
-        }
-        article {
-            &.right_float {
-                padding: $lgspacing $mdspacing;
-                img {
-                    display: block;
-                }
-            }
-        }
-    }
-    .col-20.swatchcol {
-        width: 100%;
-    }
-    .swatch {
-        min-height: 40px;
-    }
-    .portfolio_list {
-        li {
-            height: 100px;
-        }
-    }
-    .blog_list {
-        li {
-            padding-bottom: $mdspacing;
-            margin-bottom: $mdspacing;
-            .blog_image_thumb {
-                margin: 0 $mdspacing $smspacing 0;
-                width: 35%;
-                height: 100px;
-            }
-            .blog_title {
-                font-size: 1.2em;
-                margin: 0 0 $xsmspacing;
-            }
-        }
-    }
-    .blog_right_column {
-        min-height: 100px;
-        .header_date {
-            margin: 0 0 $xsmspacing;
-        }
-        .blog_description {
-            font-size: 0.9em;
-        }
-    }
-    .pagination {
-        padding: $mdspacing;
-    }
-    .splash_content {
-        .rotate_styled {
-            width: 2em;
+        &:after {
+            content: "";
+            height: 10px;
+            width: 10px;
+            background-color: $turquoise;
+            border-radius: 50%;
+            opacity: 0.5;
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            left: -33px;
         }
     }
 }
 
-@media (min-width: 641px) and (max-height: 480px){
-    .splash {
-        height: 150%;
-        .splash_content {
-            .portfolio_link {
-                bottom: -45%;
-            }
-            .splash_inner {
-                margin-top: 0;
-                h2 {
-                    height: 150%;
-                }
-            }
-        }
-    }
-    .ch_logo {
-        svg {
-            width: 24px;
-            height: 24px;
-            top: 16px;
-            left: 15px;
-        }
-        rect {
-            width: 48px;
-            height: 48px;
-            &.front {
-                top: 7px;
-                left: 7px;
-            }
-        }
-    }
+// big landscape tablets, laptops, and desktops
+@media (min-width:1025px) {
+
 }
 
-@media (max-width: 640px) and (max-height: 480px){
-    .splash {
-        height: 150%;
-        .splash_content {
-            .portfolio_link {
-                bottom: -45%;
-            }
-            .splash_inner {
-                margin-top: 0;
-            }
-        }
-    }
+// hi-res laptops and desktops
+@media (min-width:1281px) {
+
 }
