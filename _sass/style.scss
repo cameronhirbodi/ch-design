@@ -217,6 +217,7 @@ footer {
     }
     .about_link {
         display: none;
+        text-transform: uppercase;
     }
     .portfolio_link {
         text-transform: uppercase;
@@ -236,21 +237,26 @@ i {
         padding: 3px;
         width: 12px;
         height: 12px;
+        position: relative;
+        top: 0.1em;
     }
     &.down {
         border-width: 0 3px 3px 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+        margin-top: 0.3em;
       }
     &.left {
         border-width: 3px 0 0 3px;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
+        margin-right: 0.3em;
     }
     &.right {
         border-width: 3px 3px 0 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+        margin-left: 0.3em;
     }
     &.turquoise {
         background: none;
@@ -332,6 +338,11 @@ i {
                         a {
                             color: $black;
                         }
+                    }
+                    .view_link {
+                        display: block;
+                        margin-top: 1em;
+                        text-transform: uppercase;
                     }
                 }
             }

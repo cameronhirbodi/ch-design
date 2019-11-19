@@ -1188,6 +1188,7 @@ footer svg {
 
 .splash_content .about_link {
   display: none;
+  text-transform: uppercase;
 }
 
 .splash_content .portfolio_link {
@@ -1207,24 +1208,29 @@ i.arrow {
   padding: 3px;
   width: 12px;
   height: 12px;
+  position: relative;
+  top: 0.1em;
 }
 
 i.down {
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  margin-top: 0.3em;
 }
 
 i.left {
   border-width: 3px 0 0 3px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  margin-right: 0.3em;
 }
 
 i.right {
   border-width: 3px 3px 0 0;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  margin-left: 0.3em;
 }
 
 i.turquoise {
@@ -1320,6 +1326,12 @@ i.magenta {
 
 #portfolio .portfolio_list li .row .description h4 a {
   color: #000;
+}
+
+#portfolio .portfolio_list li .row .description .view_link {
+  display: block;
+  margin-top: 1em;
+  text-transform: uppercase;
 }
 
 #portfolio .portfolio_list li:nth-child(even) {
