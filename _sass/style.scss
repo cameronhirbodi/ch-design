@@ -195,6 +195,7 @@ footer {
             left: 0;
             background-color: rgba($white, 0.15);
             padding: 0.5em 1em;
+            margin-top: 1em;
             h2 {
                 font-size: 1em;
                 font-weight: normal;
@@ -365,6 +366,11 @@ i {
 
 // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
 @media (min-width:641px) {
+
+}
+
+// tablet, landscape iPad, lo-res laptops ands desktops
+@media (min-width:961px) {  
     main {
         padding: $mdspacing $xxlspacing;
     }
@@ -385,9 +391,13 @@ i {
         padding-left: $xxxxlspacing;
         .splash_inner {
             width: 50%;
+            h1 {
+                font-size: initial;
+            }
             .rotated_container {
                 position: absolute;
                 padding: 0 1.5em;
+                margin-top: 0;
                 h2 {
                     height: 100%;
                     transform: rotate(180deg);
@@ -481,8 +491,8 @@ i {
     }
 }
 
-// tablet, landscape iPad, lo-res laptops ands desktops
-@media (min-width:961px) {  
+// big landscape tablets, laptops, and desktops
+@media (min-width:1025px) {
     main {
         padding: 0 $lgspacing;
         section {
@@ -578,11 +588,6 @@ i {
             left: -33px;
         }
     }
-}
-
-// big landscape tablets, laptops, and desktops
-@media (min-width:1025px) {
-
 }
 
 // hi-res laptops and desktops

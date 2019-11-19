@@ -1156,6 +1156,7 @@ footer svg {
   left: 0;
   background-color: rgba(255, 255, 255, 0.15);
   padding: 0.5em 1em;
+  margin-top: 1em;
 }
 
 .splash_content .splash_inner .rotated_container h2 {
@@ -1338,7 +1339,7 @@ i.magenta {
   text-transform: uppercase;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 961px) {
   main {
     padding: 20px 60px;
   }
@@ -1361,9 +1362,13 @@ i.magenta {
   .splash_content .splash_inner {
     width: 50%;
   }
+  .splash_content .splash_inner h1 {
+    font-size: initial;
+  }
   .splash_content .splash_inner .rotated_container {
     position: absolute;
     padding: 0 1.5em;
+    margin-top: 0;
   }
   .splash_content .splash_inner .rotated_container h2 {
     height: 100%;
@@ -1451,7 +1456,7 @@ i.magenta {
   }
 }
 
-@media (min-width: 961px) {
+@media (min-width: 1025px) {
   main {
     padding: 0 30px;
   }
