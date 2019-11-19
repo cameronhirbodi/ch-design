@@ -1360,10 +1360,9 @@ i.magenta {
     padding-left: 120px;
   }
   .splash_content .splash_inner {
+    margin-top: 0;
     width: 50%;
-  }
-  .splash_content .splash_inner h1 {
-    font-size: initial;
+    text-align: left;
   }
   .splash_content .splash_inner .rotated_container {
     position: absolute;

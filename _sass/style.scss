@@ -390,10 +390,9 @@ i {
     .splash_content {
         padding-left: $xxxxlspacing;
         .splash_inner {
+            margin-top: 0;
             width: 50%;
-            h1 {
-                font-size: initial;
-            }
+            text-align: left;
             .rotated_container {
                 position: absolute;
                 padding: 0 1.5em;
