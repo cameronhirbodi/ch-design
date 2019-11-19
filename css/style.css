@@ -1336,7 +1336,7 @@ i.magenta {
 }
 
 #portfolio .portfolio_list li .row .description .view_link {
-  display: block;
+  display: inline-block;
   margin-top: 1em;
   text-transform: uppercase;
 }
