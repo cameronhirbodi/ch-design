@@ -1318,6 +1318,10 @@ i.magenta {
   margin-bottom: 0.5em;
 }
 
+#portfolio .portfolio_list li .row .description h4 a {
+  color: #000;
+}
+
 #portfolio .portfolio_list li:nth-child(even) {
   background-color: #F0F6FA;
 }
