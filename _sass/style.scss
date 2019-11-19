@@ -94,7 +94,7 @@ article {
 .right_float {
     position: relative;
     width: 100%;
-    padding: $xlspacing;
+    padding: $lgspacing $mdspacing;
     float: none;
     img {
         display: block;
@@ -334,14 +334,6 @@ i {
             }
             &:nth-child(even) {
                 background-color: $greylightest;
-                .thumb {
-                    float: right;
-                    margin-right: 0;
-                    margin-left: 0;
-                }
-                .description {
-                    text-align: left;
-                }
             }
         }
     }
@@ -477,15 +469,6 @@ i {
                         width: 45%;
                     }
                 }
-                &:nth-child(even) {
-                    .thumb {
-                        margin-left: 5%;
-                    }
-                    .description {
-                        float: right;
-                        text-align: right;
-                    }
-                }
             }
         }
     }
@@ -521,7 +504,7 @@ i {
         .portfolio_list {
             li {
                 .row {
-                    padding: $xlspacing;
+                    padding: $xxlspacing;
                 }
             }
         }

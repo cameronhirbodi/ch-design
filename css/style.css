@@ -1031,7 +1031,7 @@ article h6 {
 .right_float {
   position: relative;
   width: 100%;
-  padding: 40px;
+  padding: 30px 20px;
   float: none;
 }
 
@@ -1322,16 +1322,6 @@ i.magenta {
   background-color: #F0F6FA;
 }
 
-#portfolio .portfolio_list li:nth-child(even) .thumb {
-  float: right;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-#portfolio .portfolio_list li:nth-child(even) .description {
-  text-align: left;
-}
-
 .return_link {
   display: block;
   z-index: 100;
@@ -1447,13 +1437,6 @@ i.magenta {
   #portfolio .portfolio_list li .row .description {
     width: 45%;
   }
-  #portfolio .portfolio_list li:nth-child(even) .thumb {
-    margin-left: 5%;
-  }
-  #portfolio .portfolio_list li:nth-child(even) .description {
-    float: right;
-    text-align: right;
-  }
 }
 
 @media (min-width: 1025px) {
@@ -1478,7 +1461,7 @@ i.magenta {
     background-size: cover;
   }
   #portfolio .portfolio_list li .row {
-    padding: 40px;
+    padding: 60px;
   }
   .return_link {
     padding: 10px 30px;
