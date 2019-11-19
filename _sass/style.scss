@@ -240,6 +240,12 @@ i {
         position: relative;
         top: 0.1em;
     }
+    &.up {
+        border-width: 3px 0 0 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-bottom: 0.3em;
+      }
     &.down {
         border-width: 0 3px 3px 0;
         transform: rotate(45deg);
@@ -359,6 +365,43 @@ i {
     padding: $smspacing;
     text-transform: uppercase;
 }
+
+// Back to top link
+
+#to_top {
+    display: inline-block;
+    background-color: $navy;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    position: fixed;
+    bottom: $smspacing;
+    right: $smspacing;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    i {
+        margin: 0;
+        color: $white;
+        position: absolute;
+        top: 19px;
+        right: 18px;
+    }
+  }
+  #to_top:hover {
+    cursor: pointer;
+    background-color: rgba($navy, 0.5);
+  }
+  #to_top:active {
+    background-color: rgba($navy, 0.7);
+  }
+  #to_top.show {
+    opacity: 1;
+    visibility: visible;
+  }
 
 // Smartphones, iPhone, portrait 480x320 phones
 @media (min-width: 320px) {}
