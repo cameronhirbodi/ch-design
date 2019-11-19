@@ -1354,8 +1354,7 @@ i.magenta {
 
 #to_top {
   display: inline-block;
-  background-color: #000f52;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 15, 82, 0.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -1380,7 +1379,7 @@ i.magenta {
 
 #to_top:hover {
   cursor: pointer;
-  background-color: rgba(0, 15, 82, 0.5);
+  background-color: #000f52;
 }
 
 #to_top:active {
