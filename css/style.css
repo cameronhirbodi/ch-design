@@ -1379,6 +1379,7 @@ i.magenta {
   }
   .splash_content .splash_inner p {
     margin-top: 1em;
+    margin: 1em 0;
   }
   .about_link {
     text-transform: uppercase;
