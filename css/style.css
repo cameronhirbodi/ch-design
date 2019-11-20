@@ -1399,6 +1399,10 @@ i.magenta {
     padding: 0 60px 0 0;
     float: left;
   }
+  .left_float img {
+    display: block;
+    margin-bottom: 20px;
+  }
   .right_float {
     width: 35%;
     padding: 0;

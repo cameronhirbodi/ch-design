@@ -419,7 +419,11 @@ i {
     .left_float {
         width: 65%;
         padding: 0 $xxlspacing 0 0;
-        float: left;       
+        float: left;
+        img {
+            display: block;
+            margin-bottom: 20px;
+        }
     }
     .right_float {
         width: 35%;
