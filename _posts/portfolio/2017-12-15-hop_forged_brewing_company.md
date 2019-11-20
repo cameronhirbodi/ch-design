@@ -14,7 +14,7 @@ source: http://www.hopforgedbrewing.com/
 ---
 ###### Role
 
-Logo Designer
+Visual Design, Brand Design
 
 ###### Objective
 

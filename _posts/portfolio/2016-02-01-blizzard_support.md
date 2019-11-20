@@ -20,7 +20,7 @@ source: http://www.battle.net/support
 
 ###### Role
 
-UI Designer / Developer
+Visual Design, User Testing, Icon Design, Animation, Prototyping, Development
 
 ###### Objective
 

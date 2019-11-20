@@ -14,7 +14,7 @@ source: http://parsonsracing.com/
 
 ###### Role
 
-Logo Designer
+Visual Design, Brand Design
 
 ###### Objective
 

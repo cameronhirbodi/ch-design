@@ -16,7 +16,7 @@ source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?ful
 
 ###### Role
 
-UI Designer
+Visual Design, Icon Design, Animation, Prototyping
 
 ###### Objective
 
