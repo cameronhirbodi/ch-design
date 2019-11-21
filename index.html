@@ -25,18 +25,16 @@ category: Menu
 </header>
 
 <main id="portfolio">
-    <ul class="portfolio_list">
+    <ul>
         {% for portfolio in site.categories.portfolio %}
         <li id="{{portfolio.title}}">
-            <div class="row">
-                <div class="thumb">
-                    <a href="{{site.baseurl}}{{portfolio.url}}"><img src ="{{portfolio.images[0]}}"></a>
-                </div>
-                <div class="description">
-                    <h4><a href="{{site.baseurl}}{{portfolio.url}}">{{portfolio.title}}</a></h4>
-                    <p>{{portfolio.meta}}<br/><a class="view_link" href="{{site.baseurl}}{{portfolio.url}}">View more<i class="arrow right magenta"></i></a></p>
-                </div>  
-            </div>      
+            <div class="thumb">
+                <a href="{{site.baseurl}}{{portfolio.url}}"><img src ="{{portfolio.images[0]}}"></a>
+            </div>
+            <div class="description">
+                <h4><a href="{{site.baseurl}}{{portfolio.url}}">{{portfolio.title}}</a></h4>
+                <p>{{portfolio.meta}}<br/><a class="view_link" href="{{site.baseurl}}{{portfolio.url}}">View more<i class="arrow right magenta"></i></a></p>
+            </div>   
         </li>
         {% endfor %}
     </ul>

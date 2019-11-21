@@ -1297,52 +1297,35 @@ i.magenta {
   top: 0;
 }
 
-#portfolio {
-  padding: 0;
-}
-
-#portfolio .portfolio_list {
-  margin: 0 auto;
-}
-
-#portfolio .portfolio_list li {
-  margin: 0 auto;
-  height: auto;
-  width: 100%;
-}
-
-#portfolio .portfolio_list li .row {
-  margin: 0 auto;
+#portfolio ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 20px;
 }
 
-#portfolio .portfolio_list li .row .thumb {
-  width: 100%;
-  margin-right: 0;
+#portfolio ul li {
+  margin-bottom: 40px;
+}
+
+#portfolio ul li .thumb {
   margin-bottom: 20px;
 }
 
-#portfolio .portfolio_list li .row .description {
-  float: left;
-  width: 100%;
-}
-
-#portfolio .portfolio_list li .row .description h4 {
+#portfolio ul li .description h4 {
   margin-bottom: 0.5em;
 }
 
-#portfolio .portfolio_list li .row .description h4 a {
+#portfolio ul li .description h4 a {
   color: #000;
 }
 
-#portfolio .portfolio_list li .row .description .view_link {
+#portfolio ul li .description .view_link {
   display: inline-block;
   margin-top: 1em;
   text-transform: uppercase;
-}
-
-#portfolio .portfolio_list li:nth-child(even) {
-  background-color: #F0F6FA;
 }
 
 .return_link {
@@ -1389,6 +1372,26 @@ i.magenta {
 #to_top.show {
   opacity: 1;
   visibility: visible;
+}
+
+@media (min-width: 481px) {
+  #portfolio ul {
+    padding: 10px;
+  }
+  #portfolio ul li {
+    padding: 10px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 641px) {
+  #portfolio ul {
+    padding: 20px 10px;
+  }
+  #portfolio ul li {
+    padding: 20px;
+    width: 33.33%;
+  }
 }
 
 @media (min-width: 961px) {
@@ -1492,17 +1495,6 @@ i.magenta {
     background-size: contain;
     background-position: 115% 0;
   }
-  #portfolio .portfolio_list li .row {
-    padding: 60px 120px;
-  }
-  #portfolio .portfolio_list li .row .thumb {
-    float: left;
-    width: 50%;
-    margin-right: 5%;
-  }
-  #portfolio .portfolio_list li .row .description {
-    width: 45%;
-  }
 }
 
 @media (min-width: 1025px) {
@@ -1525,9 +1517,6 @@ i.magenta {
   .splash_bg {
     background-position: 120px -50px;
     background-size: cover;
-  }
-  #portfolio .portfolio_list li .row {
-    padding: 60px;
   }
   .return_link {
     padding: 10px 30px;
@@ -1594,7 +1583,7 @@ i.magenta {
   }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 480px) {
   .splash {
     height: 125%;
   }
