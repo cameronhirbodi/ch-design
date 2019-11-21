@@ -180,7 +180,7 @@ footer {
     }
     .splash_inner {
         width: 100%;
-        margin-top: 25%;
+        margin-top: 15%;
         padding: 0;
         h1 {
             font-size: 3.157em;
@@ -189,6 +189,7 @@ footer {
             flex-basis: 100%;
         }
         .rotated_container {
+            height: 100%;
             display: inline-block;
             position: initial;
             top: 0;
@@ -629,3 +630,9 @@ i {
 
 // hi-res laptops and desktops
 @media (min-width: 1281px) {}
+
+@media (orientation: landscape) {
+    .splash {
+        height: 125%;
+    }
+}

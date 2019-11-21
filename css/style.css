@@ -1133,7 +1133,7 @@ footer svg {
 
 .splash_content .splash_inner {
   width: 100%;
-  margin-top: 25%;
+  margin-top: 15%;
   padding: 0;
 }
 
@@ -1150,6 +1150,7 @@ footer svg {
 }
 
 .splash_content .splash_inner .rotated_container {
+  height: 100%;
   display: inline-block;
   position: initial;
   top: 0;
@@ -1590,5 +1591,11 @@ i.magenta {
     position: absolute;
     top: 8px;
     left: -33px;
+  }
+}
+
+@media (orientation: landscape) {
+  .splash {
+    height: 125%;
   }
 }
