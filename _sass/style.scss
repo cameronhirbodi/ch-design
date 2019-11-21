@@ -189,7 +189,6 @@ footer {
             flex-basis: 100%;
         }
         .rotated_container {
-            height: 100%;
             display: inline-block;
             position: initial;
             top: 0;
@@ -449,6 +448,7 @@ i {
             width: 50%;
             text-align: left;
             .rotated_container {
+                height: 100%;
                 position: absolute;
                 padding: 0 1.5em;
                 margin-top: 0;

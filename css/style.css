@@ -1150,7 +1150,6 @@ footer svg {
 }
 
 .splash_content .splash_inner .rotated_container {
-  height: 100%;
   display: inline-block;
   position: initial;
   top: 0;
@@ -1424,6 +1423,7 @@ i.magenta {
     text-align: left;
   }
   .splash_content .splash_inner .rotated_container {
+    height: 100%;
     position: absolute;
     padding: 0 1.5em;
     margin-top: 0;
