@@ -325,9 +325,20 @@ i {
         flex-wrap: wrap;
         padding: $mdspacing;
         li {
-            margin-bottom: $xlspacing;
+            margin-bottom: $mdspacing;
             .thumb {
+                position: relative;
                 margin-bottom: $mdspacing;
+                height: 200px;
+                overflow: hidden;
+                img {
+                    position: absolute;
+                    width: 100%;
+                    height: auto;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
             }
             .description {
                 h4 {
@@ -401,6 +412,9 @@ i {
             li {
                 padding: $smspacing;
                 width: 50%;
+                .thumb {
+                    height: 160px;
+                }
             }
         }
     }
@@ -413,6 +427,9 @@ i {
             padding: $mdspacing $smspacing;
             li {
                 padding: $mdspacing;
+                .thumb {
+                    height: 200px;
+                }
             }
         }
     }
@@ -619,7 +636,17 @@ i {
 }
 
 // hi-res laptops and desktops
-@media (min-width: 1281px) {}
+@media (min-width: 1281px) {
+    #portfolio {
+        ul {
+            li {
+                .thumb {
+                    height: 240px;
+                }
+            }
+        }
+    }
+}
 
 // landscape devices
 @media (orientation: landscape) and (max-height: 480px) {

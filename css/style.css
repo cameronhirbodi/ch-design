@@ -1306,11 +1306,23 @@ i.magenta {
 }
 
 #portfolio ul li {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #portfolio ul li .thumb {
+  position: relative;
   margin-bottom: 20px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#portfolio ul li .thumb img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #portfolio ul li .description h4 {
@@ -1381,6 +1393,9 @@ i.magenta {
     padding: 10px;
     width: 50%;
   }
+  #portfolio ul li .thumb {
+    height: 160px;
+  }
 }
 
 @media (min-width: 641px) {
@@ -1389,6 +1404,9 @@ i.magenta {
   }
   #portfolio ul li {
     padding: 20px;
+  }
+  #portfolio ul li .thumb {
+    height: 200px;
   }
 }
 
@@ -1586,6 +1604,12 @@ i.magenta {
     position: absolute;
     top: 8px;
     left: -33px;
+  }
+}
+
+@media (min-width: 1281px) {
+  #portfolio ul li .thumb {
+    height: 240px;
   }
 }
 
