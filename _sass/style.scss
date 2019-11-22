@@ -413,7 +413,6 @@ i {
             padding: $mdspacing $smspacing;
             li {
                 padding: $mdspacing;
-                width: 33.33%;
             }
         }
     }
@@ -517,6 +516,15 @@ i {
     .splash_bg {
         background-size: contain;
         background-position: 115% 0;
+    }
+    #portfolio {
+        ul {
+            padding: $mdspacing $smspacing;
+            li {
+                padding: $mdspacing;
+                width: 33.33%;
+            }
+        }
     }
 }
 

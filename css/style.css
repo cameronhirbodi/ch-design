@@ -1389,7 +1389,6 @@ i.magenta {
   }
   #portfolio ul li {
     padding: 20px;
-    width: 33.33%;
   }
 }
 
@@ -1494,6 +1493,13 @@ i.magenta {
   .splash_bg {
     background-size: contain;
     background-position: 115% 0;
+  }
+  #portfolio ul {
+    padding: 20px 10px;
+  }
+  #portfolio ul li {
+    padding: 20px;
+    width: 33.33%;
   }
 }
 
