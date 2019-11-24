@@ -1,16 +1,36 @@
 <html>
   {% include head.html %}
   <body>
-      <a class="return_link" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
+      <a class="back_link" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
       <main>
-          <figure class="left_float">
-            {% for image in page.images %}
-                <img class="fadeIn" src="{{image}}">
-            {% endfor %}
+        <figure>
+          <!-- Main Image (Mobile) -->
+          {% for image in page.images %}
+            <img src="{{image}}">
+          {% endfor %}
+
+          <!-- Swiper (Desktop) -->
+          <div class="swiper-container gallery-top fadeIn">
+            <div class="swiper-wrapper">
+              {% for image in page.images %}
+                <div class="swiper-slide" style="background-image:url({{image}})"></div>
+              {% endfor %}
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+          </div>
+          <div class="swiper-container gallery-thumbs">
+            <div class="swiper-wrapper">
+              {% for image in page.images %}
+                <div class="swiper-slide" style="background-image:url({{image}})"></div>
+              {% endfor %}
+            </div>
+          </div>
+
         </figure>
-        <article class="right_float fadeUp delay250ms">
+        <article class="fadeUp delay250ms">
             <h3>{{page.title}}</h3>
-            <span class="electric-divider growRight delay500ms"></span>
             {{content}}
             <br>
             {% if page.source %}
@@ -20,5 +40,27 @@
       </main>
       <a id="to_top"><i class="arrow up"></i></a>
       {% include footer.html %}
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
+
   </body>
 </html>

@@ -28,6 +28,8 @@ This web portal was designed to assist Blizzard game customers in solving their 
 
 The Blizzard Support site offers useful resources such as knowledge-base articles and self service solutions with regards to account, technical, and gameplay related issues. These methods are designed to allow customers to self serve themselves. Should these solutions not help, escalating the issue to a customer service representative should be simple and straight forward.
 
+###### Style Tiles
+
 The previous rendition of the Blizzard Support portal did not adhere closely to the company's brand guidelines. To address this, the first exercise was to create style tiles to illustrate various design directions we could apply to the whole website. 
 
 ![Blizzard Support - Style Tile Version 1]({{ "/images/portfolio/blizz_supp/blizz_supp_02.jpg" }})
@@ -36,9 +38,13 @@ The previous rendition of the Blizzard Support portal did not adhere closely to 
 
 ![Blizzard Support - Style Tile Version 3]({{ "/images/portfolio/blizz_supp/blizz_supp_04.jpg" }})
 
+###### Component Libraries
+
 The next step was to start building component libraries and style guides for other designers and developers to use as patterns. This ensures consistency across the site which is critical.
 
 ![Blizzard Support - Components & Style Guide]({{ "/images/portfolio/blizz_supp/blizz_supp_05.jpg" }})
+
+###### Prototyping and Animation
 
 Next, these UI components were applied to low fidelity flows created in collaboration with UX designers to transition them into high fidelity mockups. 
 
@@ -46,13 +52,19 @@ Micro interactions and animations were then created between screens to build out
 
 ![Blizzard Support - Prototype Mockups]({{ "/images/portfolio/blizz_supp/blizz_supp_06.jpg" }})
 
+###### Design Specs
+
 In order to reach the level of fidelity the design team was seeking on the final product, detailed design specs were provided to the engineering team. 
 
 ![Blizzard Support - Design Specs]({{ "/images/portfolio/blizz_supp/blizz_supp_07.jpg" }})
 
+###### Reporting
+
 Looking at the transformation to the newly redesigned website, several key goals were reached. Reports show an increased success rate for customer self-services and has resulted in less company contacts. This resulted in drastic company cost savings.
 
 ![Blizzard Support - Redesign]({{ "/images/portfolio/blizz_supp/blizz_supp_08.jpg" }})
+
+###### Next Steps
 
 There are more ongoing initiatives with the website that continue today. This includes embedding the site within in-game menus, designing interactions for machine learning, and updating component libraries on the design and code environment to assist our developers. There is also a growing effort into making the site compliant with regards to accessibility and catering to those that require assistive devices.
 
