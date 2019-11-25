@@ -1293,11 +1293,11 @@ i.magenta {
   margin: auto;
 }
 
-#portfolio ul li .description h4 {
+#portfolio ul li .description h5 {
   margin-bottom: 0.5em;
 }
 
-#portfolio ul li .description h4 a {
+#portfolio ul li .description h5 a {
   color: #000;
 }
 
