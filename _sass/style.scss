@@ -374,7 +374,7 @@ i {
 
 .back_link {
     display: inline-block;
-    padding: $smspacing;
+    margin: $smspacing;
 }
 
 // Smartphones, iPhone, portrait 480x320 phones
@@ -399,6 +399,7 @@ i {
 // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
 @media (min-width: 641px) {
     figure {
+        height: 80%;
         width: 60%;
         padding: 0 $mdspacing;
         float: left;
@@ -434,9 +435,10 @@ i {
         width: 100%;
     }
     .gallery-thumbs {
-        height: 15%;
+        height: 25%;
+        min-height: 140px;
         box-sizing: border-box;
-        padding: $smspacing 0;
+        padding: $mdspacing 0;
     }
     .gallery-thumbs .swiper-slide {
         background-size: cover;
@@ -459,7 +461,8 @@ i {
         }
     }
     .back_link {
-        padding: $smspacing $mdspacing;
+        height: 10%;
+        margin: $smspacing $mdspacing;
     }
 }
 
@@ -544,7 +547,7 @@ i {
     }
     #portfolio {
         ul {
-            padding: $mdspacing $smspacing;
+            padding: $mdspacing $xlspacing;
             li {
                 padding: $mdspacing;
                 width: 33.33%;
@@ -583,7 +586,7 @@ i {
         background-size: cover;
     }
     .back_link {
-        padding: $mdspacing $lgspacing;
+        margin: $mdspacing $lgspacing;
     }
     .ch_logo {
         display: block;

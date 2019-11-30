@@ -1352,7 +1352,7 @@ i.magenta {
 
 .back_link {
   display: inline-block;
-  padding: 10px;
+  margin: 10px;
 }
 
 @media (min-width: 481px) {
@@ -1370,6 +1370,7 @@ i.magenta {
 
 @media (min-width: 641px) {
   figure {
+    height: 80%;
     width: 60%;
     padding: 0 20px;
     float: left;
@@ -1403,10 +1404,11 @@ i.magenta {
     width: 100%;
   }
   .gallery-thumbs {
-    height: 15%;
+    height: 25%;
+    min-height: 140px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   .gallery-thumbs .swiper-slide {
     background-size: cover;
@@ -1427,7 +1429,8 @@ i.magenta {
     height: 200px;
   }
   .back_link {
-    padding: 10px 20px;
+    height: 10%;
+    margin: 10px 20px;
   }
 }
 
@@ -1514,7 +1517,7 @@ i.magenta {
     background-position: 115% 0;
   }
   #portfolio ul {
-    padding: 20px 10px;
+    padding: 20px 40px;
   }
   #portfolio ul li {
     padding: 20px;
@@ -1547,7 +1550,7 @@ i.magenta {
     background-size: cover;
   }
   .back_link {
-    padding: 20px 30px;
+    margin: 20px 30px;
   }
   .ch_logo {
     display: block;
