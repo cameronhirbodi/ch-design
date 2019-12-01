@@ -66,6 +66,6 @@ Looking at the transformation to the newly redesigned website, several key goals
 
 ###### Next Steps
 
-There are more ongoing initiatives with the website that continue today. This includes embedding the site within in-game menus, designing interactions for machine learning, and updating component libraries on the design and code environment to assist our developers. There is also a growing effort into making the site compliant with regards to accessibility and catering to those that require assistive devices.
+There are more ongoing initiatives for the website today. This includes embedding the support model within in-game experiences, designing recommendation systems with machine learning algorithms, and updating component libraries on the design to code environment to assist developers. There is also a growing effort into making the site compliant with regards to accessibility and catering to those that require assistive devices.
 
 ![Blizzard Support - Platforms]({{ "/images/portfolio/blizz_supp/blizz_supp_09.jpg" }})
