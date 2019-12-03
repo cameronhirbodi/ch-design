@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Hop Forged Brewing Company
-meta: These logos were created to represent the identity of a newly established brewery in Hanford, California.
+meta: The branding was created to represent the identity of a newly established brewery in Hanford, California.
 category: portfolio
 tag: identity
 permalink: portfolio/:title/
@@ -20,7 +20,7 @@ Visual Design, Brand Design
 
 ###### Objective
 
-These logos were created to represent the identity of a newly established brewery in Hanford, California.
+The branding was created to represent the identity of a newly established brewery in Hanford, California.
 
 ![Hop Forged Brewing Company - Apparel]({{ "/images/portfolio/hfbc/hfbc_01.jpg" }})
 
