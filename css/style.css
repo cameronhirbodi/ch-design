@@ -975,6 +975,7 @@ figure img {
   display: none;
   width: 100%;
   max-width: 100%;
+  max-height: 480px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1370,7 +1371,7 @@ i.magenta {
 
 @media (min-width: 641px) {
   figure {
-    height: 80%;
+    height: 100%;
     width: 60%;
     padding: 0 20px;
     float: left;
@@ -1396,6 +1397,7 @@ i.magenta {
   }
   .swiper-slide {
     background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -1429,7 +1431,6 @@ i.magenta {
     height: 200px;
   }
   .back_link {
-    height: 10%;
     margin: 10px 20px;
   }
 }

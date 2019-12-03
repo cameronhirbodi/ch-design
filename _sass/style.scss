@@ -45,6 +45,7 @@ figure {
         display: none;
         width: 100%;
         max-width: 100%;
+        max-height: 480px;
         object-fit: cover;
         &:first-child {
             display: block;
@@ -399,7 +400,7 @@ i {
 // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
 @media (min-width: 641px) {
     figure {
-        height: 80%;
+        height: 100%;
         width: 60%;
         padding: 0 $mdspacing;
         float: left;
@@ -427,6 +428,7 @@ i {
     }
     .swiper-slide {
         background-size: 100%;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -461,7 +463,6 @@ i {
         }
     }
     .back_link {
-        height: 10%;
         margin: $smspacing $mdspacing;
     }
 }
