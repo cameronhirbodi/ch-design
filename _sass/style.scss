@@ -551,7 +551,6 @@ i {
         ul {
             padding: $xlspacing;
             li {
-                padding: $xlspacing;
                 width: 33.33%;
             }
         }
@@ -649,6 +648,13 @@ i {
             left: -33px;
         }
     }
+    #portfolio {
+        ul {
+            li {
+                padding: $lgspacing;
+            }
+        }
+    }
 }
 
 // hi-res laptops and desktops
@@ -656,6 +662,7 @@ i {
     #portfolio {
         ul {
             li {
+                padding: $xlspacing;
                 .thumb {
                     height: 240px;
                 }

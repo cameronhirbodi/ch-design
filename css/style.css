@@ -1523,7 +1523,6 @@ i.magenta {
     padding: 40px;
   }
   #portfolio ul li {
-    padding: 40px;
     width: 33.33%;
   }
 }
@@ -1615,9 +1614,15 @@ i.magenta {
     top: 8px;
     left: -33px;
   }
+  #portfolio ul li {
+    padding: 30px;
+  }
 }
 
 @media (min-width: 1281px) {
+  #portfolio ul li {
+    padding: 40px;
+  }
   #portfolio ul li .thumb {
     height: 240px;
   }
