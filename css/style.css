@@ -1288,10 +1288,12 @@ i.magenta {
 #portfolio ul li .thumb img {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   top: 0;
   bottom: 0;
   margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #portfolio ul li .description h5 {

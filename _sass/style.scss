@@ -306,10 +306,11 @@ i {
                 img {
                     position: absolute;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                     top: 0;
                     bottom: 0;
                     margin: auto;
+                    object-fit: cover;
                 }
             }
             .description {
