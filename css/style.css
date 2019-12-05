@@ -460,7 +460,7 @@ bold {
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -936,7 +936,7 @@ bold {
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
