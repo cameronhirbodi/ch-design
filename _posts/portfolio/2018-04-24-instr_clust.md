@@ -23,6 +23,7 @@ Visual Design, Icon Design, Animation, Prototyping
 This exercise is intended to test various user interactions with instrument clusters using an interactive prototype model.
 
 ![Instrument Cluster - Sketch]({{ "/images/portfolio/instr_clust/instr_clust_lofi.jpg" }})
+<br/>
 ![Instrument Cluster - Wireframe]({{ "/images/portfolio/instr_clust/instr_clust_wire.jpg" }})
 
 The first step was to conceptualize the layout for how the user will simulate basic in-car controls. Once a rough sketch was settled on, the next task was to convert this to a digital outline using Adobe Illustrator. 
