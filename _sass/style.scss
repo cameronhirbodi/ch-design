@@ -155,7 +155,6 @@ footer {
         margin-top: 15%;
         padding: 0;
         h1 {
-            font-size: 3.157em;
             flex: 1;
             order: 1;
             flex-basis: 100%;
@@ -320,11 +319,14 @@ i {
                 }
             }
             .description {
-                h5 {
-                    margin-bottom: 0.5em;
+                h4 {
                     a {
                         color: $black;
                     }
+                }
+                .emphasis_link {
+                    margin-left: 0;
+                    margin-right: 0;
                 }
             }
         }

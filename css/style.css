@@ -382,7 +382,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  margin-bottom: 1;
+  margin-bottom: 0.3em;
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
@@ -391,34 +391,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4.209em;
+  font-size: 3.052em;
 }
 
 h2 {
-  font-size: 3.157em;
+  font-size: 2.441em;
 }
 
 h3 {
-  font-size: 2.369em;
+  font-size: 1.953em;
 }
 
 h4 {
-  font-size: 1.777em;
+  font-size: 1.563em;
 }
 
 h5 {
-  font-size: 1.333em;
+  font-size: 1.25em;
 }
 
 h6 {
   font-size: 1em;
 }
 
-small, .font_small {
-  font-size: 0.75em;
+small, .text_small {
+  font-size: 0.8em;
 }
 
 a {
+  font-weight: 600;
   color: #fc3468;
   text-decoration: none;
 }
@@ -443,7 +444,7 @@ a:active {
 }
 
 bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .removemargin {
@@ -858,7 +859,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  margin-bottom: 1;
+  margin-bottom: 0.3em;
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
@@ -867,34 +868,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4.209em;
+  font-size: 3.052em;
 }
 
 h2 {
-  font-size: 3.157em;
+  font-size: 2.441em;
 }
 
 h3 {
-  font-size: 2.369em;
+  font-size: 1.953em;
 }
 
 h4 {
-  font-size: 1.777em;
+  font-size: 1.563em;
 }
 
 h5 {
-  font-size: 1.333em;
+  font-size: 1.25em;
 }
 
 h6 {
   font-size: 1em;
 }
 
-small, .font_small {
-  font-size: 0.75em;
+small, .text_small {
+  font-size: 0.8em;
 }
 
 a {
+  font-weight: 600;
   color: #fc3468;
   text-decoration: none;
 }
@@ -919,7 +921,7 @@ a:active {
 }
 
 bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .removemargin {
@@ -1107,7 +1109,6 @@ footer svg {
 }
 
 .splash_content .splash_inner h1 {
-  font-size: 3.157em;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1302,12 +1303,13 @@ i.magenta {
      object-fit: cover;
 }
 
-#portfolio ul li .description h5 {
-  margin-bottom: 0.5em;
+#portfolio ul li .description h4 a {
+  color: #000;
 }
 
-#portfolio ul li .description h5 a {
-  color: #000;
+#portfolio ul li .description .emphasis_link {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .swiper-container {

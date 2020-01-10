@@ -18,11 +18,11 @@ images:
 source: http://www.battle.net/support
 ---
 
-###### Role
+##### My Role
 
 Visual Design, User Testing, Icon Design, Animation, Prototyping, Development
 
-###### Objective
+##### Objective
 
 This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game. A ground-up overhaul was required to bring the site to modern design standards.
 

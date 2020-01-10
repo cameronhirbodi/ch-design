@@ -14,11 +14,11 @@ images:
 - /images/portfolio/hfbc/hfbc_05.jpg
 source: http://www.hopforgedbrewing.com/
 ---
-###### Role
+##### My Role
 
 Visual Design, Brand Design
 
-###### Objective
+##### Objective
 
 The branding was created to represent the identity of a newly established brewery in Hanford, California.
 

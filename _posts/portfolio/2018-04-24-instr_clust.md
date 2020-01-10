@@ -14,11 +14,11 @@ images:
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
 
-###### Role
+#### My Role
 
 Visual Design, Icon Design, Animation, Prototyping
 
-###### Objective
+#### Objective
 
 This exercise is intended to test various user interactions with instrument clusters using an interactive prototype model.
 
