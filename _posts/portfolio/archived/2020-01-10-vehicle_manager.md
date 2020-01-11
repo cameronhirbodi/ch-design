@@ -10,23 +10,23 @@ images:
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
 
-#### My Role
+##### My Role
 
 Research
 
-#### The Challenge
+##### The Challenge
 
 Yada yada yada. So challenging.
 
-#### The Solution
+##### The Solution
 
 The companion app allows owners to tap into real time functionality of their vehicle as well as access all knowledge of their vehicle without a traditional paper owner's manual.
 
-#### My Approach
+##### My Approach
 
 This is my approach. Yay! On to the sub-topics.
 
-##### Competitive Analysis
+###### Competitive Analysis
 
 ![Instrument Cluster - Sketch]({{ "/images/portfolio/instr_clust/instr_clust_lofi.jpg" }})
 

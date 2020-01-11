@@ -82,10 +82,8 @@ input[type=button], input[type=submit], .btn {
   color: $white;
   background-color: $magenta;
   text-transform: uppercase;
-  font-size: 1em;
   font-family: $font-header;
-  font-weight: 500;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15rem;
   min-width: 140px;
   max-width: 320px;
   padding: $smspacing $lgspacing;

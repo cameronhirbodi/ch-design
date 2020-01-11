@@ -15,6 +15,7 @@
 html {
     background: $white;
     scroll-behavior: smooth;
+    font-size: 100%;
 }
 
 body {
@@ -60,13 +61,6 @@ article {
     position: relative;
     padding: $lgspacing $mdspacing;
     float: none;
-    h3 {
-        margin-bottom: 1em;
-    }
-    h6 {
-        font-size: 0.75em;
-        margin-bottom: 1.7;
-    }
     img {
         max-width: 100%;
         display: block;
@@ -155,34 +149,36 @@ footer {
         margin-top: 15%;
         padding: 0;
         h1 {
+            margin: 0;
             flex: 1;
             order: 1;
             flex-basis: 100%;
         }
-        .rotated_container {
+        .subtitle_container {
             display: inline-block;
             position: initial;
             top: 0;
             left: 0;
             background-color: rgba($white, 0.15);
-            padding: 0.5em 1em;
-            margin-top: 1em;
+            padding: 0.75rem 1rem;
+            margin-top: 1rem;
             h2 {
-                font-size: 1em;
+                font-size: 1rem;
+                margin: 0;
                 font-weight: normal;
                 white-space: nowrap;
                 text-align: center;
                 height: initial;
                 transform: none;
                 writing-mode: initial;
-                letter-spacing: 0.5em;
+                letter-spacing: 0.5rem;
             }
         }
         p {
             flex: 1;
             order: 2;
             flex-basis: 100%;
-            margin: 1em auto;
+            margin: 1rem auto;
             max-width: 480px;
         }
     }
@@ -205,34 +201,33 @@ i {
     &.arrow {
         border-style: solid;
         display: inline-block;
-        padding: 3px;
-        width: 12px;
-        height: 12px;
+        width: 0.8rem;
+        height: 0.8rem;
         position: relative;
     }
     &.up {
-        border-width: 3px 0 0 3px;
+        border-width: 0.15rem 0 0 0.15rem;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
-        margin-bottom: 0.3em;
+        margin-bottom: 0.25rem;
       }
     &.down {
-        border-width: 0 3px 3px 0;
+        border-width: 0 0.15rem 0.15rem 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
-        margin-top: 0.3em;
+        margin-top: 0.25rem;
       }
     &.left {
-        border-width: 3px 0 0 3px;
+        border-width: 0.15rem 0 0 0.15rem;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
-        margin-right: 0.3em;
+        margin-right: 0.25rem;
     }
     &.right {
-        border-width: 3px 3px 0 0;
+        border-width: 0.15rem 0.15rem 0 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
-        margin-left: 0.3em;
+        margin-left: 0.25rem;
     }
     &.turquoise {
         background: none;
@@ -248,12 +243,12 @@ i {
     display: block;
     position: absolute;
     left: 50%;
-    margin-left: -26px;
+    margin-left: -2.25rem;
     svg {
-        width: 24px;
-        height: 24px;
-        top: 16px;
-        left: 15px;
+        width: 1.75rem;
+        height: 1.75rem;
+        top: 1.25rem;
+        left: 1.25rem;
         position: absolute;
         fill: $white;
         z-index: 9;
@@ -262,13 +257,13 @@ i {
         position: absolute;
         background-color: $magenta;
         opacity: 0.3;
-        width: 48px;
-        height: 48px;
+        width: 3.75rem;
+        height: 3.75rem;
         z-index: 8;
         &.front {
             opacity: 0.5;
-            top: 7px;
-            left: 7px;
+            top: 0.5rem;
+            left: 0.5rem;
         }
     }
 }
@@ -289,8 +284,8 @@ i {
 }
 
 .emphasis_link {
-    display: inline-block;
-    margin-top: 1em;
+    display: block;
+    margin: $smspacing $mdspacing;
     text-transform: uppercase;
 }
 
@@ -300,9 +295,9 @@ i {
     ul {
         display: flex;
         flex-wrap: wrap;
-        padding: $mdspacing;
+        padding: $lgspacing $mdspacing;
         li {
-            margin-bottom: $mdspacing;
+            margin-bottom: $lgspacing;
             .thumb {
                 position: relative;
                 margin-bottom: $mdspacing;
@@ -345,8 +340,8 @@ i {
     display: inline-block;
     background-color: rgba($navy, 0.5);
     border-radius: 50%;
-    width: 48px;
-    height: 48px;
+    width: 3.5rem;
+    height: 3.5rem;
     text-align: center;
     position: fixed;
     bottom: $smspacing;
@@ -360,8 +355,8 @@ i {
         margin: 0;
         color: $white;
         position: absolute;
-        top: 19px;
-        right: 18px;
+        top: 1.5rem;
+        right: 1.35rem;
     }
   }
 #to_top:hover {
@@ -376,11 +371,6 @@ opacity: 1;
 visibility: visible;
 }
 
-.emphasis_link {
-    display: inline-block;
-    margin: $smspacing;
-}
-
 // Smartphones, iPhone, portrait 480x320 phones
 @media (min-width: 320px) {}
 
@@ -393,7 +383,7 @@ visibility: visible;
                 padding: $smspacing;
                 width: 50%;
                 .thumb {
-                    height: 160px;
+                    height: $xxxxxlspacing;
                 }
             }
         }
@@ -409,7 +399,7 @@ visibility: visible;
         float: left;
         img {
             display: none;
-            margin-bottom: 20px;
+            margin-bottom: $mdspacing;
             &:first-child {
                 display: none;
             }
@@ -478,10 +468,10 @@ visibility: visible;
             margin-top: 0;
             width: 50%;
             text-align: left;
-            .rotated_container {
+            .subtitle_container {
                 height: 100%;
                 position: absolute;
-                padding: 0 1.5em;
+                padding: 0 1.5rem;
                 margin-top: 0;
                 h2 {
                     height: 100%;
@@ -490,8 +480,7 @@ visibility: visible;
                 }
             }
             p {
-                margin-top: 1em;
-                margin: 1em 0;
+                margin: 1rem 0;
             }
         }
     }
@@ -531,18 +520,12 @@ visibility: visible;
         margin: 0;
         left: $xxxxlspacing;
         svg {
-            width: 32px;
-            height: 32px;
-            top: 22px;
-            left: 20px;
+            width: 2.25rem;
+            height: 2.25rem;
         }
         rect {
-            width: 64px;
-            height: 64px;
-            &.front {
-                top: 10px;
-                left: 10px;
-            }
+            width: 4.25rem;
+            height: 4.25rem;
         }
     }
     .splash_bg {
@@ -590,33 +573,6 @@ visibility: visible;
     }
     .emphasis_link {
         margin: $mdspacing $lgspacing;
-    }
-    .ch_logo {
-        display: block;
-        position: absolute;
-        left: $xxxxlspacing;
-        svg {
-            width: 32px;
-            height: 32px;
-            position: absolute;
-            top: 22px;
-            left: 20px;
-            fill: $white;
-            z-index: 9;
-        }
-        rect {
-            position: absolute;
-            background-color: $magenta;
-            opacity: 0.3;
-            width: 64px;
-            height: 64px;
-            z-index: 8;
-            &.front {
-                opacity: 0.5;
-                top: 10px;
-                left: 10px;
-            }
-        }
     }
     .about_link {
         text-transform: uppercase;
@@ -712,13 +668,6 @@ visibility: visible;
         max-width: 768px;
         position: relative;
         padding: $lgspacing $mdspacing;
-        h3 {
-            margin-bottom: 1em;
-        }
-        h6 {
-            font-size: 0.75em;
-            margin-bottom: 1.7;
-        }
         img {
             max-width: 100%;
             display: block;
