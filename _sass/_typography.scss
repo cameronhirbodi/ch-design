@@ -4,7 +4,7 @@ $font-header: 'Nunito Sans', sans-serif;
 // Type Scale: 1.250 — Major Third
 
 html {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 body {
@@ -92,13 +92,13 @@ bold {
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width: 641px) {  
     html {
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {  
     html {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
