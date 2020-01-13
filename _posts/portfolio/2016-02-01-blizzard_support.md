@@ -26,23 +26,25 @@ Visual Design, User Testing, Icon Design, Animation, Prototyping, Development
 
 This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game. A ground-up overhaul was required to bring the site to modern design standards.
 
+![Blizzard Support - Redesign]({{ "/images/portfolio/blizz_supp/blizz_supp_02.jpg" }})
+
 The Blizzard Support site offers useful resources such as knowledge-base articles and self service solutions with regards to account, technical, and gameplay related issues. These methods are designed to allow customers to self serve themselves. Should these solutions not help, escalating the issue to a customer service representative should be simple and straight forward.
 
 ###### Style Tiles
 
 The previous rendition of the Blizzard Support portal did not adhere closely to the company's brand guidelines. To address this, the first exercise was to create style tiles to illustrate various design directions we could apply to the whole website. 
 
-![Blizzard Support - Style Tile Version 1]({{ "/images/portfolio/blizz_supp/blizz_supp_02.jpg" }})
+![Blizzard Support - Style Tile Version 1]({{ "/images/portfolio/blizz_supp/blizz_supp_03.jpg" }})
 
-![Blizzard Support - Style Tile Version 2]({{ "/images/portfolio/blizz_supp/blizz_supp_03.jpg" }})
+![Blizzard Support - Style Tile Version 2]({{ "/images/portfolio/blizz_supp/blizz_supp_04.jpg" }})
 
-![Blizzard Support - Style Tile Version 3]({{ "/images/portfolio/blizz_supp/blizz_supp_04.jpg" }})
+![Blizzard Support - Style Tile Version 3]({{ "/images/portfolio/blizz_supp/blizz_supp_05.jpg" }})
 
 ###### Component Libraries
 
 The next step was to start building component libraries and style guides for other designers and developers to use as patterns. This ensures consistency across the site which is critical.
 
-![Blizzard Support - Components & Style Guide]({{ "/images/portfolio/blizz_supp/blizz_supp_05.jpg" }})
+![Blizzard Support - Components & Style Guide]({{ "/images/portfolio/blizz_supp/blizz_supp_06.jpg" }})
 
 ###### Prototyping and Animation
 
@@ -50,19 +52,17 @@ Next, these UI components were applied to low fidelity flows created in collabor
 
 Micro interactions and animations were then created between screens to build out a working prototype. This helps illustrate the design flow to various stakeholders.
 
-![Blizzard Support - Prototype Mockups]({{ "/images/portfolio/blizz_supp/blizz_supp_06.jpg" }})
+![Blizzard Support - Prototype Mockups]({{ "/images/portfolio/blizz_supp/blizz_supp_07.jpg" }})
 
 ###### Design Specs
 
 In order to reach the level of fidelity the design team was seeking on the final product, detailed design specs were provided to the engineering team. 
 
-![Blizzard Support - Design Specs]({{ "/images/portfolio/blizz_supp/blizz_supp_07.jpg" }})
+![Blizzard Support - Design Specs]({{ "/images/portfolio/blizz_supp/blizz_supp_08.jpg" }})
 
 ###### Reporting
 
 Looking at the transformation to the newly redesigned website, several key goals were reached. Reports show an increased success rate for customer self-services and has resulted in less company contacts. This resulted in drastic company cost savings.
-
-![Blizzard Support - Redesign]({{ "/images/portfolio/blizz_supp/blizz_supp_08.jpg" }})
 
 ###### Next Steps
 
