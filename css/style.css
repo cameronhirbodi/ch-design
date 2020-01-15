@@ -999,6 +999,10 @@ article img {
   display: block;
 }
 
+article h6 {
+  color: #0c0f89;
+}
+
 footer {
   width: 100%;
   padding: 80px 20px 20px;
@@ -1384,30 +1388,37 @@ i.magenta {
     margin-left: auto;
     margin-right: auto;
   }
-  .swiper-slide {
+  .swiper-container.gallery-top {
+    height: 60%;
+    width: 100%;
+  }
+  .swiper-container.gallery-top .swiper-slide {
     background-size: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .gallery-top {
-    height: 60%;
-    width: 100%;
-  }
-  .gallery-thumbs {
+  .swiper-container.gallery-thumbs {
     height: 25%;
     min-height: 140px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 20px 0;
   }
-  .gallery-thumbs .swiper-slide {
+  .swiper-container.gallery-thumbs .swiper-slide {
+    background-size: 100%;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 15%;
     height: 100%;
     opacity: 0.4;
   }
-  .gallery-thumbs .swiper-slide-thumb-active {
+  .swiper-container.gallery-thumbs .swiper-slide:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .swiper-container.gallery-thumbs .swiper-slide-thumb-active {
     opacity: 1;
   }
   #portfolio ul {

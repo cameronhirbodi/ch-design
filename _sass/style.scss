@@ -64,6 +64,9 @@ article {
         max-width: 100%;
         display: block;
     }
+    h6 {
+        color: $violet;
+    }
 }
 
 footer {
@@ -417,32 +420,40 @@ visibility: visible;
         height: 300px;
         margin-left: auto;
         margin-right: auto;
+        &.gallery-top {
+            height: 60%;
+            width: 100%;
+            .swiper-slide {
+                background-size: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+        &.gallery-thumbs {
+            height: 25%;
+            min-height: 140px;
+            box-sizing: border-box;
+            padding: $mdspacing 0;
+            .swiper-slide {
+                background-size: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 15%;
+                height: 100%;
+                opacity: 0.4;
+                &:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            }
+            .swiper-slide-thumb-active {
+                opacity: 1;
+            }
+        }
     }
-    .swiper-slide {
-        background-size: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .gallery-top {
-        height: 60%;
-        width: 100%;
-    }
-    .gallery-thumbs {
-        height: 25%;
-        min-height: 140px;
-        box-sizing: border-box;
-        padding: $mdspacing 0;
-    }
-    .gallery-thumbs .swiper-slide {
-        background-size: cover;
-        width: 15%;
-        height: 100%;
-        opacity: 0.4;
-    }
-    .gallery-thumbs .swiper-slide-thumb-active {
-        opacity: 1;
-    }
+
     #portfolio {
         ul {
             padding: $mdspacing $smspacing;
