@@ -34,8 +34,10 @@ As part of research and execution of this project, the following processes were 
 
 Researching similarly functioning apps from various automotive OEMs was a critical step. It helped to know what functions were offered and which were emphasized most.
 
-![Competitive Analsis - Mockups]({{ "/images/portfolio/veh_man/veh_man_02.jpg" }})
-
 To start, research was done on apps from three manufacturers: Honda, Porsche, and Ford.
 
-It helped to look through customer reviews for these apps from both the Apple App Store and Google Play Store. This helped to surface common customer frustrations. Knowing these issues would help to put more thought into how to address these from a usability standpoint.
+![Competitive Analsis - Mockups]({{ "/images/portfolio/veh_man/veh_man_02.jpg" }})
+
+Looking through customer reviews for these apps from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing these issues would help to put more thought into how to address these from a usability standpoint. On the other hand, there were positives to take from the reviews too.
+
+![Competitive Analsis - Reviews]({{ "/images/portfolio/veh_man/veh_man_03.jpg" }})
