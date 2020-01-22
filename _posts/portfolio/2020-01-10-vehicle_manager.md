@@ -41,3 +41,5 @@ To start, research was done on apps from three manufacturers: Honda, Porsche, an
 Looking through customer reviews for these apps from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing these issues would help to put more thought into how to address these from a usability standpoint. On the other hand, there were positives to take from the reviews too.
 
 ![Competitive Analsis - Reviews]({{ "/images/portfolio/veh_man/veh_man_03.jpg" }})
+
+Mention highlights of good existing features as well as desired.
