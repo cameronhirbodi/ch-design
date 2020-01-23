@@ -20,11 +20,11 @@ Throughout the duration of vehicle ownership, sifting through large paper vehicl
 
 ![Instruction Manuals]({{ "/images/portfolio/veh_man/veh_man_01.jpg" }})
 
-Additionally, physical manuals for warranty information and service record books requiring manual write ups from owners are common. These manuals require physical storage in the vehicle or household.
+Warranty information and service record books requiring manual write ups from owners are common and require physical storage in areas such as the vehicle or household.
 
 ##### The Solution
 
-The companion app allows owners to tap into real time features and access all knowledge of their vehicle without a traditional paper owner's manual. Critical needs and service reminders are presented clearly to the user.
+The companion app allows owners to tap into real time features and access all knowledge of their vehicle without a traditional paper owner's manual. Critical needs and service reminders should be clearly presented to the user.
 
 ##### My Approach
 
@@ -32,14 +32,16 @@ As part of research and execution of this project, the following processes were 
 
 ###### Competitive Analysis
 
-Researching similarly functioning apps from various automotive OEMs was a critical step. It helped to know what functions were offered and which were emphasized most.
+Researching existing apps helped to understand the approach that various OEMs have taken. Knowing what functions were offered and how they were emphasized was important.
 
-To start, research was done on apps from three manufacturers: Honda, Porsche, and Ford.
+The three manufacturers chosen for this were Honda, Porsche, and Ford.
 
 ![Competitive Analsis - Mockups]({{ "/images/portfolio/veh_man/veh_man_02.jpg" }})
 
-Looking through customer reviews for these apps from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing these issues would help to put more thought into how to address these from a usability standpoint. On the other hand, there were positives to take from the reviews too.
+Reading through customer reviews from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing what worked and didn't work for users would influence how I would design my product. I distingushed these with green and red highlights.
 
 ![Competitive Analsis - Reviews]({{ "/images/portfolio/veh_man/veh_man_03.jpg" }})
 
-Mention highlights of good existing features as well as desired.
+Patterns of positive feedback from a small sample of reviews included the ability to show parking location, fuel consumption figures, vehicle gauge figures in real time, service reminders, and the ability to start / lock the car remotely. Of the three chosen OEMs, Ford's app had the most positive ratings.
+
+There were numerous desired or negative feedback as well. These included showing historic fuel economy figures, radio presets, remote window and roof controls, and exposing general vehicle figures more clearly.
