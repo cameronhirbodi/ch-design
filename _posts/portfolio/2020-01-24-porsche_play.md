@@ -45,3 +45,25 @@ Reading through customer reviews from both the Apple App Store and Google Play S
 Patterns of positive feedback from a small sample of reviews included the ability to show parking location, fuel consumption figures, vehicle gauge figures in real time, service reminders, and the ability to start / lock the car remotely. Of the three chosen OEMs, Ford's app had the most positive ratings.
 
 There were numerous desired or negative feedback as well. These included showing historic fuel economy figures, radio presets, remote window and roof controls, and exposing general vehicle figures more clearly. Despite them being the most premium brand of the three, Porsche had the lowest average score in their respective app stores. For this reason, I decided to attempt a redesign of their app.
+
+###### Sketches
+
+![Sketches]({{ "/images/portfolio/porsche_play/porsche_play_04.jpg" }})
+
+These are the sketches
+
+###### Wireframes
+
+![Wireframes]({{ "/images/portfolio/porsche_play/porsche_play_05.jpg" }})
+
+These are the wireframes
+
+###### Style Tile
+
+![Style Tile]({{ "/images/portfolio/porsche_play/porsche_play_06.jpg" }})
+
+These are style tiles
+
+###### Prototype
+
+This is the prototype
