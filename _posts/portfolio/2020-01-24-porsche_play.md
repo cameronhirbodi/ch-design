@@ -48,22 +48,22 @@ There were numerous desired or negative feedback as well. These included showing
 
 ###### Sketches
 
-![Sketches]({{ "/images/portfolio/porsche_play/porsche_play_04.jpg" }})
+Being able to quickly draw each screen helps to visualize the general flow at a high level.
 
-These are the sketches
+![Sketches]({{ "/images/portfolio/porsche_play/porsche_play_04.jpg" }})
 
 ###### Wireframes
 
-![Wireframes]({{ "/images/portfolio/porsche_play/porsche_play_05.jpg" }})
+The next step is to start building low fidelity screens while referencing the initial sketches.
 
-These are the wireframes
+![Wireframes]({{ "/images/portfolio/porsche_play/porsche_play_05.jpg" }})
 
 ###### Style Tile
 
-![Style Tile]({{ "/images/portfolio/porsche_play/porsche_play_06.jpg" }})
+Immediately converting each screen to higher fidelity can be very time consuming. A better use of time would be to create style tiles. This exploration helps to more quickly get a feel for the design direction in a more timely manner.
 
-These are style tiles
+![Style Tile]({{ "/images/portfolio/porsche_play/porsche_play_06.jpg" }})
 
 ###### Prototype
 
-This is the prototype
+Once a design direction was picked from the style tile exercise, these patterns were applied to each mockup. At this point, links were added between screens to make the flow more believable. Animations were added for moments of delight. The final result is a prototype that feels like a real app, ready to review with stakeholders.
