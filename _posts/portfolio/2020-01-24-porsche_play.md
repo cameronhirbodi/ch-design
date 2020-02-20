@@ -72,7 +72,7 @@ It is important that the app is easy to use by people of all types and situation
 
 One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Sketch) to help identify when the contrast is too low for those that are visually impaired.
 
-![Style Tile]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
+![Accessibility - Contrast  Check]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
 
 ###### Prototype
 
