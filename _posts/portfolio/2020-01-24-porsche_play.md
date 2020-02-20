@@ -70,9 +70,9 @@ Immediately converting each screen to higher fidelity can be very time consuming
 
 It is important that the app is easy to use by people of all types and situations. This means working well with assistive devices such as screen readers, running light for users with slow connections, or just being generally usable for people on the go.
 
-One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Sketch) to help identify when the contrast is too low for those that are visually impaired.
-
 ![Accessibility - Contrast  Check]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
+
+One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Sketch) to help identify when the contrast is too low for those that are visually impaired.
 
 ###### Prototype
 
