@@ -71,7 +71,7 @@ article {
 
 footer {
     width: 100%;
-    padding: $xxxlspacing $mdspacing $mdspacing;
+    padding: $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
@@ -394,22 +394,32 @@ visibility: visible;
 
 // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
 @media (min-width: 641px) {
-    figure {
-        height: 100%;
+    #image-section {
+        position: fixed;
         width: 60%;
-        padding: 0 $mdspacing;
-        float: left;
-        img {
-            display: none;
-            margin-bottom: $mdspacing;
-            &:first-child {
+        .emphasis_link {
+            height: 10%;
+            padding: $mdspacing;
+            margin: 0;
+        }
+        figure {
+            position: fixed;
+            height: 90%;
+            width: 60%;
+            padding: 0 $mdspacing;
+            float: left;
+            img {
                 display: none;
+                margin-bottom: $mdspacing;
+                &:first-child {
+                    display: none;
+                }
             }
         }
     }
     article {
         width: 40%;
-        padding: 0 $mdspacing;
+        padding: $xxxlspacing $mdspacing;
         float: right;
     }
     // Swiper Image Slider
@@ -464,9 +474,6 @@ visibility: visible;
                 }
             }
         }
-    }
-    .emphasis_link {
-        margin: $smspacing $mdspacing;
     }
 }
 

@@ -1,34 +1,36 @@
 <html>
   {% include head.html %}
   <body>
-      <a class="emphasis_link" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
       <main>
-        <figure>
-          <!-- Main Image (Mobile) -->
-          {% for image in page.images %}
-            <img src="{{image}}">
-          {% endfor %}
+        <div id="image-section">
+          <a class="emphasis_link" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
+          <figure>
+            <!-- Main Image (Mobile) -->
+            {% for image in page.images %}
+              <img src="{{image}}">
+            {% endfor %}
 
-          <!-- Swiper (Desktop) -->
-          <div class="swiper-container gallery-top fadeIn">
-            <div class="swiper-wrapper">
-              {% for image in page.images %}
-                <div class="swiper-slide" style="background-image:url({{image}})"></div>
-              {% endfor %}
+            <!-- Swiper (Desktop) -->
+            <div class="swiper-container gallery-top fadeIn">
+              <div class="swiper-wrapper">
+                {% for image in page.images %}
+                  <div class="swiper-slide" style="background-image:url({{image}})"></div>
+                {% endfor %}
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next swiper-button-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
             </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next swiper-button-white"></div>
-            <div class="swiper-button-prev swiper-button-white"></div>
-          </div>
-          <div class="swiper-container gallery-thumbs">
-            <div class="swiper-wrapper">
-              {% for image in page.images %}
-                <div class="swiper-slide" style="background-image:url({{image}})"></div>
-              {% endfor %}
+            <div class="swiper-container gallery-thumbs">
+              <div class="swiper-wrapper">
+                {% for image in page.images %}
+                  <div class="swiper-slide" style="background-image:url({{image}})"></div>
+                {% endfor %}
+              </div>
             </div>
-          </div>
+          </figure>
+        </div>
 
-        </figure>
         <article class="fadeUp delay250ms">
             <h2>{{page.title}}</h2>
             <br>
@@ -39,8 +41,8 @@
             {% endif %}
         </article>
       </main>
-      <a id="to_top"><i class="arrow up"></i></a>
       {% include footer.html %}
+      <a id="to_top"><i class="arrow up"></i></a>
 
   <!-- Initialize Swiper -->
   <script>

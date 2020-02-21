@@ -546,12 +546,18 @@ input[type=button], input[type=submit], .btn {
   font-family: "Nunito Sans", sans-serif;
   letter-spacing: 0.15rem;
   min-width: 140px;
-  max-width: 320px;
+  width: 100%;
   padding: 10px 30px;
   margin: 0 auto;
   -webkit-transform-origin: 0;
           transform-origin: 0;
   transition: background-color 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+@media (min-width: 481px) {
+  input[type=button], input[type=submit], .btn {
+    max-width: 320px;
+  }
 }
 
 input[type=button].hollow, input[type=submit].hollow, .btn.hollow {
@@ -1005,7 +1011,7 @@ article h6 {
 
 footer {
   width: 100%;
-  padding: 80px 20px 20px;
+  padding: 20px;
   margin: 0 auto;
   text-align: center;
   clear: both;
@@ -1363,22 +1369,32 @@ i.magenta {
 }
 
 @media (min-width: 641px) {
-  figure {
-    height: 100%;
+  #image-section {
+    position: fixed;
+    width: 60%;
+  }
+  #image-section .emphasis_link {
+    height: 10%;
+    padding: 20px;
+    margin: 0;
+  }
+  #image-section figure {
+    position: fixed;
+    height: 90%;
     width: 60%;
     padding: 0 20px;
     float: left;
   }
-  figure img {
+  #image-section figure img {
     display: none;
     margin-bottom: 20px;
   }
-  figure img:first-child {
+  #image-section figure img:first-child {
     display: none;
   }
   article {
     width: 40%;
-    padding: 0 20px;
+    padding: 80px 20px;
     float: right;
   }
   .swiper-container {
@@ -1429,9 +1445,6 @@ i.magenta {
   }
   #portfolio ul li .thumb {
     height: 200px;
-  }
-  .emphasis_link {
-    margin: 10px 20px;
   }
 }
 
