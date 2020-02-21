@@ -365,7 +365,8 @@
 }
 
 html {
-  font-size: 0.875rem;
+  font-size: 81.3%;
+  /*13px*/
 }
 
 body {
@@ -454,14 +455,16 @@ bold {
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width: 641px) {
   html {
-    font-size: 0.9375rem;
+    font-size: 87.5%;
+    /*14px*/
   }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
   html {
-    font-size: 1rem;
+    font-size: 93.8%;
+    /*15px*/
   }
 }
 
@@ -846,7 +849,8 @@ table {
 }
 
 html {
-  font-size: 0.875rem;
+  font-size: 81.3%;
+  /*13px*/
 }
 
 body {
@@ -935,14 +939,16 @@ bold {
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width: 641px) {
   html {
-    font-size: 0.9375rem;
+    font-size: 87.5%;
+    /*14px*/
   }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
   html {
-    font-size: 1rem;
+    font-size: 93.8%;
+    /*15px*/
   }
 }
 
