@@ -7,10 +7,7 @@ tag: ui
 permalink: portfolio/:title/
 images: 
 - /images/portfolio/instr_clust/instr_clust_anim.gif
-- /images/portfolio/instr_clust/instr_clust_lofi.jpg
-- /images/portfolio/instr_clust/instr_clust_wire.jpg
 - /images/portfolio/instr_clust/instr_clust_hifi.jpg
-- /images/portfolio/instr_clust/instr_clust_mocks.jpg
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
 
