@@ -1394,7 +1394,7 @@ i.magenta {
   }
   article {
     width: 40%;
-    padding: 80px 20px;
+    padding: 60px 20px;
     float: right;
   }
   .swiper-container {
@@ -1546,7 +1546,7 @@ i.magenta {
     max-height: 480px;
   }
   main article {
-    padding: 0 30px;
+    padding: 80px 30px;
   }
   .dark main {
     padding: 30px;
