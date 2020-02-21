@@ -73,6 +73,12 @@ It is important that the app is easy to use by people of all types and situation
 
 One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Sketch) to help identify when the contrast is too low for those that are visually impaired.
 
+###### High Fidelity Mockups
+
+Once the general wireframes and flow were eastablished, it was time to improve on the visual aesthetic. To make the app feel more enticing, it needed additional polish. The design direction was influenced heavily by Porsche's existing brand guidelines. Reusable components and patterns were established along the way as to not create unnecessary one-off elements.
+
+![High Fidelity Mockups]({{ "/images/portfolio/porsche_play/porsche_play_08.jpg" }})
+
 ###### Prototype
 
-Once a design direction was picked from the style tile exercise, these patterns were applied to each mockup. At this point, links were added between screens to make the flow more believable. Animations were added for moments of delight. The final result is a prototype that feels like a real app, ready to review with stakeholders.
+At this point, links were added between screens to make the flow more believable. Animations were added between screens to add a sense of fluidity and moments of delight. The final result is a prototype that feels like a real app, ready to review with stakeholders.
