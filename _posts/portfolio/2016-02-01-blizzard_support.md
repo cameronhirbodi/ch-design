@@ -58,6 +58,13 @@ In order to reach the level of fidelity the design team was seeking on the final
 
 Looking at the transformation to the newly redesigned website, several key goals were reached. Reports show an increased success rate for customer self-services and has resulted in less company contacts. This resulted in drastic company cost savings.
 
+###### Prototype
+
+Being able to showcase screen to screen flows and to convey desired microinteractions and animations is helpful for developers to understand implentation.
+
+Desktop Contact Flow: <a href="https://xd.adobe.com/view/a514d4c3-bae1-4130-72ca-1f4021e43501-d325/">Link</>
+Mobile Contact Flow: <a href="https://xd.adobe.com/spec/91c3a3d8-a0b6-4099-57c0-689adf1de105-e7f2/">Link</>
+
 ###### Next Steps
 
 There are more ongoing initiatives for the website today. This includes embedding the support model within in-game experiences, designing recommendation systems with machine learning algorithms, and updating component libraries on the design to code environment to assist developers. There is also a growing effort into making the site compliant with regards to accessibility and catering to those that require assistive devices.
