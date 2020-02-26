@@ -62,8 +62,9 @@ Looking at the transformation to the newly redesigned website, several key goals
 
 Being able to showcase screen to screen flows and to convey desired microinteractions and animations is helpful for developers to understand implentation.
 
-Desktop Contact Flow: <a href="https://xd.adobe.com/view/a514d4c3-bae1-4130-72ca-1f4021e43501-d325/">Link</>
-Mobile Contact Flow: <a href="https://xd.adobe.com/spec/91c3a3d8-a0b6-4099-57c0-689adf1de105-e7f2/">Link</>
+Desktop Contact Flow: <a href="https://xd.adobe.com/view/a514d4c3-bae1-4130-72ca-1f4021e43501-d325/">Link</a>
+<br>
+Mobile Contact Flow: <a href="https://xd.adobe.com/spec/91c3a3d8-a0b6-4099-57c0-689adf1de105-e7f2/">Link</a>
 
 ###### Next Steps
 
