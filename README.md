@@ -1,4 +1,4 @@
-![alt text](https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg "CH Design Logo")
+![alt text](https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg "CH Design Logo" =64px)
 ## CH Design
 
 As a full time UI Designer, I enjoy collaborating with others and using visual strategies to create an enjoyable experience for users. Expanding my knowledge in visual design and programming drives me. Other passions of mine include motorsports, music, and technology. 
