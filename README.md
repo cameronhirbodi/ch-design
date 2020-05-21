@@ -1,4 +1,5 @@
-<img src="https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg" align="left" height="48" width="48" >
+<img src="https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg" alt="CH Design Logo" height="48" width="48" >
+
 
 ## CH Design
 
