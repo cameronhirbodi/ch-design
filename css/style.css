@@ -972,7 +972,8 @@ header {
 
 main {
   position: relative;
-  padding: 0;
+  min-height: 75%;
+  padding: 30px 20px;
   background: #FFF;
   z-index: 2;
 }
@@ -992,11 +993,11 @@ figure img {
      object-fit: cover;
 }
 
-figure img:first-child {
+figure img:first-of-type {
   display: block;
 }
 
-figure img:last-child {
+figure img:last-of-type {
   margin: 0;
 }
 
@@ -1016,7 +1017,6 @@ article h6 {
 }
 
 footer {
-  width: 100%;
   padding: 20px;
   margin: 0 auto;
   text-align: center;
@@ -1272,7 +1272,13 @@ i.magenta {
   top: 0;
 }
 
-.emphasis_link {
+.action_link {
+  display: block;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.action_bar {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
@@ -1284,7 +1290,6 @@ i.magenta {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 30px 20px;
 }
 
 #portfolio ul li {
@@ -1311,11 +1316,6 @@ i.magenta {
 
 #portfolio ul li .description h4 a {
   color: #000;
-}
-
-#portfolio ul li .description .emphasis_link {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .swiper-container {
@@ -1362,12 +1362,17 @@ i.magenta {
 }
 
 @media (min-width: 481px) {
-  #portfolio ul {
-    padding: 10px;
+  main {
+    padding: 30px;
+  }
+  article {
+    padding: 30px;
   }
   #portfolio ul li {
-    padding: 10px;
-    width: 50%;
+    width: 48%;
+  }
+  #portfolio ul li:nth-child(odd) {
+    margin-right: 4%;
   }
   #portfolio ul li .thumb {
     height: 160px;
@@ -1375,32 +1380,17 @@ i.magenta {
 }
 
 @media (min-width: 641px) {
-  #image-section {
+  figure {
     position: fixed;
     width: 60%;
-  }
-  #image-section .emphasis_link {
-    height: 10%;
-    padding: 20px;
-    margin: 0;
-  }
-  #image-section figure {
-    position: fixed;
-    height: 90%;
-    width: 60%;
-    padding: 0 20px;
+    height: 100%;
     float: left;
   }
-  #image-section figure img {
-    display: none;
-    margin-bottom: 20px;
-  }
-  #image-section figure img:first-child {
+  figure img:first-of-type {
     display: none;
   }
   article {
     width: 40%;
-    padding: 60px 20px;
     float: right;
   }
   .swiper-container {
@@ -1443,18 +1433,18 @@ i.magenta {
   .swiper-container.gallery-thumbs .swiper-slide-thumb-active {
     opacity: 1;
   }
-  #portfolio ul {
-    padding: 20px 10px;
-  }
-  #portfolio ul li {
-    padding: 20px;
-  }
   #portfolio ul li .thumb {
     height: 200px;
   }
 }
 
 @media (min-width: 961px) {
+  main {
+    padding: 40px;
+  }
+  article {
+    padding: 40px;
+  }
   .splash_content {
     padding-left: 120px;
   }
@@ -1529,15 +1519,19 @@ i.magenta {
     background-size: contain;
     background-position: 115% 0;
   }
-  #portfolio ul {
-    padding: 40px;
-  }
   #portfolio ul li {
-    width: 33.33%;
+    width: 30.66%;
+    margin-right: 4%;
+  }
+  #portfolio ul li:nth-child(3n) {
+    margin-right: 0;
   }
 }
 
 @media (min-width: 1025px) {
+  main {
+    padding: 60px;
+  }
   main section {
     padding: 0;
     margin: 0;
@@ -1551,18 +1545,12 @@ i.magenta {
     min-height: 0;
     max-height: 480px;
   }
-  main article {
-    padding: 80px 30px;
-  }
   .dark main {
     padding: 30px;
   }
   .splash_bg {
     background-position: 120px -50px;
     background-size: cover;
-  }
-  .emphasis_link {
-    margin: 20px 30px;
   }
   .about_link {
     text-transform: uppercase;
@@ -1597,15 +1585,9 @@ i.magenta {
     top: 8px;
     left: -33px;
   }
-  #portfolio ul li {
-    padding: 30px;
-  }
 }
 
 @media (min-width: 1281px) {
-  #portfolio ul li {
-    padding: 40px;
-  }
   #portfolio ul li .thumb {
     height: 240px;
   }
@@ -1619,6 +1601,7 @@ i.magenta {
 
 @media (orientation: portrait) and (min-width: 641px) {
   figure {
+    position: relative;
     float: none;
     clear: both;
     margin: 0 auto;
@@ -1634,10 +1617,10 @@ i.magenta {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  figure img:first-child {
+  figure img:first-of-type {
     display: block;
   }
-  figure img:last-child {
+  figure img:last-of-type {
     margin: 0;
   }
   article {
@@ -1647,7 +1630,6 @@ i.magenta {
     width: 100%;
     max-width: 768px;
     position: relative;
-    padding: 30px 20px;
   }
   article img {
     max-width: 100%;

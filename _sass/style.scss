@@ -32,7 +32,8 @@ header {
 
 main {
     position: relative;
-    padding: 0;
+    min-height: 75%;
+    padding: $lgspacing $mdspacing;    
     background: $white;
     z-index: 2;
 }
@@ -47,10 +48,10 @@ figure {
         max-width: 100%;
         max-height: 480px;
         object-fit: cover;
-        &:first-child {
+        &:first-of-type {
             display: block;
         }
-        &:last-child {
+        &:last-of-type {
             margin: 0;
         }
     }
@@ -70,7 +71,6 @@ article {
 }
 
 footer {
-    width: 100%;
     padding: $mdspacing;
     margin: 0 auto;
     text-align: center;
@@ -285,10 +285,16 @@ i {
     top: 0;
 }
 
-.emphasis_link {
+.action_link {
+    display: block;
+    margin: $mdspacing 0;
+    text-transform: uppercase;
+}
+
+.action_bar {
     display: block;
     margin: $smspacing $mdspacing;
-    text-transform: uppercase;
+    text-transform: uppercase;   
 }
 
 // Portfolio
@@ -297,7 +303,6 @@ i {
     ul {
         display: flex;
         flex-wrap: wrap;
-        padding: $lgspacing $mdspacing;
         li {
             margin-bottom: $lgspacing;
             .thumb {
@@ -320,10 +325,6 @@ i {
                     a {
                         color: $black;
                     }
-                }
-                .emphasis_link {
-                    margin-left: 0;
-                    margin-right: 0;
                 }
             }
         }
@@ -378,12 +379,19 @@ visibility: visible;
 
 // Portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
 @media (min-width: 481px) {
+    main {
+        padding: $lgspacing;
+    }
+    article {
+        padding: $lgspacing;
+    }
     #portfolio {
         ul {
-            padding: $smspacing;
             li {
-                padding: $smspacing;
-                width: 50%;
+                width: 48%;
+                &:nth-child(odd) {
+                    margin-right: 4%;
+                }
                 .thumb {
                     height: $xxxxxlspacing;
                 }
@@ -394,32 +402,19 @@ visibility: visible;
 
 // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
 @media (min-width: 641px) {
-    #image-section {
+    figure {
         position: fixed;
         width: 60%;
-        .emphasis_link {
-            height: 10%;
-            padding: $mdspacing;
-            margin: 0;
-        }
-        figure {
-            position: fixed;
-            height: 90%;
-            width: 60%;
-            padding: 0 $mdspacing;
-            float: left;
-            img {
+        height: 100%;
+        float: left;
+        img {
+            &:first-of-type {
                 display: none;
-                margin-bottom: $mdspacing;
-                &:first-child {
-                    display: none;
-                }
             }
         }
     }
     article {
         width: 40%;
-        padding: $xxlspacing $mdspacing;
         float: right;
     }
     // Swiper Image Slider
@@ -466,9 +461,7 @@ visibility: visible;
 
     #portfolio {
         ul {
-            padding: $mdspacing $smspacing;
             li {
-                padding: $mdspacing;
                 .thumb {
                     height: 200px;
                 }
@@ -479,6 +472,12 @@ visibility: visible;
 
 // tablet, landscape iPad, lo-res laptops ands desktops
 @media (min-width: 961px) {  
+    main {
+        padding: $xlspacing;
+    }
+    article {
+        padding: $xlspacing;
+    }
     .splash_content {
         padding-left: $xxxxlspacing;
         .splash_inner {
@@ -551,9 +550,12 @@ visibility: visible;
     }
     #portfolio {
         ul {
-            padding: $xlspacing;
             li {
-                width: 33.33%;
+                width: 30.66%;
+                margin-right: 4%;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -562,6 +564,7 @@ visibility: visible;
 // big landscape tablets, laptops, and desktops
 @media (min-width: 1025px) {
     main {
+        padding: $xxlspacing;
         section {
             padding: 0;
             margin: 0;
@@ -575,9 +578,6 @@ visibility: visible;
                 max-height: 480px;
             }
         }
-        article {
-            padding: $xxxlspacing $lgspacing;
-        }
     }
     .dark {
         main {
@@ -587,9 +587,6 @@ visibility: visible;
     .splash_bg {
         background-position: 120px -50px;
         background-size: cover;
-    }
-    .emphasis_link {
-        margin: $mdspacing $lgspacing;
     }
     .about_link {
         text-transform: uppercase;
@@ -623,21 +620,13 @@ visibility: visible;
             left: -33px;
         }
     }
-    #portfolio {
-        ul {
-            li {
-                padding: $lgspacing;
-            }
-        }
-    }
 }
 
 // hi-res laptops and desktops
 @media (min-width: 1281px) {
     #portfolio {
         ul {
-            li {
-                padding: $xlspacing;
+            li {                
                 .thumb {
                     height: 240px;
                 }
@@ -656,6 +645,7 @@ visibility: visible;
 // portrait devices
 @media (orientation: portrait) and (min-width: 641px) {
     figure {
+        position: relative;
         float: none;
         clear: both;
         margin: 0 auto;
@@ -668,10 +658,10 @@ visibility: visible;
             max-width: 100%;
             max-height: 480px;
             object-fit: cover;
-            &:first-child {
+            &:first-of-type {
                 display: block;
             }
-            &:last-child {
+            &:last-of-type {
                 margin: 0;
             }
         }
@@ -684,7 +674,6 @@ visibility: visible;
         width: 100%;
         max-width: 768px;
         position: relative;
-        padding: $lgspacing $mdspacing;
         img {
             max-width: 100%;
             display: block;
