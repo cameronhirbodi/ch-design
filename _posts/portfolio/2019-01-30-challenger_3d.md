@@ -1,6 +1,6 @@
 ---
 layout: post_portfolio
-title: Dodge Challenger
+title: (WIP) Dodge Challenger
 meta: This is a 3D rendering currently in progress of a modern Dodge Challenger vehicle.
 category: portfolio
 tag: 3d
