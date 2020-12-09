@@ -167,36 +167,36 @@
 
 @-webkit-keyframes kenburns {
   0% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    background-position: calc(50% + 10vw);
     opacity: 0;
   }
   5% {
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
+    background-position: center;
     opacity: 1;
   }
 }
 
 @keyframes kenburns {
   0% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    background-position: calc(50% + 10vw);
     opacity: 0;
   }
   5% {
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
+    background-position: center;
     opacity: 1;
   }
 }
@@ -1101,6 +1101,7 @@ footer svg {
   padding: 20px;
   text-align: center;
   height: 100%;
+  max-width: 100vw;
 }
 
 .splash_content * {
@@ -1259,14 +1260,13 @@ i.magenta {
 
 .splash_bg {
   display: block;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-image: url("../images/home/cam_splash_image.jpg");
   background-color: #000f52;
-  background-position: 50% -50px;
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
   z-index: 0;
   top: 0;
 }
@@ -1514,9 +1514,8 @@ i.magenta {
     width: 4.25rem;
     height: 4.25rem;
   }
-  .splash_bg {
-    background-size: contain;
-    background-position: 115% 0;
+  .kenburns {
+    right: -25%;
   }
   #portfolio ul li {
     width: 30.66%;
@@ -1546,10 +1545,6 @@ i.magenta {
   }
   .dark main {
     padding: 30px;
-  }
-  .splash_bg {
-    background-position: 120px -50px;
-    background-size: cover;
   }
   .about_link {
     text-transform: uppercase;

@@ -143,6 +143,7 @@ footer {
     padding: $mdspacing;
     text-align: center;
     height: 100%;
+    max-width: 100vw;
     * {
         z-index: 2;
     }
@@ -272,14 +273,13 @@ i {
 
 .splash_bg {
     display: block;
+    position: fixed;
     width: 100%;
     height: 100%;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: 50% -50px;
     background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
     z-index: 0;
     top: 0;
 }
@@ -543,9 +543,8 @@ visibility: visible;
             height: 4.25rem;
         }
     }
-    .splash_bg {
-        background-size: contain;
-        background-position: 115% 0;
+    .kenburns {
+        right: -25%;
     }
     #portfolio {
         ul {
@@ -582,10 +581,6 @@ visibility: visible;
         main {
             padding: $lgspacing;
         }
-    }
-    .splash_bg {
-        background-position: 120px -50px;
-        background-size: cover;
     }
     .about_link {
         text-transform: uppercase;

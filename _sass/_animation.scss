@@ -105,18 +105,18 @@
        animation: kenburns 10s;
        animation-fill-mode: forwards;  
        animation-timing-function: ease-out;
-
   @keyframes kenburns {
     0% {
-      transform: translateX(-10%);
+      animation-timing-function: ease-out;
+      background-position: calc(50% + 10vw) ;
       opacity: 0;
     }
     5% {
       opacity: 1;
     }
     100% {
-      transform: translateX(0);
       animation-timing-function: ease-in;
+      background-position: center;
       opacity: 1;
     }
   }
