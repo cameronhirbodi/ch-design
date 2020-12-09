@@ -4,8 +4,8 @@
 @import 'forms';
 @import 'grid';
 @import 'iconography';
-@import 'modal';
 @import 'mixins';
+@import 'modal';
 @import 'reset' ;
 @import 'spacing';
 @import 'typography';
@@ -276,10 +276,9 @@ i {
     height: 150%;
     background-image: url("../images/home/cam_splash_image.jpg");
     background-color: $navy;
-    background-position: 50% -50px;
+    background-position: 150% -150px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: fixed;
     z-index: 0;
     top: 0;
@@ -479,7 +478,7 @@ visibility: visible;
         padding: $xlspacing;
     }
     .splash_content {
-        padding-left: $xxxxlspacing;
+        padding-left: $xxxxxlspacing;
         .splash_inner {
             margin-top: 0;
             width: 50%;
@@ -534,7 +533,7 @@ visibility: visible;
     }
     .ch_logo {
         margin: 0;
-        left: $xxxxlspacing;
+        left: $xxxxxlspacing;
         svg {
             width: 2.25rem;
             height: 2.25rem;

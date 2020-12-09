@@ -1263,10 +1263,9 @@ i.magenta {
   height: 150%;
   background-image: url("../images/home/cam_splash_image.jpg");
   background-color: #000f52;
-  background-position: 50% -50px;
+  background-position: 150% -150px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   position: fixed;
   z-index: 0;
   top: 0;
@@ -1446,7 +1445,7 @@ i.magenta {
     padding: 40px;
   }
   .splash_content {
-    padding-left: 120px;
+    padding-left: 160px;
   }
   .splash_content .splash_inner {
     margin-top: 0;
@@ -1505,7 +1504,7 @@ i.magenta {
   }
   .ch_logo {
     margin: 0;
-    left: 120px;
+    left: 160px;
   }
   .ch_logo svg {
     width: 2.25rem;
