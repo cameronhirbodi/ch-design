@@ -1138,7 +1138,7 @@ footer svg {
 }
 
 .splash_content .splash_inner .subtitle_container h2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
   font-weight: normal;
   white-space: nowrap;
@@ -1149,7 +1149,7 @@ footer svg {
   -webkit-writing-mode: initial;
       -ms-writing-mode: initial;
           writing-mode: initial;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8rem;
 }
 
 .splash_content .splash_inner p {
