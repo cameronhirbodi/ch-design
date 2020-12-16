@@ -29,3 +29,7 @@ The branding was created to represent the identity of a newly established brewer
 Per client request, the focus was on creating the branding in a simple, yet rustic approach. Following some initial hand sketches, the logos were almost entirely created in Adobe Illustrator.
 
 ![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_03.jpg" }})
+
+![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_04.jpg" }})
+
+![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_05.jpg" }})
