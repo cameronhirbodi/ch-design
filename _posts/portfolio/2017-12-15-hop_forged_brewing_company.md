@@ -24,12 +24,12 @@ The branding was created to represent the identity of a newly established brewer
 
 ![Hop Forged Brewing Company - Apparel]({{ "/images/portfolio/hfbc/hfbc_01.jpg" }})
 
-![Hop Forged Brewing Company - Storefront]({{ "/images/portfolio/hfbc/hfbc_02.jpg" }})
+![Hop Forged Brewing Company - Glass]({{ "/images/portfolio/hfbc/hfbc_02.jpg" }})
 
 Per client request, the focus was on creating the branding in a simple, yet rustic approach. Following some initial hand sketches, the logos were almost entirely created in Adobe Illustrator.
 
-![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_03.jpg" }})
+![Hop Forged Brewing Company - Cap and Hops]({{ "/images/portfolio/hfbc/hfbc_03.jpg" }})
 
-![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_04.jpg" }})
+![Hop Forged Brewing Company - Barrells]({{ "/images/portfolio/hfbc/hfbc_04.jpg" }})
 
-![Hop Forged Brewing Company - Cap]({{ "/images/portfolio/hfbc/hfbc_05.jpg" }})
+![Hop Forged Brewing Company - Storefront]({{ "/images/portfolio/hfbc/hfbc_05.jpg" }})
