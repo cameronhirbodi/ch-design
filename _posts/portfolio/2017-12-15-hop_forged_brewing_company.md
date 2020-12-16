@@ -24,7 +24,7 @@ The branding was created to represent the identity of a newly established brewer
 
 ![Hop Forged Brewing Company - Apparel]({{ "/images/portfolio/hfbc/hfbc_01.jpg" }})
 
-![Hop Forged Brewing Company - Back Board Flight]({{ "/images/portfolio/hfbc/hfbc_02.jpg" }})
+![Hop Forged Brewing Company - Storefront]({{ "/images/portfolio/hfbc/hfbc_02.jpg" }})
 
 Per client request, the focus was on creating the branding in a simple, yet rustic approach. Following some initial hand sketches, the logos were almost entirely created in Adobe Illustrator.
 
