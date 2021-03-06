@@ -1193,42 +1193,48 @@ i.magenta {
   display: none;
 }
 
-#to_top {
-  display: inline-block;
-  background-color: rgba(0, 15, 82, 0.5);
-  border-radius: 50%;
-  width: 3.5rem;
-  height: 3.5rem;
-  text-align: center;
+#topBtn {
+  display: none;
+  /* Hidden by default */
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-
-#to_top i {
-  margin: 0;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 20px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border-color: transparent;
+  border-radius: 50%;
+  outline: none;
+  /* Remove outline */
+  background-color: rgba(0, 15, 82, 0.5);
+  /* Set a background color */
   color: #FFF;
-  position: absolute;
-  top: 1.5rem;
-  right: 1.35rem;
-}
-
-#to_top:hover {
+  /* Text color */
   cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  font-size: 0.7rem;
+  /* Increase font size */
+  transition: background-color 500ms;
+}
+
+#topBtn:hover {
   background-color: #000f52;
+  /* Set a background color */
+  transition: background-color 500ms;
 }
 
-#to_top:active {
+#topBtn:active {
   background-color: rgba(0, 15, 82, 0.7);
+  /* Set a background color */
 }
 
-#to_top.show {
-  opacity: 1;
-  visibility: visible;
+#topBtn i {
+  position: relative;
+  top: 0.25rem;
 }
 
 @media (min-width: 481px) {
