@@ -853,6 +853,7 @@ bold {
 html {
   background: #FFF;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
