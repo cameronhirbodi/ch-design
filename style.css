@@ -985,7 +985,6 @@ footer svg {
   display: flex;
   position: relative;
   justify-content: center;
-  flex: 1;
   flex-direction: column;
   padding: 20px;
   text-align: center;
@@ -1022,7 +1021,7 @@ footer svg {
 }
 
 .splash_content .splash_inner .subtitle_container h2 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: 0;
   font-weight: normal;
   white-space: nowrap;
@@ -1030,7 +1029,7 @@ footer svg {
   height: initial;
   transform: none;
   writing-mode: initial;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.7rem;
 }
 
 .splash_content .splash_inner p {
@@ -1145,6 +1144,7 @@ i.magenta {
   background-repeat: no-repeat;
   z-index: 0;
   top: 0;
+  left: 0;
 }
 
 .action_link {
