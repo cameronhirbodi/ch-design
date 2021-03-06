@@ -1,29 +1,61 @@
 .icon.xs {
+    width: 8px;
+    height: 8px;
+}
+
+.icon.sm {
     width: 16px;
     height: 16px;
 }
 
-.icon.sm {
+.icon.md {
     width: 24px;
     height: 24px;
 }
 
-.icon.md {
+.icon.lg {
     width: 32px;
     height: 32px;
 }
 
-.icon.lg {
+.icon.xl {
     width: 48px;
     height: 48px;
 }
 
-.icon.xl {
+.icon.xxl {
     width: 64px;
     height: 64px;
 }
 
-.icon.xxl {
-    width: 128px;
-    height: 128px;
+@media (min-width: 481px) {
+    .icon.xs {
+        width: 128px;
+        height: 128px;
+    }
+    
+    .icon.sm {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .icon.md {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .icon.lg {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .icon.xl {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .icon.xxl {
+        width: 128px;
+        height: 128px;
+    }
 }
