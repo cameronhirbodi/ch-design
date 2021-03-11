@@ -948,9 +948,11 @@ footer {
   clear: both;
   z-index: 9;
   position: relative;
+  overflow-y: hidden;
 }
 
 footer a {
+  display: inline-block;
   margin: 0 10px;
 }
 

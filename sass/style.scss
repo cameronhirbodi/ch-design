@@ -78,7 +78,9 @@ footer {
     clear: both;
     z-index: 9;
     position: relative;
+    overflow-y: hidden;
     a {
+        display: inline-block;
         margin: 0 $smspacing;
     }
     small {
