@@ -9,7 +9,7 @@ images:
 - /images/portfolio/porsche_play/porsche_play_00.jpg
 - /images/portfolio/porsche_play/porsche_play_06.jpg
 - /images/portfolio/porsche_play/porsche_play_08.jpg
-source: https://xd.adobe.com/view/cf110c62-7252-4fd2-5125-8991f4edb746-b920/?fullscreen
+source: https://www.figma.com/file/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=0%3A1
 ---
 
 ##### My Role
@@ -72,7 +72,7 @@ It is important that the app is easy to use by people of all types and situation
 
 ![Accessibility - Contrast  Check]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
 
-One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Sketch) to help identify when the contrast is too low for those that are visually impaired.
+One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Figma) to help identify when the contrast is too low for those that are visually impaired.
 
 ###### High Fidelity Mockups
 
