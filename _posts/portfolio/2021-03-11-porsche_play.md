@@ -9,20 +9,20 @@ images:
 - /images/portfolio/porsche_play/porsche_play_00.jpg
 - /images/portfolio/porsche_play/porsche_play_06.jpg
 - /images/portfolio/porsche_play/porsche_play_08.jpg
-source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=2%3A2&scaling=scale-down
+source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=10%3A0&scaling=scale-down
 ---
 
 ##### My Role
 
 Research, Visual Design, Prototyping
 
-##### The Challenge
+##### Objective
 
 Throughout the duration of vehicle ownership, sifting through large paper vehicle manuals can be cumbersome. Despite valuable knowledge being provided, instructions, vague diagrams, and illustrations can be difficult to follow. 
 
 ![Instruction Manuals]({{ "/images/portfolio/porsche_play/porsche_play_01.jpg" }})
 
-Warranty information and service record books requiring manual write ups from owners are common and require physical storage in areas such as the vehicle or household.
+Warranty information and service record books requiring filling out paperwork manually from owners are common and require physical storage in areas such as households or the vehicle itself.
 
 ##### The Solution
 
@@ -68,11 +68,11 @@ Immediately converting each screen to higher fidelity can be very time consuming
 
 ###### Accessibility
 
-It is important that the app is easy to use by people of all types and situations. This means working well with assistive devices such as screen readers, running light for users with slow connections, or just being generally usable for people on the go.
+It is important that the app is easy to use by people in any circumstance. This means working well with assistive devices such as screen readers, being performant for users with slow connections, or just being generally usable for people on the go.
 
 ![Accessibility - Contrast  Check]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
 
-One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Figma) to help identify when the contrast is too low for those that are visually impaired.
+One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI for those with visual impairments. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Figma) to help identify when the contrast is too low and affects legibility.
 
 ###### High Fidelity Mockups
 
