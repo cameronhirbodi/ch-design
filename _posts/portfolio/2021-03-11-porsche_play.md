@@ -9,7 +9,7 @@ images:
 - /images/portfolio/porsche_play/porsche_play_00.jpg
 - /images/portfolio/porsche_play/porsche_play_06.jpg
 - /images/portfolio/porsche_play/porsche_play_08.jpg
-source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=10%3A0&scaling=scale-down
+source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?scaling=contain&node-id=8%3A38
 ---
 
 ##### My Role
