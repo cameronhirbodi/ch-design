@@ -7,25 +7,6 @@
         {% for image in page.images %}
           <img src="{{image}}">
         {% endfor %}
-
-        <!-- Swiper (Desktop) -->
-        <div class="swiper-container gallery-top fadeIn">
-          <div class="swiper-wrapper">
-            {% for image in page.images %}
-              <div class="swiper-slide" style="background-image:url({{image}})"></div>
-            {% endfor %}
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next swiper-button-white"></div>
-          <div class="swiper-button-prev swiper-button-white"></div>
-        </div>
-        <div class="swiper-container gallery-thumbs">
-          <div class="swiper-wrapper">
-            {% for image in page.images %}
-              <div class="swiper-slide" style="background-image:url({{image}})"></div>
-            {% endfor %}
-          </div>
-        </div>
       </figure>
       <article class="fadeUp delay250ms">
           <h2>{{page.title}}</h2>
@@ -33,31 +14,13 @@
           {{content}}
           <br>
           {% if page.source %}
-          <p><a class="btn hollow" target="_blank" href="{{page.source}}">View final product</a></p>
+          <p class="final_prod"><a class="btn hollow" target="_blank" href="{{page.source}}">View final product</a></p>
           {% endif %}
       </article>
       {% include footer.html %}
       <button onclick="topFunction()" id="topBtn" title="Go to top of page"><i class="arrow up" alt="Go to top of page"></i></button>
 
-  <!-- Initialize Swiper -->
   <script>
-    var galleryThumbs = new Swiper('.gallery-thumbs', {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true,
-    });
-    var galleryTop = new Swiper('.gallery-top', {
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      thumbs: {
-        swiper: galleryThumbs
-      }
-    });
 
 // Back to top button:
 mybutton = document.getElementById("topBtn");
