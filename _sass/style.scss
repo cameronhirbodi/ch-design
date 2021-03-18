@@ -47,7 +47,7 @@ figure {
         margin: 0 auto;
         display: none;
         width: 100%;
-        max-width: 768px;
+        max-width: 920px;
         max-height: 480px;
         object-fit: cover;
         &:first-of-type {
@@ -61,7 +61,7 @@ figure {
 
 article {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 920px;
     position: relative;
     padding: $lgspacing $mdspacing;
     float: none;
@@ -415,7 +415,7 @@ i {
         padding: $xlspacing;
     }
     article {
-        padding: $xlspacing;
+        padding: $xlspacing 0;
     }
     .splash_content {
         padding-left: $xxxxxlspacing;
@@ -606,7 +606,7 @@ i {
         clear: both;
         margin: 0 auto;
         width: 100%;
-        max-width: 768px;
+        max-width: 920px;
         position: relative;
         img {
             max-width: 100%;

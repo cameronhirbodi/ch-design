@@ -914,7 +914,7 @@ figure img {
   margin: 0 auto;
   display: none;
   width: 100%;
-  max-width: 768px;
+  max-width: 920px;
   max-height: 480px;
   object-fit: cover;
 }
@@ -929,7 +929,7 @@ figure img:last-of-type {
 
 article {
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 920px;
   position: relative;
   padding: 30px 20px;
   float: none;
@@ -1298,7 +1298,7 @@ i.magenta {
     padding: 40px;
   }
   article {
-    padding: 40px;
+    padding: 40px 0;
   }
   .splash_content {
     padding-left: 160px;
@@ -1472,7 +1472,7 @@ i.magenta {
     clear: both;
     margin: 0 auto;
     width: 100%;
-    max-width: 768px;
+    max-width: 920px;
     position: relative;
   }
   article img {
