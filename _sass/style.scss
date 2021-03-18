@@ -78,7 +78,7 @@ article {
 }
 
 footer {
-    padding: $mdspacing;
+    padding: $xlspacing $mdspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
