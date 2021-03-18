@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -797,7 +797,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -1094,8 +1094,8 @@ footer svg {
 i.arrow {
   border-style: solid;
   display: inline-block;
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.7rem;
+  height: 0.7rem;
   position: relative;
 }
 
