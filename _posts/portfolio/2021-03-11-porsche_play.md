@@ -83,3 +83,9 @@ Once the general wireframes and flow were eastablished, it was time to improve o
 ###### Prototype
 
 At this point, links were added between screens to make the flow more believable. Animations were added between screens to add a sense of fluidity and moments of delight. The final result is a prototype that feels like a real app, ready to review with stakeholders.
+
+###### Iteration
+
+After initial completion of the prototype, it was important to continue watching how users interacted with the interface and ask questions about their use cases. It is critical that solutions were created based on the input received. This cycle continues to ensure improvements are made moving forward.
+
+![Iterating on implementation]({{ "/images/portfolio/porsche_play/porsche_play_09.jpg" }})
