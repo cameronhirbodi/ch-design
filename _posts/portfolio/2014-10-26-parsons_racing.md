@@ -32,11 +32,15 @@ Several iterations were required from early conception. As a result, we landed o
 The logo is currently used on various vehicles, apparel, and other material.
 
 ![Parson's Racing - Tent Branding]({{ "/images/portfolio/parsons/parsons_02.jpg" }})
+
 ![Parson's Racing - Formula Car Branding]({{ "/images/portfolio/parsons/parsons_03.jpg" }})
+
 ![Parson's Racing - Apparel]({{ "/images/portfolio/parsons/parsons_04.jpg" }})
 
 Another challenge I was tasked with was to create a livery design for Cameron's Camaro being raced in the Trans-Am Series. One of these designs was also adapted to a Corvette he was driving in a simulator race.
 
 ![Parson's Racing - Livery Designs]({{ "/images/portfolio/parsons/parsons_05.jpg" }})
+
 ![Parson's Racing - Sim Racing Corvette Livery]({{ "/images/portfolio/parsons/parsons_06.jpg" }})
+
 ![Parson's Racing - Sim Racing Corvette Livery 2]({{ "/images/portfolio/parsons/parsons_07.jpg" }})
