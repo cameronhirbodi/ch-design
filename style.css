@@ -1196,6 +1196,8 @@ i.magenta {
 }
 
 #portfolio ul {
+  margin: 0 auto;
+  max-width: 1024px;
   display: flex;
   flex-wrap: wrap;
 }
