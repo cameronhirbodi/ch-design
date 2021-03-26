@@ -12,6 +12,7 @@ images:
 - /images/portfolio/hfbc/hfbc_03.jpg
 - /images/portfolio/hfbc/hfbc_04.jpg
 - /images/portfolio/hfbc/hfbc_05.jpg
+- /images/portfolio/hfbc/hfbc_06.jpg
 source: http://www.hopforgedbrewing.com/
 ---
 ##### My Role
@@ -33,3 +34,7 @@ Per client request, the focus was on creating the branding in a simple, yet rust
 ![Hop Forged Brewing Company - Barrells]({{ "/images/portfolio/hfbc/hfbc_04.jpg" }})
 
 ![Hop Forged Brewing Company - Storefront]({{ "/images/portfolio/hfbc/hfbc_05.jpg" }})
+
+![Hop Forged Brewing Company - Camping Apparel]({{ "/images/portfolio/hfbc/hfbc_05.jpg" }})
+
+![Hop Forged Brewing Company - Storefront]({{ "/images/portfolio/hfbc/hfbc_06.jpg" }})
