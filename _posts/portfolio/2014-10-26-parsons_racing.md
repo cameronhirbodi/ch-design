@@ -7,13 +7,6 @@ tag: identity
 permalink: portfolio/:title/
 images: 
 - /images/portfolio/parsons/parsons_00.jpg
-- /images/portfolio/parsons/parsons_01.jpg
-- /images/portfolio/parsons/parsons_02.jpg
-- /images/portfolio/parsons/parsons_03.jpg
-- /images/portfolio/parsons/parsons_04.jpg
-- /images/portfolio/parsons/parsons_05.jpg
-- /images/portfolio/parsons/parsons_06.jpg
-- /images/portfolio/parsons/parsons_07.jpg
 source: http://parsonsracing.com/
 ---
 

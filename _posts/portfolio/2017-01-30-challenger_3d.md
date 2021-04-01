@@ -7,7 +7,6 @@ tag: 3d
 permalink: portfolio/:title/
 images: 
 - /images/portfolio/challenger_3d/solid.jpg
-- /images/portfolio/challenger_3d/wire.jpg
 ---
 
 ###### Role

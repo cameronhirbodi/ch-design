@@ -7,8 +7,6 @@ tag: web
 permalink: portfolio/:title/
 images: 
 - /images/portfolio/blizz_supp/blizz_supp_01.gif
-- /images/portfolio/blizz_supp/blizz_supp_02.jpg
-- /images/portfolio/blizz_supp/blizz_supp_09.jpg
 source: http://www.battle.net/support
 ---
 
