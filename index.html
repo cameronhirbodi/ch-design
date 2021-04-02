@@ -7,7 +7,8 @@ category: Menu
 
 <header id="splash" class="splash">
     <div class="ch_logo">
-        <svg data-aos="fade-top" data-aos-delay="450" viewBox="0 0 144 117.9" width="144" height="118" xmlns="http://www.w3.org/2000/svg" >
+        <svg data-aos="fade-top" data-aos-delay="450" viewBox="0 0 144 117.9" width="144" height="118"
+            xmlns="http://www.w3.org/2000/svg">
             <path d="M90.9 83.2c-3.5 5.4-8 9.6-13.2 12.7v18.2c14-5.5 25-16.4 31.1-30.9H90.9Z" />
             <path d="M107.9 33.1C101.8 19.1 91.2 8.9 77.7 3.7v18.2c4.7 2.7 8.8 6.5 12 11.3H107.9Z" />
             <path
@@ -24,7 +25,8 @@ category: Menu
             <span class="subtitle_container" data-aos="fade-right" data-aos-delay="450">
                 <h2>Product Designer</h2>
             </span>
-            <p data-aos="fade-left" data-aos-delay="300">Welcome. Here you will learn a bit about me, my design process, my work, and creations that I'm actively
+            <p data-aos="fade-left" data-aos-delay="300">Welcome. Here you will learn a bit about me, my design process,
+                my work, and creations that I'm actively
                 working on.</p>
         </div>
         <a class="portfolio_link hover" href="#portfolio">View portfolio<br /><i class="arrow down"></i></a>
@@ -41,48 +43,13 @@ category: Menu
             </div>
             <div class="description">
                 <h5><a href="{{site.baseurl}}{{portfolio.url}}">{{portfolio.title}}</a></h5>
-                <p>{{portfolio.meta}}<a class="action_link text_small" href="{{site.baseurl}}{{portfolio.url}}">View more<i class="arrow right magenta"></i></a></p>
+                <p>{{portfolio.meta}}<a class="action_link text_small" href="{{site.baseurl}}{{portfolio.url}}">View
+                        more<i class="arrow right magenta"></i></a></p>
             </div>
         </li>
         {% endfor %}
     </ul>
 </main>
 
-<button onclick="topFunction()" id="topBtn" title="Go to top of page"><i class="arrow up" alt="Go to top of page"></i></button>
-
-<script>
-
-    // Back to top button:
-    mybutton = document.getElementById("topBtn");
-
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-
-    // AOS Animation
-    AOS.init({
-
-
-        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-        offset: 100, // offset (in px) from the original trigger point
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 1000, // values from 0 to 3000, with step 50ms
-        easing: 'ease-in-out', // default easing for AOS animations
-        once: true, // whether animation should happen only once - while scrolling down
-        mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-    });
-</script>
+<button onclick="topFunction()" id="topBtn" title="Go to top of page"><i class="arrow up" alt="Go to top of page"></i>
+</button>
