@@ -18,7 +18,9 @@ Visual Design, User Testing, Icon Design, Animation, Prototyping, Development
 
 This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game. A ground-up overhaul was required to bring the site to modern design standards.
 
-![Blizzard Support - Redesign]({{ "/images/portfolio/blizz_supp/blizz_supp_02.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_02.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_02.jpg" alt="Blizzard Support - Redesign"></a>
+</div>
 
 The Blizzard Support site offers useful resources such as knowledge-base articles and self service solutions with regards to account, technical, and gameplay related issues. These methods are designed to allow customers to self serve themselves. Should these solutions not help, escalating the issue to a customer service representative should be simple and straight forward.
 
@@ -26,17 +28,25 @@ The Blizzard Support site offers useful resources such as knowledge-base article
 
 The previous rendition of the Blizzard Support portal did not adhere closely to the company's brand guidelines. To address this, the first exercise was to create style tiles to illustrate various design directions we could apply to the whole website. 
 
-![Blizzard Support - Style Tile Version 1]({{ "/images/portfolio/blizz_supp/blizz_supp_03.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_03.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_03.jpg" alt="Blizzard Support - Style Tile Version 1"></a>
+</div>
 
-![Blizzard Support - Style Tile Version 2]({{ "/images/portfolio/blizz_supp/blizz_supp_04.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_04.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_04.jpg" alt="Blizzard Support - Style Tile Version 2"></a>
+</div>
 
-![Blizzard Support - Style Tile Version 3]({{ "/images/portfolio/blizz_supp/blizz_supp_05.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_05.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_05.jpg" alt="Blizzard Support - Style Tile Version 3"></a>
+</div>
 
 ###### Component Libraries
 
 The next step was to start building component libraries and style guides for other designers and developers to use as patterns. This ensures consistency across the site which is critical.
 
-![Blizzard Support - Components & Style Guide]({{ "/images/portfolio/blizz_supp/blizz_supp_06.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_06.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_06.jpg" alt="Blizzard Support - Components & Style Guide"></a>
+</div>
 
 ###### Prototyping and Animation
 
@@ -44,13 +54,17 @@ Next, these UI components were applied to low fidelity flows created in collabor
 
 Micro interactions and animations were then created between screens to build out a working prototype. This helps illustrate the design flow to various stakeholders.
 
-![Blizzard Support - Prototype Mockups]({{ "/images/portfolio/blizz_supp/blizz_supp_07.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_07.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_07.jpg" alt="Blizzard Support - Prototype Mockups"></a>
+</div>
 
 ###### Design Specs
 
 In order to reach the level of fidelity the design team was seeking on the final product, detailed design specs were provided to the engineering team. 
 
-![Blizzard Support - Design Specs]({{ "/images/portfolio/blizz_supp/blizz_supp_08.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_08.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_08.jpg" alt="Blizzard Support - Design Specs"></a>
+</div>
 
 ###### Reporting
 
@@ -68,4 +82,6 @@ Mobile Contact Flow: <a href="https://xd.adobe.com/spec/91c3a3d8-a0b6-4099-57c0-
 
 There are more ongoing initiatives for the website today. This includes embedding the support model within in-game experiences, designing recommendation systems with machine learning algorithms, and updating component libraries on the design to code environment to assist developers. There is also a growing effort into making the site compliant with regards to accessibility and catering to those that require assistive devices.
 
-![Blizzard Support - Platforms]({{ "/images/portfolio/blizz_supp/blizz_supp_09.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/blizz_supp/blizz_supp_09.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_09.jpg" alt="Blizzard Support - Platforms"></a>
+</div>

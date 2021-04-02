@@ -18,7 +18,9 @@ Research, Visual Design, Prototyping
 
 Throughout the duration of vehicle ownership, sifting through large paper vehicle manuals can be cumbersome. Despite valuable knowledge being provided, instructions, vague diagrams, and illustrations can be difficult to follow. 
 
-![Instruction Manuals]({{ "/images/portfolio/porsche_play/porsche_play_01.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_01.jpg"><img src="/images/portfolio/porsche_play/porsche_play_01.jpg" alt="Porsche Play - Instruction Manuals"></a>
+</div>
 
 Warranty information and service record books requiring filling out paperwork manually from owners are common and require physical storage in areas such as households or the vehicle itself.
 
@@ -36,11 +38,15 @@ Researching existing apps helped to understand the approach that various OEMs ha
 
 The three manufacturers chosen for this were Honda, Porsche, and Ford.
 
-![Competitive Analsis - Mockups]({{ "/images/portfolio/porsche_play/porsche_play_02.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_02.jpg"><img src="/images/portfolio/porsche_play/porsche_play_02.jpg" alt="Porsche Play - Competitive Analsis Mockups"></a>
+</div>
 
 Reading through customer reviews from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing what worked and didn't work for users would influence how I would design my product. I distingushed these with green and red highlights.
 
-![Competitive Analsis - Reviews]({{ "/images/portfolio/porsche_play/porsche_play_03.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_03.jpg"><img src="/images/portfolio/porsche_play/porsche_play_03.jpg" alt="Porsche Play - Competitive Analsis Reviews"></a>
+</div>
 
 Patterns of positive feedback from a small sample of reviews included the ability to show parking location, fuel consumption figures, vehicle gauge figures in real time, service reminders, and the ability to start / lock the car remotely. Of the three chosen OEMs, Ford's app had the most positive ratings.
 
@@ -50,25 +56,33 @@ There were numerous desired or negative feedback as well. These included showing
 
 Being able to quickly draw each screen helps to visualize the general flow at a high level.
 
-![Sketches]({{ "/images/portfolio/porsche_play/porsche_play_04.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_04.jpg"><img src="/images/portfolio/porsche_play/porsche_play_04.jpg" alt="Porsche Play - Sketches"></a>
+</div>
 
 ###### Wireframes
 
 The next step is to start building low fidelity screens while referencing the initial sketches.
 
-![Wireframes]({{ "/images/portfolio/porsche_play/porsche_play_05.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_05.jpg"><img src="/images/portfolio/porsche_play/porsche_play_05.jpg" alt="Porsche Play - Wireframes"></a>
+</div>
 
 ###### Style Tile
 
 Immediately converting each screen to higher fidelity can be very time consuming. A better use of time would be to create style tiles. This exploration helps to more quickly get a feel for the design direction in a more timely manner.
 
-![Style Tile]({{ "/images/portfolio/porsche_play/porsche_play_06.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_06.jpg"><img src="/images/portfolio/porsche_play/porsche_play_06.jpg" alt="Porsche Play - Style Tiles"></a>
+</div>
 
 ###### Accessibility
 
 It is important that the app is easy to use by people in any circumstance. This means working well with assistive devices such as screen readers, being performant for users with slow connections, or just being generally usable for people on the go.
 
-![Accessibility - Contrast  Check]({{ "/images/portfolio/porsche_play/porsche_play_07.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_07.jpg"><img src="/images/portfolio/porsche_play/porsche_play_07.jpg" alt="Porsche Play - Accessibility Contrast Check"></a>
+</div>
 
 One example of being compliant with WCAG standards is to have a sufficient contrast ratio for elements in the UI for those with visual impairments. Fortunately, there are tools and plug-ins (i.e. Stark for Adobe XD / Figma) to help identify when the contrast is too low and affects legibility.
 
@@ -76,7 +90,9 @@ One example of being compliant with WCAG standards is to have a sufficient contr
 
 Once the general wireframes and flow were eastablished, it was time to improve on the visual aesthetic. To make the app feel more enticing, it needed additional polish. The design direction was influenced heavily by Porsche's existing brand guidelines. Reusable components and patterns were established along the way as to not create unnecessary one-off elements.
 
-![High Fidelity Mockups]({{ "/images/portfolio/porsche_play/porsche_play_08.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_08.jpg"><img src="/images/portfolio/porsche_play/porsche_play_08.jpg" alt="Porsche Play - High Fidelity Mockups"></a>
+</div>
 
 ###### Prototype
 
@@ -86,4 +102,6 @@ At this point, links were added between screens to make the flow more believable
 
 After initial completion of the prototype, it was important to continue watching how users interacted with the interface and ask questions about their use cases. It is critical that solutions were created based on the input received. This cycle continues to ensure improvements are made moving forward.
 
-![Iterating on implementation]({{ "/images/portfolio/porsche_play/porsche_play_09.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/porsche_play/porsche_play_09.jpg"><img src="/images/portfolio/porsche_play/porsche_play_09.jpg" alt="Porsche Play - Iterating"></a>
+</div>

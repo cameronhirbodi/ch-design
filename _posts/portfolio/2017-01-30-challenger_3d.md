@@ -19,4 +19,6 @@ This goal of this piece was learning to create 3D renderings with Blender. Using
 
 This is a work in progress. There is still outstanding work remaining including the components of the vehicle, adding texture, and incorporating lighting effects to give it a more complete, polished look.
 
-![Dodge Challenger - 3D Wireframe Rendering]({{ "/images/portfolio/challenger_3d/wire.jpg" }})
+<div class="lightgallery">
+  <a href="/images/portfolio/challenger_3d/wire.jpg"><img src="/images/portfolio/challenger_3d/wire.jpg" alt="Dodge Challenger - 3D Wireframe Rendering"></a>
+</div>

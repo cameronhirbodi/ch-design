@@ -70,10 +70,12 @@
 
   // Image Lightbox
   $(document).ready(function() {
-    $("#lightgallery").lightGallery({
+    $(".lightgallery").lightGallery({
       zoom: true,
       actualSize: true,
       download: false,
+      getCaptionFromTitleOrAlt: true,
+      enableDrag: true
     }); 
   });
 </script>
