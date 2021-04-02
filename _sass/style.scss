@@ -366,6 +366,11 @@ i {
     }
 }
 
+//lightGallery overrides
+#lightgallery {
+    margin-bottom: $lgspacing;
+}
+
 // Smartphones, iPhone, portrait 480x320 phones
 @media (min-width: 320px) {
 }

@@ -28,9 +28,10 @@
   </div>
   <small data-aos="fade-up" data-aos-delay="300" data-aos-target="#portfolio" data-aos-anchor-placement="bottom">&copy;
     <span id="dtText"></span> cameronhirbodi.com</small>
+    <button onclick="topFunction()" id="topBtn" title="Go to top of page"><i class="arrow up" alt="Go to top of page"></i>
 </footer>
 
-<script>
+<script type="text/javascript">
   // Dynamic Date
   var year = new Date();
   document.getElementById('dtText').innerHTML = year.getFullYear();
@@ -68,6 +69,11 @@
   });
 
   // Image Lightbox
-  // using plain js
-  new SimpleLightbox({ elements: '.imageGallery1 a' });
+  $(document).ready(function() {
+    $("#lightgallery").lightGallery({
+      zoom: true,
+      actualSize: true,
+      download: false,
+    }); 
+  });
 </script>
