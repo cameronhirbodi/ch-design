@@ -38,4 +38,4 @@ From there, I began creating the full color, high-fidelity mockups. Lastly, nume
   <a href="/images/portfolio/instr_clust/instr_clust_mocks.jpg"><img src="/images/portfolio/instr_clust/instr_clust_mocks.jpg" alt="Instrument Cluster - Prototype Mockups"></a>
 </div>
 
-The next steps will be updating the prototype to be less of a linear demo. Instead, the user should be able to interact with it freely to be more akin to a real driving scenario. This will also make it easier to do usability testing.
+The next steps will be updating the prototype to be less of a linear demo. Instead, the user should be able to interact with it freely to be akin to a real driving scenario. This will also make it easier to do usability testing.
