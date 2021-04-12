@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Parsons Racing
-meta: This logo and liveries were created to represent the Parson's Racing identity. Cameron Parson has a longtime racing career in Formula cars, karting, and sim racing.
+meta: This logo and liveries were created to represent the Parson's Racing identity.
 category: portfolio
 tag: identity
 permalink: portfolio/:title/

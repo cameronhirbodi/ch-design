@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Porsche Play
-meta: The companion app allows owners to tap into real time functionality for their Porsche vehicle as well as access all knowledge on it without a traditional paper owner's manual.
+meta: The companion app allows owners to tap into real time functionality for their Porsche vehicle.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/

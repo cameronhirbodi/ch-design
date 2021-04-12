@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Blizzard Support Portal
-meta: This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game. A ground-up overhaul was required to bring the site to modern design standards.
+meta: This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game.
 category: portfolio
 tag: web
 permalink: portfolio/:title/
