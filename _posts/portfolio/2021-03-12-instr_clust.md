@@ -16,7 +16,7 @@ Visual Design, Icon Design, Animation, Prototyping
 
 #### Objective
 
-This exercise is intended to test various user interactions with instrument clusters using an interactive prototype model.
+This exercise is intended to test various user interactions with instrument clusters using an interactive prototype model. The animations and interactions were created by me using Adobe XD.
 
 <div class="lightgallery">
   <a href="/images/portfolio/instr_clust/instr_clust_lofi.jpg"><img src="/images/portfolio/instr_clust/instr_clust_lofi.jpg" alt="Instrument Cluster - Sketch"></a>
@@ -38,4 +38,4 @@ From there, I began creating the full color, high-fidelity mockups. Lastly, nume
   <a href="/images/portfolio/instr_clust/instr_clust_mocks.jpg"><img src="/images/portfolio/instr_clust/instr_clust_mocks.jpg" alt="Instrument Cluster - Prototype Mockups"></a>
 </div>
 
-The next steps will be developing the prototype to be less of a linear demo and more functional for a user. This would also help to run users through the interactions and gather feedback from the sessions.
+The next steps will be updating the prototype to be less of a linear demo. Instead, the user should be able to interact with it freely to be more akin to a real driving scenario. This will also make it easier to do usability testing.
