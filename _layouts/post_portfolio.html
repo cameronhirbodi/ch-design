@@ -7,6 +7,11 @@
         {% for image in page.images %}
           <img src="{{image}}">
         {% endfor %}
+        {% for video in page.videos %}
+        <video class="lightgallery" width="100%" autoplay>
+          <source src="{{video}}" type="video/webm">
+        </video>
+        {% endfor %}
       </figure>
       <article class="fadeUp delay250ms">
           <h2>{{page.title}}</h2>

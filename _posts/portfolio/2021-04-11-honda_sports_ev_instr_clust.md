@@ -5,8 +5,9 @@ meta: This exercise consisted of building the fully featured instrument panel fo
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-images: 
-- \images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg
+videos: 
+- \images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm
+source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=2%3A2
 ---
 
 #### My Role
@@ -55,18 +56,19 @@ Other nice to have features to explore were weather, navigation, media, and addi
 
 ###### High Fidelity
 
-Taking my research into account, it was time to sketch the features I had in mind into a visual. The elements that seemed critical to start with included current speed, selected gear, remaining charge, critical status indicators and time. 
-
-Other nice to have features to explore were weather, navigation, media, and additional vehicle stats. I just wanted to be very mindful of distracting the driver with too much information, affecting the safety.
-
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" alt="Instrument Panel Mockup"></a>
 </div>
 
 ###### Animation
 
-Coming Soon
+<video class="lightgallery" width="100%" autoplay loop>
+	<source src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm" type="video/webm">
+	Your browser does not support the video tag or the file format of this video. <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm">Video</a>
+</video>
 
 ###### Prototype
 
-Coming Soon
+<div class="lightgallery">
+  <a href="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg" alt="Instrument Panel Mockup"></a>
+</div>

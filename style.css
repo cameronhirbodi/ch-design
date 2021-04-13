@@ -1105,6 +1105,11 @@ footer svg {
   text-align: center;
 }
 
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .splash {
   width: 100%;
   height: 100%;
