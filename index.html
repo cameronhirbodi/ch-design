@@ -43,7 +43,7 @@ category: Menu
                     {% if portfolio.images %}
                     <img src="{{portfolio.images[0]}}">
                     {% else %}
-                    <video height="100%" width="100%" autoplay loop>
+                    <video height="100%" width="100%" autoplay loop muted playsinline>
                         <source src="{{portfolio.videos[0]}}" type="video/webm">
                     </video>
                     {% endif %}
