@@ -62,8 +62,8 @@ Other nice to have features to explore were weather, navigation, media, and addi
 
 ###### Animation
 
-<video class="lightgallery" width="100%" autoplay loop muted playsinline>
-	<source src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm" type="video/webm">
+<video width="100%" autoplay loop muted playsinline>
+	<source src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm" poster="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" type="video/webm">
 	Your browser does not support the video tag or the file format of this video. <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm">Video</a>
 </video>
 
