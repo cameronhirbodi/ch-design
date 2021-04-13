@@ -7,7 +7,7 @@ tag: ui
 permalink: portfolio/:title/
 videos: 
 - \images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm
-source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=2%3A2
+source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=521%3A85
 ---
 
 #### My Role
