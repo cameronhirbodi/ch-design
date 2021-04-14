@@ -6,7 +6,7 @@ category: portfolio
 tag: ui
 permalink: portfolio/:title/
 videos: 
-- \images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm
+- \images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.mp4
 source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=521%3A85
 ---
 
@@ -62,7 +62,7 @@ Other nice to have features to explore were weather, navigation, media, and addi
 
 ###### Animation
 
-<video autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" webkit-playsinline="webkit-playsinline" x5-playsinline="x5-playsinline" width="100%" src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webm" poster="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" type="video/webm"></video>
+<video autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" webkit-playsinline="webkit-playsinline" x5-playsinline="x5-playsinline" width="100%" src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.mp4" poster="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" type="video/mp4"></video>
 
 ###### Prototype
 
