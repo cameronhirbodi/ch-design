@@ -6,7 +6,7 @@ category: portfolio
 tag: web
 permalink: portfolio/:title/
 images: 
-- /images/portfolio/blizz_supp/blizz_supp_01.gif
+- \images\portfolio\blizz_supp\blizz_supp_01.webp
 source: http://www.battle.net/support
 ---
 

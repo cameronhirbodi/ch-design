@@ -2,24 +2,21 @@
   {% include head.html %}
   <body>
     <figure>
-        <a class="action_bar text_small" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
-        <!-- Main Image (Mobile) -->
-        {% for image in page.images %}
-          <img src="{{image}}">
-        {% endfor %}
-        {% for video in page.videos %}
-          <video autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" webkit-playsinline="webkit-playsinline" x5-playsinline="x5-playsinline" width="100%" src="{{video}}" type="video/webm"></video>
-        {% endfor %}
-      </figure>
-      <article class="fadeUp delay250ms">
-          <h2>{{page.title}}</h2>
-          <br>
-          {{content}}
-          <br>
-          {% if page.source %}
-          <p class="final_prod"><a class="btn hollow" target="_blank" href="{{page.source}}">View final product</a></p>
-          {% endif %}
-      </article>
-      {% include footer.html %}
+      <a class="action_bar text_small" href="{{site.url}}/#portfolio"><i class="arrow left magenta"></i>Home</a>
+      <!-- Main Image (Mobile) -->
+      {% for image in page.images %}
+        <img src="{{image}}">
+      {% endfor %}
+    </figure>
+    <article class="fadeUp delay250ms">
+        <h2>{{page.title}}</h2>
+        <br>
+        {{content}}
+        <br>
+        {% if page.source %}
+        <p class="final_prod"><a class="btn hollow" target="_blank" href="{{page.source}}">View final product</a></p>
+        {% endif %}
+    </article>
+    {% include footer.html %}
   </body>
 </html>
