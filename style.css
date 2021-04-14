@@ -1035,6 +1035,10 @@ article img {
   display: block;
 }
 
+article video {
+  margin-bottom: 30px;
+}
+
 article h6 {
   color: #0c0f89;
 }
