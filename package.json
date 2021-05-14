@@ -1,0 +1,20 @@
+{
+  "name": "CH-Design",
+  "version": "1.0.0",
+  "description": "<img src=\"https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg\" alt=\"CH Design Logo\" height=\"48\" width=\"48\" >",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronhirbodi/CH-Design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cameronhirbodi/CH-Design/issues"
+  },
+  "homepage": "https://github.com/cameronhirbodi/CH-Design#readme"
+}
