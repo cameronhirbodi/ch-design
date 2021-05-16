@@ -1,5 +1,5 @@
 {
-  "name": "CH-Design",
+  "name": "ch-design",
   "version": "1.0.0",
   "description": "<img src=\"https://github.com/cameronhirbodi/CH-Design/blob/master/images/icons/chlogo.svg\" alt=\"CH Design Logo\" height=\"48\" width=\"48\" >",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cameronhirbodi/CH-Design.git"
+    "url": "git+https://github.com/cameronhirbodi/ch-design.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cameronhirbodi/CH-Design/issues"
+    "url": "https://github.com/cameronhirbodi/ch-design/issues"
   },
-  "homepage": "https://github.com/cameronhirbodi/CH-Design#readme"
+  "homepage": "https://github.com/cameronhirbodi/ch-design#readme"
 }
