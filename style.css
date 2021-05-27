@@ -1352,7 +1352,11 @@ i.magentadark {
      object-fit: cover;
 }
 
-#portfolio ul li .description h5 a {
+#portfolio ul li .description h3 {
+  font-size: 1.25rem;
+}
+
+#portfolio ul li .description h3 a {
   color: #000;
 }
 
