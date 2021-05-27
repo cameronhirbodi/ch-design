@@ -5,7 +5,7 @@ meta: The branding was created to represent the identity of a newly established 
 category: portfolio
 tag: identity
 permalink: portfolio/:title/
-images: 
+thumbnail: 
 - /images/portfolio/hfbc/hfbc_00.jpg
 alt: Hop Forged Brewing Company logo
 source: http://www.hopforgedbrewing.com/
