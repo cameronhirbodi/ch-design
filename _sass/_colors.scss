@@ -6,70 +6,61 @@ $greydark: #A4AAAE;
 $greydarkest: #8A9094;
 $greyslate: #47515b;
 $black: #000;
-$magentalight: #fc7095;
-$magenta: #fc3468;
-$magentadark: #ae032f;
+$magenta: #C81E64;
+$magentalight: lighten($magenta,15%);
+$magentadark: darken($magenta,15%);
 $turquoise: #00CDC6;
 $navy: #000f52;
 $violet: #0c0f89;
 
 .white {
-    background: $white;
+    color: $white;
 }
 
 .greylightest {
-    background: $greylightest;
+    color: $greylightest;
 }
 
 .greylight {
-    background: $greylight;
+    color: $greylight;
 }
 
 .grey {
-    background: $grey;
+    color: $grey;
 }
 
 .greydark {
-    background: $greydark;
-    color: $white;
+    color: $greydark;
 }
 
 .greydarkest {
-    background: $greydarkest;
-    color: $white;
+    color: $greydarkest;
 }
 
 .black {
-    background: $black;
-    color: $white;
-}
-
-.magentalight {
-    background: $magentalight;
-    color: $white;
+    color: $black;
 }
 
 .magenta {
-    background: $magenta;
-    color: $white;
+    color: $magenta;
+}
+
+.magentalight {
+    color: $magentalight;
 }
 
 .magentadark {
-    background: $magentadark;
-    color: $white;
+    color: $magentadark;
 }
 
 .turquoise {
-    background: $turquoise;
-    color: $white;
+    color: $turquoise;
 }
 
 .navy {
-    background: $navy;
-    color: $white;
+    color: $navy;
 }
 
 .violet {
-    background: $violet;
-    color: $white;
+    color: $violet;
 }

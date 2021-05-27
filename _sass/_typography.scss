@@ -59,25 +59,27 @@ small, .text_small {
 
 a {
     font-weight: 600;
-    color: $magentadark;
+    color: $magenta;
     text-decoration: none;
 }
 
 a:visited {
-    color: $magentadark;
+    color: $magenta;
     text-decoration: none;
 }
 
 a:hover {
-    color: $magenta;
-    text-decoration: none;
-    opacity: 0.5;
-    transform-origin: 0;
+    color: $magentadark;
     transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+    text-decoration: none;
+    img {
+        opacity: 0.5;
+        transform-origin: 0;
+    }
 }
 
 a:active {
-    color: $magenta;
+    color: $magentadark;
     text-decoration: none;
 }
 
