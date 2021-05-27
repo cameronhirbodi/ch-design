@@ -39,7 +39,7 @@ category: Menu
         {% for portfolio in site.categories.portfolio %}
         <li id="{{portfolio.title}}">
             <div class="thumb">
-                <a href="{{site.baseurl}}{{portfolio.url}}"><img src="{{portfolio.images[0]}}"></a>
+                <a href="{{site.baseurl}}{{portfolio.url}}"><img src="{{portfolio.thumbnail}}" alt="{{portfolio.alt}}"></a>
             </div>
             <div class="description">
                 <h3><a href="{{site.baseurl}}{{portfolio.url}}">{{portfolio.title}}</a></h3>

@@ -7,6 +7,7 @@ tag: identity
 permalink: portfolio/:title/
 images: 
 - /images/portfolio/hfbc/hfbc_00.jpg
+alt: Hop Forged Brewing Company logo
 source: http://www.hopforgedbrewing.com/
 ---
 ##### My Role

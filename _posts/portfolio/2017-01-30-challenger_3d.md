@@ -5,8 +5,9 @@ meta: This is a 3D rendering currently in progress of a modern Dodge Challenger 
 category: portfolio
 tag: 3d
 permalink: portfolio/:title/
-images: 
+thumbnail: 
 - /images/portfolio/challenger_3d/solid.jpg
+alt: 3D rendering of a Dodge Challenger in progress
 ---
 
 ###### Role

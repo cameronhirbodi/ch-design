@@ -5,8 +5,9 @@ meta: This exercise is intended to test various user interactions with an instru
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-images: 
+thumbnail: 
 - \images\portfolio\instr_clust\instr_clust_anim.webp
+alt: Animation of instrument cluster prototype
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
 

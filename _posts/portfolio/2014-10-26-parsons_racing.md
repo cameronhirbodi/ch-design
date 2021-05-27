@@ -5,8 +5,9 @@ meta: This logo and liveries were created to represent the Parson's Racing ident
 category: portfolio
 tag: identity
 permalink: portfolio/:title/
-images: 
+thumbnail: 
 - /images/portfolio/parsons/parsons_00.jpg
+alt: Logo for Parsons Racing
 source: http://parsonsracing.com/
 ---
 

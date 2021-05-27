@@ -5,8 +5,9 @@ meta: This web portal was designed to assist Blizzard game customers in solving 
 category: portfolio
 tag: web
 permalink: portfolio/:title/
-images: 
+thumbnail: 
 - \images\portfolio\blizz_supp\blizz_supp_01.webp
+alt: Animation of Blizzard Support site
 source: http://www.battle.net/support
 ---
 
