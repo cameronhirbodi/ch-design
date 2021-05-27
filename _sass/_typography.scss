@@ -59,17 +59,17 @@ small, .text_small {
 
 a {
     font-weight: 600;
-    color: $magenta;
+    color: $magentadark;
     text-decoration: none;
 }
 
 a:visited {
-    color: $magenta;
+    color: $magentadark;
     text-decoration: none;
 }
 
 a:hover {
-    color: $magentalight;
+    color: $magenta;
     text-decoration: none;
     opacity: 0.5;
     transform-origin: 0;

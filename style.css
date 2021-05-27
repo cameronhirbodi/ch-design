@@ -284,7 +284,7 @@
 }
 
 .magentadark {
-  background: #b02448;
+  background: #ae032f;
   color: #FFF;
 }
 
@@ -345,7 +345,7 @@
 }
 
 .magentadark {
-  background: #b02448;
+  background: #ae032f;
   color: #FFF;
 }
 
@@ -421,17 +421,17 @@ small, .text_small {
 
 a {
   font-weight: 600;
-  color: #fc3468;
+  color: #ae032f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #fc3468;
+  color: #ae032f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fc7095;
+  color: #fc3468;
   text-decoration: none;
   opacity: 0.5;
   -webkit-transform-origin: 0;
@@ -610,12 +610,12 @@ input[type=button]:hover.hollow.white, input[type=submit]:hover.hollow.white, .b
 
 input[type=button]:active, input[type=submit]:active, .btn:active {
   color: #FFF;
-  background-color: #b02448;
+  background-color: #ae032f;
 }
 
 input[type=button]:active.hollow, input[type=submit]:active.hollow, .btn:active.hollow {
-  color: #b02448;
-  border: 2px solid #b02448;
+  color: #ae032f;
+  border: 2px solid #ae032f;
   background-color: transparent;
 }
 
@@ -932,17 +932,17 @@ small, .text_small {
 
 a {
   font-weight: 600;
-  color: #fc3468;
+  color: #ae032f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #fc3468;
+  color: #ae032f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fc7095;
+  color: #fc3468;
   text-decoration: none;
   opacity: 0.5;
   -webkit-transform-origin: 0;
@@ -1257,9 +1257,9 @@ i.turquoise {
   border-color: #00CDC6;
 }
 
-i.magenta {
+i.magentadark {
   background: none;
-  border-color: #fc3468;
+  border-color: #ae032f;
 }
 
 .ch_logo {
