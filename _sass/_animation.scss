@@ -13,8 +13,8 @@
 }
 
 .fadeIn {
-  opacity: 0;
-  animation: 500ms ease-out 1 forwards fadeIn;
+  opacity: 0.5;
+  animation: 500ms ease-out 1 fadeIn;
 }
 
 @keyframes fadeUp {
@@ -29,8 +29,7 @@
 }
 
 .fadeUp {
-  opacity: 0;
-  animation: 1s ease-out 1 forwards fadeUp;
+  animation: 1s ease-out 1 fadeUp;
 }
 
 /* Pulse Animations */

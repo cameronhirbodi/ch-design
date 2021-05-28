@@ -94,6 +94,11 @@ footer {
     svg {
         fill: $black;
     }
+    ul {
+        li {
+            display: inline;
+        }
+    }
 }
 
 .active span::after {

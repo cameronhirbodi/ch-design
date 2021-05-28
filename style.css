@@ -17,9 +17,9 @@
 }
 
 .fadeIn {
-  opacity: 0;
-  -webkit-animation: 500ms ease-out 1 forwards fadeIn;
-          animation: 500ms ease-out 1 forwards fadeIn;
+  opacity: 0.5;
+  -webkit-animation: 500ms ease-out 1 fadeIn;
+          animation: 500ms ease-out 1 fadeIn;
 }
 
 @-webkit-keyframes fadeUp {
@@ -49,9 +49,8 @@
 }
 
 .fadeUp {
-  opacity: 0;
-  -webkit-animation: 1s ease-out 1 forwards fadeUp;
-          animation: 1s ease-out 1 forwards fadeUp;
+  -webkit-animation: 1s ease-out 1 fadeUp;
+          animation: 1s ease-out 1 fadeUp;
 }
 
 /* Pulse Animations */
@@ -402,30 +401,27 @@ small, .text_small {
 }
 
 a {
-  font-weight: 600;
   color: #C81E64;
+}
+
+a:link {
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:visited {
-  color: #C81E64;
   text-decoration: none;
 }
 
 a:hover {
-  color: #851443;
+  opacity: 0.5;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
   text-decoration: none;
 }
 
-a:hover img {
-  opacity: 0.5;
-  -webkit-transform-origin: 0;
-          transform-origin: 0;
-}
-
 a:active {
-  color: #851443;
   text-decoration: none;
 }
 
@@ -916,30 +912,27 @@ small, .text_small {
 }
 
 a {
-  font-weight: 600;
   color: #C81E64;
+}
+
+a:link {
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:visited {
-  color: #C81E64;
   text-decoration: none;
 }
 
 a:hover {
-  color: #851443;
+  opacity: 0.5;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
   transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
   text-decoration: none;
 }
 
-a:hover img {
-  opacity: 0.5;
-  -webkit-transform-origin: 0;
-          transform-origin: 0;
-}
-
 a:active {
-  color: #851443;
   text-decoration: none;
 }
 
@@ -1058,6 +1051,10 @@ footer small {
 
 footer svg {
   fill: #000;
+}
+
+footer ul li {
+  display: inline;
 }
 
 .active span::after {

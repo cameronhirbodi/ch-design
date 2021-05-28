@@ -58,29 +58,23 @@ small, .text_small {
 }
 
 a {
-    font-weight: 600;
     color: $magenta;
-    text-decoration: none;
-}
-
-a:visited {
-    color: $magenta;
-    text-decoration: none;
-}
-
-a:hover {
-    color: $magentadark;
-    transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
-    text-decoration: none;
-    img {
+    &:link {
+        font-weight: 600;
+        text-decoration: none;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+    &:hover {
         opacity: 0.5;
         transform-origin: 0;
+        transition: opacity 0.2s ease, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+        text-decoration: none;
     }
-}
-
-a:active {
-    color: $magentadark;
-    text-decoration: none;
+    &:active {
+        text-decoration: none;
+    }
 }
 
 bold {
