@@ -1054,7 +1054,7 @@ footer svg {
 }
 
 footer ul li {
-  display: inline;
+  display: inline-block;
 }
 
 .active span::after {
