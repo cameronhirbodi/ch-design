@@ -1268,7 +1268,7 @@ i.magentadark {
 .ch_logo rect {
   position: absolute;
   background-color: #C81E64;
-  opacity: 0.3;
+  opacity: 0.5;
   width: 3.75rem;
   height: 3.75rem;
   z-index: 8;
