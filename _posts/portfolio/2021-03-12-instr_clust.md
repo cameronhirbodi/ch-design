@@ -6,7 +6,7 @@ category: portfolio
 tag: ui
 permalink: portfolio/:title/
 thumbnail: 
-- \images\portfolio\instr_clust\instr_clust_anim.webp
+- /images/portfolio/instr_clust/instr_clust_anim.webp
 alt: Animation of instrument cluster prototype
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---

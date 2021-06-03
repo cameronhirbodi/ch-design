@@ -6,7 +6,7 @@ category: portfolio
 tag: ui
 permalink: portfolio/:title/
 thumbnail: 
-- \images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp
+- /images/portfolio/honda_sports_ev_instr_panel/honda_panel_anim.webp
 alt: Animation of Honda Sports EV instrument cluster concept
 source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=521%3A85
 ---

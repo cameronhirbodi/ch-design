@@ -6,7 +6,7 @@ category: portfolio
 tag: web
 permalink: portfolio/:title/
 thumbnail: 
-- \images\portfolio\blizz_supp\blizz_supp_01.webp
+- /images/portfolio/blizz_supp/blizz_supp_01.webp
 alt: Animation of Blizzard Support site
 source: http://www.battle.net/support
 ---
