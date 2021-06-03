@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Blizzard Support Portal
-meta: This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game.
+meta: This web portal was designed to assist Activision Blizzard game customers in quickly solving their issues and get them back to their game.
 category: portfolio
 tag: web
 permalink: portfolio/:title/
@@ -17,13 +17,13 @@ Visual Design, User Testing, Icon Design, Animation, Prototyping, Development
 
 ##### Objective
 
-This web portal was designed to assist Blizzard game customers in solving their issues to quickly return them to their game. A ground-up overhaul was required to bring the site to modern design standards.
+This web portal was designed to assist Activision Blizzard game customers in quickly solving their issues and get them back to their game.
 
 <div class="lightgallery">
   <a href="/images/portfolio/blizz_supp/blizz_supp_02.jpg"><img src="/images/portfolio/blizz_supp/blizz_supp_02.jpg" alt="Blizzard Support - Redesign"></a>
 </div>
 
-The Blizzard Support site offers useful resources such as knowledge-base articles and self service solutions with regards to account, technical, and gameplay related issues. These methods are designed to allow customers to self serve themselves. Should these solutions not help, escalating the issue to a customer service representative should be simple and straight forward.
+A ground-up overhaul was required to bring the interface to modern design standards. The site offers useful resources such as self-service automations and knowledge-base and community driven articles with regards to account, technical, and gameplay related issues. Should these solutions not help, escalating the issue to a customer service representative should be simple and straight forward.
 
 ###### Style Tiles
 
