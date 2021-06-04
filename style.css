@@ -1132,7 +1132,7 @@ video {
 .splash_content .splash_inner {
   width: 100%;
   max-height: 100%;
-  margin-top: 15%;
+  margin-top: 10%;
   padding: 0;
 }
 
@@ -1290,7 +1290,7 @@ i.magentadark {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
-  top: 0;
+  top: -10%;
   left: 0;
 }
 
@@ -1497,6 +1497,9 @@ i.magentadark {
     width: 4.25rem;
     height: 4.25rem;
   }
+  .splash_bg {
+    top: 0;
+  }
   .kenburns {
     right: -25%;
   }
@@ -1572,7 +1575,16 @@ i.magentadark {
 
 @media (orientation: landscape) and (max-height: 480px) {
   .splash {
-    height: 125%;
+    min-height: 125%;
+  }
+  .splash .ch_logo {
+    left: 10%;
+  }
+  .splash .splash_inner {
+    margin-top: 0;
+  }
+  .splash .splash_bg {
+    top: 0;
   }
 }
 
