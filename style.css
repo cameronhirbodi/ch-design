@@ -800,7 +800,7 @@ html {
 
 body {
   background: #FFF;
-  min-width: 320px;
+  min-width: 280px;
   margin: 0;
   padding: 0;
 }
@@ -971,7 +971,7 @@ video {
   height: initial;
   transform: none;
   writing-mode: initial;
-  letter-spacing: 0.7rem;
+  letter-spacing: 0.6rem;
 }
 .splash_content .splash_inner p {
   flex: 1;

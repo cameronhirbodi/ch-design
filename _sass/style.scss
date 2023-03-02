@@ -20,7 +20,7 @@ html {
 
 body {
     background: $white;
-    min-width: 320px;
+    min-width: 280px;
     margin: 0;
     padding: 0;
 }
@@ -190,7 +190,7 @@ video {
                 height: initial;
                 transform: none;
                 writing-mode: initial;
-                letter-spacing: 0.7rem;
+                letter-spacing: 0.6rem;
             }
         }
         p {
@@ -388,7 +388,7 @@ i {
 }
 
 // Smartphones, iPhone, portrait 480x320 phones
-@media (min-width: 320px) {
+@media (min-width: 280px) {
 }
 
 // Portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
