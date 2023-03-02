@@ -22,5 +22,6 @@ As these vehicles are currently in development, I am not permitted to share more
 
 <div class="lightgallery">
   <a href="/images/portfolio/ford_lincoln_in-vehicle/lincoln_display.jpg"><img src="/images/portfolio/ford_lincoln_in-vehicle/lincoln_display.jpg" alt="Lincoln Concept Display"></a>
+  <br>
   <a href="/images/portfolio/ford_lincoln_in-vehicle/ford_display.jpg"><img src="/images/portfolio/ford_lincoln_in-vehicle/ford_display.jpg" alt="Ford Mustang Display"></a>
 </div>

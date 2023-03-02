@@ -1192,7 +1192,7 @@ i.magentadark {
     width: 48%;
   }
   #portfolio ul li:nth-child(odd) {
-    margin-right: 4%;
+    margin-right: 5%;
   }
   #portfolio ul li .thumb {
     height: 160px;
@@ -1283,8 +1283,8 @@ i.magentadark {
     right: -25%;
   }
   #portfolio ul li {
-    width: 30.66%;
-    margin-right: 4%;
+    width: 30%;
+    margin-right: 5%;
   }
   #portfolio ul li:nth-child(3n) {
     margin-right: 0;

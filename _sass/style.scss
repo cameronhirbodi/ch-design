@@ -404,7 +404,7 @@ i {
             li {
                 width: 48%;
                 &:nth-child(odd) {
-                    margin-right: 4%;
+                    margin-right: 5%;
                 }
                 .thumb {
                     height: $xxxxxlspacing;
@@ -510,8 +510,8 @@ i {
     #portfolio {
         ul {
             li {
-                width: 30.66%;
-                margin-right: 4%;
+                width: 30%;
+                margin-right: 5%;
                 &:nth-child(3n) {
                     margin-right: 0;
                 }
