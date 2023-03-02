@@ -327,7 +327,7 @@ i {
             .thumb {
                 position: relative;
                 margin-bottom: $mdspacing;
-                height: 200px;
+                height: 160px;
                 overflow: hidden;
                 img {
                     position: absolute;
@@ -402,12 +402,9 @@ i {
     #portfolio {
         ul {
             li {
-                width: 48%;
+                width: 47%;
                 &:nth-child(odd) {
-                    margin-right: 5%;
-                }
-                .thumb {
-                    height: $xxxxxlspacing;
+                    margin-right: 6%;
                 }
             }
         }
@@ -512,6 +509,9 @@ i {
             li {
                 width: 30%;
                 margin-right: 5%;
+                &:nth-child(odd) {
+                    margin-right: inherit;
+                }
                 &:nth-child(3n) {
                     margin-right: 0;
                 }

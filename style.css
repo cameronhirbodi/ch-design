@@ -1102,7 +1102,7 @@ i.magentadark {
 #portfolio ul li .thumb {
   position: relative;
   margin-bottom: 20px;
-  height: 200px;
+  height: 160px;
   overflow: hidden;
 }
 #portfolio ul li .thumb img {
@@ -1163,13 +1163,10 @@ i.magentadark {
     padding: 30px;
   }
   #portfolio ul li {
-    width: 48%;
+    width: 47%;
   }
   #portfolio ul li:nth-child(odd) {
-    margin-right: 5%;
-  }
-  #portfolio ul li .thumb {
-    height: 160px;
+    margin-right: 6%;
   }
 }
 @media (min-width: 641px) {
@@ -1259,6 +1256,9 @@ i.magentadark {
   #portfolio ul li {
     width: 30%;
     margin-right: 5%;
+  }
+  #portfolio ul li:nth-child(odd) {
+    margin-right: inherit;
   }
   #portfolio ul li:nth-child(3n) {
     margin-right: 0;
