@@ -560,32 +560,6 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   height: 64px;
 }
 
-@media (min-width: 481px) {
-  .icon.xs {
-    width: 128px;
-    height: 128px;
-  }
-  .icon.sm {
-    width: 24px;
-    height: 24px;
-  }
-  .icon.md {
-    width: 32px;
-    height: 32px;
-  }
-  .icon.lg {
-    width: 48px;
-    height: 48px;
-  }
-  .icon.xl {
-    width: 64px;
-    height: 64px;
-  }
-  .icon.xxl {
-    width: 128px;
-    height: 128px;
-  }
-}
 #modal {
   left: 50%;
   margin: -250px 0 0 -32%;
