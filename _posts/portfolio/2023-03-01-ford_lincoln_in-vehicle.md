@@ -1,13 +1,13 @@
 ---
 layout: post_portfolio
-title: Ford & Lincoln In-Vehicle Experiences
+title: Ford & Lincoln Experiences
 meta: Envisioning the next generation of Lincoln in-vehicle user experience.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
 thumbnail: 
 - /images/portfolio/ford_lincoln_in-vehicle/lincoln_display.jpg
-alt: Future of Lincoln in-vehicle display technology
+alt: Future of Ford & Lincoln in-vehicle display technology
 ---
 
 #### My Role
