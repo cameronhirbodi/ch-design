@@ -228,7 +228,8 @@ i {
         border-width: 0.15rem 0 0 0.15rem;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
-        margin-bottom: 0.25rem;
+        margin-right: 0.15rem;
+        margin-bottom: 0.15rem;
     }
     &.down {
         border-width: 0 0.15rem 0.15rem 0;
@@ -377,6 +378,7 @@ i {
     i {
         position: relative;
         top: 0.25rem;
+        left: 0.075rem;
     }
 }
 
