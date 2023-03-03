@@ -36,7 +36,7 @@ image:
 <main id="portfolio">
     <ul>
         {% for portfolio in site.categories.portfolio %}
-        <li id="{{portfolio.title}}">
+        <li id="{{portfolio.title}}" data-aos="fade-in" data-aos-once="true" data-aos-anchor-placement="center">
             <div class="thumb">
                 <a href="{{site.baseurl}}{{portfolio.url}}"><img src="{{portfolio.thumbnail}}" alt="{{portfolio.alt}}"></a>
             </div>
