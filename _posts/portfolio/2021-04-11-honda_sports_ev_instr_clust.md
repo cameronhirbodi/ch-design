@@ -13,7 +13,7 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 <section>
 <h5>My Role</h5>
 
-<p>Visual Design, Icon Design, Animation, Prototyping</p>
+<p>Visual Design, Iconography, Animation, Prototyping</p>
 </section>
 
 <section>
@@ -66,10 +66,10 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 </section>
 
 <section>
-<h5>High Fidelity</h5>
+<h5>Prototyping</h5>
 
 <div class="lightgallery">
-  <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" alt="Instrument Panel Mockup"></a>
+  <a href="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg" alt="Instrument Panel Mockup"></a>
 </div>
 </section>
 
@@ -78,13 +78,5 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp" alt="Instrument Panel Animation"></a>
-</div>
-</section>
-
-<section>
-<h5>Prototype</h5>
-
-<div class="lightgallery">
-  <a href="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg" alt="Instrument Panel Mockup"></a>
 </div>
 </section>
