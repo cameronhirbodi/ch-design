@@ -42,9 +42,9 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Competitive Analysis</h5>
+<h6>Competitive Analysis</h6>
 
-<p>Researching existing apps helped to understand the approach that various OEMs have taken. Knowing what functions were offered and how they were emphasized was important.</p>
+<p>Researching existing apps helped to understand the approach that various OEMs have taken. Knowing what functions were offered and how they were implemented was important.</p>
 
 <p>The three manufacturers chosen for this were Honda, Porsche, and Ford.</p>
 
@@ -52,7 +52,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
   <a href="/images/portfolio/porsche_play/porsche_play_02.jpg"><img src="/images/portfolio/porsche_play/porsche_play_02.jpg" alt="Porsche Play - Competitive Analsis Mockups"></a>
 </div>
 
-<p>Reading through customer reviews from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing what worked and didn't work for users would influence how I would design my product. I distingushed these with green and red highlights.</p>
+<p>Reading through customer reviews from both the Apple App Store and Google Play Store helped to surface common customer frustrations. Knowing what worked and didn't work for users would influence how I would design this app. I separated the input with green and red callouts.</p>
 
 <div class="lightgallery">
   <a href="/images/portfolio/porsche_play/porsche_play_03.jpg"><img src="/images/portfolio/porsche_play/porsche_play_03.jpg" alt="Porsche Play - Competitive Analsis Reviews"></a>
@@ -64,7 +64,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Sketches</h5>
+<h6>Sketching</h6>
 
 <p>Being able to quickly draw each screen helps to visualize the general flow at a high level.</p>
 
@@ -74,7 +74,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Wireframes</h5>
+<h6>Wireframing</h6>
 
 <p>The next step is to start building low fidelity screens while referencing the initial sketches.</p>
 
@@ -84,7 +84,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Style Tile</h5>
+<h6>Style Tile</h6>
 
 <p>Immediately converting each screen to higher fidelity can be very time consuming. A better use of time would be to create style tiles. This exploration helps to more quickly get a feel for the design direction in a more timely manner.</p>
 
@@ -94,7 +94,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Accessibility</h5>
+<h6>Accessibility</h6>
 
 <p>It is important that the app is easy to use by people in any circumstance. This means working well with assistive devices such as screen readers, being performant for users with slow connections, or just being generally usable for people on the go.</p>
 
@@ -106,7 +106,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>High Fidelity Mockups</h5>
+<h6>High Fidelity</h6>
 
 <p>Once the general wireframes and flow were eastablished, it was time to improve on the visual aesthetic. To make the app feel more enticing, it needed additional polish. The design direction was influenced heavily by Porsche's existing brand guidelines. Reusable components and patterns were established along the way as to not create unnecessary one-off elements.</p>
 
@@ -116,15 +116,19 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </section>
 
 <section>
-<h5>Prototype</h5>
+<h6>Prototyping</h6>
 
 <p>At this point, links were added between screens to make the flow more believable. Animations were added between screens to add a sense of fluidity and moments of delight. The final result is a prototype that feels like a real app, ready to review with stakeholders.</p>
 </section>
 
 <section>
-<h5>Iteration</h5>
+<h5>Reflection</h5>
 
-<p>After initial completion of the prototype, it was important to continue watching how users interacted with the interface and ask questions about their use cases. It is critical that solutions were created based on the input received. This cycle continues to ensure improvements are made moving forward.</p>
+<p>After initial completion of the prototype, it was important to continue watching how users interacted with the interface and ask questions about their use cases. I would like to ask more users to test this app and understand their input. It will also allow me to understand how they approach things like storing scheduling services and referencing their prvious records.</p>
+
+<p>I already started iterating on the UI based on some feedback I was given regarding the way content is structured. Some of the features are still work in progress such as the remote controls, service scheduling, and guides which I would like to get to next.</p>
+
+<p>Developing this app has lead me to think about features I did not initially consider jumping into it.</p>
 
 <div class="lightgallery">
   <a href="/images/portfolio/porsche_play/porsche_play_09.jpg"><img src="/images/portfolio/porsche_play/porsche_play_09.jpg" alt="Porsche Play - Iterating"></a>
