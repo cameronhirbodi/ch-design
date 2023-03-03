@@ -11,11 +11,11 @@ alt: Animation of Honda Sports EV instrument cluster concept
 source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Cluster?scaling=contain&page-id=0%3A1&node-id=521%3A85
 ---
 
-#### My Role
+##### My Role
 
 Visual Design, Icon Design, Animation, Prototyping
 
-#### Objective
+##### Objective
 
 This exercise consisted of building the fully featured instrument panel for the Honda Sports EV concept since it was never showcased. It was crucial to incorporate Honda's familiar racing DNA while still allowing clear and legible data for the driver. The Honda Sports EV should be fun to drive and the driver should feel one with it.
 
