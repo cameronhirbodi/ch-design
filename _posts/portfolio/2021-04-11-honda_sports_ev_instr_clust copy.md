@@ -23,11 +23,11 @@ This exercise consisted of building the fully featured instrument panel for the 
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev.jpg" alt="Honda Sports EV Concept"></a>
 </div>
 
-#### The Approach
+##### The Approach
 
 As part of research and execution of this project, the following processes were required:
 
-###### Competitive Analysis
+##### Competitive Analysis
 
 Before starting, it helped to study the interfaces from other similarly priced vehicles in the industry. Are there common features that should be considered and/or omitted? Are there examples of sportiness incorporated in said vehicles? Looking back at Honda's own previous sports and electric vehicles, can features be tied in to bring familarity?
 
@@ -45,7 +45,7 @@ I also felt it would be a nice nod to older Honda sports road and racing cars to
 
 The challenge would be applying these visual traits to an electric vehicle. Unlike EVs, the referenced sports / racing vehicles required more emphasis on the tachometer as they run on iternal combustion engines. However, the driver no longer needs to focus on shifting gears and managing engine revs as electric vehicles typically have single gears with a flat torque band.
 
-###### Sketches
+##### Sketches
 
 Taking my research into account, it was time to sketch the features I had in mind into a visual. The elements that seemed critical to start with included current speed, selected gear, remaining charge, critical status indicators and time. 
 
@@ -55,19 +55,19 @@ Other nice to have features to explore were weather, navigation, media, and addi
   <a href="\images\portfolio\honda_sports_ev_instr_panel\sketch.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\sketch.jpg" alt="Instrument Panel Sketch"></a>
 </div>
 
-###### High Fidelity
+##### High Fidelity
 
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev_00.jpg" alt="Instrument Panel Mockup"></a>
 </div>
 
-###### Animation
+##### Animation
 
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp" alt="Instrument Panel Animation"></a>
 </div>
 
-###### Prototype
+##### Prototype
 
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg" alt="Instrument Panel Mockup"></a>

@@ -10,11 +10,11 @@ thumbnail:
 alt: Future of Ford & Lincoln in-vehicle display technology
 ---
 
-#### My Role
+##### My Role
 
 Research, Visual Design, Animation, Prototyping
 
-#### Objective
+##### Objective
 
 I am currently working on the next generation of Ford & Lincoln in-vehicle experiences. This includes features that span across the center stack and instrument clusters displays.
 
