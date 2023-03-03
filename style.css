@@ -848,11 +848,14 @@ article img {
 article video {
   margin-bottom: 30px;
 }
-article h6 {
+article h5, article h6 {
   color: #0c0f89;
 }
 article .final_prod {
   text-align: center;
+}
+article section {
+  margin-bottom: 3rem;
 }
 
 footer {
@@ -1019,12 +1022,14 @@ i.left {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   margin-right: 0.25rem;
+  margin-left: 0.25rem;
 }
 i.right {
   border-width: 0.15rem 0.15rem 0 0;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 i.turquoise {
   background: none;
@@ -1088,6 +1093,11 @@ i.magentadark {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
+}
+@media (min-width: 481px) {
+  .action_bar {
+    margin: 10px 30px;
+  }
 }
 
 #portfolio ul {
@@ -1180,6 +1190,9 @@ i.magentadark {
   }
   article {
     padding: 40px 0;
+  }
+  article section {
+    margin-bottom: 4rem;
   }
   .splash_content {
     padding-left: 160px;

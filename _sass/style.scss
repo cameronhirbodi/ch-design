@@ -66,11 +66,14 @@ article {
     video {
         margin-bottom: $lgspacing;
     }
-    h6 {
+    h5, h6 {
         color: $violet;
     }
     .final_prod {
         text-align: center;
+    }
+    section {
+        margin-bottom: 3rem;
     }
 }
 
@@ -242,12 +245,14 @@ i {
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
         margin-right: 0.25rem;
+        margin-left: 0.25rem;
     }
     &.right {
         border-width: 0.15rem 0.15rem 0 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         margin-left: 0.25rem;
+        margin-right: 0.25rem;
     }
     &.turquoise {
         background: none;
@@ -312,6 +317,9 @@ i {
     display: block;
     margin: $smspacing $mdspacing;
     text-transform: uppercase;
+    @media (min-width: 481px) {
+        margin: $smspacing $lgspacing;
+    }
 }
 
 // Portfolio
@@ -431,6 +439,9 @@ i {
     }
     article {
         padding: $xlspacing 0;
+        section {
+            margin-bottom: 4rem;
+        }
     }
     .splash_content {
         padding-left: $xxxxxlspacing;
