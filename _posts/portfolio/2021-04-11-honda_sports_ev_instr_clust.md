@@ -67,7 +67,7 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 
 <section>
 <h5>Prototyping</h5>
-
+<p>The next step was to put these ideas into an interactive prototype to test how they behaved. Figma allowed me to not only create each design screen, but also create multiple interaction points to make this feel as close to a real product as possible before using code.</p>
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\proto.jpg" alt="Instrument Panel Mockup"></a>
 </div>
@@ -75,8 +75,13 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 
 <section>
 <h5>Animation</h5>
-
+<p>As the prototype was being built out, I started to think about various microinteractions and how they looked and behaved. To help guide the user between states, it was important to define some animation principles such as easing, duration, and what type of transitions to incorporate.</p>
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_panel_anim.webp" alt="Instrument Panel Animation"></a>
 </div>
+</section>
+
+<section>
+<h5>Reflection</h5>
+<p>Overall, I was happy with my first pass at building a fully interactive instrument cluster. It helped me understand the considerations for in-vehicle display designers with regards to constraints and regulations. With that in mind, my next steps would be to consider the regulatory icons and notifications that are mandatory to be displayed from NHTSA.</p>
 </section>
