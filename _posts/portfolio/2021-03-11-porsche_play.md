@@ -1,6 +1,6 @@
 ---
 layout: post_portfolio
-title: Porsche Play
+title: Porsche Play (Concept)
 meta: The companion app allows owners to tap into real time functionality for their Porsche vehicle.
 category: portfolio
 tag: ui

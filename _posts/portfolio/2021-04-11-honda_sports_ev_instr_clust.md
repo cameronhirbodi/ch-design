@@ -1,6 +1,6 @@
 ---
 layout: post_portfolio
-title: Honda Sports EV Instrument Panel
+title: Honda Sports EV Instrument Panel (Concept)
 meta: This exercise consisted of building the fully featured instrument panel for the Honda Sports EV concept since it was never showcased.
 category: portfolio
 tag: ui
@@ -19,7 +19,9 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 <section>
 <h5>Objective</h5>
 
-<p>This exercise consisted of building the fully featured instrument panel for the Honda Sports EV concept since it was never showcased. It was crucial to incorporate Honda's familiar racing DNA while still allowing clear and legible data for the driver. The Honda Sports EV should be fun to drive and the driver should feel one with it.</p>
+<p>After I personally witnessed the reveal of the Honda Sports EV at the 2017 Tokyo Motor Show, I noticed the concept vehicle did not include an interior. Since my imagination began to run with ideas, I decided to build a fully featured instrument panel. This of course is <b>not an official work from Honda</b> and purely a fun exercise I took upon myself.</p>
+
+<p>I felt an important piece was to incorporate Honda's familiar racing DNA while still allowing clear and legible data for the driver. The Honda Sports EV should be fun to drive and the driver should feel at one with it.</p>
 
 <div class="lightgallery">
   <a href="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev.jpg"><img src="\images\portfolio\honda_sports_ev_instr_panel\honda_sports_ev.jpg" alt="Honda Sports EV Concept"></a>
