@@ -1140,6 +1140,7 @@ i.magentadark {
 }
 #portfolio ul li .description h3 {
   font-size: 1.25rem;
+  line-height: 1.1;
   font-weight: 500;
 }
 #portfolio ul li .description h3 a {
