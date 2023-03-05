@@ -168,7 +168,7 @@ video {
     .splash_inner {
         width: 100%;
         max-height: 100%;
-        margin-top: 10%;
+        margin-top: 25%;
         padding: 0;
         h1 {
             margin: 0;
@@ -186,6 +186,7 @@ video {
             margin-top: 1rem;
             h2 {
                 font-size: 0.7rem;
+                letter-spacing: 0.6rem;
                 margin: 0;
                 font-weight: normal;
                 white-space: nowrap;
@@ -193,7 +194,12 @@ video {
                 height: initial;
                 transform: none;
                 writing-mode: initial;
-                letter-spacing: 0.6rem;
+                @media (min-width: 641px) {  
+                    html {
+                        font-size: 0.8rem;
+                        letter-spacing: 0.7rem;
+                    }
+                }
             }
         }
         p {
@@ -211,6 +217,8 @@ video {
     .portfolio_link {
         text-transform: uppercase;
         text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
         color: $white;
         position: absolute;
         bottom: 5%;
@@ -311,12 +319,16 @@ i {
     display: block;
     margin: $smspacing 0;
     text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
 }
 
 .action_bar {
     display: block;
     margin: $smspacing $mdspacing;
     text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
     @media (min-width: 481px) {
         margin: $smspacing $lgspacing;
     }
@@ -350,6 +362,7 @@ i {
             .description {
                 h3 {
                     font-size: 1.25rem;
+                    font-weight: 500;
                     a {
                         color: $black;
                     }
@@ -392,7 +405,7 @@ i {
 
 //lightGallery overrides
 .lightgallery {
-    margin-bottom: $lgspacing;
+    margin-bottom: $mdspacing;
 }
 
 // Smartphones, iPhone, portrait 480x320 phones

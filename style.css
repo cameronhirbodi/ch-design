@@ -245,9 +245,9 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.6;
   color: #000;
 }
 
@@ -259,8 +259,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -297,7 +297,6 @@ a {
   color: #C81E64;
 }
 a:link {
-  font-weight: 600;
   text-decoration: none;
 }
 a:visited {
@@ -367,7 +366,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   padding: 5px;
   border: 0;
   width: 100%;
@@ -411,7 +410,7 @@ input[type=button], input[type=submit], .btn {
   color: #FFF;
   background-color: #C81E64;
   text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   letter-spacing: 0.15rem;
   min-width: 140px;
   width: 100%;
@@ -704,9 +703,9 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.6;
   color: #000;
 }
 
@@ -718,8 +717,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -756,7 +755,6 @@ a {
   color: #C81E64;
 }
 a:link {
-  font-weight: 600;
   text-decoration: none;
 }
 a:visited {
@@ -947,7 +945,7 @@ video {
 .splash_content .splash_inner {
   width: 100%;
   max-height: 100%;
-  margin-top: 10%;
+  margin-top: 25%;
   padding: 0;
 }
 .splash_content .splash_inner h1 {
@@ -967,6 +965,7 @@ video {
 }
 .splash_content .splash_inner .subtitle_container h2 {
   font-size: 0.7rem;
+  letter-spacing: 0.6rem;
   margin: 0;
   font-weight: normal;
   white-space: nowrap;
@@ -974,7 +973,12 @@ video {
   height: initial;
   transform: none;
   writing-mode: initial;
-  letter-spacing: 0.6rem;
+}
+@media (min-width: 641px) {
+  .splash_content .splash_inner .subtitle_container h2 html {
+    font-size: 0.8rem;
+    letter-spacing: 0.7rem;
+  }
 }
 .splash_content .splash_inner p {
   flex: 1;
@@ -990,6 +994,8 @@ video {
 .splash_content .portfolio_link {
   text-transform: uppercase;
   text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
   color: #FFF;
   position: absolute;
   bottom: 5%;
@@ -1087,12 +1093,16 @@ i.magentadark {
   display: block;
   margin: 10px 0;
   text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
 }
 
 .action_bar {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
 }
 @media (min-width: 481px) {
   .action_bar {
@@ -1127,6 +1137,7 @@ i.magentadark {
 }
 #portfolio ul li .description h3 {
   font-size: 1.25rem;
+  font-weight: 500;
 }
 #portfolio ul li .description h3 a {
   color: #000;
@@ -1162,7 +1173,7 @@ i.magentadark {
 }
 
 .lightgallery {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 481px) {

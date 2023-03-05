@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Instrument Cluster Prototype
-meta: This exercise is intended to test various user interactions with an instrument cluster using an interactive prototype model.
+meta: This exercise is intended to test various user interactions with an instrument cluster using an interactive prototype.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
