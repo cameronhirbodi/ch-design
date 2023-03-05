@@ -37,13 +37,14 @@ image:
     <ul>
         {% for portfolio in site.categories.portfolio %}
         <li id="{{portfolio.title}}" data-aos="fade-in" data-aos-once="true" data-aos-anchor-placement="center">
-            <div class="thumb">
-                <a href="{{site.baseurl}}{{portfolio.url}}"><img src="{{portfolio.thumbnail}}" alt="{{portfolio.alt}}"></a>
-            </div>
-            <div class="description">
-                <h3><a href="{{site.baseurl}}{{portfolio.url}}">{{portfolio.title}}</a></h3>
-                <p>{{portfolio.meta}}<a class="action_link" href="{{site.baseurl}}{{portfolio.url}}">View more<i class="arrow right magenta"></i></a></p>
-            </div>
+            <a href="{{site.baseurl}}{{portfolio.url}}" title="{{portfolio.alt}}">
+                <div class="thumb"><img src="{{portfolio.thumbnail}}" alt="{{portfolio.alt}}"></div>
+                <div class="description">
+                    <h3>{{portfolio.title}}</h3>
+                    <p>{{portfolio.meta}}</p>
+                    <!-- <i class="arrow right grey"></i> -->
+                </div>
+            </a>
         </li>
         {% endfor %}
     </ul>

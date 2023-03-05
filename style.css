@@ -140,27 +140,31 @@
 }
 
 .greylightest {
-  color: #F0F6FA;
+  color: #ebedef;
 }
 
 .greylight {
-  color: #D7DDE1;
+  color: #ced3d8;
 }
 
 .grey {
-  color: #BDC3C7;
+  color: #aab4bc;
 }
 
 .greydark {
-  color: #A4AAAE;
+  color: #808a93;
 }
 
 .greydarkest {
-  color: #8A9094;
+  color: #3b3f44;
 }
 
 .black {
   color: #000;
+}
+
+.charcoal {
+  color: #36454F;
 }
 
 .magenta {
@@ -192,27 +196,31 @@
 }
 
 .greylightest {
-  color: #F0F6FA;
+  color: #ebedef;
 }
 
 .greylight {
-  color: #D7DDE1;
+  color: #ced3d8;
 }
 
 .grey {
-  color: #BDC3C7;
+  color: #aab4bc;
 }
 
 .greydark {
-  color: #A4AAAE;
+  color: #808a93;
 }
 
 .greydarkest {
-  color: #8A9094;
+  color: #3b3f44;
 }
 
 .black {
   color: #000;
+}
+
+.charcoal {
+  color: #36454F;
 }
 
 .magenta {
@@ -248,7 +256,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #000;
+  color: #36454F;
 }
 
 p {
@@ -256,8 +264,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;
   padding: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 600;
@@ -373,7 +380,7 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1em;
-  border-bottom: 2px solid #BDC3C7;
+  border-bottom: 2px solid #aab4bc;
 }
 
 input ~ span,
@@ -708,7 +715,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #000;
+  color: #36454F;
 }
 
 p {
@@ -716,8 +723,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;
   padding: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 600;
@@ -817,7 +823,7 @@ main {
   position: relative;
   min-height: 75%;
   padding: 30px 20px;
-  background: #FFF;
+  background: #ced3d8;
   z-index: 2;
 }
 
@@ -851,7 +857,7 @@ article video {
   margin-bottom: 30px;
 }
 article h5, article h6 {
-  color: #0c0f89;
+  color: #808a93;
 }
 article .final_prod {
   text-align: center;
@@ -861,7 +867,7 @@ article section {
 }
 
 footer {
-  background-color: #FFF;
+  background: #ced3d8;
   padding: 40px 20px 20px;
   margin: 0 auto;
   text-align: center;
@@ -990,14 +996,10 @@ video {
   margin: 1rem auto;
   max-width: 480px;
 }
-.splash_content .about_link {
-  display: none;
-  text-transform: uppercase;
-}
 .splash_content .portfolio_link {
   text-transform: uppercase;
   text-align: center;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
   color: #FFF;
   position: absolute;
@@ -1096,7 +1098,7 @@ i.magentadark {
   display: block;
   margin: 10px 0;
   text-transform: uppercase;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
 }
 
@@ -1104,7 +1106,7 @@ i.magentadark {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
 }
 @media (min-width: 481px) {
@@ -1120,11 +1122,20 @@ i.magentadark {
   flex-wrap: wrap;
 }
 #portfolio ul li {
+  background: #FFF;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(39, 49, 65, 0.2);
+}
+#portfolio ul li a {
+  width: 100%;
+  height: 100%;
+  color: #36454F;
 }
 #portfolio ul li .thumb {
   position: relative;
-  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 160px;
   overflow: hidden;
 }
@@ -1138,11 +1149,18 @@ i.magentadark {
   -o-object-fit: cover;
      object-fit: cover;
 }
-#portfolio ul li .description h3 {
-  font-size: 1.563rem;
+#portfolio ul li .description {
+  padding: 20px;
 }
-#portfolio ul li .description h3 a {
-  color: #000;
+#portfolio ul li .description h3 {
+  color: #808a93;
+  font-size: 1.25rem;
+  line-height: 1.1;
+}
+#portfolio ul li i {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 #topBtn {
@@ -1193,6 +1211,9 @@ i.magentadark {
   }
 }
 @media (min-width: 641px) {
+  #portfolio ul li {
+    margin-bottom: 40px;
+  }
   #portfolio ul li .thumb {
     height: 200px;
   }
@@ -1250,6 +1271,7 @@ i.magentadark {
   #portfolio ul li {
     width: 30%;
     margin-right: 5%;
+    margin-bottom: 60px;
   }
   #portfolio ul li:nth-child(odd) {
     margin-right: inherit;

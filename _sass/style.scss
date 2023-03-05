@@ -35,7 +35,7 @@ main {
     position: relative;
     min-height: 75%;
     padding: $lgspacing $mdspacing;
-    background: $white;
+    background: $greylight;
     z-index: 2;
 }
 
@@ -67,7 +67,7 @@ article {
         margin-bottom: $lgspacing;
     }
     h5, h6 {
-        color: $violet;
+        color: $greydark;
     }
     .final_prod {
         text-align: center;
@@ -78,7 +78,7 @@ article {
 }
 
 footer {
-    background-color: $white;
+    background: $greylight;
     padding: $xlspacing $mdspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
@@ -207,14 +207,10 @@ video {
             max-width: 480px;
         }
     }
-    .about_link {
-        display: none;
-        text-transform: uppercase;
-    }
     .portfolio_link {
         text-transform: uppercase;
         text-align: center;
-        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-family: 'Barlow', sans-serif;
         font-weight: 500;
         color: $white;
         position: absolute;
@@ -316,7 +312,7 @@ i {
     display: block;
     margin: $smspacing 0;
     text-transform: uppercase;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 500;
 }
 
@@ -324,7 +320,7 @@ i {
     display: block;
     margin: $smspacing $mdspacing;
     text-transform: uppercase;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 500;
     @media (min-width: 481px) {
         margin: $smspacing $lgspacing;
@@ -340,10 +336,19 @@ i {
         display: flex;
         flex-wrap: wrap;
         li {
+            background: $white;
             margin-bottom: $lgspacing;
+            border-radius: $smspacing;
+            box-shadow: 0 0 $smspacing 0 rgb(39 49 65 / 20%);
+            a {
+                width: 100%;
+                height: 100%;
+                color: $charcoal;
+            }
             .thumb {
                 position: relative;
-                margin-bottom: $mdspacing;
+                border-top-left-radius: $smspacing;
+                border-top-right-radius: $smspacing;
                 height: 160px;
                 overflow: hidden;
                 img {
@@ -357,12 +362,17 @@ i {
                 }
             }
             .description {
+                padding: $mdspacing;
                 h3 {
-                    font-size: 1.563rem;
-                    a {
-                        color: $black;
-                    }
+                    color: $greydark;
+                    font-size: 1.25rem;
+                    line-height: 1.1;
                 }
+            }
+            i {
+                position: absolute;
+                bottom: $mdspacing;
+                right: $mdspacing;
             }
         }
     }
@@ -433,6 +443,7 @@ i {
     #portfolio {
         ul {
             li {
+                margin-bottom: $xlspacing;
                 .thumb {
                     height: 200px;
                 }
@@ -497,6 +508,7 @@ i {
             li {
                 width: 30%;
                 margin-right: 5%;
+                margin-bottom: $xxlspacing;
                 &:nth-child(odd) {
                     margin-right: inherit;
                 }
