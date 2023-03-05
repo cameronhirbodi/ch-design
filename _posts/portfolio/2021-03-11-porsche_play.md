@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
-title: Porsche Play (Concept)
-meta: The companion app allows owners to tap into real time functionality for their Porsche vehicle.
+title: Porsche Play Companion
+meta: The <bold>conceptual</bold> companion app allows owners to tap into real time functionality for their Porsche vehicle.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
@@ -27,6 +27,8 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 </div>
 
 <p>Warranty information and service record books requiring filling out paperwork manually from owners are common and require physical storage in areas such as households or the vehicle itself.</p>
+
+<p>I took it upon myself to design an app for Porsche drivers. This is <bold>not an official work from Porsche</bold> and purely a fun and educational exercise I took upon myself.</p>
 </section>
 
 <section>
