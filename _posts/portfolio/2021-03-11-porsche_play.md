@@ -28,7 +28,7 @@ source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=
 
 <p>Warranty information and service record books requiring filling out paperwork manually from owners are common and require physical storage in areas such as households or the vehicle itself.</p>
 
-<p>I took it upon myself to design an app for Porsche drivers. This is <bold>not an official work from Porsche</bold> and purely a fun and educational exercise I took upon myself.</p>
+<p>I took it upon myself to design an app for Porsche drivers. This is <bold>not official work from Porsche</bold> and purely a fun and educational exercise I took upon myself.</p>
 </section>
 
 <section>
