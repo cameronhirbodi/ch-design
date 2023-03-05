@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Honda Sports EV Cluster Study
-meta: This <bold>conceptual</bold> exercise consisted of building the fully featured instrument panel for the Honda Sports EV concept since it was never showcased.
+meta: This <bold>conceptual</bold> exercise consisted of building the fully featured instrument panel for the Honda Sports EV concept since it was never showcased
 category: portfolio
 tag: ui
 permalink: portfolio/:title/

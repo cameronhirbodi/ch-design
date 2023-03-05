@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Blizzard Support Portal
-meta: This web portal was designed to assist Blizzard game players and customers in quickly solving their issues and returning them to their gameplay.
+meta: This web portal was designed to assist Blizzard game players and customers in quickly solving their issues and returning them to their gameplay
 category: portfolio
 tag: web
 permalink: portfolio/:title/

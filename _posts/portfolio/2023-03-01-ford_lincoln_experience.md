@@ -1,7 +1,7 @@
 ---
 layout: post_portfolio
 title: Ford & Lincoln Experiences
-meta: Envisioning the next generation of Ford and Lincoln in-vehicle user experiences.
+meta: Envisioning the next generation of Ford and Lincoln in-vehicle user experiences
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
