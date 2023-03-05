@@ -867,7 +867,6 @@ article section {
 }
 
 footer {
-  background: #ced3d8;
   padding: 40px 20px 20px;
   margin: 0 auto;
   text-align: center;
@@ -889,6 +888,18 @@ footer svg {
 }
 footer ul li {
   display: inline-block;
+}
+
+.white_foot {
+  background: #FFF;
+  z-index: 100;
+  position: relative;
+}
+
+.greylight_foot {
+  background: #ced3d8;
+  z-index: 100;
+  position: relative;
 }
 
 .active span::after {

@@ -78,7 +78,6 @@ article {
 }
 
 footer {
-    background: $greylight;
     padding: $xlspacing $mdspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
@@ -102,6 +101,18 @@ footer {
             display: inline-block;
         }
     }
+}
+
+.white_foot {
+    background: $white;
+    z-index: 100;
+    position: relative;
+}
+
+.greylight_foot {
+    background: $greylight;
+    z-index: 100;
+    position: relative;
 }
 
 .active span::after {
