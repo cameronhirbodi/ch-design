@@ -968,8 +968,8 @@ video {
   margin-top: 1rem;
 }
 .splash_content .splash_inner .subtitle_container h2 {
-  font-size: 0.7rem;
-  letter-spacing: 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.5rem;
   margin: 0;
   font-weight: normal;
   white-space: nowrap;
@@ -979,9 +979,8 @@ video {
   writing-mode: initial;
 }
 @media (min-width: 641px) {
-  .splash_content .splash_inner .subtitle_container h2 html {
-    font-size: 0.8rem;
-    letter-spacing: 0.7rem;
+  .splash_content .splash_inner .subtitle_container h2 {
+    letter-spacing: 0.8rem;
   }
 }
 .splash_content .splash_inner p {
