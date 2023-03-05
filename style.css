@@ -259,8 +259,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 0;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -368,7 +368,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   padding: 5px;
   border: 0;
   width: 100%;
@@ -412,7 +412,7 @@ input[type=button], input[type=submit], .btn {
   color: #FFF;
   background-color: #C81E64;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   letter-spacing: 0.15rem;
   min-width: 140px;
   width: 100%;
@@ -719,8 +719,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 0;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -968,10 +968,10 @@ video {
   margin-top: 1rem;
 }
 .splash_content .splash_inner .subtitle_container h2 {
-  font-size: 0.8rem;
-  letter-spacing: 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.6rem;
   margin: 0;
-  font-weight: normal;
+  font-weight: 500;
   white-space: nowrap;
   text-align: center;
   height: initial;
@@ -980,7 +980,7 @@ video {
 }
 @media (min-width: 641px) {
   .splash_content .splash_inner .subtitle_container h2 {
-    letter-spacing: 0.8rem;
+    letter-spacing: 1rem;
   }
 }
 .splash_content .splash_inner p {
@@ -997,7 +997,7 @@ video {
 .splash_content .portfolio_link {
   text-transform: uppercase;
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
   color: #FFF;
   position: absolute;
@@ -1096,7 +1096,7 @@ i.magentadark {
   display: block;
   margin: 10px 0;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
 
@@ -1104,7 +1104,7 @@ i.magentadark {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
 @media (min-width: 481px) {
@@ -1139,9 +1139,7 @@ i.magentadark {
      object-fit: cover;
 }
 #portfolio ul li .description h3 {
-  font-size: 1.25rem;
-  line-height: 1.1;
-  font-weight: 500;
+  font-size: 1.563rem;
 }
 #portfolio ul li .description h3 a {
   color: #000;
@@ -1230,38 +1228,6 @@ i.magentadark {
   }
   .splash_content .splash_inner p {
     margin: 1rem 0;
-  }
-  .about_link {
-    text-transform: uppercase;
-    color: #00CDC6;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(-50%, -50%);
-  }
-  .about_link:before {
-    content: "";
-    height: 40px;
-    width: 40px;
-    background-color: #00CDC6;
-    border-radius: 50%;
-    opacity: 0.15;
-    display: inline-block;
-    position: absolute;
-    top: -7px;
-    left: -48px;
-  }
-  .about_link:after {
-    content: "";
-    height: 10px;
-    width: 10px;
-    background-color: #00CDC6;
-    border-radius: 50%;
-    opacity: 0.5;
-    display: inline-block;
-    position: absolute;
-    top: 8px;
-    left: -33px;
   }
   .ch_logo {
     margin: 0;

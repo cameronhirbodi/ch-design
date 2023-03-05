@@ -185,17 +185,17 @@ video {
             padding: 0.75rem 1rem;
             margin-top: 1rem;
             h2 {
-                font-size: 0.8rem;
-                letter-spacing: 0.5rem;
+                font-size: 0.9rem;
+                letter-spacing: 0.6rem;
                 margin: 0;
-                font-weight: normal;
+                font-weight: 500;
                 white-space: nowrap;
                 text-align: center;
                 height: initial;
                 transform: none;
                 writing-mode: initial;
                 @media (min-width: 641px) {
-                    letter-spacing: 0.8rem;
+                    letter-spacing: 1rem;
                 }
             }
         }
@@ -214,7 +214,7 @@ video {
     .portfolio_link {
         text-transform: uppercase;
         text-align: center;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 500;
         color: $white;
         position: absolute;
@@ -316,7 +316,7 @@ i {
     display: block;
     margin: $smspacing 0;
     text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500;
 }
 
@@ -324,7 +324,7 @@ i {
     display: block;
     margin: $smspacing $mdspacing;
     text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500;
     @media (min-width: 481px) {
         margin: $smspacing $lgspacing;
@@ -358,9 +358,7 @@ i {
             }
             .description {
                 h3 {
-                    font-size: 1.25rem;
-                    line-height: 1.1;
-                    font-weight: 500;
+                    font-size: 1.563rem;
                     a {
                         color: $black;
                     }
@@ -474,38 +472,6 @@ i {
             p {
                 margin: 1rem 0;
             }
-        }
-    }
-    .about_link {
-        text-transform: uppercase;
-        color: $turquoise;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translate(-50%, -50%);
-        &:before {
-            content: "";
-            height: 40px;
-            width: 40px;
-            background-color: $turquoise;
-            border-radius: 50%;
-            opacity: 0.15;
-            display: inline-block;
-            position: absolute;
-            top: -7px;
-            left: -48px;
-        }
-        &:after {
-            content: "";
-            height: 10px;
-            width: 10px;
-            background-color: $turquoise;
-            border-radius: 50%;
-            opacity: 0.5;
-            display: inline-block;
-            position: absolute;
-            top: 8px;
-            left: -33px;
         }
     }
     .ch_logo {

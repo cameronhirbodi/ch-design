@@ -1,12 +1,12 @@
 ---
 layout: post_portfolio
-title: Instrument Cluster Prototype
-meta: This exercise is intended to test various user interactions with an instrument cluster using an interactive prototype.
+title: Instrument Cluster Study
+meta: An exercise intended to test various user funtions with an instrument cluster using an interactive prototype.
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
 thumbnail: 
-- /images/portfolio/instr_clust/instr_clust_anim.webp
+- /images/portfolio/cluster_study/cluster_study_anim.webp
 alt: Animation of instrument cluster prototype
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
@@ -20,26 +20,26 @@ source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?ful
 <section>
 <h5>Objective</h5>
 
-<p>This exercise is intended to test various user interactions with instrument clusters using an interactive prototype model. The animations and interactions were created by me using Adobe XD.</p>
+<p>This exercise is intended to test various user functions with instrument clusters using an interactive prototype model. The animations and interactions were created by me using Adobe XD.</p>
 
 <div class="lightgallery">
-  <a href="/images/portfolio/instr_clust/instr_clust_lofi.jpg"><img src="/images/portfolio/instr_clust/instr_clust_lofi.jpg" alt="Instrument Cluster - Sketch"></a>
+  <a href="/images/portfolio/cluster_study/cluster_study_lofi.jpg"><img src="/images/portfolio/cluster_study/cluster_study_lofi.jpg" alt="Instrument Cluster - Sketch"></a>
 </div>
 
 <div class="lightgallery">
-  <a href="/images/portfolio/instr_clust/instr_clust_wire.jpg"><img src="/images/portfolio/instr_clust/instr_clust_wire.jpg" alt="Instrument Cluster - Wireframe"></a>
+  <a href="/images/portfolio/cluster_study/cluster_study_wire.jpg"><img src="/images/portfolio/cluster_study/cluster_study_wire.jpg" alt="Instrument Cluster - Wireframe"></a>
 </div>
 
 <p>The first step was to conceptualize the layout for how the user will simulate basic in-car controls. Once a rough sketch was settled on, the next task was to convert this to a digital outline using Adobe Illustrator.</p>
 
 <div class="lightgallery">
-  <a href="/images/portfolio/instr_clust/instr_clust_hifi.jpg"><img src="/images/portfolio/instr_clust/instr_clust_hifi.jpg" alt="Instrument Cluster - High-Fidelity Mockups"></a>
+  <a href="/images/portfolio/cluster_study/cluster_study_hifi.jpg"><img src="/images/portfolio/cluster_study/cluster_study_hifi.jpg" alt="Instrument Cluster - High-Fidelity Mockups"></a>
 </div>
 
 <p>From there, I began creating the full color, high-fidelity mockups. Lastly, numerous screens were made to account for each animation and state of the process in Adobe XD.</p>
 
 <div class="lightgallery">
-  <a href="/images/portfolio/instr_clust/instr_clust_mocks.jpg"><img src="/images/portfolio/instr_clust/instr_clust_mocks.jpg" alt="Instrument Cluster - Prototype Mockups"></a>
+  <a href="/images/portfolio/cluster_study/cluster_study_mocks.jpg"><img src="/images/portfolio/cluster_study/cluster_study_mocks.jpg" alt="Instrument Cluster - Prototype Mockups"></a>
 </div>
 
 <section>
