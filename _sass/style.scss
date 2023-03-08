@@ -78,7 +78,7 @@ article {
 }
 
 footer {
-    padding: $xlspacing $mdspacing $mdspacing;
+    padding: $xlspacing $mdspacing;
     margin: 0 auto;
     text-align: center;
     clear: both;
@@ -378,7 +378,6 @@ i {
                     color: $greydark;
                     font-size: 1.25rem;
                     line-height: 1.1;
-                    text-transform: uppercase;
                 }
             }
             i {

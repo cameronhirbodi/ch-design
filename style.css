@@ -335,12 +335,6 @@ bold {
     font-size: 87.5%; /*14px*/
   }
 }
-/* hi-res laptops and desktops */
-@media (min-width: 1281px) {
-  html {
-    font-size: 93.8%; /*15px*/
-  }
-}
 /* Floating Labels  */
 input:focus ~ label,
 textarea:focus ~ label,
@@ -794,12 +788,6 @@ bold {
     font-size: 87.5%; /*14px*/
   }
 }
-/* hi-res laptops and desktops */
-@media (min-width: 1281px) {
-  html {
-    font-size: 93.8%; /*15px*/
-  }
-}
 html {
   background: #FFF;
   scroll-behavior: smooth;
@@ -867,7 +855,7 @@ article section {
 }
 
 footer {
-  padding: 40px 20px 20px;
+  padding: 40px 20px;
   margin: 0 auto;
   text-align: center;
   clear: both;
@@ -1167,7 +1155,6 @@ i.magentadark {
   color: #808a93;
   font-size: 1.25rem;
   line-height: 1.1;
-  text-transform: uppercase;
 }
 #portfolio ul li i {
   position: absolute;
