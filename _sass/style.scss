@@ -66,7 +66,7 @@ article {
     video {
         margin-bottom: $lgspacing;
     }
-    h5, h6 {
+    h5 {
         color: $greydark;
     }
     .final_prod {
@@ -378,6 +378,7 @@ i {
                     color: $greydark;
                     font-size: 1.25rem;
                     line-height: 1.1;
+                    text-transform: uppercase;
                 }
             }
             i {

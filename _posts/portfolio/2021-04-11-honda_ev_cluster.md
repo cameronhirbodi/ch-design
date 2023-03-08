@@ -32,11 +32,9 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 <h5>The Approach</h5>
 
 <p>As part of research and execution of this project, the following processes were required:</p>
+<br>
 
-</section>
-
-<section>
-<h5>Competitive Analysis</h5>
+<h6>Competitive Analysis</h6>
 
 <p>Before starting, it helped to study the interfaces from other similarly priced vehicles in the industry. Are there common features that should be considered and/or omitted? Are there examples of sportiness incorporated in said vehicles? Looking back at Honda's own previous sports and electric vehicles, can features be tied in to bring familarity?</p>
 
@@ -53,10 +51,9 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 </div>
 
 <p>The challenge would be applying these visual traits to an electric vehicle. Unlike EVs, the referenced sports / racing vehicles required more emphasis on the tachometer as they run on iternal combustion engines. However, the driver no longer needs to focus on shifting gears and managing engine revs as electric vehicles typically have single gears with a flat torque band.</p>
-</section>
+<br>
 
-<section>
-<h5>Sketches</h5>
+<h6>Sketches</h6>
 
 <p>Taking my research into account, it was time to sketch the features I had in mind into a visual. The elements that seemed critical to start with included current speed, selected gear, remaining charge, critical status indicators and time.</p>
 
@@ -65,18 +62,15 @@ source: https://www.figma.com/proto/e18AYrEO19KMjZjbOlhtoo/Honda-Sports-EV-Clust
 <div class="lightgallery">
   <a href="\images\portfolio\honda_ev_cluster\sketch.jpg"><img src="\images\portfolio\honda_ev_cluster\sketch.jpg" alt="Instrument Panel Sketch"></a>
 </div>
-</section>
 
-<section>
-<h5>Prototyping</h5>
+<h6>Prototyping</h6>
 <p>The next step was to put these ideas into an interactive prototype to test how they behaved. Figma allowed me to not only create each design screen, but also create multiple interaction points to make this feel as close to a real product as possible before using code.</p>
 <div class="lightgallery">
   <a href="\images\portfolio\honda_ev_cluster\proto.jpg"><img src="\images\portfolio\honda_ev_cluster\proto.jpg" alt="Instrument Panel Mockup"></a>
 </div>
-</section>
+<br>
 
-<section>
-<h5>Animation</h5>
+<h6>Animation</h6>
 <p>As the prototype was being built out, I started to think about various microinteractions and how they looked and behaved. To help guide the user between states, it was important to define some animation principles such as easing, duration, and what type of transitions to incorporate.</p>
 <div class="lightgallery">
   <a href="\images\portfolio\honda_ev_cluster\honda_panel_anim.webp"><img src="\images\portfolio\honda_ev_cluster\honda_panel_anim.webp" alt="Instrument Panel Animation"></a>

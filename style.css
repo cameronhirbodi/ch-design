@@ -856,7 +856,7 @@ article img {
 article video {
   margin-bottom: 30px;
 }
-article h5, article h6 {
+article h5 {
   color: #808a93;
 }
 article .final_prod {
@@ -1167,6 +1167,7 @@ i.magentadark {
   color: #808a93;
   font-size: 1.25rem;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 #portfolio ul li i {
   position: absolute;
