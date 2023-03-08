@@ -1216,7 +1216,9 @@ i.magentadark {
 }
 @media (min-width: 641px) {
   #portfolio ul {
-    grid-template-columns: repeat(3, calc(33.33% - 20px));
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(2, calc(50% - 20px));
+    gap: 40px;
   }
   #portfolio ul li .thumb {
     height: 200px;
