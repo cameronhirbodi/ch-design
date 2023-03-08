@@ -954,8 +954,13 @@ video {
 .splash_content .splash_inner {
   width: 100%;
   max-height: 100%;
-  margin-top: 25%;
+  margin-top: 35%;
   padding: 0;
+}
+@media (min-width: 641px) {
+  .splash_content .splash_inner {
+    margin-top: 25%;
+  }
 }
 .splash_content .splash_inner h1 {
   font-size: 2.441rem;
