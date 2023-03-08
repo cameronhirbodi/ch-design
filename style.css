@@ -266,7 +266,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.5rem;
   padding: 0;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -369,7 +369,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "DM Sans", sans-serif;
   padding: 5px;
   border: 0;
   width: 100%;
@@ -413,7 +413,7 @@ input[type=button], input[type=submit], .btn {
   color: #FFF;
   background-color: #C81E64;
   text-transform: uppercase;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "DM Sans", sans-serif;
   letter-spacing: 0.15rem;
   min-width: 140px;
   width: 100%;
@@ -719,7 +719,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.5rem;
   padding: 0;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -958,10 +958,16 @@ video {
   padding: 0;
 }
 .splash_content .splash_inner h1 {
+  font-size: 2.441rem;
   margin: 0;
   flex: 1;
   order: 1;
   flex-basis: 100%;
+}
+@media (min-width: 641px) {
+  .splash_content .splash_inner h1 {
+    font-size: 3.052rem;
+  }
 }
 .splash_content .splash_inner .subtitle_container {
   display: inline-block;
@@ -973,8 +979,8 @@ video {
   margin-top: 1rem;
 }
 .splash_content .splash_inner .subtitle_container h2 {
-  font-size: 0.9rem;
-  letter-spacing: 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.5rem;
   margin: 0;
   font-weight: 500;
   white-space: nowrap;
@@ -998,7 +1004,7 @@ video {
 .splash_content .portfolio_link {
   text-transform: uppercase;
   text-align: center;
-  font-family: "Barlow", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   color: #FFF;
   position: absolute;
@@ -1097,7 +1103,7 @@ i.magentadark {
   display: block;
   margin: 10px 0;
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -1105,7 +1111,7 @@ i.magentadark {
   display: block;
   margin: 10px 20px;
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
 @media (min-width: 481px) {
@@ -1155,6 +1161,7 @@ i.magentadark {
   color: #808a93;
   font-size: 1.25rem;
   line-height: 1.1;
+  margin-bottom: 0.25rem;
 }
 #portfolio ul li i {
   position: absolute;

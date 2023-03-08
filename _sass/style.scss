@@ -182,10 +182,14 @@ video {
         margin-top: 25%;
         padding: 0;
         h1 {
+            font-size: 2.441rem;
             margin: 0;
             flex: 1;
             order: 1;
             flex-basis: 100%;
+            @media (min-width: 641px) {
+                font-size: 3.052rem;
+            }
         }
         .subtitle_container {
             display: inline-block;
@@ -196,8 +200,8 @@ video {
             padding: 0.75rem 1rem;
             margin-top: 1rem;
             h2 {
-                font-size: 0.9rem;
-                letter-spacing: 0.6rem;
+                font-size: 0.8rem;
+                letter-spacing: 0.5rem;
                 margin: 0;
                 font-weight: 500;
                 white-space: nowrap;
@@ -221,7 +225,7 @@ video {
     .portfolio_link {
         text-transform: uppercase;
         text-align: center;
-        font-family: 'Barlow', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         font-weight: 500;
         color: $white;
         position: absolute;
@@ -323,7 +327,7 @@ i {
     display: block;
     margin: $smspacing 0;
     text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
 }
 
@@ -331,7 +335,7 @@ i {
     display: block;
     margin: $smspacing $mdspacing;
     text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     @media (min-width: 481px) {
         margin: $smspacing $lgspacing;
@@ -378,6 +382,7 @@ i {
                     color: $greydark;
                     font-size: 1.25rem;
                     line-height: 1.1;
+                    margin-bottom: 0.25rem;
                 }
             }
             i {
