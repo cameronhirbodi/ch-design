@@ -348,11 +348,10 @@ i {
     ul {
         margin: 0 auto;
         max-width: 1280px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-row-gap: $lgspacing;
         li {
             background: $white;
-            margin-bottom: $lgspacing;
             border-radius: $smspacing;
             box-shadow: 0 0 $smspacing 0 rgb(39 49 65 / 20%);
             a {
@@ -444,12 +443,9 @@ i {
     }
     #portfolio {
         ul {
-            li {
-                width: 47%;
-                &:nth-child(odd) {
-                    margin-right: 6%;
-                }
-            }
+            grid-row-gap: $lgspacing;
+            grid-template-columns: repeat(2, calc(50% - $lgspacing/2));
+            gap: $lgspacing;
         }
     }
 }
@@ -458,8 +454,8 @@ i {
 @media (min-width: 641px) {
     #portfolio {
         ul {
+            grid-template-columns: repeat(3, calc(33.33% - $xlspacing/2));
             li {
-                margin-bottom: $xlspacing;
                 .thumb {
                     height: 200px;
                 }
@@ -521,17 +517,9 @@ i {
     }
     #portfolio {
         ul {
-            li {
-                width: 30%;
-                margin-right: 5%;
-                margin-bottom: $xxlspacing;
-                &:nth-child(odd) {
-                    margin-right: inherit;
-                }
-                &:nth-child(3n) {
-                    margin-right: 0;
-                }
-            }
+            grid-row-gap: $xlspacing;
+            grid-template-columns: repeat(3, calc(33.33% - $xxxlspacing/3));
+            gap: $xlspacing;
         }
     }
 }

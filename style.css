@@ -1123,12 +1123,11 @@ i.magentadark {
 #portfolio ul {
   margin: 0 auto;
   max-width: 1280px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-row-gap: 30px;
 }
 #portfolio ul li {
   background: #FFF;
-  margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(39, 49, 65, 0.2);
 }
@@ -1209,16 +1208,15 @@ i.magentadark {
   article {
     padding: 30px;
   }
-  #portfolio ul li {
-    width: 47%;
-  }
-  #portfolio ul li:nth-child(odd) {
-    margin-right: 6%;
+  #portfolio ul {
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, calc(50% - 15px));
+    gap: 30px;
   }
 }
 @media (min-width: 641px) {
-  #portfolio ul li {
-    margin-bottom: 40px;
+  #portfolio ul {
+    grid-template-columns: repeat(3, calc(33.33% - 20px));
   }
   #portfolio ul li .thumb {
     height: 200px;
@@ -1274,16 +1272,10 @@ i.magentadark {
   .kenburns {
     right: -25%;
   }
-  #portfolio ul li {
-    width: 30%;
-    margin-right: 5%;
-    margin-bottom: 60px;
-  }
-  #portfolio ul li:nth-child(odd) {
-    margin-right: inherit;
-  }
-  #portfolio ul li:nth-child(3n) {
-    margin-right: 0;
+  #portfolio ul {
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(3, calc(33.33% - 26.6666666667px));
+    gap: 40px;
   }
 }
 @media (min-width: 1025px) {
