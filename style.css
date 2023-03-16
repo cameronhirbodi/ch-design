@@ -335,6 +335,11 @@ bold {
     font-size: 87.5%; /*14px*/
   }
 }
+@media (min-width: 1367px) {
+  html {
+    font-size: 93.8%; /*16px*/
+  }
+}
 /* Floating Labels  */
 input:focus ~ label,
 textarea:focus ~ label,
@@ -786,6 +791,11 @@ bold {
 @media (min-width: 641px) {
   html {
     font-size: 87.5%; /*14px*/
+  }
+}
+@media (min-width: 1367px) {
+  html {
+    font-size: 93.8%; /*16px*/
   }
 }
 html {
