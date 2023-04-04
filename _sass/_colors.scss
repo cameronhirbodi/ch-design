@@ -1,18 +1,19 @@
 $white: #FFF;
-$greylightest: #ebedef;
-$greylight: #ced3d8;
-$grey: #aab4bc;
-$greydark: #808a93;
-$greydarkest: #3b3f44;
-$greyslate: #3b444b;
+$greylightest: #EBEDEF;
+$greylight: #CED3d8;
+$grey: #AAB4BC;
+$greydark: #808A93;
+$greydarkest: #3b3F44;
+$greyslate: #3B444B;
 $black: #000;
 $charcoal: #36454F;
 $magenta: #C81E64;
 $magentalight: lighten($magenta,15%);
 $magentadark: darken($magenta,15%);
 $turquoise: #00CDC6;
-$navy: #000f52;
-$violet: #0c0f89;
+$navy: #000F52;
+$violet: #0C0F89;
+$purple: #6100FF;
 
 .white {
     color: $white;

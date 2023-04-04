@@ -23,6 +23,7 @@ body {
     min-width: 280px;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,7 +36,6 @@ main {
     position: relative;
     min-height: 75%;
     padding: $lgspacing $mdspacing;
-    background: $greylight;
     z-index: 2;
 }
 
@@ -103,141 +103,12 @@ footer {
     }
 }
 
-.white_foot {
-    background: $white;
-    z-index: 100;
-    position: relative;
-}
-
-.greylight_foot {
-    background: $greylight;
-    z-index: 100;
-    position: relative;
-}
-
-.active span::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    border-bottom: 2px solid $magenta;
-    content: "";
-}
-
-.pagination {
-    padding: $mdspacing;
-    clear: both;
-    ul {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        li {
-            padding: 0 $lgspacing;
-            display: inline-block;
-        }
-    }
-}
-
-.dash {
-    display: block;
-    width: $lgspacing;
-    margin: $mdspacing auto;
-    background-color: $navy;
-    height: 2px;
-}
-
 .center {
     text-align: center;
 }
 
 video {
     object-fit: cover;
-}
-
-// Splash
-
-.splash {
-    width: 100%;
-    height: 100%;
-    color: $white;
-    background-color: $navy;
-}
-
-.splash_content {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    flex-direction: column;
-    padding: $mdspacing;
-    text-align: center;
-    height: 100%;
-    max-width: 100vw;
-    * {
-        z-index: 2;
-    }
-    .splash_inner {
-        width: 100%;
-        max-height: 100%;
-        margin-top: 35%;
-        padding: 0;
-        @media (min-width: 641px) {
-            margin-top: 25%;
-        }
-        h1 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 2.441rem;
-            text-transform: uppercase;
-            margin: 0;
-            flex: 1;
-            order: 1;
-            flex-basis: 100%;
-            @media (min-width: 641px) {
-                font-size: 3.052rem;
-            }
-        }
-        .subtitle_container {
-            display: inline-block;
-            position: initial;
-            top: 0;
-            left: 0;
-            background-color: rgba($white, 0.15);
-            padding: 0.75rem 1rem;
-            margin-top: 1rem;
-            h2 {
-                font-size: 0.8rem;
-                letter-spacing: 0.5rem;
-                margin: 0;
-                font-weight: 500;
-                white-space: nowrap;
-                text-align: center;
-                height: initial;
-                transform: none;
-                writing-mode: initial;
-                @media (min-width: 641px) {
-                    letter-spacing: 1rem;
-                }
-            }
-        }
-        p {
-            flex: 1;
-            order: 2;
-            flex-basis: 100%;
-            margin: 1rem auto;
-            max-width: 480px;
-        }
-    }
-    .portfolio_link {
-        text-transform: uppercase;
-        text-align: center;
-        font-family: 'DM Sans', sans-serif;
-        font-weight: 500;
-        color: $white;
-        position: absolute;
-        bottom: 5%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
 
 i {
@@ -285,65 +156,152 @@ i {
     }
 }
 
-.ch_logo {
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -2.25rem;
-    svg {
-        width: 1.75rem;
-        height: 1.75rem;
-        top: 1.25rem;
-        left: 1.25rem;
-        position: absolute;
-        fill: $white;
-        z-index: 9;
-    }
-    rect {
-        position: absolute;
-        background-color: $magenta;
-        opacity: 0.5;
-        width: 3.75rem;
-        height: 3.75rem;
-        z-index: 8;
-        &.front {
-            opacity: 0.5;
-            top: 0.5rem;
-            left: 0.5rem;
-        }
-    }
-}
+// Splash
 
-.splash_bg {
-    display: block;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../images/home/cam_splash_image.jpeg");
+#splash {
+    width: 100%;
+    height: 100%;
+    color: $white;
     background-color: $navy;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 0;
-    top: -10%;
-    left: 0;
-}
-
-.action_link {
-    display: block;
-    margin: $smspacing 0;
-    text-transform: uppercase;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-}
-
-.action_bar {
-    display: block;
-    margin: $smspacing $mdspacing;
-    text-transform: uppercase;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    @media (min-width: 481px) {
-        margin: $smspacing $lgspacing;
+    .content {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        padding: $mdspacing;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100vw;
+        * {
+            z-index: 2;
+        }
+        @media (min-width: 961px) {
+            flex-direction: row;
+            padding: $xlspacing;
+            gap: $xxxlspacing;
+        }
+        @media (orientation: landscape) and (max-height: 480px) {
+            flex-direction: row;
+            gap: $lgspacing;
+        }
+        .ch_logo {
+            position: absolute;
+            top: $mdspacing;
+            left: $mdspacing;
+            @media (min-width: 961px) {
+                top: $xlspacing;
+                left: $xlspacing;
+            }
+            svg {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+        .profile {
+            .profile_circle {
+                order: 1;
+                display: block;
+                position: relative;
+                z-index: 2;
+                margin: 0 auto 2rem; 
+                width: 20rem;
+                height: 20rem;
+                -moz-border-radius: 20rem;
+                -webkit-border-radius: 20rem;
+                border-radius: 20rem;
+                background-image: url("../images/home/cam_prof.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                @media (orientation: landscape) and (max-height: 480px) {
+                    width: 10rem;
+                    height: 10rem;
+                }
+             }
+             .design_circle {
+                order: 2;
+                position: absolute;
+                z-index: 1;
+                top: 35%;
+                left: 50%;
+                display: block;
+                margin: auto; 
+                width: 15rem;
+                height: 15rem;
+                -moz-border-radius: 15rem;
+                -webkit-border-radius: 15rem;
+                border-radius: 15rem;
+                background-image: linear-gradient(rgba($magenta,0.5), transparent);
+                @media (min-width: 961px) {
+                    top: 50%;
+                    left: 10%;
+                }
+                @media (orientation: landscape) and (max-height: 480px) {
+                    width: 10rem;
+                    height: 10rem;
+                    top: 45%;
+                    left: 10%;
+                }
+            }
+        }
+        .blurb {
+            max-width: 480px;
+            .name {
+                order: 3;
+                display: flex; 
+                flex-direction: column;
+                h1 {
+                    display: inline;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 2.441rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    margin: 0;
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+                    @media (min-width: 641px) {
+                        font-size: 3.052rem;
+                    }
+                }
+                .design_line {
+                    align-self: left;
+                    height: 0.25rem;
+                    background-image: linear-gradient(to right, $magenta, transparent);
+                }
+            }
+            p {
+                order: 4;
+                margin: 1rem auto 2rem;
+            }
+            .button {
+                display: inline-block;
+                align-self: flex-start;
+                order: 5;
+                font-size: 1rem;
+                line-height: 1.2;
+                font-weight: 700;
+                font-family: 'DM Sans', sans-serif;
+                text-transform: uppercase;
+                color: $white;
+                background-color: $purple;
+                padding: $smspacing $mdspacing;
+                border-radius: $xsmspacing;
+                border: none;
+            }
+            .portfolio_link {
+                display: inline;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 500;
+                color: $white;
+                position: absolute;
+                bottom: 5%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
     }
 }
 
@@ -366,8 +324,7 @@ i {
             }
             .thumb {
                 position: relative;
-                border-top-left-radius: $smspacing;
-                border-top-right-radius: $smspacing;
+                border-radius: $smspacing;
                 height: 160px;
                 overflow: hidden;
                 img {
@@ -395,6 +352,25 @@ i {
                 right: $mdspacing;
             }
         }
+    }
+}
+
+.action_link {
+    display: block;
+    margin: $smspacing 0;
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.action_bar {
+    display: block;
+    margin: $smspacing $mdspacing;
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    @media (min-width: 481px) {
+        margin: $smspacing $lgspacing;
     }
 }
 
@@ -482,46 +458,6 @@ i {
             margin-bottom: 4rem;
         }
     }
-    .splash_content {
-        padding-left: $xxxxxlspacing;
-        .splash_inner {
-            margin-top: 0;
-            width: 50%;
-            text-align: left;
-            .subtitle_container {
-                height: 100%;
-                position: absolute;
-                padding: 0 1.5rem;
-                margin-top: 0;
-                h2 {
-                    height: 100%;
-                    transform: rotate(180deg);
-                    writing-mode: vertical-lr;
-                }
-            }
-            p {
-                margin: 1rem 0;
-            }
-        }
-    }
-    .ch_logo {
-        margin: 0;
-        left: $xxxxxlspacing;
-        svg {
-            width: 2.25rem;
-            height: 2.25rem;
-        }
-        rect {
-            width: 4.25rem;
-            height: 4.25rem;
-        }
-    }
-    .splash_bg {
-        top: 0;
-    }
-    .kenburns {
-        right: -25%;
-    }
     #portfolio {
         ul {
             grid-row-gap: $xlspacing;
@@ -603,18 +539,7 @@ i {
 
 // landscape devices
 @media (orientation: landscape) and (max-height: 480px) {
-    .splash {
-        min-height: 125%;
-        .ch_logo {
-            left: 10%;
-        }
-        .splash_inner {
-            margin-top: 0;
-        }
-        .splash_bg {
-            top: 0;
-        }
-    }
+
 }
 
 // portrait devices
