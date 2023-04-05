@@ -165,6 +165,7 @@ i {
     background-color: $navy;
     .content {
         display: flex;
+        gap: $lgspacing;
         position: relative;
         flex-direction: column;
         text-align: left;
@@ -184,7 +185,7 @@ i {
         }
         @media (orientation: landscape) and (max-height: 480px) {
             flex-direction: row;
-            gap: $lgspacing;
+            gap: $xlspacing;
         }
         .ch_logo {
             position: absolute;
@@ -200,57 +201,53 @@ i {
             }
         }
         .profile {
+            order: 1;
+            display: block;
+            position: relative;
+            margin: 0;
+            width: 100%;
+            max-width: 20rem;
+            height: 100%;
+            max-height: 20rem;
+            @media (orientation: landscape) and (max-height: 480px) {
+
+            }
             .profile_circle {
-                order: 1;
-                display: block;
-                position: relative;
+                position: absolute;
                 z-index: 2;
-                margin: 0 auto 2rem; 
-                width: 20rem;
+                width: 100%;
+                max-width: 20rem;
                 height: 20rem;
-                -moz-border-radius: 20rem;
-                -webkit-border-radius: 20rem;
+                max-height: 20rem;
                 border-radius: 20rem;
                 background-image: url("../images/home/cam_prof.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
-                @media (orientation: landscape) and (max-height: 480px) {
-                    width: 10rem;
-                    height: 10rem;
-                }
              }
              .design_circle {
-                order: 2;
                 position: absolute;
+                top: 8.5rem;
+                left: 10rem;
                 z-index: 1;
-                top: 35%;
-                left: 50%;
-                display: block;
-                margin: auto; 
-                width: 15rem;
+                width: 100%;
+                max-width: 15rem;
                 height: 15rem;
-                -moz-border-radius: 15rem;
-                -webkit-border-radius: 15rem;
+                max-height: 15rem;
                 border-radius: 15rem;
                 background-image: linear-gradient(rgba($magenta,0.5), transparent);
                 @media (min-width: 961px) {
-                    top: 50%;
-                    left: 10%;
+                    left: -5rem;
                 }
                 @media (orientation: landscape) and (max-height: 480px) {
-                    width: 10rem;
-                    height: 10rem;
-                    top: 45%;
-                    left: 10%;
+                    left: -5rem;
                 }
             }
         }
         .blurb {
+            order: 2;
+            width: 100%;
             max-width: 480px;
             .name {
-                order: 3;
-                display: flex; 
-                flex-direction: column;
                 h1 {
                     display: inline;
                     font-family: 'Oswald', sans-serif;
@@ -258,26 +255,22 @@ i {
                     font-weight: 300;
                     text-transform: uppercase;
                     margin: 0;
-                    margin-right: 1rem;
-                    margin-bottom: 1rem;
                     @media (min-width: 641px) {
                         font-size: 3.052rem;
                     }
                 }
                 .design_line {
-                    align-self: left;
+                    display: block;
+                    margin: 1rem 0;
                     height: 0.25rem;
                     background-image: linear-gradient(to right, $magenta, transparent);
                 }
             }
             p {
-                order: 4;
                 margin: 1rem auto 2rem;
             }
             .button {
                 display: inline-block;
-                align-self: flex-start;
-                order: 5;
                 font-size: 1rem;
                 line-height: 1.2;
                 font-weight: 700;

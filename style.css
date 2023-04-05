@@ -966,6 +966,7 @@ i.magentadark {
 }
 #splash .content {
   display: flex;
+  gap: 30px;
   position: relative;
   flex-direction: column;
   text-align: left;
@@ -989,7 +990,7 @@ i.magentadark {
 @media (orientation: landscape) and (max-height: 480px) {
   #splash .content {
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
   }
 }
 #splash .content .ch_logo {
@@ -1007,59 +1008,54 @@ i.magentadark {
   width: 3rem;
   height: 3rem;
 }
-#splash .content .profile .profile_circle {
+#splash .content .profile {
   order: 1;
   display: block;
   position: relative;
+  margin: 0;
+  width: 100%;
+  max-width: 20rem;
+  height: 100%;
+  max-height: 20rem;
+}
+#splash .content .profile .profile_circle {
+  position: absolute;
   z-index: 2;
-  margin: 0 auto 2rem;
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;
   height: 20rem;
+  max-height: 20rem;
   border-radius: 20rem;
   background-image: url("../images/home/cam_prof.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (orientation: landscape) and (max-height: 480px) {
-  #splash .content .profile .profile_circle {
-    width: 10rem;
-    height: 10rem;
-  }
-}
 #splash .content .profile .design_circle {
-  order: 2;
   position: absolute;
+  top: 8.5rem;
+  left: 10rem;
   z-index: 1;
-  top: 35%;
-  left: 50%;
-  display: block;
-  margin: auto;
-  width: 15rem;
+  width: 100%;
+  max-width: 15rem;
   height: 15rem;
+  max-height: 15rem;
   border-radius: 15rem;
   background-image: linear-gradient(rgba(200, 30, 100, 0.5), transparent);
 }
 @media (min-width: 961px) {
   #splash .content .profile .design_circle {
-    top: 50%;
-    left: 10%;
+    left: -5rem;
   }
 }
 @media (orientation: landscape) and (max-height: 480px) {
   #splash .content .profile .design_circle {
-    width: 10rem;
-    height: 10rem;
-    top: 45%;
-    left: 10%;
+    left: -5rem;
   }
 }
 #splash .content .blurb {
+  order: 2;
+  width: 100%;
   max-width: 480px;
-}
-#splash .content .blurb .name {
-  order: 3;
-  display: flex;
-  flex-direction: column;
 }
 #splash .content .blurb .name h1 {
   display: inline;
@@ -1068,8 +1064,6 @@ i.magentadark {
   font-weight: 300;
   text-transform: uppercase;
   margin: 0;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
 }
 @media (min-width: 641px) {
   #splash .content .blurb .name h1 {
@@ -1077,18 +1071,16 @@ i.magentadark {
   }
 }
 #splash .content .blurb .name .design_line {
-  align-self: left;
+  display: block;
+  margin: 1rem 0;
   height: 0.25rem;
   background-image: linear-gradient(to right, #C81E64, transparent);
 }
 #splash .content .blurb p {
-  order: 4;
   margin: 1rem auto 2rem;
 }
 #splash .content .blurb .button {
   display: inline-block;
-  align-self: flex-start;
-  order: 5;
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 700;
