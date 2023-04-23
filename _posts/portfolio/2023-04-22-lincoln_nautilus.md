@@ -6,7 +6,7 @@ category: portfolio
 tag: ui
 permalink: portfolio/:title/
 thumbnail: 
-- /images/portfolio/lincoln_nautilus/lincoln_display_01.jpg
+- /images/portfolio/lincoln_nautilus/lincoln_nautilus_01.jpg
 alt: Future of Lincoln in-vehicle display technology
 ---
 <section>
