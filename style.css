@@ -889,6 +889,11 @@ article section {
   margin-bottom: 3rem;
 }
 
+section .video {
+  width: 100%;
+  height: 35vw; /* 35% of width */
+}
+
 footer {
   padding: 40px 20px;
   margin: 0 auto;

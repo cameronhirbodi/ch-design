@@ -20,12 +20,17 @@ alt: Future of Lincoln in-vehicle display technology
   <div class="lightgallery">
     <a href="/images/portfolio/lincoln_nautilus/lincoln_nautilus_01.jpg"><img src="/images/portfolio/lincoln_nautilus/lincoln_nautilus_01.jpg" alt="2024 Lincoln Nautilus Center Stack and Instrument Cluster"></a>
   </div>
-  <p>Some of my responsibilities include translating findings from vehicle clinics and usability testing into ideal user experiences with HMI specifications, wireframes, hero screens, and functional prototypes. I am working hand-in-hand with developers and stakeholders to translate complex behavior flows into elegant in-vehicle user experiences. This requires research and advocating latest design principles and systems with peers within the organization to streamline development efforts.</p>
+  <p>Some of my responsibilities include translating findings from vehicle clinics and usability testing into ideal user experiences with specifications, wireframes, hero screens, and functional prototypes. I am working hand-in-hand with developers and stakeholders to translate complex behavior flows into elegant in-vehicle user experiences. This requires research and advocating latest design principles and systems with peers within the organization to streamline development efforts.</p>
+  
+  <p>
+  <iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/xZCEEbRXyDU?start=189" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </p>
 
+  <p>With these vehicles actively in development, I am not permitted to share more. However, I am excited to share more details as they go to production.</p>
   <div class="lightgallery">
     <a href="/images/portfolio/lincoln_nautilus/lincoln_nautilus_02.jpg"><img src="/images/portfolio/lincoln_nautilus/lincoln_nautilus_02.jpg" alt="2024 Lincoln Nautilus Interior"></a>
   </div>
-  <p>With these vehicles actively in development, I am not permitted to share more. However, I am excited to share more details as they go to production.</p>
+  
 </section>
 
 
