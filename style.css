@@ -576,6 +576,13 @@ input[type=button]:active.hollow.white, input[type=submit]:active.hollow.white, 
   height: 64px;
 }
 
+.icon:hover {
+  opacity: 0.5;
+  transform-origin: 0;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+
 #modal {
   left: 50%;
   margin: -250px 0 0 -32%;
