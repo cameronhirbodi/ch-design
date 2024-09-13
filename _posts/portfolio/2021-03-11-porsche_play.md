@@ -5,8 +5,7 @@ meta: The <bold>conceptual</bold> companion app allows owners to tap into real t
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-thumbnail: 
-- /images/portfolio/porsche_play/porsche_play_00.jpg
+thumbnail: /images/portfolio/porsche_play/porsche_play_00.jpg
 alt: Mockups of Porsche Play app
 source: https://www.figma.com/proto/iizWCSWUEX90IHCZytpUgj/Porsche-Play?node-id=2%3A2&scaling=scale-down
 ---

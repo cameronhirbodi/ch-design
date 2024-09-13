@@ -5,8 +5,8 @@ meta: Envisioning the next generation of Lincoln in-vehicle user experiences
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-thumbnail: 
-- /images/portfolio/lincoln_nautilus/lincoln_nautilus_01.webp
+thumbnail: /images/portfolio/lincoln_nautilus/lincoln_nautilus_00.jpg
+vid: /images/portfolio/lincoln_nautilus/lincoln_nautilus_01.webp
 alt: Future of Lincoln in-vehicle display technology
 ---
 <section>

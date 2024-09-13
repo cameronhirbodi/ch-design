@@ -43,12 +43,12 @@ image:
         {% for portfolio in site.categories.portfolio %}
         <li id="{{portfolio.title}}" data-aos="fade-in" data-aos-once="true" data-aos-anchor-placement="center">
             <a href="{{site.baseurl}}{{portfolio.url}}" title="{{portfolio.alt}}">
-                <div class="thumb"><img src="{{portfolio.thumbnail}}" alt="{{portfolio.alt}}"></div>
-                <!--<div class="description">
-                    <h3>{{portfolio.title}}</h3>
-                    <p>{{portfolio.meta}}</p>
-                     <i class="arrow right grey"></i> 
-                </div>-->
+                <div class="thumb">
+                    <picture>
+                        <source type="image/webp" srcset="{{portfolio.vid}}" alt="{{portfolio.alt}}" />
+                        <img src="{{portfolio.thumbnail}}"  alt="{{portfolio.alt}}" />
+                    </picture>
+                </div>
             </a>
         </li>
         {% endfor %}

@@ -5,8 +5,8 @@ meta: This web portal was designed to assist Blizzard game players and customers
 category: portfolio
 tag: web
 permalink: portfolio/:title/
-thumbnail: 
-- /images/portfolio/blizz_supp/blizz_supp_01.webp
+thumbnail: /images/portfolio/blizz_supp/blizz_supp_10.jpg
+vid: /images/portfolio/blizz_supp/blizz_supp_01.webp
 alt: Animation of Blizzard Support site
 ---
 

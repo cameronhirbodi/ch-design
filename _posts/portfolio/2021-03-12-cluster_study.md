@@ -5,8 +5,8 @@ meta: An exercise intended to test various user funtions with an instrument clus
 category: portfolio
 tag: ui
 permalink: portfolio/:title/
-thumbnail: 
-- /images/portfolio/cluster_study/cluster_study_anim.webp
+thumbnail: /images/portfolio/cluster_study/cluster_study_hifi.jpgwebp
+vid: /images/portfolio/cluster_study/cluster_study_anim.webp
 alt: Animation of instrument cluster prototype
 source: https://xd.adobe.com/view/2621c361-4ca7-4dc7-73c8-bba1f3300934-5010/?fullscreen
 ---
