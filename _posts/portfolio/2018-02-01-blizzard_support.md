@@ -11,12 +11,6 @@ alt: Animation of Blizzard Support site
 ---
 
 <section>
-<h5>My Role</h5>
-
-<p>Visual Design, User Testing, Iconography, Animation, Prototyping, Development</p>
-</section>
-
-<section>
 <h5>Objective</h5>
 
 <p>This web portal was designed to assist Blizzard game players and customers in quickly solving their issues and returning them to their gameplay.</p>
