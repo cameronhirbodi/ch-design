@@ -24,8 +24,8 @@ alt: Future of Lincoln in-vehicle display technology
   <div class="lightgallery">
     <a href="/images/portfolio/lincoln_nautilus/lincoln_nautilus_03.jpg"><img src="/images/portfolio/lincoln_nautilus/lincoln_nautilus_03.jpg" alt="2024 Lincoln Nautilus Interior"></a>
   </div>
-    <div class="lightgallery">
-    <a href="/images/portfolio/lincoln_nautilus/lincoln_nautilus_04.jpg"><img src="/images/portfolio/lincoln_nautilus/lincoln_nautilus_04.jpg" alt="2024 Lincoln Nautilus Interior"></a>
+  <div class="lightgallery">
+    <a href="/images/portfolio/lincoln_nautilus/lincoln_nautilus_04.jpg"><img src="/images/portfolio/lincoln_nautilus/lincoln_nautilus_04.jpg" alt="2024 Lincoln Nautilus Interior - Customer navigating the interface"></a>
   </div>
   
 </section>
